@@ -1,0 +1,394 @@
+{
+  "analyzed_dlls": [
+    {
+      "dll_name": "Sn3DSpeckleFusion.dll",
+      "expected_functionality": "TSDF volume fusion and mesh generation",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostProcess17fill_point_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_4int4ii",
+        "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess12update_pointEN16Sn3DGPUAlgorithm9PtrStepSzI6float3EENS3_IfEENS2_10IntrDeviceES4_ii",
+        "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess21generate_point_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEENS3_I6float3EES5_NS2_10IntrDeviceEiii"
+      ]
+    },
+    {
+      "dll_name": "Sn3DRegistration.dll",
+      "expected_functionality": "Point cloud registration and ICP alignment",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "Sn3DAlgorithm::TriMeshICPForDental::process",
+        "Sn3DAlgorithm::dental_mark_mesh_registration",
+        "Sn3DAlgorithm::Sn3DLargeScaleRefRegistration::refpoint_registertion"
+      ]
+    },
+    {
+      "dll_name": "Sn3DRealtimeScan.dll",
+      "expected_functionality": "Real-time scanning and data acquisition",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "Sn3DAlgorithm::fusion_nonrigid_gpu_delete_points_through_tsdf",
+        "Sn3DAlgorithm::Fusion::FusionTrack::fusion_nonrigid_delete_points_gpu",
+        "Sn3DAlgorithm::Fusion::MeshForParall::add_and_getnum_cloud"
+      ]
+    },
+    {
+      "dll_name": "Sn3DDentalAI.dll",
+      "expected_functionality": "AI-based dental analysis and segmentation",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_3a38b6d0b29a1d3f543ad060fe1a2fb4>::operator ()",
+        "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_6b9326a35a2e2349cc37f6c7ddc32d92>::operator ()",
+        "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_a7ced1b2499e5b87583690666b35cc9a>::operator ()"
+      ]
+    },
+    {
+      "dll_name": "Sn3DMagic.dll",
+      "expected_functionality": "Mesh processing and geometric operations",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_mesh_with_weight",
+        "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_mesh_with_weight_without_registration",
+        "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_mesh_pkg"
+      ]
+    },
+    {
+      "dll_name": "Sn3DCalibrationJR.dll",
+      "expected_functionality": "Camera calibration and stereo setup",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "Sn3DAlgorithm::MarkPointTrack::compute_homography_with_mark_normal",
+        "D:\\Jenkins\\workspace\\SnAlgCalibration\\BuildCuda112\\Release\\Sn3DCalibrationJR.pdb",
+        "Sn3DAlgorithm::Sn3D_UEP_extrinsic_calibration"
+      ]
+    },
+    {
+      "dll_name": "algorithmLzy.dll",
+      "expected_functionality": "Custom algorithm implementation",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "Sn3DGPUAlgorithm::device::AboutDeviceLaserRebuild::device_detect",
+        "_ZN13Sn3DAlgorithm70marker_point_before_match_and_small_line_segment_delete_two_dot_zero_2EN16Sn3DGPUAlgorithm5PtrSzIiEEiNS0_9PtrStepSzI4int2EENS3_I6float2EENS1_IS4_EENS3_IfEES9_NS3_IhEESA_f",
+        "_ZN13Sn3DAlgorithm72marker_point_before_match_and_small_line_segment_delete_two_dot_zero_R_2EN16Sn3DGPUAlgorithm5PtrSzIiEEiNS0_9PtrStepSzI4int2EENS3_I6float2EENS1_IS4_EENS3_IfEES9_NS3_IhEESA_f"
+      ]
+    },
+    {
+      "dll_name": "algorithm1.dll",
+      "expected_functionality": "Primary algorithm processing",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "Sn3DAlgorithm::PoissonRecon::set_ref_mesh",
+        "Sn3DAlgorithm::PoissonRecon::cloud_sampling",
+        "Sn3DAlgorithm::BaseTriMesh_face_and_tooth_feature_registration"
+      ]
+    },
+    {
+      "dll_name": "algorithm2.dll",
+      "expected_functionality": "Secondary algorithm processing",
+      "functions_extracted": 50,
+      "confidence_score": 0.7,
+      "top_functions": [
+        "Sn3DMeshProcess::get_point_bd_queue(mesh, dist_to_bd, largest_bd, bd_ring)",
+        "Sn3DAlgorithm::Sn3DMeshPlaneSegment::add_point_on_disruption",
+        "Sn3DAlgorithm::process_model_gpu"
+      ]
+    }
+  ],
+  "total_functions_extracted": 450,
+  "analysis_summary": {
+    "dlls_analyzed": 9,
+    "average_functions_per_dll": 50.0,
+    "processing_stages_identified": 7,
+    "high_confidence_functions": 20
+  },
+  "algorithm_mapping": {
+    "dll_analysis": {
+      "Sn3DMagic.dll": {
+        "function_count": 50,
+        "average_confidence": 0.96,
+        "expected_functionality": "Mesh processing and geometric operations"
+      },
+      "Sn3DSpeckleFusion.dll": {
+        "function_count": 50,
+        "average_confidence": 0.96,
+        "expected_functionality": "TSDF volume fusion and mesh generation"
+      },
+      "Sn3DDentalAI.dll": {
+        "function_count": 50,
+        "average_confidence": 0.94,
+        "expected_functionality": "AI-based dental analysis and segmentation"
+      },
+      "Sn3DRealtimeScan.dll": {
+        "function_count": 50,
+        "average_confidence": 0.82,
+        "expected_functionality": "Real-time scanning and data acquisition"
+      },
+      "Sn3DRegistration.dll": {
+        "function_count": 50,
+        "average_confidence": 0.82,
+        "expected_functionality": "Point cloud registration and ICP alignment"
+      },
+      "algorithm2.dll": {
+        "function_count": 50,
+        "average_confidence": 0.8,
+        "expected_functionality": "Secondary algorithm processing"
+      },
+      "algorithmLzy.dll": {
+        "function_count": 50,
+        "average_confidence": 0.76,
+        "expected_functionality": "Custom algorithm implementation"
+      },
+      "Sn3DCalibrationJR.dll": {
+        "function_count": 50,
+        "average_confidence": 0.75,
+        "expected_functionality": "Camera calibration and stereo setup"
+      },
+      "algorithm1.dll": {
+        "function_count": 50,
+        "average_confidence": 0.7,
+        "expected_functionality": "Primary algorithm processing"
+      }
+    },
+    "algorithm_stages": {
+      "mesh_processing": {
+        "function_count": 101,
+        "involved_dlls": [
+          "Sn3DMagic.dll",
+          "algorithm1.dll",
+          "algorithm2.dll"
+        ]
+      },
+      "ai_analysis": {
+        "function_count": 93,
+        "involved_dlls": [
+          "Sn3DDentalAI.dll",
+          "algorithmLzy.dll",
+          "algorithm2.dll"
+        ]
+      },
+      "fusion": {
+        "function_count": 65,
+        "involved_dlls": [
+          "Sn3DSpeckleFusion.dll",
+          "algorithmLzy.dll",
+          "algorithm1.dll",
+          "algorithm2.dll"
+        ]
+      },
+      "calibration": {
+        "function_count": 52,
+        "involved_dlls": [
+          "Sn3DCalibrationJR.dll",
+          "algorithmLzy.dll"
+        ]
+      },
+      "registration": {
+        "function_count": 50,
+        "involved_dlls": [
+          "Sn3DRegistration.dll"
+        ]
+      },
+      "acquisition": {
+        "function_count": 50,
+        "involved_dlls": [
+          "Sn3DRealtimeScan.dll"
+        ]
+      },
+      "general": {
+        "function_count": 39,
+        "involved_dlls": [
+          "algorithmLzy.dll",
+          "algorithm1.dll",
+          "algorithm2.dll"
+        ]
+      }
+    },
+    "function_types": {
+      "processing": 156,
+      "fusion": 103,
+      "analysis": 73,
+      "utility": 35,
+      "calibration": 31,
+      "geometry": 20,
+      "initialization": 19,
+      "registration": 12,
+      "gpu_compute": 1
+    },
+    "high_confidence_functions": [
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostProcess17fill_point_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_4int4ii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess12update_pointEN16Sn3DGPUAlgorithm9PtrStepSzI6float3EENS3_IfEENS2_10IntrDeviceES4_ii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess21generate_point_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEENS3_I6float3EES5_NS2_10IntrDeviceEiii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess19delete_point_updateEN16Sn3DGPUAlgorithm9PtrStepSzIbEENS3_IfEEii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess17fill_point_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_4int4ii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess21find_point_image_edgeEN16Sn3DGPUAlgorithm9PtrStepSzIcEENS3_I6float3EES6_ii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess27kernel_delete_invaild_pointEN16Sn3DGPUAlgorithm9PtrStepSzI6float3EES5_NS3_IfEENS2_5PtrSzIjEEiNS3_IhEE4int2",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess19kernel_delete_pointEN16Sn3DGPUAlgorithm9PtrStepSzIbEENS3_IfEENS3_I6float3EES7_NS3_I6float2EEi",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess19delete_point_updateEN16Sn3DGPUAlgorithm9PtrStepSzIbEENS3_IfEENS3_I6float3EES7_NS3_I6float2EEii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess33delget_edge_point_in_right_cornerEN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS3_IbEEiii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess24kernel_delget_edge_pointEN16Sn3DGPUAlgorithm9PtrStepSzIfEENS3_IbEEiii",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DSpeckleFusion.dll",
+        "function_signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess32kernel_delete_invaild_point_testEN16Sn3DGPUAlgorithm9PtrStepSzI6float3EENS3_IfEENS2_5PtrSzIjEEiNS3_IhEE4int2",
+        "function_type": "processing",
+        "algorithm_stage": "fusion",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DRegistration.dll",
+        "function_signature": "Sn3DAlgorithm::TriMeshICPForDental::process",
+        "function_type": "processing",
+        "algorithm_stage": "registration",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DDentalAI.dll",
+        "function_signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_3a38b6d0b29a1d3f543ad060fe1a2fb4>::operator ()",
+        "function_type": "analysis",
+        "algorithm_stage": "ai_analysis",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DDentalAI.dll",
+        "function_signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_6b9326a35a2e2349cc37f6c7ddc32d92>::operator ()",
+        "function_type": "analysis",
+        "algorithm_stage": "ai_analysis",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DDentalAI.dll",
+        "function_signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_a7ced1b2499e5b87583690666b35cc9a>::operator ()",
+        "function_type": "analysis",
+        "algorithm_stage": "ai_analysis",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DDentalAI.dll",
+        "function_signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage_for_child::<lambda_a7f69706f9a1ffb659cab0921055b154>::operator ()",
+        "function_type": "analysis",
+        "algorithm_stage": "ai_analysis",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DDentalAI.dll",
+        "function_signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage_for_child::<lambda_a63dc2c77e4520edca7f55cd6a3444b6>::operator ()",
+        "function_type": "analysis",
+        "algorithm_stage": "ai_analysis",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DDentalAI.dll",
+        "function_signature": "Sn3DAlgorithm::DentalInstanceSegment::check_mesh",
+        "function_type": "analysis",
+        "algorithm_stage": "ai_analysis",
+        "confidence": 1.0
+      },
+      {
+        "dll_name": "Sn3DMagic.dll",
+        "function_signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_mesh_with_weight",
+        "function_type": "fusion",
+        "algorithm_stage": "mesh_processing",
+        "confidence": 1.0
+      }
+    ],
+    "processing_pipeline": {
+      "calibration": {
+        "Sn3DCalibrationJR.dll": 50,
+        "algorithmLzy.dll": 2
+      },
+      "acquisition": {
+        "Sn3DRealtimeScan.dll": 50
+      },
+      "registration": {
+        "Sn3DRegistration.dll": 50
+      },
+      "fusion": {
+        "Sn3DSpeckleFusion.dll": 50,
+        "algorithmLzy.dll": 9,
+        "algorithm2.dll": 4,
+        "algorithm1.dll": 2
+      },
+      "ai_analysis": {
+        "Sn3DDentalAI.dll": 50,
+        "algorithmLzy.dll": 31,
+        "algorithm2.dll": 12
+      },
+      "mesh_processing": {
+        "Sn3DMagic.dll": 50,
+        "algorithm1.dll": 35,
+        "algorithm2.dll": 16
+      }
+    }
+  }
+}

@@ -77,7 +77,7 @@
   - _Requirements: 4.4, 4.5_
 
 - [-] 5. Deep binary and algorithm inspection (AFTER early architecture sketch)
-- [-] 5.1 Focus on algorithm DLL exports for core functionality
+- [ ] 5.1 Focus on algorithm DLL exports for core functionality
   - Use Ghidra for export analysis on Sn3D*.dll and algorithm*.dll files only
   - Extract function signatures and parameter hints from string analysis
   - Map algorithm DLLs to processing stages using dependency relationships
