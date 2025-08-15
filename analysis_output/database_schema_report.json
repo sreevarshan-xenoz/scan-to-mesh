@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "total_databases_analyzed": 3,
+    "total_tables_found": 16,
+    "tables_analyzed": 16,
+    "business_purpose_distribution": {
+      "unknown": 16
+    },
+    "total_relationships_found": 0
+  },
+  "high_confidence_databases": [
+    {
+      "db_name": "bracket.db",
+      "table_count": 10,
+      "business_hints": [],
+      "confidence": 0.6
+    }
+  ],
+  "relationships": []
+}

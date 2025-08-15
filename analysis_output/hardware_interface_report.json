@@ -1,0 +1,1263 @@
+{
+  "summary": {
+    "total_hardware_interfaces": 105,
+    "interface_type_distribution": {
+      "calibration_interface": 1,
+      "camera_interface": 4,
+      "communication_interface": 5,
+      "scanner_interface": 49,
+      "unknown_interface": 11,
+      "usb_interface": 35
+    },
+    "total_device_configurations": 25
+  },
+  "high_confidence_interfaces": [
+    {
+      "dll_name": "SH3DU3DRIVER.inf",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "dll_name": "ftdibus.inf",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "dll_name": "ftdiport.inf",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "dll_name": "AxUsbEth.inf",
+      "interface_type": "usb_interface",
+      "protocols": [],
+      "confidence": 0.8
+    },
+    {
+      "dll_name": "AxUsbEth.inf",
+      "interface_type": "usb_interface",
+      "protocols": [],
+      "confidence": 0.8
+    },
+    {
+      "dll_name": "CH375DLL64.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "CommonFunc.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "USB",
+        "HID",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "CommunicateLayer.dll",
+      "interface_type": "communication_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "D3Dcompiler_47.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "Camera",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "DentalCommon.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "DentalCommonTool.dll",
+      "interface_type": "communication_interface",
+      "protocols": [
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "DentalScanAppLogicTool.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ITKCommon-5.2.dll",
+      "interface_type": "communication_interface",
+      "protocols": [
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ITKIOImageBase-5.2.dll",
+      "interface_type": "camera_interface",
+      "protocols": [
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "JsdCalibration.dll",
+      "interface_type": "calibration_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Qt5SerialPort.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DAIOutUnity.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DAVXImp.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DCBCTLoader.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DCBCTSegLite.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "I2C",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DCalibrationJR.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "Camera",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DColorCorrect.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "I2C",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DCork.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DCrownGen.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DCrypto.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDental.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalAI.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Serial",
+        "USB",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalAICBCTSeg.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalAbutmentCloudDet.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalBoxDet.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalDesktop.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalGeometryFeatureDet.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "I2C",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalMeshParameterize.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalOral.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalOralCls.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDentalRealTimeSemSeg.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDigital.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DDraco.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DFace.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "Camera",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DFaceParsing.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DFaceScan.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DFaceUnity.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DGeometricTrackFusion.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DInfraredCariesDet.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DInspect.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DInspection.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DLandmarksDetForCli.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DLineCode.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DMagic.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DOralExamCCP.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DOralExamResidualCrown.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DOralExamWedgeDefect.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DOrthoEx.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "HID",
+        "Camera",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DPhaseBuild.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "I2C",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DPhotometricStereo.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DRealtimeScan.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DRegistration.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "HID",
+        "Camera",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DScanSlam.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "Camera",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DSparseSolver.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DSpeckle.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DSpeckleFusion.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DTextureBasedTrack.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "HID",
+        "Camera",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DTextureSlam.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Serial",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DTooling.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "Sn3DVulkanWrapper.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "SnCommon.dll",
+      "interface_type": "communication_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "HID",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "SnDXGICapturePlugin.dll",
+      "interface_type": "camera_interface",
+      "protocols": [
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "SnMITKCommon.dll",
+      "interface_type": "communication_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "UsbTreeModel.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Camera",
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "VimbaC.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "Camera",
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "avdevice-58.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Serial",
+        "USB",
+        "Camera",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "common.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "commonGpu.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "iScanCalibration.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "iScanRebuild.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "imageTestTool.dll",
+      "interface_type": "camera_interface",
+      "protocols": [
+        "Camera",
+        "PCIe",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "librenderkit.extensions.dentalscan.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "librenderkit.extensions.dentalscand.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "opencv_calib3d348.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Camera",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "opencv_videoio348.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Camera",
+        "Ethernet",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "print3DAuxilary.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "print3DCommon.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "USB",
+        "SPI",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "print3DSlicing.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "HID",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "sn3DCommunicateLayerM.dll",
+      "interface_type": "scanner_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "sn3DHIDCommunication.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "HID",
+        "Serial",
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "sn3DHIDCommunicationM.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "HID",
+        "Serial",
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "snCameraControl.dll",
+      "interface_type": "camera_interface",
+      "protocols": [
+        "Serial",
+        "Camera",
+        "USB",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "vulkan-1.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ISSetup.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ISSetup.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "I2C",
+        "Serial",
+        "USB",
+        "HID",
+        "Camera",
+        "SPI",
+        "PCIe",
+        "Ethernet"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "CH375DLL.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Ethernet",
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "CH375DLL64.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Ethernet",
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "CH375DLL.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "CH375DLL64.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "USB"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "WdfCoinstaller01011.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Camera",
+        "PCIe",
+        "Serial"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "64_ftbusui.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "64_ftcserco.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "64_ftd2xx64.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "USB",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "64_ftlang.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "64_ftserui2.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ftbusui.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ftcserco.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ftd2xx.dll",
+      "interface_type": "usb_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "USB",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ftlang.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial",
+        "SPI"
+      ],
+      "confidence": 0.6
+    },
+    {
+      "dll_name": "ftserui2.dll",
+      "interface_type": "unknown_interface",
+      "protocols": [
+        "Ethernet",
+        "Serial"
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "device_configurations": [
+    {
+      "device_name": "AOS",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "calibration"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "\u010ce\u0161tina",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "fps",
+        "gain",
+        "calibration",
+        "timestamp"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "AOS",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "calibration"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "\u010ce\u0161tina",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "fps",
+        "gain",
+        "calibration",
+        "timestamp"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "\u010ce\u0161tina",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "fps",
+        "gain",
+        "calibration",
+        "timestamp"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "Standard Edition Child",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "exposure",
+        "gain",
+        "depth",
+        "principal",
+        "trigger"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "PEEK.png",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "fps",
+        "depth",
+        "frame"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "exocad default",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "fps",
+        "depth",
+        "sync",
+        "frame"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "demo",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [
+        "sync"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "INTL",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [],
+      "confidence": 0.8
+    },
+    {
+      "device_name": "INTL",
+      "vendor_id": null,
+      "product_id": null,
+      "capabilities": [],
+      "confidence": 0.8
+    }
+  ]
+}
