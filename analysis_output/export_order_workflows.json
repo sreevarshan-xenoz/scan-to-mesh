@@ -1,0 +1,256 @@
+{
+  "export_workflows": [
+    {
+      "name": "3D Mesh Export",
+      "description": "Export processed dental meshes to standard 3D formats",
+      "input_data": [
+        "Triangle Mesh",
+        "Texture Maps",
+        "Material Properties",
+        "Metadata"
+      ],
+      "output_formats": [
+        "STL",
+        "OBJ",
+        "PLY",
+        "3MF"
+      ],
+      "processing_components": [
+        "Mesh Processing DLL",
+        "Format Converter"
+      ],
+      "transformation_steps": [
+        "Mesh Optimization",
+        "Coordinate System Conversion",
+        "Format-specific Encoding",
+        "Metadata Embedding",
+        "File Compression"
+      ],
+      "confidence": 0.5,
+      "use_cases": [
+        "CAD Integration",
+        "3D Printing",
+        "Treatment Planning",
+        "Archive Storage"
+      ]
+    },
+    {
+      "name": "Clinical Data Export",
+      "description": "Export clinical analysis results and measurements",
+      "input_data": [
+        "Clinical Findings",
+        "Measurements",
+        "AI Analysis Results",
+        "Patient Data"
+      ],
+      "output_formats": [
+        "PDF Report",
+        "DICOM",
+        "JSON",
+        "CSV"
+      ],
+      "processing_components": [
+        "Report Generator",
+        "DICOM Converter"
+      ],
+      "transformation_steps": [
+        "Data Aggregation",
+        "Report Template Processing",
+        "Format Conversion",
+        "Anonymization (if required)",
+        "Digital Signing"
+      ],
+      "confidence": 0.4,
+      "use_cases": [
+        "Clinical Documentation",
+        "Insurance Claims",
+        "Patient Records",
+        "Research Data"
+      ]
+    },
+    {
+      "name": "Scan Data Archive",
+      "description": "Archive complete scan sessions with all associated data",
+      "input_data": [
+        "Raw Scan Data",
+        "Processed Meshes",
+        "Configuration",
+        "Session Metadata"
+      ],
+      "output_formats": [
+        "ZIP Archive",
+        "Proprietary Format",
+        "Database Export"
+      ],
+      "processing_components": [
+        "ScanDataCopyExport.exe",
+        "Archive Manager"
+      ],
+      "transformation_steps": [
+        "Data Collection",
+        "Compression",
+        "Integrity Verification",
+        "Metadata Generation",
+        "Archive Creation"
+      ],
+      "confidence": 0.6,
+      "use_cases": [
+        "Data Backup",
+        "System Migration",
+        "Quality Assurance",
+        "Long-term Storage"
+      ]
+    }
+  ],
+  "order_workflows": [
+    {
+      "name": "Patient Case Management",
+      "description": "Complete workflow for managing patient cases from creation to completion",
+      "workflow_stages": [
+        "Case Creation",
+        "Patient Data Entry",
+        "Scan Assignment",
+        "Processing Queue",
+        "Quality Review",
+        "Delivery Preparation",
+        "Case Completion"
+      ],
+      "database_tables": [
+        "patients",
+        "cases",
+        "scan_sessions",
+        "workflow_status"
+      ],
+      "network_endpoints": [
+        "case_api",
+        "patient_service",
+        "workflow_manager"
+      ],
+      "data_transformations": [
+        "Patient Data Validation",
+        "Case Status Updates",
+        "Scan Data Association",
+        "Progress Tracking"
+      ],
+      "confidence": 0.4,
+      "business_purpose": "Streamlined patient case processing and tracking"
+    },
+    {
+      "name": "Order Processing",
+      "description": "Processing workflow for dental orders and deliverables",
+      "workflow_stages": [
+        "Order Receipt",
+        "Requirements Analysis",
+        "Scan Processing",
+        "AI Analysis",
+        "Quality Control",
+        "Export Generation",
+        "Delivery"
+      ],
+      "database_tables": [
+        "orders",
+        "processing_queue",
+        "deliverables",
+        "quality_checks"
+      ],
+      "network_endpoints": [
+        "order_api",
+        "processing_service",
+        "delivery_service"
+      ],
+      "data_transformations": [
+        "Order Specification Parsing",
+        "Processing Pipeline Configuration",
+        "Result Packaging",
+        "Delivery Format Conversion"
+      ],
+      "confidence": 0.5,
+      "business_purpose": "Automated processing of dental orders with quality assurance"
+    },
+    {
+      "name": "Data Synchronization",
+      "description": "Synchronization of data between local system and cloud/network services",
+      "workflow_stages": [
+        "Change Detection",
+        "Conflict Resolution",
+        "Data Upload",
+        "Verification",
+        "Status Update"
+      ],
+      "database_tables": [
+        "sync_status",
+        "change_log",
+        "conflict_resolution"
+      ],
+      "network_endpoints": [
+        "sync_service",
+        "cloud_storage",
+        "backup_service"
+      ],
+      "data_transformations": [
+        "Delta Calculation",
+        "Compression",
+        "Encryption",
+        "Integrity Verification"
+      ],
+      "confidence": 0.5,
+      "business_purpose": "Maintain data consistency across distributed systems"
+    }
+  ],
+  "data_transformations": [
+    {
+      "source_format": "Point Cloud (PCD)",
+      "target_format": "Triangle Mesh (STL)",
+      "transformation_component": "Mesh Generation Pipeline",
+      "processing_stage": "Surface Reconstruction",
+      "confidence": 0.8
+    },
+    {
+      "source_format": "Triangle Mesh (STL)",
+      "target_format": "DICOM",
+      "transformation_component": "DICOM Converter",
+      "processing_stage": "Clinical Export",
+      "confidence": 0.6
+    },
+    {
+      "source_format": "Raw Scan Data",
+      "target_format": "Compressed Archive (ZIP)",
+      "transformation_component": "Archive Manager",
+      "processing_stage": "Data Storage",
+      "confidence": 0.7
+    },
+    {
+      "source_format": "AI Analysis Results",
+      "target_format": "PDF Report",
+      "transformation_component": "Report Generator",
+      "processing_stage": "Clinical Documentation",
+      "confidence": 0.5
+    },
+    {
+      "source_format": "Database Records",
+      "target_format": "JSON Export",
+      "transformation_component": "Data Export Service",
+      "processing_stage": "System Integration",
+      "confidence": 0.6
+    }
+  ],
+  "summary": {
+    "total_export_workflows": 3,
+    "total_order_workflows": 3,
+    "total_transformations": 5,
+    "average_export_confidence": 0.5,
+    "average_order_confidence": 0.4666666666666666
+  },
+  "analysis_metadata": {
+    "data_sources_used": [
+      "algorithm_dll_analysis",
+      "database_schema_report",
+      "network_endpoints",
+      "high_value_analysis",
+      "comprehensive_report",
+      "architecture_analysis",
+      "dependency_overview"
+    ],
+    "mapping_approach": "Database and network analysis with workflow inference"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "pipeline_stages": [
+    {
+      "name": "Acquisition",
+      "description": "Camera stream processing, frame synchronization, and raw data capture",
+      "input_data": [
+        "Camera Stream",
+        "Calibration Data",
+        "Device Settings"
+      ],
+      "output_data": [
+        "Raw Frames",
+        "Depth Data",
+        "Point Clouds",
+        "Synchronized Streams"
+      ],
+      "components": [
+        "DentalScanAppLogic.exe",
+        "snCameraControl.dll"
+      ],
+      "algorithms": [
+        "Frame Sync",
+        "Undistort",
+        "Depth Generation"
+      ],
+      "confidence": 0.6,
+      "dependencies": [
+        "Camera Drivers",
+        "Calibration Files",
+        "Device Configuration"
+      ],
+      "hardware_requirements": [
+        "3D Camera",
+        "LED Illumination",
+        "USB 3.0"
+      ]
+    },
+    {
+      "name": "Registration",
+      "description": "Incremental alignment, pose estimation, and tracking of scan data",
+      "input_data": [
+        "Point Clouds",
+        "Previous Poses",
+        "Feature Points",
+        "Texture Data"
+      ],
+      "output_data": [
+        "Aligned Point Clouds",
+        "Pose Estimates",
+        "Transformation Matrices",
+        "Track Data"
+      ],
+      "components": [
+        "Sn3DRegistration.dll",
+        "Sn3DTextureBasedTrack.dll",
+        "Sn3DGeometricTrackFusion.dll",
+        "Sn3DScanSlam.dll",
+        "Sn3DTextureSlam.dll"
+      ],
+      "algorithms": [
+        "ICP Registration",
+        "SLAM Tracking",
+        "Pose Estimation"
+      ],
+      "confidence": 0.9,
+      "dependencies": [
+        "Previous Scan Data",
+        "Calibration Parameters",
+        "Feature Extraction"
+      ],
+      "hardware_requirements": [
+        "GPU for Real-time Processing",
+        "Sufficient Memory"
+      ]
+    },
+    {
+      "name": "Fusion",
+      "description": "TSDF fusion, mesh generation, and surface reconstruction",
+      "input_data": [
+        "Aligned Point Clouds",
+        "Depth Maps",
+        "Pose Data",
+        "Speckle Patterns"
+      ],
+      "output_data": [
+        "TSDF Volume",
+        "Triangle Mesh",
+        "Surface Normals",
+        "Texture Coordinates"
+      ],
+      "components": [
+        "Sn3DSpeckleFusion.dll",
+        "Sn3DPhaseBuild.dll",
+        "Sn3DRealtimeScan.dll",
+        "Sn3DMagic.dll"
+      ],
+      "algorithms": [
+        "TSDF Integration",
+        "Marching Cubes",
+        "Surface Reconstruction"
+      ],
+      "confidence": 0.8,
+      "dependencies": [
+        "Registration Results",
+        "Camera Parameters",
+        "Voxel Grid"
+      ],
+      "hardware_requirements": [
+        "GPU Memory",
+        "CUDA Compute Capability"
+      ]
+    }
+  ],
+  "data_flows": [
+    {
+      "source_stage": "Acquisition",
+      "target_stage": "Registration",
+      "data_type": "Point Cloud",
+      "format": "PLY/PCD",
+      "size_estimate": "1-10MB",
+      "confidence": 0.9
+    },
+    {
+      "source_stage": "Registration",
+      "target_stage": "Fusion",
+      "data_type": "Aligned Point Cloud",
+      "format": "PLY/PCD",
+      "size_estimate": "5-50MB",
+      "confidence": 0.8
+    },
+    {
+      "source_stage": "Fusion",
+      "target_stage": "AI Analysis",
+      "data_type": "Triangle Mesh",
+      "format": "STL/OBJ",
+      "size_estimate": "10-100MB",
+      "confidence": 0.7
+    }
+  ],
+  "validation_results": {
+    "database_validation": {
+      "scan_tables": [],
+      "supports_pipeline": false
+    },
+    "config_validation": {},
+    "confidence_adjustments": {}
+  },
+  "overall_confidence": 0.7666666666666666,
+  "reconstruction_metadata": {
+    "total_stages_identified": 3,
+    "total_components_mapped": 11,
+    "analysis_sources_used": [
+      "algorithm_dll_analysis",
+      "architecture_analysis",
+      "dependency_overview",
+      "hardware_interface_report",
+      "high_value_analysis",
+      "inventory_results",
+      "ipc_endpoints",
+      "network_endpoints",
+      "database_schema_report",
+      "comprehensive_report"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "ai_workflows": [
+    {
+      "name": "Tooth Segmentation",
+      "description": "AI-powered segmentation of individual teeth from 3D mesh data",
+      "models_used": [
+        "Segmentation CNN",
+        "Tooth Classification Model"
+      ],
+      "input_data": [
+        "Triangle Mesh",
+        "Texture Data",
+        "Point Cloud"
+      ],
+      "output_data": [
+        "Segmented Teeth",
+        "Tooth Labels",
+        "Boundary Masks"
+      ],
+      "processing_components": [
+        "Sn3DDentalOralCls.dll",
+        "Sn3DDentalRealTimeSemSeg.dll"
+      ],
+      "confidence": 0.6,
+      "clinical_purpose": "Individual tooth identification and analysis"
+    },
+    {
+      "name": "Clinical Analysis",
+      "description": "AI-powered detection of dental conditions and abnormalities",
+      "models_used": [
+        "Caries Detection Model",
+        "Defect Classification Model"
+      ],
+      "input_data": [
+        "Segmented Teeth",
+        "Texture Maps",
+        "Depth Information"
+      ],
+      "output_data": [
+        "Clinical Findings",
+        "Risk Assessments",
+        "Treatment Recommendations"
+      ],
+      "processing_components": [
+        "Sn3DInfraredCariesDet.dll",
+        "Sn3DOralExamWedgeDefect.dll"
+      ],
+      "confidence": 0.5,
+      "clinical_purpose": "Automated detection of dental pathologies"
+    },
+    {
+      "name": "Geometry Analysis",
+      "description": "AI analysis of dental geometry and morphology",
+      "models_used": [
+        "Feature Detection Model",
+        "Geometry Classification Model"
+      ],
+      "input_data": [
+        "3D Mesh",
+        "Curvature Data",
+        "Surface Normals"
+      ],
+      "output_data": [
+        "Geometric Features",
+        "Morphology Metrics",
+        "Anatomical Landmarks"
+      ],
+      "processing_components": [
+        "Sn3DDentalGeometryFeatureDet.dll"
+      ],
+      "confidence": 0.4,
+      "clinical_purpose": "Quantitative analysis of dental anatomy"
+    }
+  ],
+  "visualization_pipelines": [
+    {
+      "name": "3D Mesh Visualization",
+      "description": "Real-time 3D rendering of dental meshes with interactive manipulation",
+      "input_data": [
+        "Triangle Mesh",
+        "Texture Maps",
+        "Material Properties"
+      ],
+      "rendering_components": [
+        "osg158-osg.dll",
+        "osg158-osgViewer.dll",
+        "librenderkit.dll"
+      ],
+      "ui_components": [
+        "3D Viewport",
+        "Manipulation Controls",
+        "Lighting Controls"
+      ],
+      "output_display": [
+        "Interactive 3D View",
+        "Multiple Camera Angles",
+        "Lighting Effects"
+      ],
+      "confidence": 0.6,
+      "framework": "OpenSceneGraph + Qt"
+    },
+    {
+      "name": "AI Results Visualization",
+      "description": "Visualization of AI analysis results overlaid on 3D models",
+      "input_data": [
+        "Segmented Teeth",
+        "Clinical Findings",
+        "Color Maps"
+      ],
+      "rendering_components": [
+        "Color Mapping",
+        "Overlay Rendering",
+        "Annotation System"
+      ],
+      "ui_components": [
+        "StackView.qml",
+        "TextArea.qml",
+        "BasicTableView.qml",
+        "CalendarStyle.qml",
+        "PieMenu.qml"
+      ],
+      "output_display": [
+        "Color-coded Teeth",
+        "Clinical Annotations",
+        "Risk Indicators"
+      ],
+      "confidence": 0.7,
+      "framework": "Qt + Custom Rendering"
+    },
+    {
+      "name": "Real-time Scanning Visualization",
+      "description": "Live visualization of scanning progress and mesh building",
+      "input_data": [
+        "Live Point Clouds",
+        "Partial Meshes",
+        "Scanning Progress"
+      ],
+      "rendering_components": [
+        "Real-time Renderer",
+        "Progressive Mesh Display"
+      ],
+      "ui_components": [
+        "Scanning Progress",
+        "Live Preview",
+        "Quality Indicators"
+      ],
+      "output_display": [
+        "Live 3D Preview",
+        "Progress Indicators",
+        "Quality Metrics"
+      ],
+      "confidence": 0.6,
+      "framework": "Custom Real-time Rendering"
+    }
+  ],
+  "data_flow_mappings": [
+    {
+      "source": "Mesh Fusion",
+      "target": "AI Segmentation",
+      "data_type": "Triangle Mesh",
+      "processing_stage": "AI Analysis",
+      "confidence": 0.8
+    },
+    {
+      "source": "AI Segmentation",
+      "target": "3D Visualization",
+      "data_type": "Segmented Mesh",
+      "processing_stage": "Visualization",
+      "confidence": 0.7
+    },
+    {
+      "source": "Clinical Analysis",
+      "target": "Results Display",
+      "data_type": "Clinical Findings",
+      "processing_stage": "UI Display",
+      "confidence": 0.6
+    },
+    {
+      "source": "Real-time Fusion",
+      "target": "Live Preview",
+      "data_type": "Partial Mesh",
+      "processing_stage": "Real-time Display",
+      "confidence": 0.7
+    },
+    {
+      "source": "Geometry Analysis",
+      "target": "Measurement Tools",
+      "data_type": "Geometric Features",
+      "processing_stage": "Interactive Tools",
+      "confidence": 0.5
+    }
+  ],
+  "summary": {
+    "total_ai_workflows": 3,
+    "total_visualization_pipelines": 3,
+    "total_data_flows": 5,
+    "average_ai_confidence": 0.5,
+    "average_viz_confidence": 0.6333333333333333
+  },
+  "analysis_metadata": {
+    "data_sources_used": [
+      "algorithm_dll_analysis",
+      "comprehensive_report",
+      "qml_qt_analysis",
+      "python_runtime_analysis",
+      "high_value_analysis",
+      "architecture_analysis"
+    ],
+    "mapping_approach": "Component-based analysis with domain knowledge inference"
+  }
+}
