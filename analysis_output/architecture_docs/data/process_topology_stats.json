@@ -1,0 +1,38 @@
+{
+  "total_processes": 5,
+  "total_dependencies": 0,
+  "classification_breakdown": {
+    "algorithm_service": 1,
+    "bootstrapper": 1,
+    "main_ui": 1,
+    "network_service": 1,
+    "scanning_logic": 1
+  },
+  "most_connected_processes": [
+    [
+      "DentalAlgoService.exe",
+      0
+    ],
+    [
+      "DentalLauncher.exe",
+      0
+    ],
+    [
+      "IntraoralScan.exe",
+      0
+    ],
+    [
+      "DentalNetwork.exe",
+      0
+    ],
+    [
+      "DentalScanAppLogic.exe",
+      0
+    ]
+  ],
+  "confidence_distribution": {
+    "high_confidence": 5,
+    "medium_confidence": 0,
+    "low_confidence": 0
+  }
+}

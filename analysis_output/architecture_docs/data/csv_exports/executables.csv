@@ -1,0 +1,6 @@
+id,name,path,size_bytes,md5_hash,classification,confidence_score,analysis_timestamp,file_type
+2,DentalAlgoService.exe,IntraoralScan/Bin/DentalAlgoService.exe,12991856.64,989bf6927e4c787e3ba7d1f97c5c484d,algorithm_service,0.8,2025-08-14T19:32:49.655421,"IntraoralScan/Bin/DentalAlgoService.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+4,DentalLauncher.exe,IntraoralScan/Bin/DentalLauncher.exe,43557847.04,6dcff4803081c28590337ed2cec48bd8,bootstrapper,0.8,2025-08-14T19:32:50.460265,"IntraoralScan/Bin/DentalLauncher.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+1,IntraoralScan.exe,IntraoralScan/Bin/IntraoralScan.exe,93879009.28,ad21f160725956c6061fd7902271d54b,main_ui,0.8,2025-08-14T19:32:48.424195,"IntraoralScan/Bin/IntraoralScan.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 7 sections"
+5,DentalNetwork.exe,IntraoralScan/Bin/DentalNetwork.exe,1761607.68,ff4c38f8d4614c97504162538526ada3,network_service,0.8,2025-08-14T19:32:50.989059,"IntraoralScan/Bin/DentalNetwork.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+3,DentalScanAppLogic.exe,IntraoralScan/Bin/DentalScanAppLogic.exe,20279459.84,56302d20e0a4afbdc71af8734802a7d9,scanning_logic,0.8,2025-08-14T19:32:49.982689,"IntraoralScan/Bin/DentalScanAppLogic.exe: PE32+ executable for MS Windows 6.00 (console), x86-64, 6 sections"

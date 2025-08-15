@@ -1,0 +1,41 @@
+{
+  "graph_metrics": {
+    "total_nodes": 5,
+    "total_edges": 0,
+    "executables": 5,
+    "custom_dlls": 0,
+    "system_dlls": 0
+  },
+  "dependency_analysis": {
+    "most_dependent_executables": [
+      [
+        "DentalScanAppLogic.exe",
+        0
+      ],
+      [
+        "DentalLauncher.exe",
+        0
+      ],
+      [
+        "DentalNetwork.exe",
+        0
+      ],
+      [
+        "DentalAlgoService.exe",
+        0
+      ],
+      [
+        "IntraoralScan.exe",
+        0
+      ]
+    ],
+    "most_used_dlls": [],
+    "isolated_components": [
+      "DentalAlgoService.exe",
+      "DentalLauncher.exe",
+      "IntraoralScan.exe",
+      "DentalNetwork.exe",
+      "DentalScanAppLogic.exe"
+    ]
+  }
+}

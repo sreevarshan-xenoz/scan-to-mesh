@@ -1,0 +1,35 @@
+{
+  "ipc_summary": {
+    "total_processes_with_ipc": 4,
+    "endpoint_type_distribution": {
+      "sockets": 7,
+      "events": 16,
+      "shared_memory": 32
+    },
+    "direction_distribution": {
+      "null": 55
+    },
+    "high_confidence_endpoints": 13
+  },
+  "network_summary": {
+    "total_processes_with_network": 4,
+    "protocol_distribution": {
+      "tcp": 4,
+      "http": 8,
+      "": 2865
+    },
+    "port_ranges": {
+      "total_unique_ports": 3,
+      "port_range": "3000-18830",
+      "common_ports": {
+        "18830": 4,
+        "3000": 4,
+        "3001": 4
+      },
+      "well_known_ports": 0,
+      "registered_ports": 12,
+      "dynamic_ports": 0
+    },
+    "high_confidence_endpoints": 2877
+  }
+}

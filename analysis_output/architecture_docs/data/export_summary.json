@@ -1,0 +1,21 @@
+{
+  "analysis_overview": {
+    "total_executables": 5,
+    "total_dependencies": 0,
+    "total_ipc_endpoints": 55,
+    "total_network_endpoints": 2877,
+    "algorithm_dlls": 62,
+    "hardware_interfaces": 105
+  },
+  "confidence_metrics": {
+    "high_confidence_processes": 5,
+    "high_confidence_ipc": 13,
+    "high_confidence_network": 2877
+  },
+  "export_paths": {
+    "json_export": "analysis_output/architecture_docs/data/complete_analysis_export.json",
+    "csv_directory": "analysis_output/architecture_docs/data/csv_exports",
+    "diagrams_directory": "analysis_output/architecture_docs/diagrams",
+    "reports_directory": "analysis_output/architecture_docs/reports"
+  }
+}

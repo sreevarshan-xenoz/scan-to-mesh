@@ -1,0 +1,56 @@
+id,executable_id,endpoint_type,endpoint_name,direction,confidence_score,detection_method,context,analysis_timestamp,executable_name,exe_classification
+6,1,sockets,void,,0.8999999999999999,string_analysis,void __cdecl PowerStatusMgr::checkPowerStatusConnect(void),2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+39,3,sockets,int,,0.8999999999999999,string_analysis,bool __cdecl DeviceMgr::startAutoConnect(int),2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+40,3,sockets,int,,0.8999999999999999,string_analysis,bool __cdecl ApDeviceMgr::startAutoConnect(int),2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+41,3,sockets,class,,0.8999999999999999,string_analysis,void __cdecl ApDeviceMgr::selectWirelessDevAndConnect(class QList<class QVariant>),2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+50,5,sockets,void,,0.8999999999999999,string_analysis,void __cdecl BaseSubscriber::reConnect(void),2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+51,5,sockets,void,,0.8999999999999999,string_analysis,void __cdecl BaseSubscriber::stopReconnect(void),2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+10,1,events,CreateEvent,,0.8,string_analysis,CreateEventW,2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+18,2,shared_memory,success,,0.8,string_analysis,CreateFileMapping success,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+19,2,shared_memory,failed,,0.8,string_analysis,CreateFileMapping failed,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+28,2,shared_memory,CreateFileMapping,,0.8,string_analysis,CreateFileMappingA,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+32,2,events,CreateEvent,,0.8,string_analysis,CreateEventW,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+45,3,events,CreateEvent,,0.8,string_analysis,CreateEventW,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+55,5,events,CreateEvent,,0.8,string_analysis,CreateEventW,2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+5,1,sockets,const,,0.7999999999999999,string_analysis,"class ChainInvokeHelper *__cdecl CloudMgr::getDeviceBind(const class QString &,const class QString &)",2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+11,2,shared_memory,createCalibImageFromShmIS,,0.6,string_analysis,"bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmIS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)",2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+12,2,shared_memory,createCalibImageFromShmDS,,0.6,string_analysis,"bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmDS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)",2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+13,2,shared_memory,createCalibImageFromShmFS,,0.6,string_analysis,"bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmFS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImageFS *)",2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+14,2,shared_memory,createAllCalibImageFromShmFS,,0.6,string_analysis,"bool __cdecl CreateImagesSharedMemory::createAllCalibImageFromShmFS(const class QStringList &,const int,class CalibAlgoLogic::AllPosAllCamImageFS *)",2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+15,2,shared_memory,createCalibImageFromShmIMPS,,0.6,string_analysis,"bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmIMPS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)",2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+16,2,shared_memory,createAllCalibImageFromShmIMPS,,0.6,string_analysis,"bool __cdecl CreateImagesSharedMemory::createAllCalibImageFromShmIMPS(const class QStringList &,const int,class CalibAlgoLogic::AllPosAllCamImage *)",2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+17,2,shared_memory,createImagesForBuildFromShm,,0.6,string_analysis,"class std::unique_ptr<class ImagesForBuild,struct std::default_delete<class ImagesForBuild> > __cdecl CreateImagesSharedMemory::createImagesForBuildFromShm(const class QStringList &,enum DentalCommon:",2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+21,2,shared_memory,const,,0.6,string_analysis,"bool __cdecl ScanAlgoLogic_IS::DynamicArticulationThread_IS::createSharedMemory(const class Sn3DAlgorithm::BaseTriMesh &,const class QString &)",2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+1,1,shared_memory,Name,,0.5,string_analysis,SharedMemoryName,2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+2,1,shared_memory,Size,,0.5,string_analysis,SharedMemorySize,2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+3,1,shared_memory,Name,,0.5,string_analysis,sharedMemoryName,2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+4,1,shared_memory,Size,,0.5,string_analysis,sharedMemorySize,2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+7,1,events,SetEvent,,0.5,string_analysis,SetEvent,2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+8,1,events,SetEvent,,0.5,string_analysis,ResetEvent,2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+9,1,events,WaitForSingleObject,,0.5,string_analysis,WaitForSingleObjectEx,2025-08-15T21:36:50.268119,IntraoralScan.exe,main_ui
+20,2,shared_memory,failed,,0.5,string_analysis,MapViewOfFile failed,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+22,2,shared_memory,Name,,0.5,string_analysis,SharedMemoryName,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+23,2,shared_memory,Size,,0.5,string_analysis,SharedMemorySize,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+24,2,shared_memory,Name,,0.5,string_analysis,sharedMemoryName,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+25,2,shared_memory,Size,,0.5,string_analysis,sharedMemorySize,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+26,2,shared_memory,MapViewOfFile,,0.5,string_analysis,MapViewOfFile,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+27,2,shared_memory,MapViewOfFile,,0.5,string_analysis,UnmapViewOfFile,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+29,2,events,SetEvent,,0.5,string_analysis,SetEvent,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+30,2,events,SetEvent,,0.5,string_analysis,ResetEvent,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+31,2,events,WaitForSingleObject,,0.5,string_analysis,WaitForSingleObjectEx,2025-08-15T21:36:50.595351,DentalAlgoService.exe,algorithm_service
+33,3,shared_memory,Name,,0.5,string_analysis,SharedMemoryName,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+34,3,shared_memory,Size,,0.5,string_analysis,SharedMemorySize,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+35,3,shared_memory,Name,,0.5,string_analysis,sharedMemoryName,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+36,3,shared_memory,Size,,0.5,string_analysis,sharedMemorySize,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+37,3,shared_memory,SharedMemory,,0.5,string_analysis,DentalScanSharedMemory,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+38,3,shared_memory,not,,0.5,string_analysis,SharedMemory not existing,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+42,3,events,SetEvent,,0.5,string_analysis,SetEvent,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+43,3,events,SetEvent,,0.5,string_analysis,ResetEvent,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+44,3,events,WaitForSingleObject,,0.5,string_analysis,WaitForSingleObjectEx,2025-08-15T21:36:51.008038,DentalScanAppLogic.exe,scanning_logic
+46,5,shared_memory,Name,,0.5,string_analysis,SharedMemoryName,2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+47,5,shared_memory,Size,,0.5,string_analysis,SharedMemorySize,2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+48,5,shared_memory,Name,,0.5,string_analysis,sharedMemoryName,2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+49,5,shared_memory,Size,,0.5,string_analysis,sharedMemorySize,2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+52,5,events,SetEvent,,0.5,string_analysis,SetEvent,2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+53,5,events,SetEvent,,0.5,string_analysis,ResetEvent,2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
+54,5,events,WaitForSingleObject,,0.5,string_analysis,WaitForSingleObjectEx,2025-08-15T21:36:51.044629,DentalNetwork.exe,network_service
