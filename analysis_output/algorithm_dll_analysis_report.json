@@ -1,0 +1,616 @@
+{
+  "summary": {
+    "total_dlls_analyzed": 59,
+    "total_functions_found": 18154,
+    "stage_distribution": {
+      "acquisition": 4,
+      "ai_analysis": 12,
+      "calibration": 2,
+      "clinical_analysis": 3,
+      "fusion": 3,
+      "mesh_processing": 3,
+      "registration": 3,
+      "unknown": 19,
+      "unknown_algorithm": 10
+    }
+  },
+  "dll_analysis": [
+    {
+      "name": "Sn3DRealtimeScan.dll",
+      "export_count": 1107,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DRegistration.dll",
+      "export_count": 1962,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DSpeckleFusion.dll",
+      "export_count": 77,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DTextureBasedTrack.dll",
+      "export_count": 35,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DScanSlam.dll",
+      "export_count": 144,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DDentalAI.dll",
+      "export_count": 474,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DDentalRealTimeSemSeg.dll",
+      "export_count": 11,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DDentalOral.dll",
+      "export_count": 135,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DDentalBoxDet.dll",
+      "export_count": 10,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DCalibrationJR.dll",
+      "export_count": 891,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DPhotometricStereo.dll",
+      "export_count": 100,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DGeometricTrackFusion.dll",
+      "export_count": 517,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DOralExamCCP.dll",
+      "export_count": 35,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DInfraredCariesDet.dll",
+      "export_count": 29,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DOralExamResidualCrown.dll",
+      "export_count": 6,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DTooling.dll",
+      "export_count": 7,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DColorCorrect.dll",
+      "export_count": 74,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DSpeckle.dll",
+      "export_count": 80,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DMagic.dll",
+      "export_count": 1277,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DLineCode.dll",
+      "export_count": 74,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DDentalAICBCTSeg.dll",
+      "export_count": 50,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DDraco.dll",
+      "export_count": 4,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DDentalOralCls.dll",
+      "export_count": 26,
+      "confidence": 0.7200000000000001
+    },
+    {
+      "name": "Sn3DDentalAbutmentCloudDet.dll",
+      "export_count": 16,
+      "confidence": 0.48
+    },
+    {
+      "name": "Sn3DDental.dll",
+      "export_count": 906,
+      "confidence": 0.48
+    },
+    {
+      "name": "Sn3DDentalGeometryFeatureDet.dll",
+      "export_count": 48,
+      "confidence": 0.48
+    },
+    {
+      "name": "Sn3DFaceScan.dll",
+      "export_count": 15,
+      "confidence": 0.48
+    },
+    {
+      "name": "Sn3DAIOutUnity.dll",
+      "export_count": 33,
+      "confidence": 0.48
+    },
+    {
+      "name": "Sn3DDentalMeshParameterize.dll",
+      "export_count": 4,
+      "confidence": 0.48
+    },
+    {
+      "name": "Sn3DDentalDesktop.dll",
+      "export_count": 247,
+      "confidence": 0.48
+    },
+    {
+      "name": "algorithmLzy.dll",
+      "export_count": 625,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithmSaj.dll",
+      "export_count": 14,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithm1.dll",
+      "export_count": 299,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithm2.dll",
+      "export_count": 1237,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithmZbt.dll",
+      "export_count": 517,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithmHlj.dll",
+      "export_count": 428,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithmZys.dll",
+      "export_count": 114,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithmlyc.dll",
+      "export_count": 1582,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithmMigrate.dll",
+      "export_count": 65,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "algorithmLy.dll",
+      "export_count": 123,
+      "confidence": 0.32000000000000006
+    },
+    {
+      "name": "Sn3DAVXImp.dll",
+      "export_count": 3,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DDigital.dll",
+      "export_count": 1170,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DOralExamWedgeDefect.dll",
+      "export_count": 32,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DVulkanWrapper.dll",
+      "export_count": 17,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DCrownGen.dll",
+      "export_count": 41,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DLandmarksDetForCli.dll",
+      "export_count": 11,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DCrypto.dll",
+      "export_count": 54,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DSparseSolver.dll",
+      "export_count": 2,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DInspection.dll",
+      "export_count": 182,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DTextureSlam.dll",
+      "export_count": 449,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DFaceUnity.dll",
+      "export_count": 72,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DFaceParsing.dll",
+      "export_count": 58,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DPhaseBuild.dll",
+      "export_count": 62,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DFace.dll",
+      "export_count": 64,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DInspect.dll",
+      "export_count": 161,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DCBCTLoader.dll",
+      "export_count": 7,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DCBCTSegLite.dll",
+      "export_count": 53,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DCork.dll",
+      "export_count": 260,
+      "confidence": 0.08000000000000002
+    },
+    {
+      "name": "Sn3DOrthoEx.dll",
+      "export_count": 2058,
+      "confidence": 0.08000000000000002
+    }
+  ],
+  "high_confidence_functions": [
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   1]  0000 ??0CloudSetIO@Sn3DAlgorithm@@QEAA@AEBV01@@Z",
+      "signature": "bool +base[   1]  0000 ??0CloudSetIO@Sn3DAlgorithm@@QEAA@AEBV01@@Z(void* data)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   2]  0001 ??0CloudSetIO@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "bool +base[   2]  0001 ??0CloudSetIO@Sn3DAlgorithm@@QEAA@XZ(void* data)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   3]  0002 ??0CloudVertexGetColor@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "bool +base[   3]  0002 ??0CloudVertexGetColor@Sn3DAlgorithm@@QEAA@XZ(void* buffer)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   4]  0003 ??0FusionDataTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@AEBV012@@Z",
+      "signature": "void +base[   4]  0003 ??0FusionDataTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@AEBV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   5]  0004 ??0FusionDataTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[   5]  0004 ??0FusionDataTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   6]  0005 ??0FusionGrid@Fusion@Sn3DAlgorithm@@QEAA@AEBV012@@Z",
+      "signature": "void +base[   6]  0005 ??0FusionGrid@Fusion@Sn3DAlgorithm@@QEAA@AEBV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   7]  0006 ??0FusionGrid@Fusion@Sn3DAlgorithm@@QEAA@HMHHH@Z",
+      "signature": "void +base[   7]  0006 ??0FusionGrid@Fusion@Sn3DAlgorithm@@QEAA@HMHHH@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   8]  0007 ??0FusionHandleInsOrigin@Fusion@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[   8]  0007 ??0FusionHandleInsOrigin@Fusion@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[   9]  0008 ??0FusionTsdfIns@Fusion@Sn3DAlgorithm@@QEAA@AEBVCommonParameter@2@AEBVFusionParameter@2@@Z",
+      "signature": "void +base[   9]  0008 ??0FusionTsdfIns@Fusion@Sn3DAlgorithm@@QEAA@AEBVCommonParameter@2@AEBVFusionParameter@2@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  10]  0009 ??0FusionTsdfIns@Fusion@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  10]  0009 ??0FusionTsdfIns@Fusion@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  11]  000a ??0LeafTSDFTeeth@IntraoralScan@Sn3DAlgorithm@@QEAA@AEBU012@@Z",
+      "signature": "void +base[  11]  000a ??0LeafTSDFTeeth@IntraoralScan@Sn3DAlgorithm@@QEAA@AEBU012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  12]  000b ??0LeafTSDFTeeth@IntraoralScan@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  12]  000b ??0LeafTSDFTeeth@IntraoralScan@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  13]  000c ??0MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@$$QEAV012@@Z",
+      "signature": "void +base[  13]  000c ??0MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@$$QEAV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  14]  000d ??0MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@AEBV012@@Z",
+      "signature": "void +base[  14]  000d ??0MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@AEBV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  15]  000e ??0MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  15]  000e ??0MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  16]  000f ??0MergeData@Sn3DAlgorithm@@QEAA@$$QEAU01@@Z",
+      "signature": "void +base[  16]  000f ??0MergeData@Sn3DAlgorithm@@QEAA@$$QEAU01@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  17]  0010 ??0MergeData@Sn3DAlgorithm@@QEAA@AEBU01@@Z",
+      "signature": "void +base[  17]  0010 ??0MergeData@Sn3DAlgorithm@@QEAA@AEBU01@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  18]  0011 ??0MergeData@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  18]  0011 ??0MergeData@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  19]  0012 ??0MultiFusion@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  19]  0012 ??0MultiFusion@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  20]  0013 ??0MultiFusionSplit@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  20]  0013 ??0MultiFusionSplit@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  21]  0014 ??0ReturnDataFusionTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@$$QEAV012@@Z",
+      "signature": "void +base[  21]  0014 ??0ReturnDataFusionTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@$$QEAV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  22]  0015 ??0ReturnDataFusionTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@AEBV012@@Z",
+      "signature": "void +base[  22]  0015 ??0ReturnDataFusionTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@AEBV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  23]  0016 ??0ReturnDataFusionTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  23]  0016 ??0ReturnDataFusionTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  24]  0017 ??0ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@AEBV012@@Z",
+      "signature": "void +base[  24]  0017 ??0ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@AEBV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  25]  0018 ??0ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@PEAVPointImage@2@PEAVCloudWithWeight@2@PEAEAEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$vector@V?$Matrix@N$02$00$0A@$02$00@Eigen@@V?$allocator@V?$Matrix@N$02$00$0A@$02$00@Eigen@@@std@@@6@@Z",
+      "signature": "void +base[  25]  0018 ??0ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@PEAVPointImage@2@PEAVCloudWithWeight@2@PEAEAEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$vector@V?$Matrix@N$02$00$0A@$02$00@Eigen@@V?$allocator@V?$Matrix@N$02$00$0A@$02$00@Eigen@@@std@@@6@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  26]  0019 ??0ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@PEBVRebuildParReturn@12@@Z",
+      "signature": "void +base[  26]  0019 ??0ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@PEBVRebuildParReturn@12@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  27]  001a ??0ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  27]  001a ??0ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  28]  001b ??0TeethSLAM@IntraoralScan@Sn3DAlgorithm@@QEAA@AEBVCommonParameter@2@AEBVTrackParmeter@2@AEBVFusionParameter@2@@Z",
+      "signature": "void +base[  28]  001b ??0TeethSLAM@IntraoralScan@Sn3DAlgorithm@@QEAA@AEBVCommonParameter@2@AEBVTrackParmeter@2@AEBVFusionParameter@2@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  29]  001c ??0TeethSLAM@IntraoralScan@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  29]  001c ??0TeethSLAM@IntraoralScan@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  30]  001d ??0TeethSlamCuda@IntraoralScan@Sn3DAlgorithm@@QEAA@AEBVCommonParameter@2@AEBVTrackParmeter@2@AEBVFusionParameter@2@@Z",
+      "signature": "void +base[  30]  001d ??0TeethSlamCuda@IntraoralScan@Sn3DAlgorithm@@QEAA@AEBVCommonParameter@2@AEBVTrackParmeter@2@AEBVFusionParameter@2@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  31]  001e ??1CloudSetIO@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "bool +base[  31]  001e ??1CloudSetIO@Sn3DAlgorithm@@QEAA@XZ(void* data)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  32]  001f ??1CloudVertexGetColor@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "bool +base[  32]  001f ??1CloudVertexGetColor@Sn3DAlgorithm@@QEAA@XZ(void* buffer)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  33]  0020 ??1FusionDataTeeth@Sn3DSlam@Sn3DAlgorithm@@UEAA@XZ",
+      "signature": "void +base[  33]  0020 ??1FusionDataTeeth@Sn3DSlam@Sn3DAlgorithm@@UEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  34]  0021 ??1FusionGrid@Fusion@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  34]  0021 ??1FusionGrid@Fusion@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  35]  0022 ??1FusionHandleInsOrigin@Fusion@Sn3DAlgorithm@@UEAA@XZ",
+      "signature": "void +base[  35]  0022 ??1FusionHandleInsOrigin@Fusion@Sn3DAlgorithm@@UEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  36]  0023 ??1FusionTsdfIns@Fusion@Sn3DAlgorithm@@UEAA@XZ",
+      "signature": "void +base[  36]  0023 ??1FusionTsdfIns@Fusion@Sn3DAlgorithm@@UEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  37]  0024 ??1MergeData@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  37]  0024 ??1MergeData@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  38]  0025 ??1MultiFusion@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  38]  0025 ??1MultiFusion@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  39]  0026 ??1MultiFusionSplit@Sn3DAlgorithm@@QEAA@XZ",
+      "signature": "void +base[  39]  0026 ??1MultiFusionSplit@Sn3DAlgorithm@@QEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  40]  0027 ??1ReturnDataFusionTeeth@Sn3DSlam@Sn3DAlgorithm@@UEAA@XZ",
+      "signature": "void +base[  40]  0027 ??1ReturnDataFusionTeeth@Sn3DSlam@Sn3DAlgorithm@@UEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  41]  0028 ??1ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@UEAA@XZ",
+      "signature": "void +base[  41]  0028 ??1ReturnDataRebuildTeeth@Sn3DSlam@Sn3DAlgorithm@@UEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  42]  0029 ??1TeethSLAM@IntraoralScan@Sn3DAlgorithm@@UEAA@XZ",
+      "signature": "void +base[  42]  0029 ??1TeethSLAM@IntraoralScan@Sn3DAlgorithm@@UEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  43]  002a ??1TeethSlamCuda@IntraoralScan@Sn3DAlgorithm@@UEAA@XZ",
+      "signature": "void +base[  43]  002a ??1TeethSlamCuda@IntraoralScan@Sn3DAlgorithm@@UEAA@XZ(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  44]  002b ??4CloudSetIO@Sn3DAlgorithm@@QEAAAEAV01@AEBV01@@Z",
+      "signature": "bool +base[  44]  002b ??4CloudSetIO@Sn3DAlgorithm@@QEAAAEAV01@AEBV01@@Z(void* data)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  45]  002c ??4CloudVertexGetColor@Sn3DAlgorithm@@QEAAAEAV01@AEBV01@@Z",
+      "signature": "bool +base[  45]  002c ??4CloudVertexGetColor@Sn3DAlgorithm@@QEAAAEAV01@AEBV01@@Z(void* buffer)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  46]  002d ??4FusionDataTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAAAEAV012@AEBV012@@Z",
+      "signature": "void +base[  46]  002d ??4FusionDataTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAAAEAV012@AEBV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  47]  002e ??4FusionGrid@Fusion@Sn3DAlgorithm@@QEAAAEAV012@AEBV012@@Z",
+      "signature": "void +base[  47]  002e ??4FusionGrid@Fusion@Sn3DAlgorithm@@QEAAAEAV012@AEBV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  48]  002f ??4LeafTSDFTeeth@IntraoralScan@Sn3DAlgorithm@@QEAAAEAU012@AEBU012@@Z",
+      "signature": "void +base[  48]  002f ??4LeafTSDFTeeth@IntraoralScan@Sn3DAlgorithm@@QEAAAEAU012@AEBU012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  49]  0030 ??4MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAAAEAV012@$$QEAV012@@Z",
+      "signature": "void +base[  49]  0030 ??4MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAAAEAV012@$$QEAV012@@Z(...)",
+      "confidence": 0.8
+    },
+    {
+      "dll": "Sn3DRealtimeScan.dll",
+      "function": "+base[  50]  0031 ??4MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAAAEAV012@AEBV012@@Z",
+      "signature": "void +base[  50]  0031 ??4MarkTrackAttachInfoTeeth@Sn3DSlam@Sn3DAlgorithm@@QEAAAEAV012@AEBV012@@Z(...)",
+      "confidence": 0.8
+    }
+  ]
+}
