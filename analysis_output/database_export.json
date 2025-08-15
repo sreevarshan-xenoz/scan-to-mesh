@@ -1,0 +1,1664 @@
+{
+  "summary": [
+    {
+      "executable": "IntraoralScan.exe",
+      "classification": "main_ui",
+      "size_mb": 89.53,
+      "total_dependencies": 32,
+      "system_dependencies": 13,
+      "missing_dependencies": 32,
+      "analysis_method": "manual",
+      "analysis_success": true
+    },
+    {
+      "executable": "DentalLauncher.exe",
+      "classification": "bootstrapper",
+      "size_mb": 41.54,
+      "total_dependencies": 17,
+      "system_dependencies": 9,
+      "missing_dependencies": 17,
+      "analysis_method": "manual",
+      "analysis_success": true
+    },
+    {
+      "executable": "DentalScanAppLogic.exe",
+      "classification": "scanning_logic",
+      "size_mb": 19.34,
+      "total_dependencies": 33,
+      "system_dependencies": 13,
+      "missing_dependencies": 33,
+      "analysis_method": "manual",
+      "analysis_success": true
+    },
+    {
+      "executable": "DentalAlgoService.exe",
+      "classification": "algorithm_service",
+      "size_mb": 12.39,
+      "total_dependencies": 79,
+      "system_dependencies": 14,
+      "missing_dependencies": 79,
+      "analysis_method": "manual",
+      "analysis_success": true
+    },
+    {
+      "executable": "DentalNetwork.exe",
+      "classification": "network_service",
+      "size_mb": 1.68,
+      "total_dependencies": 21,
+      "system_dependencies": 9,
+      "missing_dependencies": 21,
+      "analysis_method": "manual",
+      "analysis_success": true
+    }
+  ],
+  "common_dependencies": [
+    {
+      "dependency": "KERNEL32.dll",
+      "used_by_count": 5,
+      "is_system": true
+    },
+    {
+      "dependency": "MSVCP140.dll",
+      "used_by_count": 5,
+      "is_system": true
+    },
+    {
+      "dependency": "Qt5Core.dll",
+      "used_by_count": 5,
+      "is_system": false
+    },
+    {
+      "dependency": "Qt5Gui.dll",
+      "used_by_count": 5,
+      "is_system": false
+    },
+    {
+      "dependency": "Qt5Network.dll",
+      "used_by_count": 5,
+      "is_system": false
+    },
+    {
+      "dependency": "Qt5Widgets.dll",
+      "used_by_count": 5,
+      "is_system": false
+    },
+    {
+      "dependency": "SnCommon.dll",
+      "used_by_count": 5,
+      "is_system": false
+    },
+    {
+      "dependency": "VCRUNTIME140.dll",
+      "used_by_count": 5,
+      "is_system": true
+    },
+    {
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll",
+      "used_by_count": 5,
+      "is_system": true
+    },
+    {
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll",
+      "used_by_count": 5,
+      "is_system": true
+    },
+    {
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll",
+      "used_by_count": 5,
+      "is_system": true
+    },
+    {
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "used_by_count": 5,
+      "is_system": true
+    },
+    {
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "used_by_count": 5,
+      "is_system": true
+    },
+    {
+      "dependency": "qttunnel.3.6.1.dll",
+      "used_by_count": 5,
+      "is_system": false
+    },
+    {
+      "dependency": "DentalCommonTool.dll",
+      "used_by_count": 4,
+      "is_system": false
+    },
+    {
+      "dependency": "SHELL32.dll",
+      "used_by_count": 4,
+      "is_system": true
+    },
+    {
+      "dependency": "DentalDefines.dll",
+      "used_by_count": 3,
+      "is_system": false
+    },
+    {
+      "dependency": "Qt5Xml.dll",
+      "used_by_count": 3,
+      "is_system": false
+    },
+    {
+      "dependency": "SnSharedBlock.dll",
+      "used_by_count": 3,
+      "is_system": false
+    },
+    {
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll",
+      "used_by_count": 3,
+      "is_system": true
+    },
+    {
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll",
+      "used_by_count": 3,
+      "is_system": true
+    },
+    {
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll",
+      "used_by_count": 3,
+      "is_system": true
+    },
+    {
+      "dependency": "DentalCommon.dll",
+      "used_by_count": 2,
+      "is_system": false
+    },
+    {
+      "dependency": "DentalOrderWorkParam.dll",
+      "used_by_count": 2,
+      "is_system": false
+    },
+    {
+      "dependency": "Qt5Qml.dll",
+      "used_by_count": 2,
+      "is_system": false
+    },
+    {
+      "dependency": "Qt5Sql.dll",
+      "used_by_count": 2,
+      "is_system": false
+    },
+    {
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll",
+      "used_by_count": 2,
+      "is_system": true
+    },
+    {
+      "dependency": "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "used_by_count": 2,
+      "is_system": true
+    }
+  ],
+  "detailed_dependencies": {
+    "IntraoralScan.exe": [
+      {
+        "name": "Cutelyst3Qt5.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Cutelyst3Qt5Server.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalCommon.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalCommonTool.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalDefines.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Core.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Gui.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Network.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Qml.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Quick.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Scxml.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Sql.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Widgets.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Xml.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnCommon.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnScreenRecorder.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnSharedBlock.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "opencv_world455.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "qttunnel.3.6.1.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "KERNEL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "MSVCP140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SHELL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "USER32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "VCRUNTIME140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-locale-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-math-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-string-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-time-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-utility-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      }
+    ],
+    "DentalLauncher.exe": [
+      {
+        "name": "Qt5Core.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Gui.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Network.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Qml.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5QuickWidgets.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Widgets.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnCommon.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "qttunnel.3.6.1.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "KERNEL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "MSVCP140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SHELL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "VCRUNTIME140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-locale-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-math-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      }
+    ],
+    "DentalScanAppLogic.exe": [
+      {
+        "name": "CONCRT140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalCommon.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalCommonTool.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalDefines.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalOrderWorkParam.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalScanAppLogicTool.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Concurrent.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Core.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Gui.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Network.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Sql.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Widgets.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Xml.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnCommon.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnSharedBlock.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "dbghelp.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "pdh.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "python38.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "qttunnel.3.6.1.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "wlanapi.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "KERNEL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "MSVCP140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "VCRUNTIME140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-convert-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-locale-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-math-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-string-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-time-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-utility-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      }
+    ],
+    "DentalAlgoService.exe": [
+      {
+        "name": "CommonFunc.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalAlgoServiceTool.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalCommonTool.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalDefines.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalOrderWorkParam.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "JsdCalibration.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "OpenMeshCore.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Core.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Gui.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Network.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Widgets.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DAIOutUnity.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DCBCTSegLite.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DCalibrationJR.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DColorCorrect.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DCork.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DCrownGen.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDental.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDentalAI.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDentalAICBCTSeg.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDentalBoxDet.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDentalDesktop.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDentalOral.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDentalOralCls.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDentalRealTimeSemSeg.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDigital.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DDraco.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DFace.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DFaceUnity.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DInfraredCariesDet.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DLandmarksDetForCli.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DLineCode.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DMagic.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DOrthoEx.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DPhaseBuild.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DPhotometricStereo.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DRealtimeScan.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DRegistration.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DScanSlam.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Sn3DTooling.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnCommon.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnSharedBlock.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "VCOMP140.DLL",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "algorithm1.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "algorithm2.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "algorithmHlj.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "algorithmLy.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "algorithmLzy.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "algorithmZbt.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "algorithmZys.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "algorithmlyc.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "common.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "glew32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "glfw3.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "iScanCalibration.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "iScanRebuild.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "libtcmalloc_minimal.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "opencv_calib3d348.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "opencv_core348.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "opencv_imgcodecs348.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "opencv_imgproc348.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "print3DAuxilary.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "print3DSlicing.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "qttunnel.3.6.1.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "tbb.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "KERNEL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "MSVCP140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SHELL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "VCRUNTIME140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-convert-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-locale-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-math-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-string-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-time-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-utility-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      }
+    ],
+    "DentalNetwork.exe": [
+      {
+        "name": "DentalCommonTool.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalNetWorkTaskDataDb.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalNetworkTool.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "DentalQuaZip.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Core.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Gui.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Network.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Widgets.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "Qt5Xml.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SnCommon.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "libquickcloud-1.5.17.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "qttunnel.3.6.1.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": false,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "KERNEL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "MSVCP140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "SHELL32.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "VCRUNTIME140.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-heap-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-locale-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-math-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      },
+      {
+        "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+        "path": "",
+        "type": "dll",
+        "is_system": true,
+        "found": false,
+        "analysis_method": "manual"
+      }
+    ]
+  }
+}

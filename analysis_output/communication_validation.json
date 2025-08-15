@@ -1,0 +1,545 @@
+{
+  "validation_timestamp": "2025-08-15T21:40:49.126539",
+  "validation_results": {
+    "ipc_validation": {
+      "consistent_findings": [
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "CreateEvent",
+            "confidence": 0.8,
+            "context": "CreateEventW"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "shared_memory",
+            "name": "createCalibImageFromShmIS",
+            "confidence": 0.6,
+            "context": "bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmIS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)"
+          },
+          "validation_reason": "Matches expected calibration/imaging shared memory pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "shared_memory",
+            "name": "createCalibImageFromShmDS",
+            "confidence": 0.6,
+            "context": "bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmDS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)"
+          },
+          "validation_reason": "Matches expected calibration/imaging shared memory pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "shared_memory",
+            "name": "createCalibImageFromShmFS",
+            "confidence": 0.6,
+            "context": "bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmFS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImageFS *)"
+          },
+          "validation_reason": "Matches expected calibration/imaging shared memory pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "shared_memory",
+            "name": "createAllCalibImageFromShmFS",
+            "confidence": 0.6,
+            "context": "bool __cdecl CreateImagesSharedMemory::createAllCalibImageFromShmFS(const class QStringList &,const int,class CalibAlgoLogic::AllPosAllCamImageFS *)"
+          },
+          "validation_reason": "Matches expected calibration/imaging shared memory pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "shared_memory",
+            "name": "createCalibImageFromShmIMPS",
+            "confidence": 0.6,
+            "context": "bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmIMPS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)"
+          },
+          "validation_reason": "Matches expected calibration/imaging shared memory pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "shared_memory",
+            "name": "createAllCalibImageFromShmIMPS",
+            "confidence": 0.6,
+            "context": "bool __cdecl CreateImagesSharedMemory::createAllCalibImageFromShmIMPS(const class QStringList &,const int,class CalibAlgoLogic::AllPosAllCamImage *)"
+          },
+          "validation_reason": "Matches expected calibration/imaging shared memory pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "shared_memory",
+            "name": "createImagesForBuildFromShm",
+            "confidence": 0.6,
+            "context": "class std::unique_ptr<class ImagesForBuild,struct std::default_delete<class ImagesForBuild> > __cdecl CreateImagesSharedMemory::createImagesForBuildFromShm(const class QStringList &,enum DentalCommon:"
+          },
+          "validation_reason": "Matches expected calibration/imaging shared memory pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "SetEvent",
+            "confidence": 0.5,
+            "context": "SetEvent"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "WaitForSingleObject",
+            "confidence": 0.5,
+            "context": "WaitForSingleObjectEx"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "DentalNetwork.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "CreateEvent",
+            "confidence": 0.8,
+            "context": "CreateEventW"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "DentalNetwork.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "SetEvent",
+            "confidence": 0.5,
+            "context": "SetEvent"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "DentalNetwork.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "WaitForSingleObject",
+            "confidence": 0.5,
+            "context": "WaitForSingleObjectEx"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "DentalScanAppLogic.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "CreateEvent",
+            "confidence": 0.8,
+            "context": "CreateEventW"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "DentalScanAppLogic.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "SetEvent",
+            "confidence": 0.5,
+            "context": "SetEvent"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "DentalScanAppLogic.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "WaitForSingleObject",
+            "confidence": 0.5,
+            "context": "WaitForSingleObjectEx"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "IntraoralScan.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "CreateEvent",
+            "confidence": 0.8,
+            "context": "CreateEventW"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "IntraoralScan.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "SetEvent",
+            "confidence": 0.5,
+            "context": "SetEvent"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        },
+        {
+          "executable": "IntraoralScan.exe",
+          "endpoint": {
+            "type": "events",
+            "name": "WaitForSingleObject",
+            "confidence": 0.5,
+            "context": "WaitForSingleObjectEx"
+          },
+          "validation_reason": "Valid Windows event synchronization pattern"
+        }
+      ],
+      "inconsistent_findings": [],
+      "missing_expected": [],
+      "confidence_adjustments": {}
+    },
+    "network_validation": {
+      "consistent_findings": [
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "hostname",
+            "value": "LocalHost:18830",
+            "protocol": "tcp",
+            "port": 18830,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "Main IPC tunnel: Dental"
+          },
+          "validation_reason": "Valid local TCP communication pattern"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "port",
+            "value": ":3000",
+            "protocol": "http",
+            "port": 3000,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "HTTP socket from system configuration"
+          },
+          "validation_reason": "Matches expected HTTP socket: :3000"
+        },
+        {
+          "executable": "DentalAlgoService.exe",
+          "endpoint": {
+            "type": "port",
+            "value": ":3001",
+            "protocol": "http",
+            "port": 3001,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "HTTP socket from system configuration"
+          },
+          "validation_reason": "Matches expected HTTP socket: :3001"
+        },
+        {
+          "executable": "DentalNetwork.exe",
+          "endpoint": {
+            "type": "hostname",
+            "value": "LocalHost:18830",
+            "protocol": "tcp",
+            "port": 18830,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "Main IPC tunnel: Dental"
+          },
+          "validation_reason": "Valid local TCP communication pattern"
+        },
+        {
+          "executable": "DentalNetwork.exe",
+          "endpoint": {
+            "type": "port",
+            "value": ":3000",
+            "protocol": "http",
+            "port": 3000,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "HTTP socket from system configuration"
+          },
+          "validation_reason": "Matches expected HTTP socket: :3000"
+        },
+        {
+          "executable": "DentalNetwork.exe",
+          "endpoint": {
+            "type": "port",
+            "value": ":3001",
+            "protocol": "http",
+            "port": 3001,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "HTTP socket from system configuration"
+          },
+          "validation_reason": "Matches expected HTTP socket: :3001"
+        },
+        {
+          "executable": "DentalScanAppLogic.exe",
+          "endpoint": {
+            "type": "hostname",
+            "value": "LocalHost:18830",
+            "protocol": "tcp",
+            "port": 18830,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "Main IPC tunnel: Dental"
+          },
+          "validation_reason": "Valid local TCP communication pattern"
+        },
+        {
+          "executable": "DentalScanAppLogic.exe",
+          "endpoint": {
+            "type": "port",
+            "value": ":3000",
+            "protocol": "http",
+            "port": 3000,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "HTTP socket from system configuration"
+          },
+          "validation_reason": "Matches expected HTTP socket: :3000"
+        },
+        {
+          "executable": "DentalScanAppLogic.exe",
+          "endpoint": {
+            "type": "port",
+            "value": ":3001",
+            "protocol": "http",
+            "port": 3001,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "HTTP socket from system configuration"
+          },
+          "validation_reason": "Matches expected HTTP socket: :3001"
+        },
+        {
+          "executable": "IntraoralScan.exe",
+          "endpoint": {
+            "type": "hostname",
+            "value": "LocalHost:18830",
+            "protocol": "tcp",
+            "port": 18830,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "Main IPC tunnel: Dental"
+          },
+          "validation_reason": "Valid local TCP communication pattern"
+        },
+        {
+          "executable": "IntraoralScan.exe",
+          "endpoint": {
+            "type": "port",
+            "value": ":3000",
+            "protocol": "http",
+            "port": 3000,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "HTTP socket from system configuration"
+          },
+          "validation_reason": "Matches expected HTTP socket: :3000"
+        },
+        {
+          "executable": "IntraoralScan.exe",
+          "endpoint": {
+            "type": "port",
+            "value": ":3001",
+            "protocol": "http",
+            "port": 3001,
+            "confidence": 0.9,
+            "detection_method": "config_analysis",
+            "context": "HTTP socket from system configuration"
+          },
+          "validation_reason": "Matches expected HTTP socket: :3001"
+        }
+      ],
+      "inconsistent_findings": [],
+      "missing_expected": [],
+      "confidence_adjustments": {
+        "DentalAlgoService.exe::3000": 1.0,
+        "DentalAlgoService.exe::3001": 1.0,
+        "DentalNetwork.exe::3000": 1.0,
+        "DentalNetwork.exe::3001": 1.0,
+        "DentalScanAppLogic.exe::3000": 1.0,
+        "DentalScanAppLogic.exe::3001": 1.0,
+        "IntraoralScan.exe::3000": 1.0,
+        "IntraoralScan.exe::3001": 1.0
+      }
+    },
+    "cross_validation": {
+      "communication_matrix": {
+        "DentalAlgoService.exe": {
+          "ipc_capabilities": {
+            "total_endpoints": 22,
+            "named_pipes": 0,
+            "shared_memory": 18,
+            "sockets": 0,
+            "message_queues": 0,
+            "events": 4
+          },
+          "network_capabilities": {
+            "total_endpoints": 20,
+            "urls": 0,
+            "ip_addresses": 0,
+            "ports": 2,
+            "hostnames": 1,
+            "protocols_detected": [
+              "udp",
+              "tcp",
+              "http"
+            ]
+          },
+          "dependency_info": {
+            "total_dependencies": 79,
+            "system_dependencies": 14,
+            "missing_dependencies": 79
+          },
+          "communication_role": "processing_engine"
+        },
+        "DentalNetwork.exe": {
+          "ipc_capabilities": {
+            "total_endpoints": 10,
+            "named_pipes": 0,
+            "shared_memory": 4,
+            "sockets": 2,
+            "message_queues": 0,
+            "events": 4
+          },
+          "network_capabilities": {
+            "total_endpoints": 20,
+            "urls": 0,
+            "ip_addresses": 0,
+            "ports": 2,
+            "hostnames": 1,
+            "protocols_detected": [
+              "tcp",
+              "http",
+              "mqtt"
+            ]
+          },
+          "dependency_info": {
+            "total_dependencies": 21,
+            "system_dependencies": 9,
+            "missing_dependencies": 21
+          },
+          "communication_role": "network_gateway"
+        },
+        "IntraoralScan.exe": {
+          "ipc_capabilities": {
+            "total_endpoints": 10,
+            "named_pipes": 0,
+            "shared_memory": 4,
+            "sockets": 2,
+            "message_queues": 0,
+            "events": 4
+          },
+          "network_capabilities": {
+            "total_endpoints": 2817,
+            "urls": 0,
+            "ip_addresses": 0,
+            "ports": 2,
+            "hostnames": 1,
+            "protocols_detected": [
+              "soap",
+              "tcp",
+              "http",
+              "rest",
+              "udp"
+            ]
+          },
+          "dependency_info": {
+            "total_dependencies": 32,
+            "system_dependencies": 13,
+            "missing_dependencies": 32
+          },
+          "communication_role": "ui_coordinator"
+        },
+        "DentalScanAppLogic.exe": {
+          "ipc_capabilities": {
+            "total_endpoints": 13,
+            "named_pipes": 0,
+            "shared_memory": 6,
+            "sockets": 3,
+            "message_queues": 0,
+            "events": 4
+          },
+          "network_capabilities": {
+            "total_endpoints": 20,
+            "urls": 0,
+            "ip_addresses": 0,
+            "ports": 2,
+            "hostnames": 1,
+            "protocols_detected": [
+              "soap",
+              "tcp",
+              "http",
+              "rest",
+              "udp"
+            ]
+          },
+          "dependency_info": {
+            "total_dependencies": 33,
+            "system_dependencies": 13,
+            "missing_dependencies": 33
+          },
+          "communication_role": "scan_controller"
+        }
+      },
+      "service_interactions": [
+        {
+          "service": "DentalAlgoService.exe",
+          "interaction_type": "hub_service",
+          "description": "Uses both shared memory (local IPC) and network ports (remote communication)",
+          "confidence": 0.8
+        },
+        {
+          "service": "DentalNetwork.exe",
+          "interaction_type": "hub_service",
+          "description": "Uses both shared memory (local IPC) and network ports (remote communication)",
+          "confidence": 0.8
+        },
+        {
+          "service": "IntraoralScan.exe",
+          "interaction_type": "hub_service",
+          "description": "Uses both shared memory (local IPC) and network ports (remote communication)",
+          "confidence": 0.8
+        },
+        {
+          "service": "DentalScanAppLogic.exe",
+          "interaction_type": "hub_service",
+          "description": "Uses both shared memory (local IPC) and network ports (remote communication)",
+          "confidence": 0.8
+        }
+      ],
+      "protocol_consistency": {
+        "DentalAlgoService.exe": {
+          "status": "mixed",
+          "reason": "Both TCP and UDP suggest different communication needs"
+        },
+        "IntraoralScan.exe": {
+          "status": "consistent",
+          "reason": "HTTP and REST protocols are complementary"
+        },
+        "DentalScanAppLogic.exe": {
+          "status": "consistent",
+          "reason": "HTTP and REST protocols are complementary"
+        }
+      },
+      "data_flow_patterns": []
+    },
+    "confidence_scores": {
+      "ipc_analysis_confidence": 1.0,
+      "network_analysis_confidence": 1.0,
+      "cross_validation_confidence": 1.0,
+      "overall_confidence": 1.0
+    },
+    "recommendations": [
+      "Multiple hub services detected - verify service coordination architecture",
+      "High confidence in communication analysis - proceed with pipeline reconstruction"
+    ]
+  }
+}

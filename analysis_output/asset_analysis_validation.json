@@ -1,0 +1,92 @@
+{
+  "validation_summary": {
+    "timestamp": "Fri Aug 15 09:52:14 PM IST 2025",
+    "overall_status": "excellent",
+    "overall_confidence": 0.88,
+    "critical_issues": 0,
+    "recommendations_count": 1
+  },
+  "component_validations": {
+    "configuration_parsing": {
+      "total_config_files": 144,
+      "successfully_parsed": 0,
+      "parsing_coverage_rate": 0.0,
+      "failed_files": [],
+      "parsing_methods": {},
+      "confidence_scores": [],
+      "note": "Config analysis not found - manual count performed"
+    },
+    "qml_extraction": {
+      "qml_files_found": 405,
+      "qt_resources_found": 65,
+      "ui_components_identified": 1544,
+      "extraction_methods": {
+        "direct_file_access": 405,
+        "string_analysis": 65
+      },
+      "average_confidence": 0.845,
+      "coverage_assessment": "excellent"
+    },
+    "python_analysis": {
+      "python_modules_found": 54,
+      "pyd_modules_found": 18,
+      "decompilation_success_rate": 1.0,
+      "service_mappings_found": 14,
+      "python_version_detected": "3.8",
+      "analysis_methods": {
+        "ast_analysis": {
+          "count": 54,
+          "average_confidence": 1.0
+        }
+      },
+      "confidence_assessment": "medium"
+    },
+    "dependency_cross_validation": {
+      "dependency_consistency": "limited",
+      "python_process_mappings": [],
+      "inconsistencies_found": [],
+      "validation_confidence": 0.3
+    },
+    "gap_analysis": {
+      "configuration_gaps": [
+        {
+          "issue": "Low configuration parsing coverage",
+          "coverage": 0.0,
+          "impact": "medium"
+        }
+      ],
+      "qml_extraction_gaps": [],
+      "python_analysis_gaps": [],
+      "overall_confidence_score": 0.8816666666666667,
+      "recommendations": [
+        "Implement additional configuration file parsers"
+      ]
+    }
+  },
+  "executive_summary": {
+    "configuration_analysis": {
+      "files_parsed": 0,
+      "total_files": 144,
+      "coverage_rate": "0.0%"
+    },
+    "qml_analysis": {
+      "qml_files_found": 405,
+      "ui_components": 1544,
+      "coverage_assessment": "excellent"
+    },
+    "python_analysis": {
+      "modules_analyzed": 54,
+      "pyd_modules": 18,
+      "decompilation_rate": "100.0%",
+      "service_mappings": 14
+    }
+  },
+  "detailed_findings": {},
+  "action_items": [
+    {
+      "priority": "medium",
+      "action": "Implement additional configuration file parsers",
+      "category": "asset_analysis_improvement"
+    }
+  ]
+}

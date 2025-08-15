@@ -1,0 +1,88 @@
+{
+  "system_architecture": {
+    "type": "Multi-process dental scanning application",
+    "ui_framework": "Qt5/QML",
+    "processing_model": "Service-oriented with dedicated algorithm engines",
+    "confidence": 0.8
+  },
+  "key_components": [
+    {
+      "name": "IntraoralScan.exe",
+      "role": "LAUNCHER",
+      "confidence": 0.85,
+      "size_mb": 0,
+      "key_dependencies": [],
+      "architectural_significance": "Main UI orchestrator and entry point"
+    },
+    {
+      "name": "DentalLauncher.exe",
+      "role": "UI_ORCHESTRATOR",
+      "confidence": 0.55,
+      "size_mb": 0,
+      "key_dependencies": [],
+      "architectural_significance": "System initialization and process management"
+    },
+    {
+      "name": "DentalAlgoService.exe",
+      "role": "LAUNCHER",
+      "confidence": 0.85,
+      "size_mb": 0,
+      "key_dependencies": [],
+      "architectural_significance": "Core 3D processing and AI engine"
+    },
+    {
+      "name": "DentalScanAppLogic.exe",
+      "role": "LAUNCHER",
+      "confidence": 0.7,
+      "size_mb": 0,
+      "key_dependencies": [],
+      "architectural_significance": "Real-time scanning and data acquisition"
+    },
+    {
+      "name": "DentalNetwork.exe",
+      "role": "ORDER_MANAGER",
+      "confidence": 0.6,
+      "size_mb": 0,
+      "key_dependencies": [],
+      "architectural_significance": "Cloud connectivity and data synchronization"
+    }
+  ],
+  "communication_patterns": {
+    "primary_ipc": "Qt-based inter-process communication",
+    "data_flow": "UI \u2192 Scanner \u2192 Algorithm Service \u2192 Visualization",
+    "confidence": 0.6
+  },
+  "technology_stack": {
+    "ui": [
+      "Qt5",
+      "QML",
+      "OpenSceneGraph"
+    ],
+    "processing": [
+      "Custom Sn3D libraries",
+      "OpenCV",
+      "CUDA (likely)"
+    ],
+    "data": [
+      "SQLite",
+      "Custom binary formats"
+    ],
+    "confidence": 0.7
+  },
+  "architectural_patterns": [
+    {
+      "pattern": "Service-Oriented Architecture",
+      "evidence": "1 dedicated service processes identified",
+      "confidence": 0.7
+    }
+  ],
+  "validation_summary": {
+    "total_processes_analyzed": 7,
+    "high_confidence_count": 3,
+    "medium_confidence_count": 2,
+    "low_confidence_count": 2,
+    "role_match_count": 0,
+    "role_match_percentage": 0.0,
+    "critical_issues_count": 2
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "summary": [
+    {
+      "executable": "DentalAlgoService.exe",
+      "total_endpoints": 22,
+      "named_pipes": 0,
+      "shared_memory": 18,
+      "sockets": 0,
+      "message_queues": 0,
+      "events": 4,
+      "analysis_success": true
+    },
+    {
+      "executable": "DentalScanAppLogic.exe",
+      "total_endpoints": 13,
+      "named_pipes": 0,
+      "shared_memory": 6,
+      "sockets": 3,
+      "message_queues": 0,
+      "events": 4,
+      "analysis_success": true
+    },
+    {
+      "executable": "IntraoralScan.exe",
+      "total_endpoints": 10,
+      "named_pipes": 0,
+      "shared_memory": 4,
+      "sockets": 2,
+      "message_queues": 0,
+      "events": 4,
+      "analysis_success": true
+    },
+    {
+      "executable": "DentalNetwork.exe",
+      "total_endpoints": 10,
+      "named_pipes": 0,
+      "shared_memory": 4,
+      "sockets": 2,
+      "message_queues": 0,
+      "events": 4,
+      "analysis_success": true
+    },
+    {
+      "executable": "IntraoralScan.exe",
+      "total_endpoints": null,
+      "named_pipes": null,
+      "shared_memory": null,
+      "sockets": null,
+      "message_queues": null,
+      "events": null,
+      "analysis_success": false
+    },
+    {
+      "executable": "DentalAlgoService.exe",
+      "total_endpoints": null,
+      "named_pipes": null,
+      "shared_memory": null,
+      "sockets": null,
+      "message_queues": null,
+      "events": null,
+      "analysis_success": false
+    },
+    {
+      "executable": "DentalScanAppLogic.exe",
+      "total_endpoints": null,
+      "named_pipes": null,
+      "shared_memory": null,
+      "sockets": null,
+      "message_queues": null,
+      "events": null,
+      "analysis_success": false
+    },
+    {
+      "executable": "DentalNetwork.exe",
+      "total_endpoints": null,
+      "named_pipes": null,
+      "shared_memory": null,
+      "sockets": null,
+      "message_queues": null,
+      "events": null,
+      "analysis_success": false
+    }
+  ],
+  "detailed_endpoints": {
+    "DentalAlgoService.exe": [
+      {
+        "type": "shared_memory",
+        "name": "success",
+        "confidence": 0.8,
+        "context": "CreateFileMapping success"
+      },
+      {
+        "type": "shared_memory",
+        "name": "failed",
+        "confidence": 0.8,
+        "context": "CreateFileMapping failed"
+      },
+      {
+        "type": "shared_memory",
+        "name": "CreateFileMapping",
+        "confidence": 0.8,
+        "context": "CreateFileMappingA"
+      },
+      {
+        "type": "events",
+        "name": "CreateEvent",
+        "confidence": 0.8,
+        "context": "CreateEventW"
+      },
+      {
+        "type": "shared_memory",
+        "name": "createCalibImageFromShmIS",
+        "confidence": 0.6,
+        "context": "bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmIS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)"
+      },
+      {
+        "type": "shared_memory",
+        "name": "createCalibImageFromShmDS",
+        "confidence": 0.6,
+        "context": "bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmDS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)"
+      },
+      {
+        "type": "shared_memory",
+        "name": "createCalibImageFromShmFS",
+        "confidence": 0.6,
+        "context": "bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmFS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImageFS *)"
+      },
+      {
+        "type": "shared_memory",
+        "name": "createAllCalibImageFromShmFS",
+        "confidence": 0.6,
+        "context": "bool __cdecl CreateImagesSharedMemory::createAllCalibImageFromShmFS(const class QStringList &,const int,class CalibAlgoLogic::AllPosAllCamImageFS *)"
+      },
+      {
+        "type": "shared_memory",
+        "name": "createCalibImageFromShmIMPS",
+        "confidence": 0.6,
+        "context": "bool __cdecl CreateImagesSharedMemory::createCalibImageFromShmIMPS(const class QStringList &,const int,class CalibAlgoLogic::OnePosAllCamImage *)"
+      },
+      {
+        "type": "shared_memory",
+        "name": "createAllCalibImageFromShmIMPS",
+        "confidence": 0.6,
+        "context": "bool __cdecl CreateImagesSharedMemory::createAllCalibImageFromShmIMPS(const class QStringList &,const int,class CalibAlgoLogic::AllPosAllCamImage *)"
+      },
+      {
+        "type": "shared_memory",
+        "name": "createImagesForBuildFromShm",
+        "confidence": 0.6,
+        "context": "class std::unique_ptr<class ImagesForBuild,struct std::default_delete<class ImagesForBuild> > __cdecl CreateImagesSharedMemory::createImagesForBuildFromShm(const class QStringList &,enum DentalCommon:"
+      },
+      {
+        "type": "shared_memory",
+        "name": "const",
+        "confidence": 0.6,
+        "context": "bool __cdecl ScanAlgoLogic_IS::DynamicArticulationThread_IS::createSharedMemory(const class Sn3DAlgorithm::BaseTriMesh &,const class QString &)"
+      },
+      {
+        "type": "shared_memory",
+        "name": "failed",
+        "confidence": 0.5,
+        "context": "MapViewOfFile failed"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Name",
+        "confidence": 0.5,
+        "context": "SharedMemoryName"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Size",
+        "confidence": 0.5,
+        "context": "SharedMemorySize"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Name",
+        "confidence": 0.5,
+        "context": "sharedMemoryName"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Size",
+        "confidence": 0.5,
+        "context": "sharedMemorySize"
+      },
+      {
+        "type": "shared_memory",
+        "name": "MapViewOfFile",
+        "confidence": 0.5,
+        "context": "MapViewOfFile"
+      },
+      {
+        "type": "shared_memory",
+        "name": "MapViewOfFile",
+        "confidence": 0.5,
+        "context": "UnmapViewOfFile"
+      },
+      {
+        "type": "events",
+        "name": "SetEvent",
+        "confidence": 0.5,
+        "context": "SetEvent"
+      },
+      {
+        "type": "events",
+        "name": "SetEvent",
+        "confidence": 0.5,
+        "context": "ResetEvent"
+      },
+      {
+        "type": "events",
+        "name": "WaitForSingleObject",
+        "confidence": 0.5,
+        "context": "WaitForSingleObjectEx"
+      }
+    ],
+    "DentalNetwork.exe": [
+      {
+        "type": "sockets",
+        "name": "void",
+        "confidence": 0.8999999999999999,
+        "context": "void __cdecl BaseSubscriber::reConnect(void)"
+      },
+      {
+        "type": "sockets",
+        "name": "void",
+        "confidence": 0.8999999999999999,
+        "context": "void __cdecl BaseSubscriber::stopReconnect(void)"
+      },
+      {
+        "type": "events",
+        "name": "CreateEvent",
+        "confidence": 0.8,
+        "context": "CreateEventW"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Name",
+        "confidence": 0.5,
+        "context": "SharedMemoryName"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Size",
+        "confidence": 0.5,
+        "context": "SharedMemorySize"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Name",
+        "confidence": 0.5,
+        "context": "sharedMemoryName"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Size",
+        "confidence": 0.5,
+        "context": "sharedMemorySize"
+      },
+      {
+        "type": "events",
+        "name": "SetEvent",
+        "confidence": 0.5,
+        "context": "SetEvent"
+      },
+      {
+        "type": "events",
+        "name": "SetEvent",
+        "confidence": 0.5,
+        "context": "ResetEvent"
+      },
+      {
+        "type": "events",
+        "name": "WaitForSingleObject",
+        "confidence": 0.5,
+        "context": "WaitForSingleObjectEx"
+      }
+    ],
+    "DentalScanAppLogic.exe": [
+      {
+        "type": "sockets",
+        "name": "int",
+        "confidence": 0.8999999999999999,
+        "context": "bool __cdecl DeviceMgr::startAutoConnect(int)"
+      },
+      {
+        "type": "sockets",
+        "name": "int",
+        "confidence": 0.8999999999999999,
+        "context": "bool __cdecl ApDeviceMgr::startAutoConnect(int)"
+      },
+      {
+        "type": "sockets",
+        "name": "class",
+        "confidence": 0.8999999999999999,
+        "context": "void __cdecl ApDeviceMgr::selectWirelessDevAndConnect(class QList<class QVariant>)"
+      },
+      {
+        "type": "events",
+        "name": "CreateEvent",
+        "confidence": 0.8,
+        "context": "CreateEventW"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Name",
+        "confidence": 0.5,
+        "context": "SharedMemoryName"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Size",
+        "confidence": 0.5,
+        "context": "SharedMemorySize"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Name",
+        "confidence": 0.5,
+        "context": "sharedMemoryName"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Size",
+        "confidence": 0.5,
+        "context": "sharedMemorySize"
+      },
+      {
+        "type": "shared_memory",
+        "name": "SharedMemory",
+        "confidence": 0.5,
+        "context": "DentalScanSharedMemory"
+      },
+      {
+        "type": "shared_memory",
+        "name": "not",
+        "confidence": 0.5,
+        "context": "SharedMemory not existing"
+      },
+      {
+        "type": "events",
+        "name": "SetEvent",
+        "confidence": 0.5,
+        "context": "SetEvent"
+      },
+      {
+        "type": "events",
+        "name": "SetEvent",
+        "confidence": 0.5,
+        "context": "ResetEvent"
+      },
+      {
+        "type": "events",
+        "name": "WaitForSingleObject",
+        "confidence": 0.5,
+        "context": "WaitForSingleObjectEx"
+      }
+    ],
+    "IntraoralScan.exe": [
+      {
+        "type": "sockets",
+        "name": "void",
+        "confidence": 0.8999999999999999,
+        "context": "void __cdecl PowerStatusMgr::checkPowerStatusConnect(void)"
+      },
+      {
+        "type": "events",
+        "name": "CreateEvent",
+        "confidence": 0.8,
+        "context": "CreateEventW"
+      },
+      {
+        "type": "sockets",
+        "name": "const",
+        "confidence": 0.7999999999999999,
+        "context": "class ChainInvokeHelper *__cdecl CloudMgr::getDeviceBind(const class QString &,const class QString &)"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Name",
+        "confidence": 0.5,
+        "context": "SharedMemoryName"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Size",
+        "confidence": 0.5,
+        "context": "SharedMemorySize"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Name",
+        "confidence": 0.5,
+        "context": "sharedMemoryName"
+      },
+      {
+        "type": "shared_memory",
+        "name": "Size",
+        "confidence": 0.5,
+        "context": "sharedMemorySize"
+      },
+      {
+        "type": "events",
+        "name": "SetEvent",
+        "confidence": 0.5,
+        "context": "SetEvent"
+      },
+      {
+        "type": "events",
+        "name": "SetEvent",
+        "confidence": 0.5,
+        "context": "ResetEvent"
+      },
+      {
+        "type": "events",
+        "name": "WaitForSingleObject",
+        "confidence": 0.5,
+        "context": "WaitForSingleObjectEx"
+      }
+    ]
+  },
+  "analysis_timestamp": "2025-08-15T21:36:51.047479"
+}

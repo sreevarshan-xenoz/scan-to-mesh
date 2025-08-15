@@ -1,0 +1,136 @@
+{
+  "validation_summary": {
+    "total_processes_analyzed": 7,
+    "high_confidence_count": 3,
+    "medium_confidence_count": 2,
+    "low_confidence_count": 2,
+    "role_match_count": 0,
+    "role_match_percentage": 0.0,
+    "critical_issues_count": 2
+  },
+  "detailed_results": [
+    {
+      "component": "IntraoralScan.exe",
+      "expected_role": "UI_ORCHESTRATOR",
+      "inferred_role": "LAUNCHER",
+      "confidence_score": 0.85,
+      "role_match": false,
+      "inconsistency_count": 0,
+      "inconsistencies": [],
+      "supporting_evidence": [
+        "Key dependencies found: Qt5Network.dll, opencv_world455.dll, KERNEL32.dll, USER32.dll",
+        "Executable size: 89.53MB",
+        "Total dependencies: 32",
+        "Analysis method: manual"
+      ],
+      "domain_validation": "\u2713 visualization: graphics libs found"
+    },
+    {
+      "component": "DentalLauncher.exe",
+      "expected_role": "LAUNCHER",
+      "inferred_role": "UI_ORCHESTRATOR",
+      "confidence_score": 0.55,
+      "role_match": false,
+      "inconsistency_count": 2,
+      "inconsistencies": [
+        "Size 41.54MB significantly outside expected range (1, 20)",
+        "Missing most expected dependencies: system_libs"
+      ],
+      "supporting_evidence": [
+        "Key dependencies found: Qt5Network.dll, KERNEL32.dll",
+        "Executable size: 41.54MB",
+        "Total dependencies: 17",
+        "Analysis method: manual"
+      ],
+      "domain_validation": ""
+    },
+    {
+      "component": "DentalAlgoService.exe",
+      "expected_role": "ALGORITHM_ENGINE",
+      "inferred_role": "LAUNCHER",
+      "confidence_score": 0.85,
+      "role_match": false,
+      "inconsistency_count": 0,
+      "inconsistencies": [],
+      "supporting_evidence": [
+        "Key dependencies found: OpenMeshCore.dll, Qt5Network.dll, opencv_calib3d348.dll, opencv_core348.dll, opencv_imgcodecs348.dll",
+        "Executable size: 12.39MB",
+        "Total dependencies: 79",
+        "Analysis method: manual"
+      ],
+      "domain_validation": "? ai_analysis: no AI frameworks detected"
+    },
+    {
+      "component": "DentalScanAppLogic.exe",
+      "expected_role": "REALTIME_SCANNER",
+      "inferred_role": "LAUNCHER",
+      "confidence_score": 0.7,
+      "role_match": false,
+      "inconsistency_count": 1,
+      "inconsistencies": [
+        "Missing most expected dependencies: camera_drivers, CUDA, OpenCV"
+      ],
+      "supporting_evidence": [
+        "Key dependencies found: Qt5Network.dll, KERNEL32.dll, api-ms-win-crt-filesystem-l1-1-0.dll",
+        "Executable size: 19.34MB",
+        "Total dependencies: 33",
+        "Analysis method: manual"
+      ],
+      "domain_validation": "? real_time_scanning: missing camera/opencv deps"
+    },
+    {
+      "component": "DentalNetwork.exe",
+      "expected_role": "NETWORK_SERVICE",
+      "inferred_role": "ORDER_MANAGER",
+      "confidence_score": 0.6,
+      "role_match": false,
+      "inconsistency_count": 1,
+      "inconsistencies": [
+        "Missing most expected dependencies: network_libs, crypto"
+      ],
+      "supporting_evidence": [
+        "Key dependencies found: DentalNetWorkTaskDataDb.dll, DentalNetworkTool.dll, DentalQuaZip.dll, Qt5Network.dll, KERNEL32.dll",
+        "Executable size: 1.68MB",
+        "Total dependencies: 21",
+        "Analysis method: manual"
+      ],
+      "domain_validation": "? order_management: no db/network libs detected"
+    },
+    {
+      "component": "DentalOrderAppLogic.exe",
+      "expected_role": "UNKNOWN",
+      "inferred_role": "NOT_FOUND",
+      "confidence_score": 0.0,
+      "role_match": false,
+      "inconsistency_count": 1,
+      "inconsistencies": [
+        "Executable not found in analysis"
+      ],
+      "supporting_evidence": [],
+      "domain_validation": "FAILED - Not analyzed"
+    },
+    {
+      "component": "DentalDesignAppLogic.exe",
+      "expected_role": "UNKNOWN",
+      "inferred_role": "NOT_FOUND",
+      "confidence_score": 0.0,
+      "role_match": false,
+      "inconsistency_count": 1,
+      "inconsistencies": [
+        "Executable not found in analysis"
+      ],
+      "supporting_evidence": [],
+      "domain_validation": "FAILED - Not analyzed"
+    }
+  ],
+  "critical_issues": [
+    "DentalOrderAppLogic.exe: Very low confidence (0.00)",
+    "DentalDesignAppLogic.exe: Very low confidence (0.00)"
+  ],
+  "recommendations": [
+    "Perform deeper binary analysis on 2 low-confidence processes",
+    "Investigate 1 processes with multiple inconsistencies",
+    "Some expected high-value processes were not found in analysis",
+    "Validate 5 processes with role mismatches through runtime analysis"
+  ]
+}

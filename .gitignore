@@ -1,0 +1,33 @@
+# Binaries and executables
+*.exe
+*.dll
+*.so
+*.dylib
+*.snpkg
+
+# Database files
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binary files
+IntraoralScan/
+TeamViewer/
+addition/
+
+# Temporary files
+*.tmp
+*.temp
+*.log

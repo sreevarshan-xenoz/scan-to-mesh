@@ -1,0 +1,161 @@
+{
+  "analyzed_dlls": [
+    {
+      "dll_name": "Sn3DSpeckleFusion.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 24393,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t000000000020eeca Sn3DSpeckleFusion.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": [
+        "13Sn3DAlgorithm17Sn3DSpeckleFusion13SpePreProcess14pyrdown_",
+        "13Sn3DAlgorithm17Sn3DSpeckleFusion13SpePreProcess22USM_and_pyramid_",
+        "13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute26"
+      ]
+    },
+    {
+      "dll_name": "Sn3DRegistration.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 0,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t00000000009ccbfc Sn3DRegistration.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": []
+    },
+    {
+      "dll_name": "Sn3DRealtimeScan.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 1,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t00000000008bab86 Sn3DRealtimeScan.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": [
+        "function"
+      ]
+    },
+    {
+      "dll_name": "Sn3DDentalAI.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 111,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t000000000031d4cc Sn3DDentalAI.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": [
+        "16Sn3DGPUAlgorithm25get_max_index_cuda_",
+        "16Sn3DGPUAlgorithm31map_feature_to_mesh_face_",
+        "16Sn3DGPUAlgorithm29map_label_to_mesh_face_"
+      ]
+    },
+    {
+      "dll_name": "Sn3DMagic.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 121,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t0000000000bc86da Sn3DMagic.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": [
+        "LaserFusion",
+        "Reconstruction",
+        "LaserFusion"
+      ]
+    },
+    {
+      "dll_name": "Sn3DCalibrationJR.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 2,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t00000000006a1696 Sn3DCalibrationJR.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": [
+        "_",
+        "_"
+      ]
+    },
+    {
+      "dll_name": "algorithmLzy.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 4983,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t000000000097a942 algorithmLzy.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": [
+        "3cub30DeviceRadixSortDownsweep",
+        "3cub30DeviceRadixSortDownsweep",
+        "3cub23RadixSortScanBins"
+      ]
+    },
+    {
+      "dll_name": "algorithm1.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 0,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t00000000006c7b16 algorithm1.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": []
+    },
+    {
+      "dll_name": "algorithm2.dll",
+      "exports_found": 12,
+      "cuda_kernels_found": 2,
+      "confidence_score": 0.8,
+      "sample_exports": [
+        "Export Flags \t\t\t0",
+        "Time/Date stamp \t\tffffffff",
+        "Major/Minor \t\t\t0/0",
+        "Name \t\t\t\t00000000006398ba algorithm2.dll",
+        "Ordinal Base \t\t\t1"
+      ],
+      "sample_kernels": [
+        "function",
+        "_ZN17GPU_model_process18g_get_cell_normalsEN16Sn3DGPUAlgorithm9PtrStepSzIiEENS0_5"
+      ]
+    }
+  ],
+  "total_exports_found": 108,
+  "total_cuda_kernels_found": 29613,
+  "analysis_summary": {
+    "dlls_analyzed": 9,
+    "average_exports_per_dll": 12.0,
+    "average_kernels_per_dll": 3290.3333333333335
+  }
+}

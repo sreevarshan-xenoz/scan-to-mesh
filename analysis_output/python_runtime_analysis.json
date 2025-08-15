@@ -1,0 +1,780 @@
+{
+  "summary": {
+    "python_version": "3.8",
+    "python_modules_found": 54,
+    "pyd_modules_found": 18,
+    "service_mappings_found": 14,
+    "successful_decompilations": 54,
+    "decompilation_success_rate": 1.0,
+    "average_python_confidence": 1.0,
+    "average_pyd_confidence": 0.6
+  },
+  "python_modules": [
+    {
+      "name": "flow_generator",
+      "path": "IntraoralScan/Bin/python/scan/desktop/flow_generator.py",
+      "size_kb": 74.4,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 8,
+      "functions_count": 57,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "order_dentalwings",
+      "path": "IntraoralScan/Bin/python/order/order_dentalwings.py",
+      "size_kb": 47.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 8,
+      "functions_count": 42,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "order_exocad",
+      "path": "IntraoralScan/Bin/python/order/order_exocad.py",
+      "size_kb": 30.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 9,
+      "functions_count": 38,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "function_param_selector",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/function_param_selector.py",
+      "size_kb": 26.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 74,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_options_generator",
+      "path": "IntraoralScan/Bin/python/scan/desktop/scan_options_generator.py",
+      "size_kb": 25.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 5,
+      "functions_count": 27,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "flow_generator",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/flow_generator.py",
+      "size_kb": 24.9,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 8,
+      "functions_count": 31,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "order_thirdparty",
+      "path": "IntraoralScan/Bin/python/order/order_thirdparty.py",
+      "size_kb": 22.8,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 8,
+      "functions_count": 16,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "order_shining3d",
+      "path": "IntraoralScan/Bin/python/order/order_shining3d.py",
+      "size_kb": 16.6,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 4,
+      "functions_count": 37,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "algo_param_selector",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/algo_param_selector.py",
+      "size_kb": 13.9,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 19,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "model_name_selector",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/model_name_selector.py",
+      "size_kb": 13.1,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 24,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "order_common",
+      "path": "IntraoralScan/Bin/python/order/order_common.py",
+      "size_kb": 9.7,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 4,
+      "functions_count": 19,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "flow_generator",
+      "path": "IntraoralScan/Bin/python/scan/implant/flow_generator.py",
+      "size_kb": 9.6,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 8,
+      "functions_count": 14,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_thirdparty",
+      "path": "IntraoralScan/Bin/python/scan/scan_thirdparty.py",
+      "size_kb": 9.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 4,
+      "functions_count": 6,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_selector",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/param_selector.py",
+      "size_kb": 8.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 53,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_desktop",
+      "path": "IntraoralScan/Bin/python/scan/param_desktop.py",
+      "size_kb": 7.7,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 2,
+      "functions_count": 9,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "exocad_work_param_xml_parser",
+      "path": "IntraoralScan/Bin/python/order/exocad_work_param_xml_parser.py",
+      "size_kb": 7.4,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 4,
+      "functions_count": 7,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_hearing_aid",
+      "path": "IntraoralScan/Bin/python/scan/param_hearing_aid.py",
+      "size_kb": 7.1,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 2,
+      "functions_count": 8,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "flow_hearing_aid",
+      "path": "IntraoralScan/Bin/python/scan/flow_hearing_aid.py",
+      "size_kb": 5.9,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 3,
+      "functions_count": 6,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "flow_desktop",
+      "path": "IntraoralScan/Bin/python/scan/flow_desktop.py",
+      "size_kb": 5.9,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 3,
+      "functions_count": 6,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_path_selector",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/scan_path_selector.py",
+      "size_kb": 5.8,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 5,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "function_param_selector",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/function_param_selector.py",
+      "size_kb": 5.3,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 25,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "algo_param_selector",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/algo_param_selector.py",
+      "size_kb": 4.8,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 14,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_options_generator",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/scan_options_generator.py",
+      "size_kb": 4.6,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 4,
+      "functions_count": 14,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "record_key_generator",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/record_key_generator.py",
+      "size_kb": 4.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 2,
+      "functions_count": 4,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_exocad",
+      "path": "IntraoralScan/Bin/python/scan/scan_exocad.py",
+      "size_kb": 4.2,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 3,
+      "functions_count": 2,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_options_generator",
+      "path": "IntraoralScan/Bin/python/scan/implant/scan_options_generator.py",
+      "size_kb": 3.3,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 4,
+      "functions_count": 10,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_selector",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/param_selector.py",
+      "size_kb": 2.8,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 18,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "flow_implant",
+      "path": "IntraoralScan/Bin/python/scan/flow_implant.py",
+      "size_kb": 2.6,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 3,
+      "functions_count": 4,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "xml_utility",
+      "path": "IntraoralScan/Bin/python/scan/scan_common/xml_utility.py",
+      "size_kb": 2.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 8,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "model_name_selector",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/model_name_selector.py",
+      "size_kb": 2.1,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 8,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "flow_step_provider",
+      "path": "IntraoralScan/Bin/python/scan/scan_common/flow_step_provider.py",
+      "size_kb": 1.6,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 3,
+      "functions_count": 4,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_implant",
+      "path": "IntraoralScan/Bin/python/scan/param_implant.py",
+      "size_kb": 1.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 2,
+      "functions_count": 1,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "parse_dev_extra_type",
+      "path": "IntraoralScan/Bin/python/scan/parse_dev_extra_type.py",
+      "size_kb": 1.3,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 3,
+      "functions_count": 4,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_selector",
+      "path": "IntraoralScan/Bin/python/scan/implant/param_selector/param_selector.py",
+      "size_kb": 1.3,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 8,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_selector_factory",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/param_selector_factory.py",
+      "size_kb": 1.0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 6,
+      "functions_count": 1,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_selector_factory",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/param_selector_factory.py",
+      "size_kb": 1.0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 6,
+      "functions_count": 1,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "device_param_selector",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/device_param_selector.py",
+      "size_kb": 1.0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 2,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "device_param_selector",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/device_param_selector.py",
+      "size_kb": 1.0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 2,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "record_key_generator",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/record_key_generator.py",
+      "size_kb": 0.7,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 3,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_common",
+      "path": "IntraoralScan/Bin/python/scan/scan_common/scan_common.py",
+      "size_kb": 0.6,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 2,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_dentalwings",
+      "path": "IntraoralScan/Bin/python/scan/scan_dentalwings.py",
+      "size_kb": 0.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 2,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_path_selector",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/scan_path_selector.py",
+      "size_kb": 0.5,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 1,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "algo_param_selector",
+      "path": "IntraoralScan/Bin/python/scan/implant/param_selector/algo_param_selector.py",
+      "size_kb": 0.4,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 1,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "scan_digistell",
+      "path": "IntraoralScan/Bin/python/scan/scan_digistell.py",
+      "size_kb": 0.4,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 3,
+      "functions_count": 1,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "param_selector_factory",
+      "path": "IntraoralScan/Bin/python/scan/implant/param_selector/param_selector_factory.py",
+      "size_kb": 0.3,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 1,
+      "functions_count": 1,
+      "classes_count": 1,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/order/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/scan/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/scan/scan_common/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/scan/desktop/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/scan/implant/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/scan/hearing_aid/param_selector/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/scan/implant/param_selector/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    },
+    {
+      "name": "__init__",
+      "path": "IntraoralScan/Bin/python/scan/desktop/param_selector/__init__.py",
+      "size_kb": 0,
+      "decompilation_method": "ast_analysis",
+      "decompilation_success": true,
+      "imports_count": 0,
+      "functions_count": 0,
+      "classes_count": 0,
+      "confidence": 1.0
+    }
+  ],
+  "pyd_modules": [
+    {
+      "name": "unicodedata",
+      "path": "IntraoralScan/Bin/unicodedata.pyd",
+      "size_kb": 1070.6,
+      "exported_functions_count": 19,
+      "imported_libraries_count": 6,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_decimal",
+      "path": "IntraoralScan/Bin/_decimal.pyd",
+      "size_kb": 262.6,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 10,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_lzma",
+      "path": "IntraoralScan/Bin/_lzma.pyd",
+      "size_kb": 247.1,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 5,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "pyexpat",
+      "path": "IntraoralScan/Bin/pyexpat.pyd",
+      "size_kb": 184.6,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 8,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_elementtree",
+      "path": "IntraoralScan/Bin/_elementtree.pyd",
+      "size_kb": 173.1,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 9,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_ssl",
+      "path": "IntraoralScan/Bin/_ssl.pyd",
+      "size_kb": 150.1,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 10,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_ctypes",
+      "path": "IntraoralScan/Bin/_ctypes.pyd",
+      "size_kb": 123.1,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 9,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_sqlite3",
+      "path": "IntraoralScan/Bin/_sqlite3.pyd",
+      "size_kb": 85.6,
+      "exported_functions_count": 13,
+      "imported_libraries_count": 7,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_bz2",
+      "path": "IntraoralScan/Bin/_bz2.pyd",
+      "size_kb": 84.1,
+      "exported_functions_count": 15,
+      "imported_libraries_count": 8,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_socket",
+      "path": "IntraoralScan/Bin/_socket.pyd",
+      "size_kb": 77.1,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 6,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_asyncio",
+      "path": "IntraoralScan/Bin/_asyncio.pyd",
+      "size_kb": 62.1,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 4,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_hashlib",
+      "path": "IntraoralScan/Bin/_hashlib.pyd",
+      "size_kb": 45.1,
+      "exported_functions_count": 19,
+      "imported_libraries_count": 6,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_overlapped",
+      "path": "IntraoralScan/Bin/_overlapped.pyd",
+      "size_kb": 44.6,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 6,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_msi",
+      "path": "IntraoralScan/Bin/_msi.pyd",
+      "size_kb": 38.1,
+      "exported_functions_count": 20,
+      "imported_libraries_count": 12,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "winsound",
+      "path": "IntraoralScan/Bin/winsound.pyd",
+      "size_kb": 28.6,
+      "exported_functions_count": 9,
+      "imported_libraries_count": 6,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_multiprocessing",
+      "path": "IntraoralScan/Bin/_multiprocessing.pyd",
+      "size_kb": 28.6,
+      "exported_functions_count": 4,
+      "imported_libraries_count": 5,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "_queue",
+      "path": "IntraoralScan/Bin/_queue.pyd",
+      "size_kb": 27.6,
+      "exported_functions_count": 14,
+      "imported_libraries_count": 4,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    },
+    {
+      "name": "select",
+      "path": "IntraoralScan/Bin/select.pyd",
+      "size_kb": 26.1,
+      "exported_functions_count": 4,
+      "imported_libraries_count": 5,
+      "analysis_method": "strings_analysis",
+      "confidence": 0.6
+    }
+  ],
+  "service_mappings": [],
+  "decompilation_methods": {
+    "ast_analysis": {
+      "count": 54,
+      "average_confidence": 1.0
+    }
+  },
+  "confidence_analysis": {}
+}

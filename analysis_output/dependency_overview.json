@@ -1,0 +1,47 @@
+[
+  {
+    "executable": "DentalNetwork.exe",
+    "classification": "network_service",
+    "total_dependencies": 21,
+    "system_dependencies": 9,
+    "missing_dependencies": 21,
+    "analysis_method": "manual",
+    "timestamp": "2025-08-14T19:32:51.036449"
+  },
+  {
+    "executable": "DentalLauncher.exe",
+    "classification": "bootstrapper",
+    "total_dependencies": 17,
+    "system_dependencies": 9,
+    "missing_dependencies": 17,
+    "analysis_method": "manual",
+    "timestamp": "2025-08-14T19:32:50.986788"
+  },
+  {
+    "executable": "DentalScanAppLogic.exe",
+    "classification": "scanning_logic",
+    "total_dependencies": 33,
+    "system_dependencies": 13,
+    "missing_dependencies": 33,
+    "analysis_method": "manual",
+    "timestamp": "2025-08-14T19:32:50.457670"
+  },
+  {
+    "executable": "DentalAlgoService.exe",
+    "classification": "algorithm_service",
+    "total_dependencies": 79,
+    "system_dependencies": 14,
+    "missing_dependencies": 79,
+    "analysis_method": "manual",
+    "timestamp": "2025-08-14T19:32:49.979541"
+  },
+  {
+    "executable": "IntraoralScan.exe",
+    "classification": "main_ui",
+    "total_dependencies": 32,
+    "system_dependencies": 13,
+    "missing_dependencies": 32,
+    "analysis_method": "manual",
+    "timestamp": "2025-08-14T19:32:49.652942"
+  }
+]

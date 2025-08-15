@@ -1,0 +1,859 @@
+{
+  "high_value_executables": [
+    {
+      "name": "IntraoralScan.exe",
+      "path": "IntraoralScan/Bin/IntraoralScan.exe",
+      "size_mb": 89.53,
+      "classification": "main_ui",
+      "confidence": 0.8,
+      "md5": "ad21f160725956c6061fd7902271d54b",
+      "file_type": "IntraoralScan/Bin/IntraoralScan.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 7 sections"
+    },
+    {
+      "name": "DentalLauncher.exe",
+      "path": "IntraoralScan/Bin/DentalLauncher.exe",
+      "size_mb": 41.54,
+      "classification": "bootstrapper",
+      "confidence": 0.8,
+      "md5": "6dcff4803081c28590337ed2cec48bd8",
+      "file_type": "IntraoralScan/Bin/DentalLauncher.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+    },
+    {
+      "name": "DentalScanAppLogic.exe",
+      "path": "IntraoralScan/Bin/DentalScanAppLogic.exe",
+      "size_mb": 19.34,
+      "classification": "scanning_logic",
+      "confidence": 0.8,
+      "md5": "56302d20e0a4afbdc71af8734802a7d9",
+      "file_type": "IntraoralScan/Bin/DentalScanAppLogic.exe: PE32+ executable for MS Windows 6.00 (console), x86-64, 6 sections"
+    },
+    {
+      "name": "DentalAlgoService.exe",
+      "path": "IntraoralScan/Bin/DentalAlgoService.exe",
+      "size_mb": 12.39,
+      "classification": "algorithm_service",
+      "confidence": 0.8,
+      "md5": "989bf6927e4c787e3ba7d1f97c5c484d",
+      "file_type": "IntraoralScan/Bin/DentalAlgoService.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+    },
+    {
+      "name": "DentalDesignAppLogic.exe",
+      "path": "IntraoralScan/Bin/DentalDesignAppLogic.exe",
+      "size_mb": 3.17,
+      "classification": "design_service",
+      "confidence": 0.8,
+      "md5": "f6e74c0d34bf7cfaf06c13c54472b070",
+      "file_type": "IntraoralScan/Bin/DentalDesignAppLogic.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+    },
+    {
+      "name": "DentalOrderAppLogic.exe",
+      "path": "IntraoralScan/Bin/DentalOrderAppLogic.exe",
+      "size_mb": 2.56,
+      "classification": "order_management",
+      "confidence": 0.8,
+      "md5": "37d92fc2f4ce673468998ed4752db1a7",
+      "file_type": "IntraoralScan/Bin/DentalOrderAppLogic.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+    },
+    {
+      "name": "DentalNetwork.exe",
+      "path": "IntraoralScan/Bin/DentalNetwork.exe",
+      "size_mb": 1.68,
+      "classification": "network_service",
+      "confidence": 0.8,
+      "md5": "ff4c38f8d4614c97504162538526ada3",
+      "file_type": "IntraoralScan/Bin/DentalNetwork.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+    }
+  ],
+  "key_algorithm_dlls": [
+    {
+      "name": "plugindentalquickcontrolsd.dll",
+      "path": "IntraoralScan/Bin/DentalQuickControls/plugindentalquickcontrolsd.dll",
+      "size_mb": 130.92,
+      "md5": "1f539d952e8833185388febd05c7ef5a"
+    },
+    {
+      "name": "plugindentalquickcontrols.dll",
+      "path": "IntraoralScan/Bin/DentalQuickControls/plugindentalquickcontrols.dll",
+      "size_mb": 108.51,
+      "md5": "fc5e4b262cb5ee0dd34c304a18031b19"
+    },
+    {
+      "name": "opencv_world346.dll",
+      "path": "IntraoralScan/Bin/opencv_world346.dll",
+      "size_mb": 75.63,
+      "md5": "87a8454dc1fa9a292bae3fd2cbc9822b"
+    },
+    {
+      "name": "opencv_world455.dll",
+      "path": "IntraoralScan/Bin/opencv_world455.dll",
+      "size_mb": 71.2,
+      "md5": "4c0cbe3f4acfd68a36bccb622fe0d0aa"
+    },
+    {
+      "name": "librenderkit.extensions.dentalscand.dll",
+      "path": "IntraoralScan/Bin/librenderkit.extensions.dentalscand.dll",
+      "size_mb": 39.28,
+      "md5": "ab70725d520f7a71973d35f51e61f3c9"
+    },
+    {
+      "name": "Sn3DSpeckleFusion.dll",
+      "path": "IntraoralScan/Bin/Sn3DSpeckleFusion.dll",
+      "size_mb": 38.91,
+      "md5": "00f060dc3132c6e3198d4f9abd9dd570"
+    },
+    {
+      "name": "Sn3DSpeckleFusion.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DSpeckleFusion.dll",
+      "size_mb": 38.86,
+      "md5": "a11421ecc05d8b4f7b04476c41210b9d"
+    },
+    {
+      "name": "librenderkit.extensions.dentalscand.dll",
+      "path": "IntraoralScan/Bin/DentalViewer/librenderkit.extensions.dentalscand.dll",
+      "size_mb": 30.85,
+      "md5": "119a49e25b219417038e4a6508611b4d"
+    },
+    {
+      "name": "algorithmLzy.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/algorithmLzy.dll",
+      "size_mb": 23.83,
+      "md5": "36014e5975991d3d34b84da8d66eba06"
+    },
+    {
+      "name": "algorithmLzy.dll",
+      "path": "IntraoralScan/Bin/algorithmLzy.dll",
+      "size_mb": 23.79,
+      "md5": "7a36e05f3a530ce483eea29bfa334a91"
+    },
+    {
+      "name": "Sn3DSpeckle.dll",
+      "path": "IntraoralScan/Bin/Sn3DSpeckle.dll",
+      "size_mb": 19.26,
+      "md5": "1468d6bbf5584a3443b09ba05c9f077c"
+    },
+    {
+      "name": "Sn3DSpeckle.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DSpeckle.dll",
+      "size_mb": 19.26,
+      "md5": "3080bd5b354e2630a7ffd331d5197b94"
+    },
+    {
+      "name": "Sn3DMagic.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DMagic.dll",
+      "size_mb": 14.1,
+      "md5": "1a373ef807ea0ade5333246d60edde06"
+    },
+    {
+      "name": "librenderkit.extensions.dentalscan.dll",
+      "path": "IntraoralScan/Bin/librenderkit.extensions.dentalscan.dll",
+      "size_mb": 14.04,
+      "md5": "02abceaabb686f5440f2a627da0704be"
+    },
+    {
+      "name": "Sn3DMagic.dll",
+      "path": "IntraoralScan/Bin/Sn3DMagic.dll",
+      "size_mb": 13.96,
+      "md5": "da480e75eb95af2e04df0c68afbadca2"
+    },
+    {
+      "name": "Sn3DLineCode.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DLineCode.dll",
+      "size_mb": 12.89,
+      "md5": "1a8c15cda28f83fbf57ea199d146af1f"
+    },
+    {
+      "name": "Sn3DLineCode.dll",
+      "path": "IntraoralScan/Bin/Sn3DLineCode.dll",
+      "size_mb": 12.86,
+      "md5": "8633b6cd32d68dcc90c64c9a85812428"
+    },
+    {
+      "name": "Sn3DRegistration.dll",
+      "path": "IntraoralScan/Bin/Sn3DRegistration.dll",
+      "size_mb": 10.62,
+      "md5": "61bcc5741f5715e979e254ec7a19fed0"
+    },
+    {
+      "name": "Sn3DRegistration.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DRegistration.dll",
+      "size_mb": 10.62,
+      "md5": "eff84172b3bd8ce6cb943513ced2895e"
+    },
+    {
+      "name": "librenderkit.extensions.dentalscan.dll",
+      "path": "IntraoralScan/Bin/DentalViewer/librenderkit.extensions.dentalscan.dll",
+      "size_mb": 10.38,
+      "md5": "fcb41304f207b9fa849b896019925c5a"
+    },
+    {
+      "name": "Sn3DOrthoEx.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DOrthoEx.dll",
+      "size_mb": 9.66,
+      "md5": "104d90158a5a83e06de550e69951aafc"
+    },
+    {
+      "name": "Sn3DOrthoEx.dll",
+      "path": "IntraoralScan/Bin/Sn3DOrthoEx.dll",
+      "size_mb": 9.57,
+      "md5": "5f56da47656baf7f0ff072b39cfba7a6"
+    },
+    {
+      "name": "Sn3DRealtimeScan.dll",
+      "path": "IntraoralScan/Bin/Sn3DRealtimeScan.dll",
+      "size_mb": 9.41,
+      "md5": "f4863b01a6f06c123c615ef87e5e58b5"
+    },
+    {
+      "name": "Sn3DRealtimeScan.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DRealtimeScan.dll",
+      "size_mb": 9.41,
+      "md5": "7da3cedf812b19d96df86e4429dbf28a"
+    },
+    {
+      "name": "algorithm1.dll",
+      "path": "IntraoralScan/Bin/algorithm1.dll",
+      "size_mb": 7.64,
+      "md5": "9b99dd8d844f970b03e5ba580567fd3f"
+    },
+    {
+      "name": "algorithm1.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/algorithm1.dll",
+      "size_mb": 7.64,
+      "md5": "e70e259f2432e6d91676e55c755f685f"
+    },
+    {
+      "name": "Sn3DDigital.dll",
+      "path": "IntraoralScan/Bin/Sn3DDigital.dll",
+      "size_mb": 7.34,
+      "md5": "e8b0f60c449a554024de80ce9c972701"
+    },
+    {
+      "name": "Sn3DCalibrationJR.dll",
+      "path": "IntraoralScan/Bin/Sn3DCalibrationJR.dll",
+      "size_mb": 7.1,
+      "md5": "c34d222674100964acaba28460fc7269"
+    },
+    {
+      "name": "algorithm2.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/algorithm2.dll",
+      "size_mb": 7.02,
+      "md5": "79812e67bbb4f8085ac6999d4a783422"
+    },
+    {
+      "name": "algorithm2.dll",
+      "path": "IntraoralScan/Bin/algorithm2.dll",
+      "size_mb": 6.96,
+      "md5": "5aa9595162e4bc9aedce46be17ea87f5"
+    },
+    {
+      "name": "Sn3DDental.dll",
+      "path": "IntraoralScan/Bin/Sn3DDental.dll",
+      "size_mb": 6.46,
+      "md5": "ae55e2ab879cfca4c1a9688bfe8d8f1c"
+    },
+    {
+      "name": "DentalCopilotTools.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Main/Applications/DentalCopilot/plugins/DentalCopilotTools/DentalCopilotTools.dll",
+      "size_mb": 6.37,
+      "md5": "c36ee8a81d89d1dff576f4a66a6a4fc7"
+    },
+    {
+      "name": "algorithmZbt.dll",
+      "path": "IntraoralScan/Bin/algorithmZbt.dll",
+      "size_mb": 6.15,
+      "md5": "d10314cd46d57ed8282637c80de11add"
+    },
+    {
+      "name": "algorithmZbt.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/algorithmZbt.dll",
+      "size_mb": 6.15,
+      "md5": "41e2a3c0cc7716c1a86c0b6bdc6d047d"
+    },
+    {
+      "name": "Sn3DCBCTLoader.dll",
+      "path": "IntraoralScan/Bin/Sn3DCBCTLoader.dll",
+      "size_mb": 6.13,
+      "md5": "31d585a1baf9e68745ee917aaa9a4d4d"
+    },
+    {
+      "name": "algorithmLy.dll",
+      "path": "IntraoralScan/Bin/algorithmLy.dll",
+      "size_mb": 5.68,
+      "md5": "92bd713e8528f4ab1fe4315e83eb0e61"
+    },
+    {
+      "name": "algorithmLy.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/algorithmLy.dll",
+      "size_mb": 5.68,
+      "md5": "b3ea2c2f98b481ffef238793954d592e"
+    },
+    {
+      "name": "opencv_imgproc348.dll",
+      "path": "IntraoralScan/Bin/opencv_imgproc348.dll",
+      "size_mb": 5.47,
+      "md5": "d61d2bc6683fafbd08810e3ede75b861"
+    },
+    {
+      "name": "opencv_imgproc348.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/opencv_imgproc348.dll",
+      "size_mb": 5.47,
+      "md5": "d61d2bc6683fafbd08810e3ede75b861"
+    },
+    {
+      "name": "Sn3DFaceScan.dll",
+      "path": "IntraoralScan/Bin/Sn3DFaceScan.dll",
+      "size_mb": 5.46,
+      "md5": "0ad8a93ebe945d9e2b2ab40bfa686de2"
+    },
+    {
+      "name": "Sn3DFaceScan.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DFaceScan.dll",
+      "size_mb": 5.46,
+      "md5": "193d09e78c75126a1e4753e93ba15c25"
+    },
+    {
+      "name": "algorithmHlj.dll",
+      "path": "IntraoralScan/Bin/algorithmHlj.dll",
+      "size_mb": 5.45,
+      "md5": "32c19d8bf6f6a06c81e943328f2a228f"
+    },
+    {
+      "name": "algorithmHlj.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/algorithmHlj.dll",
+      "size_mb": 5.45,
+      "md5": "36d6dcc2da0628e9a6fcaada05fae4aa"
+    },
+    {
+      "name": "Sn3DPhaseBuild.dll",
+      "path": "IntraoralScan/Bin/Sn3DPhaseBuild.dll",
+      "size_mb": 4.59,
+      "md5": "3e28520310e5b5e5834db40f7ad33e53"
+    },
+    {
+      "name": "Sn3DDentalAICBCTSeg.dll",
+      "path": "IntraoralScan/Bin/Sn3DDentalAICBCTSeg.dll",
+      "size_mb": 4.59,
+      "md5": "bbad7d685ed19113453768e9788505b8"
+    },
+    {
+      "name": "Sn3DPhaseBuild.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DPhaseBuild.dll",
+      "size_mb": 4.58,
+      "md5": "7e3f0ff0ed29d3ed250b219f6531d109"
+    },
+    {
+      "name": "Sn3DInspection.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DInspection.dll",
+      "size_mb": 4.04,
+      "md5": "f8098b780032c93b9d8e0ec0e753aa77"
+    },
+    {
+      "name": "opencv_core348.dll",
+      "path": "IntraoralScan/Bin/opencv_core348.dll",
+      "size_mb": 3.93,
+      "md5": "09235d4867acccbe86f6893d91cee764"
+    },
+    {
+      "name": "opencv_core348.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/opencv_core348.dll",
+      "size_mb": 3.93,
+      "md5": "09235d4867acccbe86f6893d91cee764"
+    },
+    {
+      "name": "algorithmlyc.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/algorithmlyc.dll",
+      "size_mb": 3.81,
+      "md5": "9a0f30802f97b3b577b0fba80e59b578"
+    },
+    {
+      "name": "Sn3DCBCTSegLite.dll",
+      "path": "IntraoralScan/Bin/Sn3DCBCTSegLite.dll",
+      "size_mb": 3.62,
+      "md5": "40dc0bb2deebd77458373b90367e8ce4"
+    },
+    {
+      "name": "Sn3DDentalAI.dll",
+      "path": "IntraoralScan/Bin/Sn3DDentalAI.dll",
+      "size_mb": 3.51,
+      "md5": "82b275f9e2e49e3c8a5ded4877e204b3"
+    },
+    {
+      "name": "algorithmlyc.dll",
+      "path": "IntraoralScan/Bin/algorithmlyc.dll",
+      "size_mb": 3.36,
+      "md5": "980eda65878704efae97133f16668e7d"
+    },
+    {
+      "name": "opencv_imgcodecs348.dll",
+      "path": "IntraoralScan/Bin/opencv_imgcodecs348.dll",
+      "size_mb": 3.35,
+      "md5": "08826226c2eb9050d7644ee0024c8d79"
+    },
+    {
+      "name": "opencv_imgcodecs348.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/opencv_imgcodecs348.dll",
+      "size_mb": 3.35,
+      "md5": "08826226c2eb9050d7644ee0024c8d79"
+    },
+    {
+      "name": "Sn3DInspection.dll",
+      "path": "IntraoralScan/Bin/Sn3DInspection.dll",
+      "size_mb": 3.3,
+      "md5": "42754e89f3cf25850bcb2eaa4913c7ae"
+    },
+    {
+      "name": "Sn3DGeometricTrackFusion.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DGeometricTrackFusion.dll",
+      "size_mb": 3.26,
+      "md5": "99b8df42b3844a3b14fbf90802fac3d4"
+    },
+    {
+      "name": "Sn3DGeometricTrackFusion.dll",
+      "path": "IntraoralScan/Bin/Sn3DGeometricTrackFusion.dll",
+      "size_mb": 3.24,
+      "md5": "15e5217d62aed886c069cef2db54ef72"
+    },
+    {
+      "name": "Sn3DDentalDesktop.dll",
+      "path": "IntraoralScan/Bin/Sn3DDentalDesktop.dll",
+      "size_mb": 3.17,
+      "md5": "027cdce082d77216afbccd985653e8b7"
+    },
+    {
+      "name": "DentalSyncInterface.2.81.33.dll",
+      "path": "IntraoralScan/Bin/logic/DentalSyncInterface.2.81.33.dll",
+      "size_mb": 2.9,
+      "md5": "890c81d40cb638a0dd81663459ced854"
+    },
+    {
+      "name": "Sn3DTextureSlam.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DTextureSlam.dll",
+      "size_mb": 2.84,
+      "md5": "36fbd1abd872ff9dd1c62735908f7743"
+    },
+    {
+      "name": "Sn3DTextureSlam.dll",
+      "path": "IntraoralScan/Bin/Sn3DTextureSlam.dll",
+      "size_mb": 2.82,
+      "md5": "4cd8ce69fcdd9d05d5955b7a89353a00"
+    },
+    {
+      "name": "Sn3DInspect.dll",
+      "path": "IntraoralScan/Bin/Sn3DInspect.dll",
+      "size_mb": 2.56,
+      "md5": "14f9289289faf0266437bed6811fb0ac"
+    },
+    {
+      "name": "opencv_calib3d348.dll",
+      "path": "IntraoralScan/Bin/opencv_calib3d348.dll",
+      "size_mb": 2.21,
+      "md5": "7d9ba0f89cf221ec67e6d3e14eae9a11"
+    },
+    {
+      "name": "opencv_calib3d348.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/opencv_calib3d348.dll",
+      "size_mb": 2.21,
+      "md5": "7d9ba0f89cf221ec67e6d3e14eae9a11"
+    },
+    {
+      "name": "Sn3DApplicationRenderKit.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Main/Sn3DApplicationRenderKit.dll",
+      "size_mb": 2.02,
+      "md5": "e27b909a91d8344db4e5d712f1294f54"
+    },
+    {
+      "name": "Sn3DApplicationRenderKit.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignCloudService/Sn3DApplicationRenderKit.dll",
+      "size_mb": 2.02,
+      "md5": "e27b909a91d8344db4e5d712f1294f54"
+    },
+    {
+      "name": "Sn3DApplicationRenderKit.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DApplicationRenderKit.dll",
+      "size_mb": 2.02,
+      "md5": "e27b909a91d8344db4e5d712f1294f54"
+    },
+    {
+      "name": "Sn3DCork.dll",
+      "path": "IntraoralScan/Bin/Sn3DCork.dll",
+      "size_mb": 1.87,
+      "md5": "222f41f908f587f92c3be3735b95fa39"
+    },
+    {
+      "name": "Sn3DCork.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DCork.dll",
+      "size_mb": 1.87,
+      "md5": "e8f4cbbd719334f6b93c1cb525ef7531"
+    },
+    {
+      "name": "DentalDesignRenderKit.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Main/DentalDesignRenderKit.dll",
+      "size_mb": 1.86,
+      "md5": "a0c0f31cd720eaf49e7bea62ac66b5e9"
+    },
+    {
+      "name": "Sn3DColorCorrect.dll",
+      "path": "IntraoralScan/Bin/Sn3DColorCorrect.dll",
+      "size_mb": 1.8,
+      "md5": "1bda147a553df8bfc78b5fef0a084c60"
+    },
+    {
+      "name": "Sn3DColorCorrect.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DColorCorrect.dll",
+      "size_mb": 1.8,
+      "md5": "a08c7a0b51b2f5786bb1449045aa2723"
+    },
+    {
+      "name": "Sn3DFaceParsing.dll",
+      "path": "IntraoralScan/Bin/Sn3DFaceParsing.dll",
+      "size_mb": 1.62,
+      "md5": "4d2cb65a09e7693a81cd38376e4a61f9"
+    },
+    {
+      "name": "Sn3DInspect.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DInspect.dll",
+      "size_mb": 1.39,
+      "md5": "ab3b2f57e0ef46991c0f5c51968a3ae6"
+    },
+    {
+      "name": "pluginrenderkit.extensions.dentalscand.dll",
+      "path": "IntraoralScan/Bin/Sn3D/RenderKit/Extensions/DentalScan/pluginrenderkit.extensions.dentalscand.dll",
+      "size_mb": 1.32,
+      "md5": "9ae47ab565bc77920a3c07d1c806e789"
+    },
+    {
+      "name": "Sn3DCrownGen.dll",
+      "path": "IntraoralScan/Bin/Sn3DCrownGen.dll",
+      "size_mb": 1.31,
+      "md5": "31aca42b5b0eeca5626650fa7012ef3b"
+    },
+    {
+      "name": "Sn3DOralExamWedgeDefect.dll",
+      "path": "IntraoralScan/Bin/Sn3DOralExamWedgeDefect.dll",
+      "size_mb": 1.3,
+      "md5": "e092f4fa76504c4a0223cd67d4dd4144"
+    },
+    {
+      "name": "Sn3DOralExamResidualCrown.dll",
+      "path": "IntraoralScan/Bin/Sn3DOralExamResidualCrown.dll",
+      "size_mb": 1.3,
+      "md5": "88ac8728deaf04a048e0ad1884022700"
+    },
+    {
+      "name": "Sn3DOralExamCCP.dll",
+      "path": "IntraoralScan/Bin/Sn3DOralExamCCP.dll",
+      "size_mb": 1.27,
+      "md5": "684a450a8eba7390e2b5d0b067ad553b"
+    },
+    {
+      "name": "Sn3DInfraredCariesDet.dll",
+      "path": "IntraoralScan/Bin/Sn3DInfraredCariesDet.dll",
+      "size_mb": 1.26,
+      "md5": "eb5540f38e99b55c1c481841950d9b65"
+    },
+    {
+      "name": "Sn3DPhotometricStereo.dll",
+      "path": "IntraoralScan/Bin/Sn3DPhotometricStereo.dll",
+      "size_mb": 1.23,
+      "md5": "df231adeb54b16dbf40c56bed92d8d81"
+    },
+    {
+      "name": "Sn3DPhotometricStereo.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DPhotometricStereo.dll",
+      "size_mb": 1.23,
+      "md5": "544fd7b24481ec8c8c6a986b18da5941"
+    },
+    {
+      "name": "Sn3DDentalGeometryFeatureDet.dll",
+      "path": "IntraoralScan/Bin/Sn3DDentalGeometryFeatureDet.dll",
+      "size_mb": 1.19,
+      "md5": "ad5fdd5bb83d5a68fa7dd91969dbb314"
+    },
+    {
+      "name": "Sn3DLandmarksDetForCli.dll",
+      "path": "IntraoralScan/Bin/Sn3DLandmarksDetForCli.dll",
+      "size_mb": 1.17,
+      "md5": "67b2569c49bd2186a66ef1f0b8a99819"
+    },
+    {
+      "name": "algorithmZys.dll",
+      "path": "IntraoralScan/Bin/algorithmZys.dll",
+      "size_mb": 1.16,
+      "md5": "d743341b2f35b4705c7a43abf98bd22c"
+    },
+    {
+      "name": "DentalOrderFile.dll",
+      "path": "IntraoralScan/Bin/DentalOrderFile.dll",
+      "size_mb": 1.13,
+      "md5": "59a1dbc7cf6d5819a95afbe12aad0827"
+    },
+    {
+      "name": "Sn3DFace.dll",
+      "path": "IntraoralScan/Bin/Sn3DFace.dll",
+      "size_mb": 1.04,
+      "md5": "cc4d85e3c1a5ec54c261fd73e620ce53"
+    },
+    {
+      "name": "Sn3DFace.dll",
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DFace.dll",
+      "size_mb": 1.04,
+      "md5": "c438cef86e63a17cf71b5235803cb882"
+    },
+    {
+      "name": "pluginrenderkit.extensions.dentalscand.dll",
+      "path": "IntraoralScan/Bin/DentalViewer/Sn3D/RenderKit/Extensions/DentalScan/pluginrenderkit.extensions.dentalscand.dll",
+      "size_mb": 1.01,
+      "md5": "ddf06f174b91402a3b3ae7df0aa4920e"
+    }
+  ],
+  "ai_models_found": [
+    {
+      "path": "IntraoralScan/Bin/AIModels/DesktopSemanticSegment.model",
+      "size": 15929072,
+      "md5": "6f51e146edd7f238ed607295f935f665",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/RidgeSemanticSegment.model",
+      "size": 15790951,
+      "md5": "bca38c07f9236e4854f90645b81595a6",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/DentalInfraredCariesDet.model",
+      "size": 35742677,
+      "md5": "abc52f7756312a4181dd1c9a97a2ae4c",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/Det3DLandmarksForCli.model",
+      "size": 19078731,
+      "md5": "712727e5f9b1f52ff36d1bf42c3cc120",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/DentalMeshCls.model",
+      "size": 6089275,
+      "md5": "f6bb52cca29e74cbfe944aa916a07c12",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/OralExaminationSegmentTwoStageForChildSeg.model",
+      "size": 17532436,
+      "md5": "d4fe240ed1ea7383d880d95890abebfb",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/ToothKeyPointDetect.model",
+      "size": 43832744,
+      "md5": "728f77e059fc6a04ee29a9df0363a68f",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/Sn3DFaceAIModelsCBCTSegLite.model",
+      "size": 1015021,
+      "md5": "1eb8d42d4cd46cd9e85b58d440d7178c",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/AutoToothNumberMark.model",
+      "size": 38709532,
+      "md5": "63ee81094f98925025aa93ff6a19e86b",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/AutoMarginLineExtract.model",
+      "size": 38693278,
+      "md5": "0eb601bdfdcaafce2fe55f3771ecfaa9",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/DentalInstanceSegment.model",
+      "size": 80216391,
+      "md5": "04074462868661a701074ed54a39bc07",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/AbutmentCloudDetBackbone3d.model",
+      "size": 25332,
+      "md5": "7caa80fd814481c4ecdb189302ec05d2",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/AbutmentCloudDetBackbone2d.model",
+      "size": 20536967,
+      "md5": "4553e32649c21cd36f29afa5e8a98e26",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/DentalOralCls.model",
+      "size": 2737486,
+      "md5": "19b62dbfb988be0bb0356869453183e7",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/DentalSemanticSegment.model",
+      "size": 38696526,
+      "md5": "6bd6abd9f521641e783eeb9863607615",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/OralExaminationSegmentTwoStageSeg.model",
+      "size": 17532421,
+      "md5": "3799ff3822560ead69db20f199b2cd80",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/SegUpperLowerTeeth.model",
+      "size": 17519380,
+      "md5": "78fd964843d68d373f446b158c4668c2",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/OralExaminationSegmentTwoStageDet.model",
+      "size": 28509411,
+      "md5": "16971c3e70594b817cb19a6db22f6065",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/AIModels/DetLipline.model",
+      "size": 17518365,
+      "md5": "d9cc2f79c64c5ee1913a8d8d32d14b9c",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/OCCM/cnn2d_single_3o-refine7.model",
+      "size": 1015012,
+      "md5": "a79ed0ac2a48f11398896e359deb9562",
+      "extension": ".model"
+    },
+    {
+      "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/OCCM/cnn2d_single_3o-refine6.model",
+      "size": 1014788,
+      "md5": "dea6041da035dd5027eb48ec466cf595",
+      "extension": ".model"
+    }
+  ],
+  "config_files_found": [
+    {
+      "path": "IntraoralScan/Bin/Sn3D/RenderKit/Extensions/DentalScan/config/config.json",
+      "size": 1432,
+      "md5": "775ac7e1b064d5c027ee6e0e0f3bdbda",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/DentalDesignAppLogic/AlgoProcessCfg.json",
+      "size": 2884,
+      "md5": "3feadba63773a5140b19cd508fe496cc",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/DentalDesignAppLogic/OpenCfg.json",
+      "size": 31,
+      "md5": "6dc5e11ed44642d449dcf460eb833b9b",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/DentalDesignAppLogic/SystemCfg.json",
+      "size": 245,
+      "md5": "d882a489589df8a34aa70f7ba8a1e6df",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/SnAuthenticator/SystemCfg.json",
+      "size": 641,
+      "md5": "7cd7c7085d8bfba6d39ea33580d7d5be",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/SnAuthenticator/dentalscanauthocfg.json",
+      "size": 601,
+      "md5": "1bea5d3799d2dcc0707aeb80aa174ded",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/UpdateFirmware/update.json",
+      "size": 6456,
+      "md5": "f49afb3c7e8e0397a46d964fb04204cf",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/DeviceCfg_macos.json",
+      "size": 11046,
+      "md5": "92cea33ba6a5b1830b4c1156065b6183",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/HelpCfg.json",
+      "size": 9125,
+      "md5": "900d343a0dbbcbf94424e20488e057fc",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/OrderCfg.json",
+      "size": 3671,
+      "md5": "f9b30781050bb29b81fe702c45a5e8a4",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/RenderCfg.json",
+      "size": 218,
+      "md5": "ac9543a3e1f1c3160d9664504ac92107",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/CountryCodeCfg.json",
+      "size": 1900,
+      "md5": "12383ae634e4eb862a6aa68b2a77f094",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/OrderType.json",
+      "size": 2180,
+      "md5": "84ad3d311c5a2fa90b35cc3fe1cc9978",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/PartnersCfg.json",
+      "size": 2706,
+      "md5": "8e2b5166b078fd76d8dbfab41cd27c8f",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/ReportCfg.json",
+      "size": 124804,
+      "md5": "046a9e46e81d5c21b1a0e379739bc536",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/PrivacyPolicy.json",
+      "size": 219,
+      "md5": "43e32a52c7f8781ca353b0dd7b37bcc5",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/SystemCfg.json",
+      "size": 5874,
+      "md5": "aade5b4df061f4561e6fdf2b0f4c14a5",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/DeviceCfg.json",
+      "size": 26974,
+      "md5": "5cd7d4d1beec31c3fa925d1eccb5bfbe",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/SystemCfg-ZH.json",
+      "size": 5874,
+      "md5": "8ced80492a827afdbaa4e229e9e2f452",
+      "extension": ".json"
+    },
+    {
+      "path": "IntraoralScan/Bin/config/IntraoralScan/CustomOrderCfg.json",
+      "size": 291,
+      "md5": "0d9519bade029d9210d6878607ed6731",
+      "extension": ".json"
+    }
+  ]
+}

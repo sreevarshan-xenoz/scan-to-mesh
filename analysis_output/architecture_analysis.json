@@ -1,0 +1,304 @@
+{
+  "service_startup_order": [
+    {
+      "name": "DentalNetwork",
+      "executable": "DentalNetwork.exe",
+      "start_level": 0,
+      "exit_level": 0,
+      "must_start": true,
+      "is_gui": false
+    },
+    {
+      "name": "SnSyncService",
+      "executable": "SnSyncService.exe",
+      "start_level": 0,
+      "exit_level": 0,
+      "must_start": true,
+      "is_gui": false
+    },
+    {
+      "name": "SnAuthenticator",
+      "executable": "SnAuthenticator.exe",
+      "start_level": 0,
+      "exit_level": 0,
+      "must_start": true,
+      "is_gui": false
+    },
+    {
+      "name": "DentalAlgoService",
+      "executable": "DentalAlgoService.exe",
+      "start_level": 10,
+      "exit_level": 10,
+      "must_start": true,
+      "is_gui": false
+    },
+    {
+      "name": "DentalOrderDataMgr",
+      "executable": "DentalOrderDataMgr.exe",
+      "start_level": 10,
+      "exit_level": 10,
+      "must_start": true,
+      "is_gui": false
+    },
+    {
+      "name": "DentalOrderAppLogic",
+      "executable": "DentalOrderAppLogic.exe",
+      "start_level": 20,
+      "exit_level": 20,
+      "must_start": true,
+      "is_gui": false
+    },
+    {
+      "name": "DentalScanAppLogic",
+      "executable": "DentalScanAppLogic.exe",
+      "start_level": 20,
+      "exit_level": 20,
+      "must_start": true,
+      "is_gui": false
+    },
+    {
+      "name": "DentalDesignAppLogic",
+      "executable": "DentalDesignAppLogic.exe",
+      "start_level": 20,
+      "exit_level": 20,
+      "must_start": true,
+      "is_gui": false
+    },
+    {
+      "name": "IntraoralScan",
+      "executable": "IntraoralScan.exe",
+      "start_level": 100,
+      "exit_level": 100,
+      "must_start": true,
+      "is_gui": true
+    }
+  ],
+  "communication_channels": {
+    "main_tunnel": {
+      "channel": "Dental",
+      "host": "LocalHost",
+      "port": 18830,
+      "service_name": "DentalHub",
+      "shared_memory": "DentalShared",
+      "memory_size": "4G"
+    }
+  },
+  "supported_devices": [
+    {
+      "name": "AOS",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": [
+        "RemovableDenture"
+      ]
+    },
+    {
+      "name": "AOS3",
+      "soft_model": "IOS-3",
+      "disabled": false,
+      "is_native": false,
+      "disabled_functions": [
+        "PreparedTeethMonitoring",
+        "RemovableDenture",
+        "IBT",
+        "TempCrownDesign",
+        "CreSplint"
+      ]
+    },
+    {
+      "name": "A3S",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "AOS3-LAB",
+      "soft_model": "IOS-3",
+      "disabled": false,
+      "is_native": false,
+      "disabled_functions": [
+        "PreparedTeethMonitoring",
+        "RemovableDenture",
+        "IBT",
+        "TempCrownDesign",
+        "CreSplint"
+      ]
+    },
+    {
+      "name": "A3I",
+      "soft_model": "IOS-3i",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "A3W",
+      "soft_model": "IOS-3 Wireless",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "A3IW",
+      "soft_model": "IOS-3i Wireless",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "ALWC",
+      "soft_model": "IOS-E",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "ASE",
+      "soft_model": "IOS-LC",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "ALWW",
+      "soft_model": "IOS-EW",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "AOSL",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": [
+        "InspectionReport",
+        "OneClickPrinting",
+        "ModelCompare",
+        "TempCrownDesign",
+        "IBT",
+        "CreSplint",
+        "AccuWare",
+        "PreparedTeethMonitoring",
+        "RemovableDenture",
+        "ImpressionScan",
+        "MultipleJawRelationship",
+        "AdditionalScan",
+        "ExtraAlign"
+      ]
+    },
+    {
+      "name": "A3LP",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": [
+        "InspectionReport",
+        "OneClickPrinting",
+        "ModelCompare",
+        "TempCrownDesign",
+        "IBT",
+        "CreSplint",
+        "AccuWare",
+        "PreparedTeethMonitoring",
+        "RemovableDenture",
+        "ImpressionScan",
+        "MultipleJawRelationship",
+        "AdditionalScan",
+        "ExtraAlign"
+      ]
+    },
+    {
+      "name": "A3M",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": true,
+      "disabled_functions": [
+        "DynamicBite",
+        "InspectionReport",
+        "OneClickPrinting",
+        "ModelCompare",
+        "TempCrownDesign",
+        "IBT",
+        "CreSplint",
+        "PreparationManipulation",
+        "PreparedTeethMonitoring",
+        "ScanbodyOrAbutment_Match",
+        "RemovableDenture",
+        "ImpressionScan",
+        "MultipleJawRelationship",
+        "AdditionalScan",
+        "ExtraAlign"
+      ]
+    },
+    {
+      "name": "A3L",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": true,
+      "disabled_functions": [
+        "DynamicBite",
+        "InspectionReport",
+        "OneClickPrinting",
+        "ModelCompare",
+        "TempCrownDesign",
+        "IBT",
+        "CreSplint",
+        "PreparationManipulation",
+        "PreparedTeethMonitoring",
+        "ScanbodyOrAbutment_Match",
+        "RemovableDenture",
+        "ImpressionScan",
+        "MultipleJawRelationship",
+        "AdditionalScan",
+        "ExtraAlign"
+      ]
+    },
+    {
+      "name": "A3IP",
+      "soft_model": "IOS-3i",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "A3WN",
+      "soft_model": "IOS-3 Wireless",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    }
+  ],
+  "network_endpoints": {
+    "http_sockets": [
+      ":3000",
+      ":3001"
+    ],
+    "cloud_config": {
+      "model_code": "newaoralscan_domestic",
+      "version": "3.0.0.0",
+      "mqtt_settings": {
+        "autoReconnectInterval": 3000,
+        "keepAlive": 3000,
+        "isCleanSession": true
+      },
+      "auto_upgrade": {
+        "checkInterval": 10
+      }
+    }
+  },
+  "feature_flags": {
+    "full_offline_mode": false,
+    "ir_enabled": true,
+    "tough_mode": false,
+    "expo_mode": false,
+    "encrypt_log": false
+  },
+  "system_info": {
+    "model_code": "newaoralscan_domestic",
+    "version": "3.0.0.0",
+    "visibility": "FullScreen"
+  }
+}

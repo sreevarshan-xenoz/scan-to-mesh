@@ -1,0 +1,6010 @@
+{
+  "summary": {
+    "qml_files_found": 405,
+    "qt_resources_found": 65,
+    "ui_components_identified": 1544,
+    "average_qml_confidence": 1.0,
+    "average_resource_confidence": 0.69
+  },
+  "qml_files": [
+    {
+      "name": "StackView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/StackView.qml",
+      "size_kb": 42.4,
+      "components": [
+        "StackView",
+        "Component",
+        "MouseArea",
+        "Text",
+        "StackView",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "StackView",
+        "SequentialAnimation",
+        "ScriptAction",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "StackViewDelegate",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "FocusScope",
+        "Text"
+      ],
+      "signal_slot_count": 33,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextArea.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/TextArea.qml",
+      "size_kb": 35.7,
+      "components": [
+        "TextArea",
+        "ScrollView",
+        "TextArea",
+        "Flickable",
+        "TextEdit",
+        "Rectangle",
+        "Connections",
+        "MouseArea",
+        "EditMenu",
+        "ScenePosListener",
+        "TextHandle",
+        "TextHandle"
+      ],
+      "signal_slot_count": 32,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BasicTableView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/BasicTableView.qml",
+      "size_kb": 32.5,
+      "components": [
+        "ScrollView",
+        "ListView",
+        "Binding",
+        "SystemPalette",
+        "Rectangle",
+        "Column",
+        "Loader",
+        "Repeater",
+        "Loader",
+        "ListModel",
+        "Component",
+        "FocusScope",
+        "Loader",
+        "Row",
+        "Repeater",
+        "Row",
+        "Repeater",
+        "Loader",
+        "Rectangle",
+        "MouseArea",
+        "Loader",
+        "MouseArea",
+        "Loader"
+      ],
+      "signal_slot_count": 10,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CalendarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CalendarStyle.qml",
+      "size_kb": 29.1,
+      "components": [
+        "Calendar",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Label",
+        "Rectangle",
+        "Rectangle",
+        "Style",
+        "Rectangle",
+        "Rectangle",
+        "HoverButton",
+        "Label",
+        "HoverButton",
+        "Label",
+        "Label",
+        "Label",
+        "Rectangle",
+        "Item",
+        "Loader",
+        "Loader",
+        "Row",
+        "Repeater",
+        "Loader",
+        "Rectangle",
+        "Row",
+        "Column",
+        "Repeater",
+        "Loader",
+        "Connections",
+        "Connections",
+        "Rectangle",
+        "Item",
+        "Repeater",
+        "Repeater",
+        "MouseArea",
+        "Connections",
+        "Repeater"
+      ],
+      "signal_slot_count": 5,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "PieMenu.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/PieMenu.qml",
+      "size_kb": 28.7,
+      "components": [
+        "PieMenu",
+        "MenuItem",
+        "MenuItem",
+        "MenuItem",
+        "MouseArea",
+        "MouseArea",
+        "Timer",
+        "PieMenu",
+        "MenuItem",
+        "MenuItem",
+        "MenuItem",
+        "Control",
+        "PieMenu",
+        "MenuItem",
+        "MenuItem",
+        "MenuItem",
+        "QtObject",
+        "MouseArea"
+      ],
+      "signal_slot_count": 18,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ComboBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/ComboBox.qml",
+      "size_kb": 25.9,
+      "components": [
+        "ComboBox",
+        "ComboBox",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ComboBox",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "Control",
+        "ComboBox",
+        "MouseArea",
+        "TextInputWithHandles",
+        "Binding",
+        "ExclusiveGroup",
+        "Menu",
+        "Instantiator",
+        "MenuItem"
+      ],
+      "signal_slot_count": 18,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SplitView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/SplitView.qml",
+      "size_kb": 25.1,
+      "components": [
+        "SplitView",
+        "Rectangle",
+        "Text",
+        "Rectangle",
+        "Text",
+        "Rectangle",
+        "Text",
+        "Item",
+        "SystemPalette",
+        "QtObject",
+        "Component",
+        "Loader",
+        "MouseArea",
+        "Item",
+        "Item",
+        "Item",
+        "Item"
+      ],
+      "signal_slot_count": 17,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextField.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/TextField.qml",
+      "size_kb": 22.6,
+      "components": [
+        "TextField",
+        "Control",
+        "TextField",
+        "Text",
+        "TextInputWithHandles"
+      ],
+      "signal_slot_count": 22,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GaugeStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/GaugeStyle.qml",
+      "size_kb": 22.3,
+      "components": [
+        "Rectangle",
+        "Timer",
+        "Gauge",
+        "NumberAnimation",
+        "Style",
+        "Rectangle",
+        "Rectangle",
+        "Rectangle",
+        "Rectangle",
+        "Item",
+        "Item",
+        "Loader",
+        "Loader",
+        "Item",
+        "Column",
+        "Repeater",
+        "Repeater",
+        "Item",
+        "Repeater",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DefaultFileDialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultFileDialog.qml",
+      "size_kb": 21.2,
+      "components": [
+        "AbstractFileDialog",
+        "Component",
+        "FolderListModel",
+        "Rectangle",
+        "Binding",
+        "Binding",
+        "SplitView",
+        "Column",
+        "SplitView",
+        "ScrollView",
+        "ListView",
+        "Text",
+        "MouseArea",
+        "ScrollView",
+        "ListView",
+        "Text",
+        "Menu",
+        "MenuItem",
+        "MouseArea",
+        "Timer",
+        "Row",
+        "Button",
+        "TableView",
+        "TableViewColumn",
+        "IconGlyph",
+        "Text",
+        "TableViewColumn",
+        "Text",
+        "TableViewColumn",
+        "TableViewColumn",
+        "TableViewColumn",
+        "ToolBar",
+        "RowLayout",
+        "ToolButton",
+        "TextField",
+        "Item",
+        "Row",
+        "Button",
+        "ComboBox",
+        "Button",
+        "Button"
+      ],
+      "signal_slot_count": 5,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/MenuStyle.qml",
+      "size_kb": 18.6,
+      "components": [
+        "Style",
+        "MenuItemSubControls",
+        "GradientStop",
+        "GradientStop",
+        "Component",
+        "Rectangle",
+        "Rectangle",
+        "Component",
+        "BorderImage",
+        "Rectangle",
+        "Rectangle",
+        "Rectangle",
+        "Loader",
+        "Loader",
+        "Loader",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DefaultFontDialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultFontDialog.qml",
+      "size_kb": 18.3,
+      "components": [
+        "AbstractFontDialog",
+        "Rectangle",
+        "SystemPalette",
+        "ColumnLayout",
+        "GridLayout",
+        "Label",
+        "Label",
+        "Label",
+        "TableView",
+        "TableViewColumn",
+        "TableView",
+        "TableViewColumn",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ColumnLayout",
+        "SpinBox",
+        "TableView",
+        "TableViewColumn",
+        "RowLayout",
+        "ColumnLayout",
+        "Label",
+        "CheckBox",
+        "CheckBox",
+        "CheckBox",
+        "CheckBox",
+        "Item",
+        "Label",
+        "ColumnLayout",
+        "Label",
+        "Rectangle",
+        "TextInput",
+        "RowLayout",
+        "ComboBox",
+        "Item",
+        "Button",
+        "Button"
+      ],
+      "signal_slot_count": 11,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CircularGaugeStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CircularGaugeStyle.qml",
+      "size_kb": 18.2,
+      "components": [
+        "CircularGauge",
+        "Style",
+        "Image",
+        "Image",
+        "Loader",
+        "CircularTickmarkLabel",
+        "Loader",
+        "Rotation",
+        "Translate",
+        "Loader"
+      ],
+      "signal_slot_count": 4,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Tumbler.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Tumbler.qml",
+      "size_kb": 17.8,
+      "components": [
+        "Tumbler",
+        "TumblerColumn",
+        "TumblerColumn",
+        "TumblerColumn",
+        "Rectangle",
+        "ListModel",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "Tumbler",
+        "TumblerColumn",
+        "TumblerColumn",
+        "TumblerColumn",
+        "Control",
+        "ListModel",
+        "Timer",
+        "Loader",
+        "Loader",
+        "Row",
+        "Repeater",
+        "PathView",
+        "Binding",
+        "PathLine",
+        "Loader",
+        "Loader",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 8,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ScrollViewStyle.qml",
+      "size_kb": 17.1,
+      "components": [
+        "Style",
+        "Rectangle",
+        "BorderImage",
+        "Rectangle",
+        "Rectangle",
+        "Image",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Rectangle",
+        "Image",
+        "GradientStop",
+        "GradientStop",
+        "PropertyChanges",
+        "SequentialAnimation",
+        "PauseAnimation",
+        "NumberAnimation",
+        "PropertyAction",
+        "Loader",
+        "Loader",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 5,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TreeView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/TreeView.qml",
+      "size_kb": 16.4,
+      "components": [
+        "BasicTableView",
+        "Timer"
+      ],
+      "signal_slot_count": 15,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DefaultColorDialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultColorDialog.qml",
+      "size_kb": 16.4,
+      "components": [
+        "AbstractColorDialog",
+        "Rectangle",
+        "SystemPalette",
+        "Item",
+        "Image",
+        "ShaderEffect",
+        "MouseArea",
+        "Image",
+        "BorderImage",
+        "Column",
+        "ColorSlider",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "ColorSlider",
+        "GradientStop",
+        "GradientStop",
+        "ColorSlider",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "ColorSlider",
+        "Image",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Item",
+        "Row",
+        "TextField",
+        "Image",
+        "MouseArea",
+        "Row",
+        "Button",
+        "Button"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/ScrollView.qml",
+      "size_kb": 14.1,
+      "components": [
+        "ScrollView",
+        "Image",
+        "ScrollView",
+        "ListView",
+        "FocusScope",
+        "Loader",
+        "Binding",
+        "Binding",
+        "Connections",
+        "Component",
+        "Flickable",
+        "WheelArea",
+        "Connections",
+        "ScrollViewHelper",
+        "Loader",
+        "Item",
+        "FocusFrame"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Calendar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Calendar.qml",
+      "size_kb": 13.7,
+      "components": [
+        "Calendar",
+        "Calendar",
+        "Control",
+        "RangedDate"
+      ],
+      "signal_slot_count": 24,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CircularTickmarkLabelStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CircularTickmarkLabelStyle.qml",
+      "size_kb": 13.3,
+      "components": [
+        "Style",
+        "Loader",
+        "Translate",
+        "Rotation",
+        "Loader",
+        "Translate",
+        "Rotation",
+        "Loader",
+        "Connections",
+        "Repeater"
+      ],
+      "signal_slot_count": 10,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "PieMenuStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/PieMenuStyle.qml",
+      "size_kb": 13.3,
+      "components": [
+        "PieMenuStyle",
+        "Rectangle",
+        "Text",
+        "Style",
+        "Canvas",
+        "Connections",
+        "Connections",
+        "PieMenuIcon",
+        "Item",
+        "Loader",
+        "Loader",
+        "Repeater",
+        "DropShadow",
+        "Loader"
+      ],
+      "signal_slot_count": 5,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DialStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/DialStyle.qml",
+      "size_kb": 13.0,
+      "components": [
+        "Style",
+        "CircularButtonStyleHelper",
+        "Canvas",
+        "HandleStyleHelper",
+        "Loader",
+        "Loader",
+        "CircularTickmarkLabel"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SpinBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/SpinBox.qml",
+      "size_kb": 13.0,
+      "components": [
+        "SpinBox",
+        "SpinBox",
+        "Control",
+        "Text",
+        "Text",
+        "MouseArea",
+        "TextInputWithHandles",
+        "MouseArea",
+        "Timer",
+        "Timer",
+        "MouseArea",
+        "Timer",
+        "Timer"
+      ],
+      "signal_slot_count": 6,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/MenuBar.qml",
+      "size_kb": 12.7,
+      "components": [
+        "ApplicationWindow",
+        "Menu",
+        "MenuItem",
+        "MenuItem",
+        "Menu",
+        "MenuItem",
+        "MenuItem",
+        "MenuItem",
+        "MenuBarPrivate",
+        "Loader",
+        "Binding",
+        "QtObject",
+        "Row",
+        "Repeater",
+        "Loader",
+        "Connections",
+        "Connections",
+        "MouseArea"
+      ],
+      "signal_slot_count": 4,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DefaultMessageDialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultMessageDialog.qml",
+      "size_kb": 12.6,
+      "components": [
+        "AbstractMessageDialog",
+        "Rectangle",
+        "Column",
+        "SystemPalette",
+        "Item",
+        "Image",
+        "Text",
+        "Text",
+        "Flow",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Button",
+        "Item",
+        "Flickable",
+        "TextEdit",
+        "State",
+        "PropertyChanges",
+        "PropertyChanges",
+        "PropertyChanges"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TumblerStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TumblerStyle.qml",
+      "size_kb": 12.6,
+      "components": [
+        "Style",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "DropShadow",
+        "Text"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TabBar.qml",
+      "size_kb": 12.4,
+      "components": [
+        "FocusScope",
+        "Loader",
+        "ListView",
+        "NumberAnimation",
+        "State",
+        "AnchorChanges",
+        "PropertyChanges",
+        "State",
+        "AnchorChanges",
+        "State",
+        "AnchorChanges",
+        "PropertyChanges",
+        "Binding",
+        "Loader",
+        "Transition",
+        "PropertyAction",
+        "Transition",
+        "SequentialAnimation",
+        "PropertyAction",
+        "NumberAnimation",
+        "Loader",
+        "Loader",
+        "DropArea"
+      ],
+      "signal_slot_count": 4,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ComboBoxStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ComboBoxStyle.qml",
+      "size_kb": 12.1,
+      "components": [
+        "Style",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Image",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Text",
+        "Loader",
+        "Loader",
+        "Loader",
+        "Text"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Slider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Slider.qml",
+      "size_kb": 12.0,
+      "components": [
+        "Slider",
+        "Control",
+        "Slider",
+        "RangeModel",
+        "Item",
+        "MouseArea",
+        "Binding",
+        "WheelArea"
+      ],
+      "signal_slot_count": 5,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TableView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/TableView.qml",
+      "size_kb": 11.3,
+      "components": [
+        "BasicTableView",
+        "TableViewSelection",
+        "Timer",
+        "Timer"
+      ],
+      "signal_slot_count": 11,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuContentItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/MenuContentItem.qml",
+      "size_kb": 10.8,
+      "components": [
+        "Loader",
+        "Loader",
+        "QtObject",
+        "Binding",
+        "ColumnMenuContent",
+        "Component",
+        "Loader",
+        "Timer",
+        "Timer",
+        "Binding"
+      ],
+      "signal_slot_count": 5,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/TabView.qml",
+      "size_kb": 10.5,
+      "components": [
+        "TabView",
+        "Tab",
+        "Rectangle",
+        "Tab",
+        "Rectangle",
+        "Tab",
+        "Rectangle",
+        "FocusScope",
+        "Component",
+        "Tab",
+        "TabBar",
+        "Loader",
+        "Loader",
+        "Item",
+        "State",
+        "PropertyChanges",
+        "AnchorChanges"
+      ],
+      "signal_slot_count": 10,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToggleButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ToggleButtonStyle.qml",
+      "size_kb": 9.9,
+      "components": [
+        "CircularButtonStyle",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "CommonStyleHelper",
+        "Connections",
+        "Connections",
+        "Connections",
+        "Connections",
+        "Connections",
+        "Canvas",
+        "Canvas",
+        "Canvas",
+        "DropShadow",
+        "DropShadow",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ElevationEffect.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ElevationEffect.qml",
+      "size_kb": 9.7,
+      "components": [
+        "Item",
+        "Item",
+        "BoxShadow",
+        "BoxShadow",
+        "BoxShadow",
+        "ShaderEffect"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "FastGlow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/FastGlow.qml",
+      "size_kb": 9.6,
+      "components": [
+        "Item",
+        "SourceProxy",
+        "ShaderEffectSource",
+        "ShaderEffect",
+        "ShaderEffectSource",
+        "ShaderEffect",
+        "ShaderEffectSource",
+        "ShaderEffect",
+        "ShaderEffectSource",
+        "ShaderEffect",
+        "ShaderEffectSource",
+        "ShaderEffect",
+        "ShaderEffectSource",
+        "ShaderEffect",
+        "ShaderEffectSource",
+        "Item",
+        "ShaderEffectSource",
+        "ShaderEffect"
+      ],
+      "signal_slot_count": 3,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SpinBoxStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/SpinBoxStyle.qml",
+      "size_kb": 9.5,
+      "components": [
+        "SpinBox",
+        "Style",
+        "Image",
+        "Image",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Loader",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ProgressBarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ProgressBarStyle.qml",
+      "size_kb": 9.4,
+      "components": [
+        "ProgressBar",
+        "Item",
+        "Row",
+        "Repeater",
+        "Rectangle",
+        "Style",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Image",
+        "Rectangle",
+        "Rectangle",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Item",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ApplicationWindow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/ApplicationWindow.qml",
+      "size_kb": 9.4,
+      "components": [
+        "ApplicationWindow",
+        "Menu",
+        "Menu",
+        "RowLayout",
+        "ToolButton",
+        "TabView",
+        "Window",
+        "Binding",
+        "Binding",
+        "Loader",
+        "Loader",
+        "Binding",
+        "Binding",
+        "Binding",
+        "Binding",
+        "ContentItem"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ColumnMenuContent.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ColumnMenuContent.qml",
+      "size_kb": 9.1,
+      "components": [
+        "Item",
+        "Timer",
+        "Component",
+        "Style",
+        "ScrollView",
+        "ListView",
+        "MouseArea",
+        "MenuContentScroller",
+        "MenuContentScroller",
+        "Timer",
+        "Binding"
+      ],
+      "signal_slot_count": 6,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GroupBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/GroupBox.qml",
+      "size_kb": 9.1,
+      "components": [
+        "GroupBox",
+        "Column",
+        "CheckBox",
+        "CheckBox",
+        "CheckBox",
+        "FocusScope",
+        "Loader",
+        "Text",
+        "Loader",
+        "CheckBox",
+        "Item"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ScrollBar.qml",
+      "size_kb": 9.0,
+      "components": [
+        "Item",
+        "Loader",
+        "MouseArea",
+        "Timer",
+        "Timer",
+        "RangeModel"
+      ],
+      "signal_slot_count": 6,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SliderStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/SliderStyle.qml",
+      "size_kb": 8.8,
+      "components": [
+        "Slider",
+        "Style",
+        "FastGlow",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Item",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Item",
+        "Loader",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StatusIndicatorStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/StatusIndicatorStyle.qml",
+      "size_kb": 8.8,
+      "components": [
+        "Style",
+        "Canvas",
+        "Connections",
+        "Item",
+        "Canvas",
+        "Connections",
+        "DropShadow",
+        "Canvas",
+        "Connections",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollViewHelper.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ScrollViewHelper.qml",
+      "size_kb": 8.5,
+      "components": [
+        "Item",
+        "Timer",
+        "Connections",
+        "Connections",
+        "Loader",
+        "ScrollBar",
+        "Binding",
+        "Binding",
+        "Timer",
+        "ScrollBar",
+        "Binding",
+        "Binding",
+        "Timer"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextFieldStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TextFieldStyle.qml",
+      "size_kb": 8.2,
+      "components": [
+        "TextField",
+        "Style",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DefaultDialogWrapper.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultDialogWrapper.qml",
+      "size_kb": 8.1,
+      "components": [
+        "AbstractDialog",
+        "Rectangle",
+        "SystemPalette",
+        "Item",
+        "Flow",
+        "Repeater",
+        "Button",
+        "Button",
+        "Flow",
+        "Repeater",
+        "Button"
+      ],
+      "signal_slot_count": 5,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RectangularGlow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RectangularGlow.qml",
+      "size_kb": 8.1,
+      "components": [
+        "Item",
+        "ShaderEffectSource",
+        "ShaderEffect"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BasicButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/BasicButton.qml",
+      "size_kb": 8.1,
+      "components": [
+        "Control",
+        "Action",
+        "Connections",
+        "MouseArea",
+        "Timer",
+        "State",
+        "PropertyChanges"
+      ],
+      "signal_slot_count": 4,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextInputWithHandles.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TextInputWithHandles.qml",
+      "size_kb": 8.0,
+      "components": [
+        "TextInput",
+        "MouseArea",
+        "EditMenu",
+        "ScenePosListener",
+        "TextHandle",
+        "TextHandle"
+      ],
+      "signal_slot_count": 3,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TabViewStyle.qml",
+      "size_kb": 7.6,
+      "components": [
+        "TabView",
+        "Tab",
+        "Tab",
+        "Tab",
+        "Text",
+        "Style",
+        "Rectangle",
+        "Item",
+        "BorderImage",
+        "Text",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ComboBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ComboBox.qml",
+      "size_kb": 7.4,
+      "components": [
+        "Rectangle",
+        "Ripple",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ComboBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ComboBox.qml",
+      "size_kb": 7.4,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/ToolBar.qml",
+      "size_kb": 7.3,
+      "components": [
+        "ApplicationWindow",
+        "RowLayout",
+        "ToolButton",
+        "ToolButton",
+        "ToolButton",
+        "Item",
+        "CheckBox",
+        "FocusScope",
+        "Loader",
+        "Loader",
+        "Item",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DelayButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/DelayButtonStyle.qml",
+      "size_kb": 7.2,
+      "components": [
+        "CircularButtonStyle",
+        "GradientStop",
+        "GradientStop",
+        "Canvas",
+        "Connections",
+        "State",
+        "PropertyChanges",
+        "State",
+        "Transition",
+        "SequentialAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "Connections",
+        "CircularProgressBar",
+        "Connections",
+        "DropShadow",
+        "Loader",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckBoxStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CheckBoxStyle.qml",
+      "size_kb": 7.1,
+      "components": [
+        "CheckBox",
+        "Rectangle",
+        "Style",
+        "Rectangle",
+        "Text",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Image",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Loader",
+        "RowLayout",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/CheckBox.qml",
+      "size_kb": 7.0,
+      "components": [
+        "Column",
+        "CheckBox",
+        "CheckBox",
+        "CheckBox",
+        "AbstractCheckable"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TableViewSelection.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TableViewSelection.qml",
+      "size_kb": 7.0,
+      "components": [
+        "QtObject"
+      ],
+      "signal_slot_count": 12,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ComboBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ComboBox.qml",
+      "size_kb": 6.9,
+      "components": [
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dial.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Dial.qml",
+      "size_kb": 6.9,
+      "components": [
+        "Control",
+        "RangeModel",
+        "MouseArea"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SpinBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SpinBox.qml",
+      "size_kb": 6.7,
+      "components": [
+        "ColorImage",
+        "ColorImage",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ButtonStyle.qml",
+      "size_kb": 6.7,
+      "components": [
+        "Button",
+        "GradientStop",
+        "GradientStop",
+        "Style",
+        "Rectangle",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Image",
+        "Row",
+        "Image",
+        "Text",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TableViewColumn.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/TableViewColumn.qml",
+      "size_kb": 6.6,
+      "components": [
+        "TableView",
+        "TableViewColumn",
+        "TableViewColumn",
+        "QtObject"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ComboBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ComboBox.qml",
+      "size_kb": 6.5,
+      "components": [
+        "Rectangle",
+        "Rectangle",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Gauge.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Gauge.qml",
+      "size_kb": 6.5,
+      "components": [
+        "Gauge",
+        "Control",
+        "Text",
+        "RangeModel"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SpinBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/SpinBox.qml",
+      "size_kb": 6.5,
+      "components": [
+        "Rectangle",
+        "ColorImage",
+        "Rectangle",
+        "ColorImage"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BasicTableViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/BasicTableViewStyle.qml",
+      "size_kb": 6.4,
+      "components": [
+        "ScrollViewStyle",
+        "Text",
+        "Rectangle",
+        "Text"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RangeSlider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/RangeSlider.qml",
+      "size_kb": 6.4,
+      "components": [
+        "NinePatchImage"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/RadioButtonStyle.qml",
+      "size_kb": 6.3,
+      "components": [
+        "RadioButton",
+        "Rectangle",
+        "Style",
+        "Rectangle",
+        "Text",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Loader",
+        "Row",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StatusBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/StatusBar.qml",
+      "size_kb": 6.2,
+      "components": [
+        "ApplicationWindow",
+        "RowLayout",
+        "Label",
+        "FocusScope",
+        "Loader",
+        "Loader",
+        "Item"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SwitchDelegate.qml",
+      "size_kb": 6.2,
+      "components": [
+        "SmoothedAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SpinBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SpinBox.qml",
+      "size_kb": 6.1,
+      "components": [
+        "Ripple",
+        "Rectangle",
+        "Rectangle",
+        "Ripple",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextAreaStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TextAreaStyle.qml",
+      "size_kb": 6.0,
+      "components": [
+        "TextArea",
+        "ScrollViewStyle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CircularButtonStyleHelper.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Private/CircularButtonStyleHelper.qml",
+      "size_kb": 6.0,
+      "components": [
+        "QtObject"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SpinBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SpinBox.qml",
+      "size_kb": 6.0,
+      "components": [
+        "NinePatchImage"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "AbstractCheckable.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/AbstractCheckable.qml",
+      "size_kb": 5.9,
+      "components": [
+        "Control",
+        "MouseArea",
+        "Timer",
+        "Action"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/SwitchStyle.qml",
+      "size_kb": 5.9,
+      "components": [
+        "Switch",
+        "Style",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Loader",
+        "Loader",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ProgressBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ProgressBar.qml",
+      "size_kb": 5.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "EditMenu_base.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/EditMenu_base.qml",
+      "size_kb": 5.8,
+      "components": [
+        "Item",
+        "Component",
+        "Action",
+        "Component",
+        "Action",
+        "Component",
+        "Action",
+        "Component",
+        "Action",
+        "Component",
+        "Action",
+        "Component",
+        "Action",
+        "Component",
+        "Action",
+        "Component",
+        "Action",
+        "MenuItem",
+        "MenuItem",
+        "MenuSeparator",
+        "MenuItem",
+        "MenuItem",
+        "MenuItem",
+        "MenuItem",
+        "MenuItem",
+        "MenuSeparator",
+        "MenuItem",
+        "Connections"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ComboBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ComboBox.qml",
+      "size_kb": 5.7,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Switch.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Switch.qml",
+      "size_kb": 5.7,
+      "components": [
+        "SmoothedAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/MenuItem.qml",
+      "size_kb": 5.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RangeSlider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RangeSlider.qml",
+      "size_kb": 5.6,
+      "components": [
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ProgressBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/ProgressBar.qml",
+      "size_kb": 5.6,
+      "components": [
+        "Column",
+        "ProgressBar",
+        "ProgressBar",
+        "Control",
+        "MouseArea"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CircularGauge.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/CircularGauge.qml",
+      "size_kb": 5.5,
+      "components": [
+        "CircularGauge",
+        "NumberAnimation",
+        "Control",
+        "RangeModel"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DelayButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/DelayButton.qml",
+      "size_kb": 5.5,
+      "components": [
+        "Button",
+        "NumberAnimation",
+        "Binding"
+      ],
+      "signal_slot_count": 3,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DelayButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/DelayButton.qml",
+      "size_kb": 5.4,
+      "components": [
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SpinBoxStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/SpinBoxStyle.qml",
+      "size_kb": 5.3,
+      "components": [
+        "Style",
+        "StyleItem",
+        "Item",
+        "FocusFrame",
+        "StyleItem"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Menu.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Menu.qml",
+      "size_kb": 5.3,
+      "components": [
+        "Menu",
+        "MenuItem",
+        "MenuItem",
+        "MenuItem",
+        "MenuSeparator",
+        "Menu",
+        "MenuItem",
+        "MenuPrivate",
+        "Component",
+        "MenuContentItem"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TumblerColumn.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/TumblerColumn.qml",
+      "size_kb": 5.3,
+      "components": [
+        "Tumbler",
+        "TumblerColumn",
+        "TumblerColumn",
+        "QtObject"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TabViewStyle.qml",
+      "size_kb": 5.3,
+      "components": [
+        "Style",
+        "StyleItem"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TableViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TableViewStyle.qml",
+      "size_kb": 5.3,
+      "components": [
+        "ScrollViewStyle",
+        "Text"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Slider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Slider.qml",
+      "size_kb": 5.2,
+      "components": [
+        "NinePatchImage"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Switch.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Switch.qml",
+      "size_kb": 5.2,
+      "components": [
+        "Column",
+        "Switch",
+        "Switch",
+        "Control",
+        "MouseArea"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SpinBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/SpinBox.qml",
+      "size_kb": 5.2,
+      "components": [
+        "Rectangle",
+        "Rectangle",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ComboBoxStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ComboBoxStyle.qml",
+      "size_kb": 5.2,
+      "components": [
+        "Style",
+        "StyleItem",
+        "StyleItem"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CircularTickmarkLabel.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Private/CircularTickmarkLabel.qml",
+      "size_kb": 5.1,
+      "components": [
+        "Control",
+        "RangeModel"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/MenuBarStyle.qml",
+      "size_kb": 5.1,
+      "components": [
+        "Style",
+        "Text"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ApplicationWindowStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ApplicationWindowStyle.qml",
+      "size_kb": 5.1,
+      "components": [
+        "ApplicationWindow",
+        "QtObject",
+        "Loader",
+        "Item",
+        "Item",
+        "Item",
+        "Item"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextHandle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TextHandle.qml",
+      "size_kb": 5.1,
+      "components": [
+        "Loader",
+        "MouseArea"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ColorSlider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/qml/ColorSlider.qml",
+      "size_kb": 5.0,
+      "components": [
+        "Item",
+        "SystemPalette",
+        "Column",
+        "Text",
+        "Item",
+        "Loader",
+        "BorderImage",
+        "Image",
+        "MouseArea"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/MenuItem.qml",
+      "size_kb": 5.0,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TreeViewItemDelegateLoader.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TreeViewItemDelegateLoader.qml",
+      "size_kb": 4.9,
+      "components": [
+        "TableViewItemDelegateLoader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/CheckDelegate.qml",
+      "size_kb": 4.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RangeSlider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/RangeSlider.qml",
+      "size_kb": 4.9,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GroupBoxStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/GroupBoxStyle.qml",
+      "size_kb": 4.8,
+      "components": [
+        "Style",
+        "BorderImage",
+        "Rectangle",
+        "Rectangle",
+        "BorderImage",
+        "Loader",
+        "Text",
+        "BorderImage"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SwitchIndicator.qml",
+      "size_kb": 4.8,
+      "components": [
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "NumberAnimation",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Rectangle",
+        "SmoothedAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Button.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Button.qml",
+      "size_kb": 4.8,
+      "components": [
+        "PaddedRectangle",
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SourceProxy.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/SourceProxy.qml",
+      "size_kb": 4.8,
+      "components": [
+        "Item",
+        "ShaderEffectSource"
+      ],
+      "signal_slot_count": 7,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StackViewSlideDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/StackViewSlideDelegate.qml",
+      "size_kb": 4.7,
+      "components": [
+        "StackViewDelegate",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation",
+        "PropertyAnimation"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/RadioDelegate.qml",
+      "size_kb": 4.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/MenuItem.qml",
+      "size_kb": 4.7,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ScrollBar.qml",
+      "size_kb": 4.6,
+      "components": [
+        "State",
+        "Transition",
+        "NumberAnimation",
+        "Transition",
+        "SequentialAnimation",
+        "PropertyAction",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RoundButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RoundButton.qml",
+      "size_kb": 4.6,
+      "components": [
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Handle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Private/Handle.qml",
+      "size_kb": 4.6,
+      "components": [
+        "Control",
+        "RangeModel",
+        "MouseArea"
+      ],
+      "signal_slot_count": 3,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/CheckBox.qml",
+      "size_kb": 4.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Slider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Slider.qml",
+      "size_kb": 4.5,
+      "components": [
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TableViewItemDelegateLoader.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TableViewItemDelegateLoader.qml",
+      "size_kb": 4.5,
+      "components": [
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ContentItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ContentItem.qml",
+      "size_kb": 4.5,
+      "components": [
+        "Item"
+      ],
+      "signal_slot_count": 6,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ModalPopupBehavior.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ModalPopupBehavior.qml",
+      "size_kb": 4.5,
+      "components": [
+        "Item",
+        "MouseArea",
+        "Loader",
+        "Timer",
+        "Timer",
+        "ParentChange"
+      ],
+      "signal_slot_count": 5,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/MenuStyle.qml",
+      "size_kb": 4.5,
+      "components": [
+        "Style",
+        "Rectangle",
+        "Binding"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RangeSlider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RangeSlider.qml",
+      "size_kb": 4.5,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Button.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Button.qml",
+      "size_kb": 4.5,
+      "components": [
+        "Button",
+        "BasicButton",
+        "Binding",
+        "Binding",
+        "Connections",
+        "Timer"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "PieMenuIcon.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Private/PieMenuIcon.qml",
+      "size_kb": 4.5,
+      "components": [
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DelayButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/DelayButton.qml",
+      "size_kb": 4.4,
+      "components": [
+        "NumberAnimation",
+        "ClippedText",
+        "ClippedText",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolMenuButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ToolMenuButton.qml",
+      "size_kb": 4.4,
+      "components": [
+        "FocusScope",
+        "Loader",
+        "MouseArea",
+        "Timer",
+        "Binding",
+        "Binding"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/SwitchDelegate.qml",
+      "size_kb": 4.4,
+      "components": [
+        "Rectangle",
+        "SmoothedAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/CheckDelegate.qml",
+      "size_kb": 4.4,
+      "components": [
+        "ColorImage",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/RadioButton.qml",
+      "size_kb": 4.4,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DelayButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/DelayButton.qml",
+      "size_kb": 4.4,
+      "components": [
+        "NumberAnimation",
+        "PaddedRectangle",
+        "PaddedRectangle",
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BusyIndicatorStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/BusyIndicatorStyle.qml",
+      "size_kb": 4.4,
+      "components": [
+        "BusyIndicator",
+        "Style",
+        "Image",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolBarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ToolBarStyle.qml",
+      "size_kb": 4.3,
+      "components": [
+        "ToolBar",
+        "GradientStop",
+        "GradientStop",
+        "Style",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ProgressBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ProgressBar.qml",
+      "size_kb": 4.3,
+      "components": [
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Item",
+        "ColorImage",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RoundButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/RoundButton.qml",
+      "size_kb": 4.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Dialog.qml",
+      "size_kb": 4.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/MenuItem.qml",
+      "size_kb": 4.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Button.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Button.qml",
+      "size_kb": 4.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Dialog.qml",
+      "size_kb": 4.3,
+      "components": [
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ScrollIndicator.qml",
+      "size_kb": 4.3,
+      "components": [
+        "State",
+        "Transition",
+        "NumberAnimation",
+        "Transition",
+        "SequentialAnimation",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextArea.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/TextArea.qml",
+      "size_kb": 4.2,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ToolButtonStyle.qml",
+      "size_kb": 4.2,
+      "components": [
+        "Style",
+        "Rectangle",
+        "Item",
+        "Text",
+        "Image",
+        "BorderImage",
+        "Image"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextField.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/TextField.qml",
+      "size_kb": 4.2,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/MenuItem.qml",
+      "size_kb": 4.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StatusIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/StatusIndicator.qml",
+      "size_kb": 4.2,
+      "components": [
+        "Rectangle",
+        "StatusIndicator",
+        "Control"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextArea.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/TextArea.qml",
+      "size_kb": 4.2,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dial.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Dial.qml",
+      "size_kb": 4.1,
+      "components": [
+        "Translate",
+        "Rotation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextField.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/TextField.qml",
+      "size_kb": 4.1,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/SwitchDelegate.qml",
+      "size_kb": 4.1,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RadioDelegate.qml",
+      "size_kb": 4.1,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/CheckDelegate.qml",
+      "size_kb": 4.1,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/RadioDelegate.qml",
+      "size_kb": 4.1,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DelayButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/DelayButton.qml",
+      "size_kb": 4.1,
+      "components": [
+        "NumberAnimation",
+        "ClippedText",
+        "ClippedText",
+        "PaddedRectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/RadioButtonStyle.qml",
+      "size_kb": 4.0,
+      "components": [
+        "Style",
+        "StyleItem",
+        "Text",
+        "StyleItem"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextField.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/TextField.qml",
+      "size_kb": 4.0,
+      "components": [
+        "PlaceholderText",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RoundButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RoundButton.qml",
+      "size_kb": 4.0,
+      "components": [
+        "GradientStop",
+        "GradientStop",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/CheckIndicator.qml",
+      "size_kb": 4.0,
+      "components": [
+        "Rectangle",
+        "NumberAnimation",
+        "ColorAnimation",
+        "Image",
+        "Rectangle",
+        "State",
+        "State",
+        "SequentialAnimation",
+        "NumberAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SwitchDelegate.qml",
+      "size_kb": 4.0,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Menu.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Menu.qml",
+      "size_kb": 4.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Menu.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Menu.qml",
+      "size_kb": 4.0,
+      "components": [
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RadioDelegate.qml",
+      "size_kb": 4.0,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/CheckDelegate.qml",
+      "size_kb": 4.0,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckBoxStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/CheckBoxStyle.qml",
+      "size_kb": 3.9,
+      "components": [
+        "Style",
+        "StyleItem",
+        "Text",
+        "StyleItem"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GroupBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/GroupBox.qml",
+      "size_kb": 3.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/CheckBox.qml",
+      "size_kb": 3.9,
+      "components": [
+        "ColorImage",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwipeDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SwipeDelegate.qml",
+      "size_kb": 3.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "HandleStyleHelper.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/HandleStyleHelper.qml",
+      "size_kb": 3.9,
+      "components": [
+        "QtObject"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Tumbler.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Tumbler.qml",
+      "size_kb": 3.8,
+      "components": [
+        "PathLine"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Switch.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Switch.qml",
+      "size_kb": 3.8,
+      "components": [
+        "Rectangle",
+        "SmoothedAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Slider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Slider.qml",
+      "size_kb": 3.8,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ScrollViewStyle.qml",
+      "size_kb": 3.8,
+      "components": [
+        "Style"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ItemDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ItemDelegate.qml",
+      "size_kb": 3.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwipeDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SwipeDelegate.qml",
+      "size_kb": 3.8,
+      "components": [
+        "Rectangle",
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StackView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/StackView.qml",
+      "size_kb": 3.8,
+      "components": [
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StatusBarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/StatusBarStyle.qml",
+      "size_kb": 3.8,
+      "components": [
+        "StatusBar",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Style",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Drawer.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Drawer.qml",
+      "size_kb": 3.8,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/TabButton.qml",
+      "size_kb": 3.8,
+      "components": [
+        "GradientStop",
+        "GradientStop",
+        "GradientStop"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RangeSlider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RangeSlider.qml",
+      "size_kb": 3.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Drawer.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Drawer.qml",
+      "size_kb": 3.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwipeDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/SwipeDelegate.qml",
+      "size_kb": 3.8,
+      "components": [
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CalendarHeaderModel.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/CalendarHeaderModel.qml",
+      "size_kb": 3.8,
+      "components": [
+        "ListModel",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement",
+        "ListElement"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ToolButton.qml",
+      "size_kb": 3.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextField.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/TextField.qml",
+      "size_kb": 3.7,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StackView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/StackView.qml",
+      "size_kb": 3.7,
+      "components": [
+        "XAnimator",
+        "XAnimator",
+        "XAnimator",
+        "XAnimator",
+        "XAnimator",
+        "XAnimator"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Slider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Slider.qml",
+      "size_kb": 3.7,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/CheckIndicator.qml",
+      "size_kb": 3.7,
+      "components": [
+        "Rectangle",
+        "ColorImage",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SwitchDelegate.qml",
+      "size_kb": 3.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwipeView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SwipeView.qml",
+      "size_kb": 3.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BusyIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/BusyIndicator.qml",
+      "size_kb": 3.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextArea.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/TextArea.qml",
+      "size_kb": 3.6,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "PageIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/PageIndicator.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Repeater"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SliderGroove.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SliderGroove.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/RadioButton.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/TabButton.qml",
+      "size_kb": 3.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RadioDelegate.qml",
+      "size_kb": 3.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/CheckDelegate.qml",
+      "size_kb": 3.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Drawer.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Drawer.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ScrollBar.qml",
+      "size_kb": 3.6,
+      "components": [
+        "State",
+        "Transition",
+        "NumberAnimation",
+        "Transition",
+        "SequentialAnimation",
+        "PropertyAction",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/TabBar.qml",
+      "size_kb": 3.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/CheckIndicator.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Rectangle",
+        "Rectangle",
+        "ColorImage",
+        "Rectangle",
+        "GradientStop",
+        "GradientStop"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/RadioButton.qml",
+      "size_kb": 3.6,
+      "components": [
+        "GroupBox",
+        "RowLayout",
+        "ExclusiveGroup",
+        "RadioButton",
+        "RadioButton",
+        "AbstractCheckable"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RoundButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RoundButton.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ItemDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ItemDelegate.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RadioButton.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/CheckBox.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ScrollBar.qml",
+      "size_kb": 3.6,
+      "components": [
+        "Transition",
+        "NumberAnimation",
+        "Transition",
+        "SequentialAnimation",
+        "PropertyAction",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RoundButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/RoundButton.qml",
+      "size_kb": 3.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolTip.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ToolTip.qml",
+      "size_kb": 3.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Switch.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Switch.qml",
+      "size_kb": 3.5,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Button.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Button.qml",
+      "size_kb": 3.5,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Dialog.qml",
+      "size_kb": 3.5,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StackViewDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/StackViewDelegate.qml",
+      "size_kb": 3.5,
+      "components": [
+        "QtObject"
+      ],
+      "signal_slot_count": 4,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ToolButton.qml",
+      "size_kb": 3.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Button.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Button.qml",
+      "size_kb": 3.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DelayButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/DelayButton.qml",
+      "size_kb": 3.5,
+      "components": [
+        "NumberAnimation",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBarItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/MenuBarItem.qml",
+      "size_kb": 3.5,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextField.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/TextField.qml",
+      "size_kb": 3.5,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ItemDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ItemDelegate.qml",
+      "size_kb": 3.5,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dial.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Dial.qml",
+      "size_kb": 3.5,
+      "components": [
+        "Translate",
+        "Rotation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ToolSeparator.qml",
+      "size_kb": 3.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Dialog.qml",
+      "size_kb": 3.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DialogButtonBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/DialogButtonBox.qml",
+      "size_kb": 3.4,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Popup.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Popup.qml",
+      "size_kb": 3.4,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Popup.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Popup.qml",
+      "size_kb": 3.4,
+      "components": [
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dial.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Dial.qml",
+      "size_kb": 3.4,
+      "components": [
+        "Translate",
+        "Rotation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBarItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/MenuBarItem.qml",
+      "size_kb": 3.4,
+      "components": [
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/TabBar.qml",
+      "size_kb": 3.4,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/SwitchIndicator.qml",
+      "size_kb": 3.3,
+      "components": [
+        "Item",
+        "Rectangle",
+        "Rectangle",
+        "SmoothedAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SystemPaletteSingleton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/SystemPaletteSingleton.qml",
+      "size_kb": 3.3,
+      "components": [
+        "QtObject"
+      ],
+      "signal_slot_count": 14,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GroupBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/GroupBox.qml",
+      "size_kb": 3.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dial.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Dial.qml",
+      "size_kb": 3.3,
+      "components": [
+        "Translate",
+        "Rotation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextArea.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/TextArea.qml",
+      "size_kb": 3.3,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Control.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/Control.qml",
+      "size_kb": 3.3,
+      "components": [
+        "FocusScope",
+        "Loader",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StackView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/StackView.qml",
+      "size_kb": 3.3,
+      "components": [
+        "ParallelAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "ParallelAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "ParallelAnimation",
+        "NumberAnimation",
+        "NumberAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextFieldStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TextFieldStyle.qml",
+      "size_kb": 3.3,
+      "components": [
+        "Style",
+        "FocusFrame"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "EditMenu.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/EditMenu.qml",
+      "size_kb": 3.3,
+      "components": [
+        "Loader",
+        "Connections"
+      ],
+      "signal_slot_count": 2,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CircularButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CircularButtonStyle.qml",
+      "size_kb": 3.3,
+      "components": [
+        "ButtonStyle",
+        "CircularButtonStyleHelper",
+        "Canvas",
+        "Connections"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwipeDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SwipeDelegate.qml",
+      "size_kb": 3.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/MenuSeparator.qml",
+      "size_kb": 3.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Tumbler.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Tumbler.qml",
+      "size_kb": 3.2,
+      "components": [
+        "PathLine"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ToolButton.qml",
+      "size_kb": 3.2,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextArea.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/TextArea.qml",
+      "size_kb": 3.2,
+      "components": [
+        "PlaceholderText"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Dialog.qml",
+      "size_kb": 3.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Page.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Page.qml",
+      "size_kb": 3.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RadioIndicator.qml",
+      "size_kb": 3.2,
+      "components": [
+        "Rectangle",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Drawer.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Drawer.qml",
+      "size_kb": 3.2,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Menu.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Menu.qml",
+      "size_kb": 3.2,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ItemDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ItemDelegate.qml",
+      "size_kb": 3.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Tumbler.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Tumbler.qml",
+      "size_kb": 3.2,
+      "components": [
+        "PathLine"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Tumbler.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Tumbler.qml",
+      "size_kb": 3.2,
+      "components": [
+        "PathLine"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Drawer.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Drawer.qml",
+      "size_kb": 3.2,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwipeDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/SwipeDelegate.qml",
+      "size_kb": 3.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ItemDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ItemDelegate.qml",
+      "size_kb": 3.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ToolBar.qml",
+      "size_kb": 3.2,
+      "components": [
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Tumbler.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Tumbler.qml",
+      "size_kb": 3.2,
+      "components": [
+        "PathLine"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/MenuBarStyle.qml",
+      "size_kb": 3.2,
+      "components": [
+        "Style"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GroupBoxStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/GroupBoxStyle.qml",
+      "size_kb": 3.2,
+      "components": [
+        "Style"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/ToolButton.qml",
+      "size_kb": 3.2,
+      "components": [
+        "ApplicationWindow",
+        "RowLayout",
+        "ToolButton",
+        "ToolButton",
+        "ToolButton",
+        "Item",
+        "CheckBox",
+        "Button"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RadioButton.qml",
+      "size_kb": 3.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/CheckBox.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Switch.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Switch.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolTip.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ToolTip.qml",
+      "size_kb": 3.1,
+      "components": [
+        "NumberAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Label.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Label.qml",
+      "size_kb": 3.1,
+      "components": [
+        "Label",
+        "Label",
+        "Text"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SwitchIndicator.qml",
+      "size_kb": 3.1,
+      "components": [
+        "Item",
+        "Rectangle",
+        "Rectangle",
+        "SmoothedAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ScrollBar.qml",
+      "size_kb": 3.1,
+      "components": [
+        "PropertyChanges",
+        "SequentialAnimation",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/TabButton.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DialogButtonBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/DialogButtonBox.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RadioButton.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CheckBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/CheckBox.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Switch.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Switch.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SliderHandle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SliderHandle.qml",
+      "size_kb": 3.1,
+      "components": [
+        "Rectangle",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BusyIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/BusyIndicator.qml",
+      "size_kb": 3.1,
+      "components": [
+        "BusyIndicator",
+        "Control"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Dial.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Dial.qml",
+      "size_kb": 3.1,
+      "components": [
+        "Translate",
+        "Rotation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ToolBar.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RadioIndicator.qml",
+      "size_kb": 3.1,
+      "components": [
+        "Rectangle",
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuContentScroller.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/MenuContentScroller.qml",
+      "size_kb": 3.1,
+      "components": [
+        "MouseArea",
+        "Loader",
+        "Timer"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GroupBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/GroupBox.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DialogButtonBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/DialogButtonBox.qml",
+      "size_kb": 3.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ScrollBar.qml",
+      "size_kb": 3.1,
+      "components": [
+        "PropertyChanges",
+        "SequentialAnimation",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/TabBar.qml",
+      "size_kb": 3.0,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Menu.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Menu.qml",
+      "size_kb": 3.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/TabButton.qml",
+      "size_kb": 3.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ButtonPanel.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ButtonPanel.qml",
+      "size_kb": 3.0,
+      "components": [
+        "Rectangle",
+        "Gradient",
+        "GradientStop",
+        "GradientStop",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBarItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/MenuBarItem.qml",
+      "size_kb": 3.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolTip.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ToolTip.qml",
+      "size_kb": 3.0,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ScrollIndicator.qml",
+      "size_kb": 3.0,
+      "components": [
+        "State",
+        "Transition",
+        "NumberAnimation",
+        "Transition",
+        "SequentialAnimation",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ScrollIndicator.qml",
+      "size_kb": 3.0,
+      "components": [
+        "PropertyChanges",
+        "Transition",
+        "SequentialAnimation",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Menu.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Menu.qml",
+      "size_kb": 3.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Slider.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Slider.qml",
+      "size_kb": 3.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GroupBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/GroupBox.qml",
+      "size_kb": 3.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Frame.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Frame.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Pane.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Pane.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToggleButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/ToggleButton.qml",
+      "size_kb": 2.9,
+      "components": [
+        "Button"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Tab.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Tab.qml",
+      "size_kb": 2.9,
+      "components": [
+        "Tab",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ToolButton.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBarItem.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/MenuBarItem.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "GroupBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/GroupBox.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/TabBar.qml",
+      "size_kb": 2.9,
+      "components": [
+        "PathLine"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ScrollIndicator.qml",
+      "size_kb": 2.9,
+      "components": [
+        "PropertyChanges",
+        "Transition",
+        "SequentialAnimation",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/TabButton.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ScrollIndicator.qml",
+      "size_kb": 2.9,
+      "components": [
+        "PropertyChanges",
+        "Transition",
+        "SequentialAnimation",
+        "PauseAnimation",
+        "NumberAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Button.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Button.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "HoverButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/HoverButton.qml",
+      "size_kb": 2.9,
+      "components": [
+        "Item",
+        "Rectangle",
+        "Rectangle",
+        "Image",
+        "MouseArea"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolTip.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ToolTip.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DialogButtonBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/DialogButtonBox.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ToolButton.qml",
+      "size_kb": 2.9,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DefaultWindowDecoration.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/qml/DefaultWindowDecoration.qml",
+      "size_kb": 2.9,
+      "components": [
+        "Rectangle",
+        "MouseArea",
+        "BorderImage",
+        "MouseArea"
+      ],
+      "signal_slot_count": 1,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ProgressBarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ProgressBarStyle.qml",
+      "size_kb": 2.8,
+      "components": [
+        "Style"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SliderStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/SliderStyle.qml",
+      "size_kb": 2.8,
+      "components": [
+        "Style"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BoxShadow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/BoxShadow.qml",
+      "size_kb": 2.8,
+      "components": [
+        "RectangularGlow"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/MenuBar.qml",
+      "size_kb": 2.8,
+      "components": [
+        "Repeater",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StackView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/StackView.qml",
+      "size_kb": 2.8,
+      "components": [
+        "XAnimator",
+        "XAnimator",
+        "XAnimator",
+        "XAnimator",
+        "XAnimator",
+        "XAnimator"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "DialogButtonBox.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/DialogButtonBox.qml",
+      "size_kb": 2.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BusyIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/BusyIndicator.qml",
+      "size_kb": 2.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SliderHandle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SliderHandle.qml",
+      "size_kb": 2.8,
+      "components": [
+        "Item",
+        "Rectangle",
+        "NumberAnimation",
+        "Ripple"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TreeViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TreeViewStyle.qml",
+      "size_kb": 2.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "HandleStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/HandleStyle.qml",
+      "size_kb": 2.8,
+      "components": [
+        "Style",
+        "HandleStyleHelper",
+        "Canvas",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "PageIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/PageIndicator.qml",
+      "size_kb": 2.8,
+      "components": [
+        "Repeater"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ProgressBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ProgressBar.qml",
+      "size_kb": 2.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TreeViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TreeViewStyle.qml",
+      "size_kb": 2.7,
+      "components": [
+        "BasicTableViewStyle",
+        "Text"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwipeView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SwipeView.qml",
+      "size_kb": 2.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "PageIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/PageIndicator.qml",
+      "size_kb": 2.7,
+      "components": [
+        "Repeater"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwipeView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/SwipeView.qml",
+      "size_kb": 2.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ApplicationWindow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ApplicationWindow.qml",
+      "size_kb": 2.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ProgressBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ProgressBar.qml",
+      "size_kb": 2.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TabBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/TabBar.qml",
+      "size_kb": 2.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolTip.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ToolTip.qml",
+      "size_kb": 2.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "PageIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/PageIndicator.qml",
+      "size_kb": 2.7,
+      "components": [
+        "Repeater"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "PageIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/PageIndicator.qml",
+      "size_kb": 2.7,
+      "components": [
+        "Repeater"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ToolSeparator.qml",
+      "size_kb": 2.7,
+      "components": [
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextAreaStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TextAreaStyle.qml",
+      "size_kb": 2.7,
+      "components": [
+        "ScrollViewStyle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ProgressBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ProgressBar.qml",
+      "size_kb": 2.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ButtonStyle.qml",
+      "size_kb": 2.7,
+      "components": [
+        "Style"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ScrollView.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ScrollView.qml",
+      "size_kb": 2.7,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Frame.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Frame.qml",
+      "size_kb": 2.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CommonStyleHelper.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CommonStyleHelper.qml",
+      "size_kb": 2.6,
+      "components": [
+        "QtObject"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ToolButtonStyle.qml",
+      "size_kb": 2.6,
+      "components": [
+        "Style"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Page.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Page.qml",
+      "size_kb": 2.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ToolBar.qml",
+      "size_kb": 2.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "FocusFrame.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/FocusFrame.qml",
+      "size_kb": 2.6,
+      "components": [
+        "Item",
+        "Loader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BusyIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/BusyIndicator.qml",
+      "size_kb": 2.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Popup.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Popup.qml",
+      "size_kb": 2.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Popup.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Popup.qml",
+      "size_kb": 2.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BusyIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/BusyIndicator.qml",
+      "size_kb": 2.6,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CursorDelegate.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/CursorDelegate.qml",
+      "size_kb": 2.5,
+      "components": [
+        "Rectangle",
+        "Connections",
+        "Timer"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Page.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Page.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/MenuBar.qml",
+      "size_kb": 2.5,
+      "components": [
+        "Repeater"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BusyIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/BusyIndicator.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Label.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Label.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Pane.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Pane.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Popup.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Popup.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Page.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Page.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Page.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Page.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "IconButtonStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/qml/IconButtonStyle.qml",
+      "size_kb": 2.5,
+      "components": [
+        "ButtonStyle",
+        "FontLoader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/MenuBar.qml",
+      "size_kb": 2.5,
+      "components": [
+        "Repeater"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ToolSeparator.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolBarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ToolBarStyle.qml",
+      "size_kb": 2.5,
+      "components": [
+        "Style",
+        "StyleItem"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StackViewTransition.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/StackViewTransition.qml",
+      "size_kb": 2.5,
+      "components": [
+        "ParallelAnimation"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/MenuSeparator.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/MenuSeparator.qml",
+      "size_kb": 2.5,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/MenuBar.qml",
+      "size_kb": 2.5,
+      "components": [
+        "Repeater"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ToolSeparator.qml",
+      "size_kb": 2.4,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "StatusBarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/StatusBarStyle.qml",
+      "size_kb": 2.4,
+      "components": [
+        "Style"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ToolSeparator.qml",
+      "size_kb": 2.4,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RadioIndicator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RadioIndicator.qml",
+      "size_kb": 2.4,
+      "components": [
+        "Rectangle",
+        "Rectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Frame.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Frame.qml",
+      "size_kb": 2.4,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/MenuSeparator.qml",
+      "size_kb": 2.4,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ApplicationWindow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ApplicationWindow.qml",
+      "size_kb": 2.4,
+      "components": [
+        "FocusRectangle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Pane.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Pane.qml",
+      "size_kb": 2.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuSeparator.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/MenuSeparator.qml",
+      "size_kb": 2.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Frame.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Frame.qml",
+      "size_kb": 2.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Frame.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Frame.qml",
+      "size_kb": 2.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ToolBar.qml",
+      "size_kb": 2.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ToolBar.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ToolBar.qml",
+      "size_kb": 2.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Pane.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Pane.qml",
+      "size_kb": 2.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Pane.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Pane.qml",
+      "size_kb": 2.3,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ApplicationWindow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ApplicationWindow.qml",
+      "size_kb": 2.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Style.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/Style.qml",
+      "size_kb": 2.2,
+      "components": [
+        "AbstractStyle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "FocusFrameStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/FocusFrameStyle.qml",
+      "size_kb": 2.2,
+      "components": [
+        "StyleItem"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "IconGlyph.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/qml/IconGlyph.qml",
+      "size_kb": 2.2,
+      "components": [
+        "Text",
+        "FontLoader"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CircularButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Private/CircularButton.qml",
+      "size_kb": 2.2,
+      "components": [
+        "Button"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "MenuItemSubControls.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/MenuItemSubControls.qml",
+      "size_kb": 2.2,
+      "components": [
+        "QtObject"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ApplicationWindow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ApplicationWindow.qml",
+      "size_kb": 2.2,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "AbstractButton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/AbstractButton.qml",
+      "size_kb": 2.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "FocusFrameStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/FocusFrameStyle.qml",
+      "size_kb": 2.1,
+      "components": [
+        "Item"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Control.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Control.qml",
+      "size_kb": 2.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Container.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Container.qml",
+      "size_kb": 2.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ApplicationWindow.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ApplicationWindow.qml",
+      "size_kb": 2.1,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TableViewStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TableViewStyle.qml",
+      "size_kb": 2.1,
+      "components": [
+        "BasicTableViewStyle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "SwitchStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/SwitchStyle.qml",
+      "size_kb": 2.1,
+      "components": [
+        "SwitchStyle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Label.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Label.qml",
+      "size_kb": 2.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "RowItemSingleton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/RowItemSingleton.qml",
+      "size_kb": 2.0,
+      "components": [
+        "StyleItem"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "WidgetMessageDialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/WidgetMessageDialog.qml",
+      "size_kb": 2.0,
+      "components": [
+        "QtMessageDialog"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "WidgetColorDialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/WidgetColorDialog.qml",
+      "size_kb": 2.0,
+      "components": [
+        "QtColorDialog"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "WidgetFontDialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/WidgetFontDialog.qml",
+      "size_kb": 2.0,
+      "components": [
+        "QtFontDialog"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "WidgetFileDialog.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Dialogs/WidgetFileDialog.qml",
+      "size_kb": 2.0,
+      "components": [
+        "QtFileDialog"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ApplicationWindowStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ApplicationWindowStyle.qml",
+      "size_kb": 2.0,
+      "components": [
+        "ApplicationWindowStyle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "BusyIndicatorStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/BusyIndicatorStyle.qml",
+      "size_kb": 2.0,
+      "components": [
+        "BusyIndicatorStyle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "CalendarStyle.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/CalendarStyle.qml",
+      "size_kb": 2.0,
+      "components": [
+        "CalendarStyle"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextSingleton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Extras/Private/TextSingleton.qml",
+      "size_kb": 2.0,
+      "components": [
+        "Text"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "TextSingleton.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TextSingleton.qml",
+      "size_kb": 2.0,
+      "components": [
+        "Text"
+      ],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Label.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Label.qml",
+      "size_kb": 2.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Label.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Label.qml",
+      "size_kb": 2.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Label.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Label.qml",
+      "size_kb": 2.0,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ActionGroup.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ActionGroup.qml",
+      "size_kb": 1.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "ButtonGroup.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/ButtonGroup.qml",
+      "size_kb": 1.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    },
+    {
+      "name": "Action.qml",
+      "path": "IntraoralScan/Bin/QtQuick/Controls.2/Action.qml",
+      "size_kb": 1.8,
+      "components": [],
+      "signal_slot_count": 0,
+      "extraction_method": "direct_file_access",
+      "confidence": 1.0
+    }
+  ],
+  "qt_resources": [
+    {
+      "name": "FontSingleton.qml",
+      "path": "qrc:/qmls/singletons/FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "qrc:/qmls/common/FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "/qmls/common/FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "/qmls/singletons/ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "TranslationSingleton.qml",
+      "path": "/qmls/singletons/TranslationSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "/qmls/singletons/PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "TranslationSingleton.qml",
+      "path": "qrc:/qmls/singletons/TranslationSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "TranslationSingleton.qml",
+      "path": "TranslationSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "qrc:/qmls/singletons/PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "qrc:/qmls/singletons/ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "/qmls/singletons/FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "svg",
+      "path": "svg",
+      "type": "qt_resource",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "qrc:/qmls/singletons/FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "/qmls/singletons/ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "/qmls/singletons/PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "qrc:/qmls/singletons/PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "qrc:/qmls/singletons/ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "/qmls/singletons/FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "/qmls/singletons/FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "qrc:/qmls/singletons/FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "/qmls/dentalpopup/FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "GuideSingleton.qml",
+      "path": "qrc:/qmls/singletons/GuideSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "qrc:/qmls/singletons/ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "GuideSingleton.qml",
+      "path": "GuideSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "LogTracingSingleton.qml",
+      "path": "/qmls/singletons/LogTracingSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "TranslationSingleton.qml",
+      "path": "TranslationSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "/qmls/singletons/ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "TranslationSingleton.qml",
+      "path": "/qmls/singletons/TranslationSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "qrc:/qmls/dentalpopup/FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "TranslationSingleton.qml",
+      "path": "qrc:/qmls/singletons/TranslationSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "/qmls/singletons/PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "IDSingleton.qml",
+      "path": "qrc:/qmls/singletons/IDSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "GuideSingleton.qml",
+      "path": "/qmls/singletons/GuideSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PromptPopups.qml",
+      "path": "/qmls/dentalpopup/PromptPopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "IDSingleton.qml",
+      "path": "/qmls/singletons/IDSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PromptPopups.qml",
+      "path": "PromptPopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "qrc:/qmls/singletons/PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "/qmls/singletons/FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "LogTracingSingleton.qml",
+      "path": "LogTracingSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "qrc:/qmls/singletons/FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PromptPopups.qml",
+      "path": "qrc:/qmls/dentalpopup/PromptPopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "IDSingleton.qml",
+      "path": "IDSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "LogTracingSingleton.qml",
+      "path": "qrc:/qmls/singletons/LogTracingSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FilePopups.qml",
+      "path": "FilePopups.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "qrc:/qmls/singletons/FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "/qmls/singletons/ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "/qmls/singletons/PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "qrc:/qmls/singletons/ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "PropertySingleton.qml",
+      "path": "qrc:/qmls/singletons/PropertySingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "ColorSingleton.qml",
+      "path": "ColorSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "FontSingleton.qml",
+      "path": "/qmls/singletons/FontSingleton.qml",
+      "type": "qml_file",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.7
+    },
+    {
+      "name": "png",
+      "path": "png",
+      "type": "qt_resource",
+      "size_kb": 0,
+      "extraction_method": "string_analysis",
+      "confidence": 0.35
+    }
+  ],
+  "ui_structure": [],
+  "extraction_methods": {
+    "direct_file_access": 405,
+    "string_analysis": 65
+  },
+  "confidence_analysis": {}
+}

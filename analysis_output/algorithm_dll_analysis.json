@@ -1,0 +1,486 @@
+{
+  "analysis_summary": {
+    "total_dlls_analyzed": 62,
+    "average_confidence": 0.35,
+    "total_exports_found": 0
+  },
+  "processing_stages": {
+    "unknown": {
+      "dll_count": 25,
+      "average_confidence": 0.35
+    },
+    "algorithms": {
+      "dll_count": 10,
+      "average_confidence": 0.35
+    },
+    "ai_analysis": {
+      "dll_count": 6,
+      "average_confidence": 0.35
+    },
+    "dental_specific": {
+      "dll_count": 5,
+      "average_confidence": 0.35
+    },
+    "mesh_processing": {
+      "dll_count": 4,
+      "average_confidence": 0.35
+    },
+    "visualization": {
+      "dll_count": 3,
+      "average_confidence": 0.35
+    },
+    "registration": {
+      "dll_count": 3,
+      "average_confidence": 0.35
+    },
+    "fusion": {
+      "dll_count": 3,
+      "average_confidence": 0.35
+    },
+    "acquisition": {
+      "dll_count": 2,
+      "average_confidence": 0.35
+    },
+    "calibration": {
+      "dll_count": 1,
+      "average_confidence": 0.35
+    }
+  },
+  "high_confidence_findings": [],
+  "dll_details": [
+    {
+      "dll_name": "Sn3DAIOutUnity.dll",
+      "processing_stage": "visualization",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DAVXImp.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DApplicationCommon.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DApplicationRenderKit.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DApplicationUtility.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DCBCTLoader.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DCBCTSegLite.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DCalibrationJR.dll",
+      "processing_stage": "calibration",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DColorCorrect.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DCork.dll",
+      "processing_stage": "mesh_processing",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DCrownGen.dll",
+      "processing_stage": "dental_specific",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DCrypto.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDental.dll",
+      "processing_stage": "dental_specific",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalAI.dll",
+      "processing_stage": "ai_analysis",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalAICBCTSeg.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalAbutmentCloudDet.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalBoxDet.dll",
+      "processing_stage": "ai_analysis",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalDesktop.dll",
+      "processing_stage": "dental_specific",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalGeometryFeatureDet.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalMeshParameterize.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalOral.dll",
+      "processing_stage": "dental_specific",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalOralCls.dll",
+      "processing_stage": "ai_analysis",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDentalRealTimeSemSeg.dll",
+      "processing_stage": "ai_analysis",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDigital.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DDraco.dll",
+      "processing_stage": "mesh_processing",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DFace.dll",
+      "processing_stage": "visualization",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DFaceParsing.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DFaceScan.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DFaceUnity.dll",
+      "processing_stage": "visualization",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DGeometricTrackFusion.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DInfraredCariesDet.dll",
+      "processing_stage": "ai_analysis",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DInspect.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DInspection.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DLandmarksDetForCli.dll",
+      "processing_stage": "ai_analysis",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DLineCode.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DMagic.dll",
+      "processing_stage": "mesh_processing",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DOralExamCCP.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DOralExamResidualCrown.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DOralExamWedgeDefect.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DOrthoEx.dll",
+      "processing_stage": "dental_specific",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DPhaseBuild.dll",
+      "processing_stage": "fusion",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DPhotometricStereo.dll",
+      "processing_stage": "acquisition",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DRealtimeScan.dll",
+      "processing_stage": "acquisition",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DRegistration.dll",
+      "processing_stage": "registration",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DScanSlam.dll",
+      "processing_stage": "registration",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DSparseSolver.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DSpeckle.dll",
+      "processing_stage": "fusion",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DSpeckleFusion.dll",
+      "processing_stage": "fusion",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DTextureBasedTrack.dll",
+      "processing_stage": "registration",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DTextureSlam.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DTooling.dll",
+      "processing_stage": "mesh_processing",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "Sn3DVulkanWrapper.dll",
+      "processing_stage": "unknown",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithm1.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithm2.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithmHlj.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithmLy.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithmLzy.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithmMigrate.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithmSaj.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithmZbt.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithmZys.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    },
+    {
+      "dll_name": "algorithmlyc.dll",
+      "processing_stage": "algorithms",
+      "export_count": 0,
+      "confidence_score": 0.35,
+      "sample_exports": "No exports found"
+    }
+  ]
+}

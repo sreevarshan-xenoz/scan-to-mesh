@@ -1,0 +1,756 @@
+{
+  "executive_summary": {
+    "application_name": "IntraoralScan 3.5.4.6",
+    "architecture_type": "Multi-process Qt/QML application with AI/ML components",
+    "total_executables": 7,
+    "total_libraries": 90,
+    "ai_models_count": 22,
+    "supported_devices": 2,
+    "confidence_level": "High (0.85)"
+  },
+  "system_architecture": {
+    "service_startup_order": [
+      {
+        "name": "DentalNetwork",
+        "executable": "DentalNetwork.exe",
+        "start_level": 0,
+        "exit_level": 0,
+        "must_start": true,
+        "is_gui": false
+      },
+      {
+        "name": "SnSyncService",
+        "executable": "SnSyncService.exe",
+        "start_level": 0,
+        "exit_level": 0,
+        "must_start": true,
+        "is_gui": false
+      },
+      {
+        "name": "SnAuthenticator",
+        "executable": "SnAuthenticator.exe",
+        "start_level": 0,
+        "exit_level": 0,
+        "must_start": true,
+        "is_gui": false
+      },
+      {
+        "name": "DentalAlgoService",
+        "executable": "DentalAlgoService.exe",
+        "start_level": 10,
+        "exit_level": 10,
+        "must_start": true,
+        "is_gui": false
+      },
+      {
+        "name": "DentalOrderDataMgr",
+        "executable": "DentalOrderDataMgr.exe",
+        "start_level": 10,
+        "exit_level": 10,
+        "must_start": true,
+        "is_gui": false
+      },
+      {
+        "name": "DentalOrderAppLogic",
+        "executable": "DentalOrderAppLogic.exe",
+        "start_level": 20,
+        "exit_level": 20,
+        "must_start": true,
+        "is_gui": false
+      },
+      {
+        "name": "DentalScanAppLogic",
+        "executable": "DentalScanAppLogic.exe",
+        "start_level": 20,
+        "exit_level": 20,
+        "must_start": true,
+        "is_gui": false
+      },
+      {
+        "name": "DentalDesignAppLogic",
+        "executable": "DentalDesignAppLogic.exe",
+        "start_level": 20,
+        "exit_level": 20,
+        "must_start": true,
+        "is_gui": false
+      },
+      {
+        "name": "IntraoralScan",
+        "executable": "IntraoralScan.exe",
+        "start_level": 100,
+        "exit_level": 100,
+        "must_start": true,
+        "is_gui": true
+      }
+    ],
+    "communication_channels": {
+      "main_tunnel": {
+        "channel": "Dental",
+        "host": "LocalHost",
+        "port": 18830,
+        "service_name": "DentalHub",
+        "shared_memory": "DentalShared",
+        "memory_size": "4G"
+      }
+    },
+    "network_endpoints": {
+      "http_sockets": [
+        ":3000",
+        ":3001"
+      ],
+      "cloud_config": {
+        "model_code": "newaoralscan_domestic",
+        "version": "3.0.0.0",
+        "mqtt_settings": {
+          "autoReconnectInterval": 3000,
+          "keepAlive": 3000,
+          "isCleanSession": true
+        },
+        "auto_upgrade": {
+          "checkInterval": 10
+        }
+      }
+    },
+    "feature_flags": {
+      "full_offline_mode": false,
+      "ir_enabled": true,
+      "tough_mode": false,
+      "expo_mode": false,
+      "encrypt_log": false
+    }
+  },
+  "high_value_components": {
+    "main_executables": [
+      {
+        "name": "IntraoralScan.exe",
+        "path": "IntraoralScan/Bin/IntraoralScan.exe",
+        "size_mb": 89.53,
+        "classification": "main_ui",
+        "confidence": 0.8,
+        "md5": "ad21f160725956c6061fd7902271d54b",
+        "file_type": "IntraoralScan/Bin/IntraoralScan.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 7 sections"
+      },
+      {
+        "name": "DentalLauncher.exe",
+        "path": "IntraoralScan/Bin/DentalLauncher.exe",
+        "size_mb": 41.54,
+        "classification": "bootstrapper",
+        "confidence": 0.8,
+        "md5": "6dcff4803081c28590337ed2cec48bd8",
+        "file_type": "IntraoralScan/Bin/DentalLauncher.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+      },
+      {
+        "name": "DentalScanAppLogic.exe",
+        "path": "IntraoralScan/Bin/DentalScanAppLogic.exe",
+        "size_mb": 19.34,
+        "classification": "scanning_logic",
+        "confidence": 0.8,
+        "md5": "56302d20e0a4afbdc71af8734802a7d9",
+        "file_type": "IntraoralScan/Bin/DentalScanAppLogic.exe: PE32+ executable for MS Windows 6.00 (console), x86-64, 6 sections"
+      },
+      {
+        "name": "DentalAlgoService.exe",
+        "path": "IntraoralScan/Bin/DentalAlgoService.exe",
+        "size_mb": 12.39,
+        "classification": "algorithm_service",
+        "confidence": 0.8,
+        "md5": "989bf6927e4c787e3ba7d1f97c5c484d",
+        "file_type": "IntraoralScan/Bin/DentalAlgoService.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+      },
+      {
+        "name": "DentalDesignAppLogic.exe",
+        "path": "IntraoralScan/Bin/DentalDesignAppLogic.exe",
+        "size_mb": 3.17,
+        "classification": "design_service",
+        "confidence": 0.8,
+        "md5": "f6e74c0d34bf7cfaf06c13c54472b070",
+        "file_type": "IntraoralScan/Bin/DentalDesignAppLogic.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+      },
+      {
+        "name": "DentalOrderAppLogic.exe",
+        "path": "IntraoralScan/Bin/DentalOrderAppLogic.exe",
+        "size_mb": 2.56,
+        "classification": "order_management",
+        "confidence": 0.8,
+        "md5": "37d92fc2f4ce673468998ed4752db1a7",
+        "file_type": "IntraoralScan/Bin/DentalOrderAppLogic.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+      },
+      {
+        "name": "DentalNetwork.exe",
+        "path": "IntraoralScan/Bin/DentalNetwork.exe",
+        "size_mb": 1.68,
+        "classification": "network_service",
+        "confidence": 0.8,
+        "md5": "ff4c38f8d4614c97504162538526ada3",
+        "file_type": "IntraoralScan/Bin/DentalNetwork.exe: PE32+ executable for MS Windows 6.00 (GUI), x86-64, 6 sections"
+      }
+    ],
+    "algorithm_libraries": [
+      {
+        "name": "plugindentalquickcontrolsd.dll",
+        "path": "IntraoralScan/Bin/DentalQuickControls/plugindentalquickcontrolsd.dll",
+        "size_mb": 130.92,
+        "md5": "1f539d952e8833185388febd05c7ef5a"
+      },
+      {
+        "name": "plugindentalquickcontrols.dll",
+        "path": "IntraoralScan/Bin/DentalQuickControls/plugindentalquickcontrols.dll",
+        "size_mb": 108.51,
+        "md5": "fc5e4b262cb5ee0dd34c304a18031b19"
+      },
+      {
+        "name": "opencv_world346.dll",
+        "path": "IntraoralScan/Bin/opencv_world346.dll",
+        "size_mb": 75.63,
+        "md5": "87a8454dc1fa9a292bae3fd2cbc9822b"
+      },
+      {
+        "name": "opencv_world455.dll",
+        "path": "IntraoralScan/Bin/opencv_world455.dll",
+        "size_mb": 71.2,
+        "md5": "4c0cbe3f4acfd68a36bccb622fe0d0aa"
+      },
+      {
+        "name": "librenderkit.extensions.dentalscand.dll",
+        "path": "IntraoralScan/Bin/librenderkit.extensions.dentalscand.dll",
+        "size_mb": 39.28,
+        "md5": "ab70725d520f7a71973d35f51e61f3c9"
+      },
+      {
+        "name": "Sn3DSpeckleFusion.dll",
+        "path": "IntraoralScan/Bin/Sn3DSpeckleFusion.dll",
+        "size_mb": 38.91,
+        "md5": "00f060dc3132c6e3198d4f9abd9dd570"
+      },
+      {
+        "name": "Sn3DSpeckleFusion.dll",
+        "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DSpeckleFusion.dll",
+        "size_mb": 38.86,
+        "md5": "a11421ecc05d8b4f7b04476c41210b9d"
+      },
+      {
+        "name": "librenderkit.extensions.dentalscand.dll",
+        "path": "IntraoralScan/Bin/DentalViewer/librenderkit.extensions.dentalscand.dll",
+        "size_mb": 30.85,
+        "md5": "119a49e25b219417038e4a6508611b4d"
+      },
+      {
+        "name": "algorithmLzy.dll",
+        "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/algorithmLzy.dll",
+        "size_mb": 23.83,
+        "md5": "36014e5975991d3d34b84da8d66eba06"
+      },
+      {
+        "name": "algorithmLzy.dll",
+        "path": "IntraoralScan/Bin/algorithmLzy.dll",
+        "size_mb": 23.79,
+        "md5": "7a36e05f3a530ce483eea29bfa334a91"
+      },
+      {
+        "name": "Sn3DSpeckle.dll",
+        "path": "IntraoralScan/Bin/Sn3DSpeckle.dll",
+        "size_mb": 19.26,
+        "md5": "1468d6bbf5584a3443b09ba05c9f077c"
+      },
+      {
+        "name": "Sn3DSpeckle.dll",
+        "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DSpeckle.dll",
+        "size_mb": 19.26,
+        "md5": "3080bd5b354e2630a7ffd331d5197b94"
+      },
+      {
+        "name": "Sn3DMagic.dll",
+        "path": "IntraoralScan/Bin/DentalDesignAppDentalSphere/Services/DentalDesignAlgoService/Sn3DMagic.dll",
+        "size_mb": 14.1,
+        "md5": "1a373ef807ea0ade5333246d60edde06"
+      },
+      {
+        "name": "librenderkit.extensions.dentalscan.dll",
+        "path": "IntraoralScan/Bin/librenderkit.extensions.dentalscan.dll",
+        "size_mb": 14.04,
+        "md5": "02abceaabb686f5440f2a627da0704be"
+      },
+      {
+        "name": "Sn3DMagic.dll",
+        "path": "IntraoralScan/Bin/Sn3DMagic.dll",
+        "size_mb": 13.96,
+        "md5": "da480e75eb95af2e04df0c68afbadca2"
+      }
+    ],
+    "technology_stack": {
+      "ui_framework": "Qt5 with QML",
+      "graphics": "OpenSceneGraph (OSG)",
+      "computer_vision": "OpenCV 3.4.8 & 4.5.5",
+      "gpu_acceleration": "CUDA 11.0 with cuDNN 8",
+      "ai_inference": "TensorRT 8.5.3.1 & ONNX Runtime",
+      "python_runtime": "3.8",
+      "database": "SQLite"
+    }
+  },
+  "ai_ml_components": {
+    "model_categories": {
+      "segmentation": 7,
+      "detection": 6,
+      "classification": 2,
+      "implant_analysis": 0,
+      "caries_detection": 0,
+      "facial_analysis": 1,
+      "tooth_analysis": 1
+    },
+    "model_configurations": {
+      "config": {
+        "class": "4",
+        "debug_print": "1",
+        "width_V2": "240",
+        "height_V2": "240",
+        "width_V3": "240",
+        "height_V3": "176",
+        "width_V5": "240",
+        "height_V5": "176",
+        "depth_w_V2": "120",
+        "depth_h_V2": "120",
+        "depth_w_V3": "120",
+        "depth_h_V3": "88",
+        "depth_w_V5": "120",
+        "depth_h_V5": "88",
+        "depth_range_max_V2": "-95",
+        "depth_range_min_V2": "-115",
+        "depth_range_max_V3": "-120",
+        "depth_range_min_V3": "-150",
+        "depth_range_max_V5": "-70",
+        "depth_range_min_V5": "-100",
+        "dla": "1",
+        "entropy_threshold": "0.2",
+        "is_encrypt": "1",
+        "is_save_pic": "0",
+        "is_verify": "1",
+        "is_gpu_warm_up": "1",
+        "is_save_serialize_bin": "0",
+        "model_V2": "fine_turn_0.55_align8_0.9540_205_02122020_v2.onnx",
+        "model_V3": "fine_turn_0.70_0.9557_405_03082024_v3_beikou_opera.onnx",
+        "model_V5": "fine_turn_0.70_align8_0.9593_294_13072023_v5.onnx",
+        "save_pic_interval": "10",
+        "save_pic_path": "./output",
+        "trt_version": "8.5.3.1",
+        "version": "5.0.3.2"
+      },
+      "config-DENTURE": {
+        "class": "4",
+        "debug_print": "1",
+        "width_V2": "240",
+        "height_V2": "240",
+        "width_V3": "240",
+        "height_V3": "176",
+        "width_V5": "240",
+        "height_V5": "176",
+        "depth_w_V2": "120",
+        "depth_h_V2": "120",
+        "depth_w_V3": "120",
+        "depth_h_V3": "88",
+        "depth_w_V5": "120",
+        "depth_h_V5": "88",
+        "depth_range_max_V2": "-95",
+        "depth_range_min_V2": "-115",
+        "depth_range_max_V3": "-120",
+        "depth_range_min_V3": "-150",
+        "depth_range_max_V5": "-70",
+        "depth_range_min_V5": "-100",
+        "dla": "1",
+        "entropy_threshold": "0.2",
+        "is_encrypt": "1",
+        "is_save_pic": "0",
+        "is_verify": "1",
+        "is_gpu_warm_up": "1",
+        "is_save_serialize_bin": "0",
+        "model_V2": "fine_turn_0.55_align8_0.9540_205_02122020_v2.onnx",
+        "model_V3": "fine_turn_0.70_align8_0.9593_294_13072023_v3.onnx",
+        "model_V5": "fine_turn_0.68_align8_0.9576_249_10072024_v5_Denture.onnx",
+        "save_pic_interval": "10",
+        "save_pic_path": "./output",
+        "trt_version": "8.5.3.1",
+        "version": "5.0.6"
+      },
+      "config-EJAW": {
+        "class": "4",
+        "debug_print": "1",
+        "width_V2": "240",
+        "height_V2": "240",
+        "width_V3": "240",
+        "height_V3": "176",
+        "width_V5": "240",
+        "height_V5": "176",
+        "depth_w_V2": "120",
+        "depth_h_V2": "120",
+        "depth_w_V3": "120",
+        "depth_h_V3": "88",
+        "depth_w_V5": "120",
+        "depth_h_V5": "88",
+        "depth_range_max_V2": "-95",
+        "depth_range_min_V2": "-115",
+        "depth_range_max_V3": "-120",
+        "depth_range_min_V3": "-150",
+        "depth_range_max_V5": "-70",
+        "depth_range_min_V5": "-100",
+        "dla": "1",
+        "entropy_threshold": "0.2",
+        "is_encrypt": "1",
+        "is_save_pic": "0",
+        "is_verify": "0",
+        "is_gpu_warm_up": "0",
+        "is_save_serialize_bin": "0",
+        "model_V2": "fine_turn_0.55_align8_0.9540_205_02122020_v2.onnx",
+        "model_V3": "fine_turn_0.70_align8_0.9672_495_19102022_v3_EdentulousJaw.onnx",
+        "model_V5": "fine_turn_0.68_0.9235_189_06082024_v5_ejaw.onnx",
+        "save_pic_interval": "10",
+        "save_pic_path": "./output",
+        "trt_version": "8.5.3.1",
+        "version": "5.0.3"
+      }
+    },
+    "encrypted_models": [
+      {
+        "name": "fine_turn_0.70_align8_0.9593_294_13072023_v5.onnx.encrypt",
+        "size_mb": 37.68,
+        "type": "ONNX (encrypted)"
+      },
+      {
+        "name": "fine_turn_0.70_0.9557_405_03082024_v3_beikou_opera.onnx.encrypt",
+        "size_mb": 37.69,
+        "type": "ONNX (encrypted)"
+      },
+      {
+        "name": "fine_turn_0.55_align8_0.9540_205_02122020_v2.onnx.encrypt",
+        "size_mb": 42.2,
+        "type": "ONNX (encrypted)"
+      }
+    ]
+  },
+  "data_storage": {
+    "database_structure": {
+      "tables": [
+        {
+          "name": "recentUsedData",
+          "columns": [
+            "guid",
+            "type",
+            "latestTime"
+          ],
+          "row_count": 0
+        },
+        {
+          "name": "implantData",
+          "columns": [
+            "guid",
+            "manufacturer",
+            "implant",
+            "type",
+            "subType",
+            "authorization",
+            "createTime",
+            "dataFilePath",
+            "collected",
+            "showName",
+            "implantKeyword",
+            "typeKeyword",
+            "subTypeKeyword"
+          ],
+          "row_count": 6009
+        },
+        {
+          "name": "markPointUsedData",
+          "columns": [
+            "guid",
+            "markPoint",
+            "operateTime",
+            "orgId",
+            "serialNumber"
+          ],
+          "row_count": 0
+        }
+      ]
+    },
+    "implant_data_entries": 179,
+    "markpoint_data_entries": 35
+  },
+  "python_integration": {
+    "pyd_modules": [
+      {
+        "name": "_ssl.pyd",
+        "size_kb": 150.1
+      },
+      {
+        "name": "_asyncio.pyd",
+        "size_kb": 62.1
+      },
+      {
+        "name": "_bz2.pyd",
+        "size_kb": 84.1
+      },
+      {
+        "name": "_sqlite3.pyd",
+        "size_kb": 85.6
+      },
+      {
+        "name": "_hashlib.pyd",
+        "size_kb": 45.1
+      },
+      {
+        "name": "_ctypes.pyd",
+        "size_kb": 123.1
+      },
+      {
+        "name": "select.pyd",
+        "size_kb": 26.1
+      },
+      {
+        "name": "winsound.pyd",
+        "size_kb": 28.6
+      },
+      {
+        "name": "_msi.pyd",
+        "size_kb": 38.1
+      },
+      {
+        "name": "_overlapped.pyd",
+        "size_kb": 44.6
+      },
+      {
+        "name": "_decimal.pyd",
+        "size_kb": 262.6
+      },
+      {
+        "name": "_queue.pyd",
+        "size_kb": 27.6
+      },
+      {
+        "name": "_elementtree.pyd",
+        "size_kb": 173.1
+      },
+      {
+        "name": "_multiprocessing.pyd",
+        "size_kb": 28.6
+      },
+      {
+        "name": "unicodedata.pyd",
+        "size_kb": 1070.6
+      },
+      {
+        "name": "_lzma.pyd",
+        "size_kb": 247.1
+      },
+      {
+        "name": "_socket.pyd",
+        "size_kb": 77.1
+      },
+      {
+        "name": "pyexpat.pyd",
+        "size_kb": 184.6
+      }
+    ],
+    "python_version": "3.8",
+    "pyc_files": []
+  },
+  "scanning_pipeline": {
+    "acquisition": "DentalScanAppLogic.exe - Real-time camera stream processing",
+    "algorithm_processing": "DentalAlgoService.exe - AI/ML inference and 3D processing",
+    "registration": "Sn3DRegistration.dll - Point cloud alignment and pose estimation",
+    "fusion": "Sn3DSpeckleFusion.dll - TSDF-based mesh generation",
+    "ai_analysis": "Multiple AI models for tooth segmentation and clinical analysis",
+    "visualization": "OpenSceneGraph + Qt5 for 3D rendering and UI",
+    "export": "DentalOrderAppLogic.exe - Data export and order management"
+  },
+  "device_support": [
+    {
+      "name": "AOS",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": [
+        "RemovableDenture"
+      ]
+    },
+    {
+      "name": "AOS3",
+      "soft_model": "IOS-3",
+      "disabled": false,
+      "is_native": false,
+      "disabled_functions": [
+        "PreparedTeethMonitoring",
+        "RemovableDenture",
+        "IBT",
+        "TempCrownDesign",
+        "CreSplint"
+      ]
+    },
+    {
+      "name": "A3S",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "AOS3-LAB",
+      "soft_model": "IOS-3",
+      "disabled": false,
+      "is_native": false,
+      "disabled_functions": [
+        "PreparedTeethMonitoring",
+        "RemovableDenture",
+        "IBT",
+        "TempCrownDesign",
+        "CreSplint"
+      ]
+    },
+    {
+      "name": "A3I",
+      "soft_model": "IOS-3i",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "A3W",
+      "soft_model": "IOS-3 Wireless",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "A3IW",
+      "soft_model": "IOS-3i Wireless",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "ALWC",
+      "soft_model": "IOS-E",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "ASE",
+      "soft_model": "IOS-LC",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "ALWW",
+      "soft_model": "IOS-EW",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "AOSL",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": [
+        "InspectionReport",
+        "OneClickPrinting",
+        "ModelCompare",
+        "TempCrownDesign",
+        "IBT",
+        "CreSplint",
+        "AccuWare",
+        "PreparedTeethMonitoring",
+        "RemovableDenture",
+        "ImpressionScan",
+        "MultipleJawRelationship",
+        "AdditionalScan",
+        "ExtraAlign"
+      ]
+    },
+    {
+      "name": "A3LP",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": [
+        "InspectionReport",
+        "OneClickPrinting",
+        "ModelCompare",
+        "TempCrownDesign",
+        "IBT",
+        "CreSplint",
+        "AccuWare",
+        "PreparedTeethMonitoring",
+        "RemovableDenture",
+        "ImpressionScan",
+        "MultipleJawRelationship",
+        "AdditionalScan",
+        "ExtraAlign"
+      ]
+    },
+    {
+      "name": "A3M",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": true,
+      "disabled_functions": [
+        "DynamicBite",
+        "InspectionReport",
+        "OneClickPrinting",
+        "ModelCompare",
+        "TempCrownDesign",
+        "IBT",
+        "CreSplint",
+        "PreparationManipulation",
+        "PreparedTeethMonitoring",
+        "ScanbodyOrAbutment_Match",
+        "RemovableDenture",
+        "ImpressionScan",
+        "MultipleJawRelationship",
+        "AdditionalScan",
+        "ExtraAlign"
+      ]
+    },
+    {
+      "name": "A3L",
+      "soft_model": "IOS-3",
+      "disabled": true,
+      "is_native": true,
+      "disabled_functions": [
+        "DynamicBite",
+        "InspectionReport",
+        "OneClickPrinting",
+        "ModelCompare",
+        "TempCrownDesign",
+        "IBT",
+        "CreSplint",
+        "PreparationManipulation",
+        "PreparedTeethMonitoring",
+        "ScanbodyOrAbutment_Match",
+        "RemovableDenture",
+        "ImpressionScan",
+        "MultipleJawRelationship",
+        "AdditionalScan",
+        "ExtraAlign"
+      ]
+    },
+    {
+      "name": "A3IP",
+      "soft_model": "IOS-3i",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    },
+    {
+      "name": "A3WN",
+      "soft_model": "IOS-3 Wireless",
+      "disabled": true,
+      "is_native": false,
+      "disabled_functions": []
+    }
+  ],
+  "security_observations": {
+    "encrypted_models": true,
+    "encrypted_configs": "Some configuration files appear encrypted",
+    "authentication_service": "SnAuthenticator.exe handles licensing/authentication",
+    "log_encryption": false
+  }
+}
