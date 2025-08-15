@@ -1,0 +1,3686 @@
+{
+  "title": "Configuration Reference Guide",
+  "generated_at": "2025-08-15T23:26:35.115694",
+  "qt_resources": {
+    "total_resources": 65,
+    "by_type": {
+      "qml_file": [
+        {
+          "path": "/qmls/common/FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/dentalpopup/FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/dentalpopup/PromptPopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/GuideSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/IDSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/LogTracingSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/TranslationSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "/qmls/singletons/TranslationSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "GuideSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "IDSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "LogTracingSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "PromptPopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "TranslationSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "TranslationSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/common/FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/dentalpopup/FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/dentalpopup/PromptPopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/ColorSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/FilePopups.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/FontSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/GuideSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/IDSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/LogTracingSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/PropertySingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/TranslationSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        },
+        {
+          "path": "qrc:/qmls/singletons/TranslationSingleton.qml",
+          "size": 0,
+          "extraction_success": true
+        }
+      ],
+      "qt_resource": [
+        {
+          "path": "png",
+          "size": 0,
+          "extraction_success": false
+        },
+        {
+          "path": "svg",
+          "size": 0,
+          "extraction_success": true
+        }
+      ]
+    },
+    "extraction_success_rate": 98.46
+  },
+  "qml_structure": {
+    "total_qml_files": 405,
+    "components_by_type": {
+      "": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/AbstractButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Action.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ActionGroup.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ApplicationWindow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/BusyIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Button.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ButtonGroup.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Container.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Control.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Dialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/DialogButtonBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Frame.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ApplicationWindow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/BusyIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Button.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/CheckBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/CheckDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/DialogButtonBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Frame.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/GroupBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ItemDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Label.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/MenuBarItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/MenuItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/MenuSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Page.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Pane.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Popup.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RadioButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RadioDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RangeSlider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Slider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SwipeDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Switch.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SwitchDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ToolButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/GroupBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ApplicationWindow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/BusyIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Button.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/CheckBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/CheckDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ComboBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Dialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/DialogButtonBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Drawer.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Frame.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/GroupBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ItemDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Label.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Menu.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/MenuItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/MenuSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Page.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Pane.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Popup.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ProgressBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/RadioButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/RadioDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/RoundButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SwipeDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SwipeView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/TabBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/TabButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ToolBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ToolButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ToolSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ToolTip.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ItemDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Label.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ApplicationWindow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/BusyIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/DialogButtonBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Frame.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/GroupBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Label.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/MenuSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Page.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Pane.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ProgressBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SwipeView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/TabButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ToolBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ToolButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ToolSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Menu.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/MenuBarItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/MenuItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/MenuSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Page.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Pane.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Popup.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ProgressBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/RoundButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ScrollView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/SwipeDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/SwipeView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/TabBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/TabButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ToolBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ToolButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ToolSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ToolTip.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/BusyIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/CheckBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Dialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/DialogButtonBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Frame.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/GroupBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Label.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Menu.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/MenuSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Page.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Pane.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Popup.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ProgressBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RadioButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Switch.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/TabButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ToolBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ToolSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ToolTip.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TreeViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ColorImage,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/CheckBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/CheckDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ComboBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Drawer.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Dialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Menu.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/TabBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ToolSeparator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ToolTip.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Drawer.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RangeSlider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Slider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/TabBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/RadioButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/RadioDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/RangeSlider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Slider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Button.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/CheckDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Drawer.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ItemDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/MenuBarItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/MenuItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RadioDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RoundButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/SwitchDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ToolButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NumberAnimation,ClippedText,ClippedText,PaddedRectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/DelayButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Translate,Rotation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Dial.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Dial.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Dial.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Dial.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Dial.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,Gradient,GradientStop,GradientStop,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ButtonPanel.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,Rectangle,ColorImage,Rectangle,GradientStop,GradientStop": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/CheckIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,Rectangle,Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ComboBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/SpinBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NumberAnimation,ClippedText,ClippedText,Rectangle,GradientStop,GradientStop": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/DelayButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Drawer.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RadioIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RoundButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ComboBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RangeSlider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Slider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/SwipeDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Repeater,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/MenuBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Repeater": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/PageIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/PageIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/MenuBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/PageIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/MenuBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/PageIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/MenuBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/PageIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,GradientStop,GradientStop,Item,ColorImage,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ProgressBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RadioIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/RadioIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "GradientStop,GradientStop,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/RoundButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "PropertyChanges,SequentialAnimation,PauseAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ScrollBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ScrollBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "PropertyChanges,Transition,SequentialAnimation,PauseAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ScrollIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ScrollIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/ScrollIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,GradientStop,GradientStop,Rectangle,GradientStop,GradientStop": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SliderGroove.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,GradientStop,GradientStop,Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SliderHandle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ColorImage,ColorImage,Rectangle,Rectangle,GradientStop,GradientStop,Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SpinBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,GradientStop,GradientStop,Rectangle,NumberAnimation,GradientStop,GradientStop,Rectangle,GradientStop,GradientStop,Rectangle,Rectangle,SmoothedAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/SwitchIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "GradientStop,GradientStop,GradientStop": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/TabButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "PlaceholderText": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/TextArea.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/TextArea.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/TextField.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/TextArea.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/TextField.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/TextArea.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/TextField.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/TextArea.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/TextField.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "PlaceholderText,Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/TextField.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "GradientStop,GradientStop,Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ToolBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "PathLine": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Tumbler.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Tumbler.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Tumbler.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Tumbler.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/TabBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/Tumbler.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/DelayButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NinePatchImage": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/RangeSlider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Slider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SpinBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "State,Transition,NumberAnimation,Transition,SequentialAnimation,PropertyAction,PauseAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ScrollBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ScrollBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "State,Transition,NumberAnimation,Transition,SequentialAnimation,PauseAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ScrollIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ScrollIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "XAnimator,XAnimator,XAnimator,XAnimator,XAnimator,XAnimator": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/StackView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/StackView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "SmoothedAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Switch.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SwitchDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "RectangularGlow": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/BoxShadow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "PaddedRectangle,Ripple": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Button.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Ripple": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/CheckBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/CheckDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ItemDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/MenuBarItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/MenuItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RadioButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RadioDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Switch.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SwitchDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,NumberAnimation,ColorAnimation,Image,Rectangle,State,State,SequentialAnimation,NumberAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/CheckIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,Ripple,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ComboBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,Connections,Timer": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/CursorDelegate.qml",
+          "service_connections": [
+            "[\"Connections {\"]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NumberAnimation,PaddedRectangle,PaddedRectangle,Ripple": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/DelayButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Dialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Menu.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/Popup.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Item,Item,BoxShadow,BoxShadow,BoxShadow,ShaderEffect": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ElevationEffect.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Item,ShaderEffectSource,ShaderEffect": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/RectangularGlow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "Transition,NumberAnimation,Transition,SequentialAnimation,PropertyAction,PauseAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ScrollBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Item,Rectangle,NumberAnimation,Ripple": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SliderHandle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Ripple,Rectangle,Rectangle,Ripple,Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SpinBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/StackView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,Ripple": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SwipeDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Item,Rectangle,Rectangle,SmoothedAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/SwitchIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/SwitchIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NumberAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Material/ToolTip.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,SmoothedAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Switch.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/SwitchDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "FocusRectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/ApplicationWindow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,ColorImage,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/CheckIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "NumberAnimation,Rectangle,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/DelayButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Rectangle,ColorImage,Rectangle,ColorImage": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/SpinBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ParallelAnimation,NumberAnimation,NumberAnimation,NumberAnimation,ParallelAnimation,NumberAnimation,NumberAnimation,NumberAnimation,ParallelAnimation,NumberAnimation,NumberAnimation,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls.2/Universal/StackView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ApplicationWindow,Menu,Menu,RowLayout,ToolButton,TabView,Window,Binding,Binding,Loader,Loader,Binding,Binding,Binding,Binding,ContentItem": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/ApplicationWindow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "BusyIndicator,Control": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/BusyIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Button,BasicButton,Binding,Binding,Connections,Timer": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Button.qml",
+          "service_connections": [
+            "[\"Connections {\"]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Calendar,Calendar,Control,RangedDate": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Calendar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 24
+        }
+      ],
+      "Column,CheckBox,CheckBox,CheckBox,AbstractCheckable": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/CheckBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "ComboBox,ComboBox,ListElement,ListElement,ListElement,ComboBox,ListElement,ListElement,ListElement,Control,ComboBox,MouseArea,TextInputWithHandles,Binding,ExclusiveGroup,Menu,Instantiator,MenuItem": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/ComboBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 18
+        }
+      ],
+      "GroupBox,Column,CheckBox,CheckBox,CheckBox,FocusScope,Loader,Text,Loader,CheckBox,Item": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/GroupBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "Label,Label,Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Label.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Menu,MenuItem,MenuItem,MenuItem,MenuSeparator,Menu,MenuItem,MenuPrivate,Component,MenuContentItem": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Menu.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "ApplicationWindow,Menu,MenuItem,MenuItem,Menu,MenuItem,MenuItem,MenuItem,MenuBarPrivate,Loader,Binding,QtObject,Row,Repeater,Loader,Connections,Connections,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/MenuBar.qml",
+          "service_connections": [
+            "[\"Connections {\"",
+            " \"Connections {\"]"
+          ],
+          "signal_slot_connections": 4
+        }
+      ],
+      "Control,MouseArea,Timer,Action": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/AbstractCheckable.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "Control,Action,Connections,MouseArea,Timer,State,PropertyChanges": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/BasicButton.qml",
+          "service_connections": [
+            "[\"Connections {\"]"
+          ],
+          "signal_slot_connections": 4
+        }
+      ],
+      "ScrollView,ListView,Binding,SystemPalette,Rectangle,Column,Loader,Repeater,Loader,ListModel,Component,FocusScope,Loader,Row,Repeater,Row,Repeater,Loader,Rectangle,MouseArea,Loader,MouseArea,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/BasicTableView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 10
+        }
+      ],
+      "ListModel,ListElement,ListElement,ListElement,ListElement,ListElement,ListElement,ListElement": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/CalendarHeaderModel.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "Item,Timer,Component,Style,ScrollView,ListView,MouseArea,MenuContentScroller,MenuContentScroller,Timer,Binding": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ColumnMenuContent.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 6
+        }
+      ],
+      "Item": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ContentItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 6
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/FocusFrameStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "FocusScope,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/Control.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Loader,Connections": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/EditMenu.qml",
+          "service_connections": [
+            "[\"Connections {\"]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "Item,Component,Action,Component,Action,Component,Action,Component,Action,Component,Action,Component,Action,Component,Action,Component,Action,MenuItem,MenuItem,MenuSeparator,MenuItem,MenuItem,MenuItem,MenuItem,MenuItem,MenuSeparator,MenuItem,Connections": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/EditMenu_base.qml",
+          "service_connections": [
+            "[\"Connections {\"]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Item,SourceProxy,ShaderEffectSource,ShaderEffect,ShaderEffectSource,ShaderEffect,ShaderEffectSource,ShaderEffect,ShaderEffectSource,ShaderEffect,ShaderEffectSource,ShaderEffect,ShaderEffectSource,ShaderEffect,ShaderEffectSource,Item,ShaderEffectSource,ShaderEffect": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/FastGlow.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 3
+        }
+      ],
+      "Item,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/FocusFrame.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Item,Rectangle,Rectangle,Image,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/HoverButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "Loader,Loader,QtObject,Binding,ColumnMenuContent,Component,Loader,Timer,Timer,Binding": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/MenuContentItem.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 5
+        }
+      ],
+      "MouseArea,Loader,Timer": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/MenuContentScroller.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "QtObject": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/MenuItemSubControls.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/SystemPaletteSingleton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 14
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TableViewSelection.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 12
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/StackViewDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 4
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CommonStyleHelper.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/HandleStyleHelper.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Private/CircularButtonStyleHelper.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "Item,MouseArea,Loader,Timer,Timer,ParentChange": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ModalPopupBehavior.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 5
+        }
+      ],
+      "Item,Loader,MouseArea,Timer,Timer,RangeModel": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ScrollBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 6
+        }
+      ],
+      "Item,Timer,Connections,Connections,Loader,ScrollBar,Binding,Binding,Timer,ScrollBar,Binding,Binding,Timer": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ScrollViewHelper.qml",
+          "service_connections": [
+            "[\"Connections {\"",
+            " \"Connections {\"]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "Item,ShaderEffectSource": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/SourceProxy.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 7
+        }
+      ],
+      "StackViewDelegate,PropertyAnimation,PropertyAnimation,PropertyAnimation,PropertyAnimation,PropertyAnimation,PropertyAnimation,PropertyAnimation,PropertyAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/StackViewSlideDelegate.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "AbstractStyle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/Style.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "FocusScope,Loader,ListView,NumberAnimation,State,AnchorChanges,PropertyChanges,State,AnchorChanges,State,AnchorChanges,PropertyChanges,Binding,Loader,Transition,PropertyAction,Transition,SequentialAnimation,PropertyAction,NumberAnimation,Loader,Loader,DropArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TabBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 4
+        }
+      ],
+      "Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TableViewItemDelegateLoader.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Private/PieMenuIcon.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Loader,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TextHandle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "TextInput,MouseArea,EditMenu,ScenePosListener,TextHandle,TextHandle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TextInputWithHandles.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 3
+        }
+      ],
+      "Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TextSingleton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Private/TextSingleton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "FocusScope,Loader,MouseArea,Timer,Binding,Binding": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/ToolMenuButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "TableViewItemDelegateLoader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Private/TreeViewItemDelegateLoader.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Column,ProgressBar,ProgressBar,Control,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/ProgressBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "GroupBox,RowLayout,ExclusiveGroup,RadioButton,RadioButton,AbstractCheckable": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/RadioButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ScrollView,Image,ScrollView,ListView,FocusScope,Loader,Binding,Binding,Connections,Component,Flickable,WheelArea,Connections,ScrollViewHelper,Loader,Item,FocusFrame": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/ScrollView.qml",
+          "service_connections": [
+            "[\"Connections {\"",
+            " \"Connections {\"]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Slider,Control,Slider,RangeModel,Item,MouseArea,Binding,WheelArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Slider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 5
+        }
+      ],
+      "SpinBox,SpinBox,Control,Text,Text,MouseArea,TextInputWithHandles,MouseArea,Timer,Timer,MouseArea,Timer,Timer": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/SpinBox.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 6
+        }
+      ],
+      "SplitView,Rectangle,Text,Rectangle,Text,Rectangle,Text,Item,SystemPalette,QtObject,Component,Loader,MouseArea,Item,Item,Item,Item": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/SplitView.qml",
+          "service_connections": [
+            "[\"d.initItemConnections(item)\"",
+            " \"function initItemConnections(item)\"",
+            " \"// should match disconnections in terminateItemConnections\"",
+            " \"function terminateItemConnections(item)\"",
+            " \"// should match connections in initItemConnections\"",
+            " \"terminateItemConnections(item)\"",
+            " \"d.terminateItemConnections(item)\"]"
+          ],
+          "signal_slot_connections": 17
+        }
+      ],
+      "StackView,Component,MouseArea,Text,StackView,PropertyAnimation,PropertyAnimation,StackView,SequentialAnimation,ScriptAction,PropertyAnimation,PropertyAnimation,PropertyAnimation,StackViewDelegate,PropertyAnimation,PropertyAnimation,PropertyAnimation,PropertyAnimation,FocusScope,Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/StackView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 33
+        }
+      ],
+      "ParallelAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/StackViewTransition.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ApplicationWindow,RowLayout,Label,FocusScope,Loader,Loader,Item": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/StatusBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ApplicationWindow,QtObject,Loader,Item,Item,Item,Item": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ApplicationWindowStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ScrollViewStyle,Text,Rectangle,Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/BasicTableViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "BusyIndicator,Style,Image,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/BusyIndicatorStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Button,GradientStop,GradientStop,Style,Rectangle,Rectangle,GradientStop,GradientStop,Rectangle,Image,Row,Image,Text,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ButtonStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Calendar,GradientStop,GradientStop,GradientStop,Label,Rectangle,Rectangle,Style,Rectangle,Rectangle,HoverButton,Label,HoverButton,Label,Label,Label,Rectangle,Item,Loader,Loader,Row,Repeater,Loader,Rectangle,Row,Column,Repeater,Loader,Connections,Connections,Rectangle,Item,Repeater,Repeater,MouseArea,Connections,Repeater": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CalendarStyle.qml",
+          "service_connections": [
+            "[\"Connections {\"",
+            " \"Connections {\"",
+            " \"Connections {\"]"
+          ],
+          "signal_slot_connections": 5
+        }
+      ],
+      "CheckBox,Rectangle,Style,Rectangle,Text,Rectangle,Rectangle,GradientStop,GradientStop,GradientStop,Image,Rectangle,GradientStop,GradientStop,Loader,RowLayout,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CheckBoxStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ButtonStyle,CircularButtonStyleHelper,Canvas,Connections": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CircularButtonStyle.qml",
+          "service_connections": [
+            "[\"Connections {\"]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "CircularGauge,Style,Image,Image,Loader,CircularTickmarkLabel,Loader,Rotation,Translate,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CircularGaugeStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 4
+        }
+      ],
+      "Style,Loader,Translate,Rotation,Loader,Translate,Rotation,Loader,Connections,Repeater": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/CircularTickmarkLabelStyle.qml",
+          "service_connections": [
+            "[\"Connections {\"]"
+          ],
+          "signal_slot_connections": 10
+        }
+      ],
+      "Style,Rectangle,Rectangle,GradientStop,GradientStop,Rectangle,Image,Rectangle,Rectangle,GradientStop,GradientStop,GradientStop,Rectangle,Text,Loader,Loader,Loader,Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ComboBoxStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "CircularButtonStyle,GradientStop,GradientStop,Canvas,Connections,State,PropertyChanges,State,Transition,SequentialAnimation,NumberAnimation,NumberAnimation,Connections,CircularProgressBar,Connections,DropShadow,Loader,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/DelayButtonStyle.qml",
+          "service_connections": [
+            "[\"Connections {\"",
+            " \"Connections {\"",
+            " \"Connections {\"]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "Style,CircularButtonStyleHelper,Canvas,HandleStyleHelper,Loader,Loader,CircularTickmarkLabel": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/DialStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "Rectangle,Timer,Gauge,NumberAnimation,Style,Rectangle,Rectangle,Rectangle,Rectangle,Item,Item,Loader,Loader,Item,Column,Repeater,Repeater,Item,Repeater,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/GaugeStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "Style,BorderImage,Rectangle,Rectangle,BorderImage,Loader,Text,BorderImage": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/GroupBoxStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,HandleStyleHelper,Canvas,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/HandleStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/MenuBarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "Style,MenuItemSubControls,GradientStop,GradientStop,Component,Rectangle,Rectangle,Component,BorderImage,Rectangle,Rectangle,Rectangle,Loader,Loader,Loader,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/MenuStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "PieMenuStyle,Rectangle,Text,Style,Canvas,Connections,Connections,PieMenuIcon,Item,Loader,Loader,Repeater,DropShadow,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/PieMenuStyle.qml",
+          "service_connections": [
+            "[\"Connections {\"",
+            " \"Connections {\"]"
+          ],
+          "signal_slot_connections": 5
+        }
+      ],
+      "ProgressBar,Item,Row,Repeater,Rectangle,Style,Rectangle,GradientStop,GradientStop,Rectangle,Image,Rectangle,Rectangle,Rectangle,Rectangle,GradientStop,GradientStop,GradientStop,Rectangle,Item,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ProgressBarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "RadioButton,Rectangle,Style,Rectangle,Text,GradientStop,GradientStop,GradientStop,Rectangle,GradientStop,GradientStop,Loader,Row,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/RadioButtonStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,Rectangle,BorderImage,Rectangle,Rectangle,Image,GradientStop,GradientStop,Rectangle,Rectangle,Image,GradientStop,GradientStop,PropertyChanges,SequentialAnimation,PauseAnimation,NumberAnimation,PropertyAction,Loader,Loader,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ScrollViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 5
+        }
+      ],
+      "Slider,Style,FastGlow,Rectangle,GradientStop,GradientStop,Rectangle,Rectangle,GradientStop,GradientStop,GradientStop,Item,Rectangle,GradientStop,GradientStop,Rectangle,Item,Loader,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/SliderStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "SpinBox,Style,Image,Image,Rectangle,Rectangle,GradientStop,GradientStop,GradientStop,Loader,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/SpinBoxStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "StatusBar,GradientStop,GradientStop,Rectangle,Style,GradientStop,GradientStop,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/StatusBarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,Canvas,Connections,Item,Canvas,Connections,DropShadow,Canvas,Connections,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/StatusIndicatorStyle.qml",
+          "service_connections": [
+            "[\"Connections {\"",
+            " \"Connections {\"",
+            " \"Connections {\"]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Switch,Style,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,Rectangle,Loader,Loader,NumberAnimation": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/SwitchStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "TabView,Tab,Tab,Tab,Text,Style,Rectangle,Item,BorderImage,Text,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TabViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "BasicTableViewStyle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TableViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "TextArea,ScrollViewStyle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TextAreaStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "TextField,Style,Rectangle,Rectangle,GradientStop,GradientStop,GradientStop,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TextFieldStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "CircularButtonStyle,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,CommonStyleHelper,Connections,Connections,Connections,Connections,Connections,Canvas,Canvas,Canvas,DropShadow,DropShadow,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ToggleButtonStyle.qml",
+          "service_connections": [
+            "[\"Connections {\"",
+            " \"Connections {\"",
+            " \"Connections {\"",
+            " \"Connections {\"",
+            " \"Connections {\"]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ToolBar,GradientStop,GradientStop,Style,Rectangle,GradientStop,GradientStop,Rectangle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ToolBarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,Rectangle,Item,Text,Image,BorderImage,Image": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ToolButtonStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "BasicTableViewStyle,Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TreeViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,Rectangle,DropShadow,Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TumblerStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ApplicationWindowStyle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ApplicationWindowStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "BusyIndicatorStyle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/BusyIndicatorStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ButtonStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/GroupBoxStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/MenuBarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ProgressBarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ScrollViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/SliderStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/StatusBarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ToolButtonStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "CalendarStyle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/CalendarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,StyleItem,Text,StyleItem": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/CheckBoxStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/RadioButtonStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,StyleItem,StyleItem": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ComboBoxStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "StyleItem": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/FocusFrameStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/RowItemSingleton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,Rectangle,Binding": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/MenuStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,StyleItem,Item,FocusFrame,StyleItem": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/SpinBoxStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "SwitchStyle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/SwitchStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,StyleItem": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TabViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ToolBarStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ScrollViewStyle,Text": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TableViewStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ScrollViewStyle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TextAreaStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Style,FocusFrame": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TextFieldStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Column,Switch,Switch,Control,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Switch.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "Tab,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/Tab.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "TabView,Tab,Rectangle,Tab,Rectangle,Tab,Rectangle,FocusScope,Component,Tab,TabBar,Loader,Loader,Item,State,PropertyChanges,AnchorChanges": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/TabView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 10
+        }
+      ],
+      "BasicTableView,TableViewSelection,Timer,Timer": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/TableView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 11
+        }
+      ],
+      "TableView,TableViewColumn,TableViewColumn,QtObject": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/TableViewColumn.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "TextArea,ScrollView,TextArea,Flickable,TextEdit,Rectangle,Connections,MouseArea,EditMenu,ScenePosListener,TextHandle,TextHandle": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/TextArea.qml",
+          "service_connections": [
+            "[\"Connections {\"]"
+          ],
+          "signal_slot_connections": 32
+        }
+      ],
+      "TextField,Control,TextField,Text,TextInputWithHandles": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/TextField.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 22
+        }
+      ],
+      "ApplicationWindow,RowLayout,ToolButton,ToolButton,ToolButton,Item,CheckBox,FocusScope,Loader,Loader,Item,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/ToolBar.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "ApplicationWindow,RowLayout,ToolButton,ToolButton,ToolButton,Item,CheckBox,Button": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/ToolButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "BasicTableView,Timer": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Controls/TreeView.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 15
+        }
+      ],
+      "AbstractColorDialog,Rectangle,SystemPalette,Item,Image,ShaderEffect,MouseArea,Image,BorderImage,Column,ColorSlider,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,GradientStop,ColorSlider,GradientStop,GradientStop,ColorSlider,GradientStop,GradientStop,GradientStop,ColorSlider,Image,Rectangle,GradientStop,GradientStop,Item,Row,TextField,Image,MouseArea,Row,Button,Button": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultColorDialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "AbstractDialog,Rectangle,SystemPalette,Item,Flow,Repeater,Button,Button,Flow,Repeater,Button": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultDialogWrapper.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 5
+        }
+      ],
+      "AbstractFileDialog,Component,FolderListModel,Rectangle,Binding,Binding,SplitView,Column,SplitView,ScrollView,ListView,Text,MouseArea,ScrollView,ListView,Text,Menu,MenuItem,MouseArea,Timer,Row,Button,TableView,TableViewColumn,IconGlyph,Text,TableViewColumn,Text,TableViewColumn,TableViewColumn,TableViewColumn,ToolBar,RowLayout,ToolButton,TextField,Item,Row,Button,ComboBox,Button,Button": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultFileDialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 5
+        }
+      ],
+      "AbstractFontDialog,Rectangle,SystemPalette,ColumnLayout,GridLayout,Label,Label,Label,TableView,TableViewColumn,TableView,TableViewColumn,ListElement,ListElement,ListElement,ListElement,ListElement,ListElement,ListElement,ListElement,ListElement,ColumnLayout,SpinBox,TableView,TableViewColumn,RowLayout,ColumnLayout,Label,CheckBox,CheckBox,CheckBox,CheckBox,Item,Label,ColumnLayout,Label,Rectangle,TextInput,RowLayout,ComboBox,Item,Button,Button": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultFontDialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 11
+        }
+      ],
+      "AbstractMessageDialog,Rectangle,Column,SystemPalette,Item,Image,Text,Text,Flow,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Button,Item,Flickable,TextEdit,State,PropertyChanges,PropertyChanges,PropertyChanges": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/DefaultMessageDialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "QtColorDialog": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/WidgetColorDialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "QtFileDialog": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/WidgetFileDialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "QtFontDialog": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/WidgetFontDialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "QtMessageDialog": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/WidgetMessageDialog.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Item,SystemPalette,Column,Text,Item,Loader,BorderImage,Image,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/qml/ColorSlider.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "Rectangle,MouseArea,BorderImage,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/qml/DefaultWindowDecoration.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 1
+        }
+      ],
+      "ButtonStyle,FontLoader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/qml/IconButtonStyle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Text,FontLoader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Dialogs/qml/IconGlyph.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "CircularGauge,NumberAnimation,Control,RangeModel": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/CircularGauge.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Button,NumberAnimation,Binding": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/DelayButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 3
+        }
+      ],
+      "Control,RangeModel,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Dial.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Private/Handle.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 3
+        }
+      ],
+      "Gauge,Control,Text,RangeModel": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Gauge.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "PieMenu,MenuItem,MenuItem,MenuItem,MouseArea,MouseArea,Timer,PieMenu,MenuItem,MenuItem,MenuItem,Control,PieMenu,MenuItem,MenuItem,MenuItem,QtObject,MouseArea": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/PieMenu.qml",
+          "service_connections": [
+            "[\"var newItem = Qt.createQmlObject(\\\"import QtQuick.Controls 1.1; MenuItem {}\\\"",
+            " pieMenu",
+            " \\\"\\\");\"]"
+          ],
+          "signal_slot_connections": 18
+        }
+      ],
+      "Button": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Private/CircularButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        },
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/ToggleButton.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Control,RangeModel": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Private/CircularTickmarkLabel.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 2
+        }
+      ],
+      "Rectangle,StatusIndicator,Control": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/StatusIndicator.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ],
+      "Tumbler,TumblerColumn,TumblerColumn,TumblerColumn,Rectangle,ListModel,ListElement,ListElement,ListElement,Tumbler,TumblerColumn,TumblerColumn,TumblerColumn,Control,ListModel,Timer,Loader,Loader,Row,Repeater,PathView,Binding,PathLine,Loader,Loader,Loader,Loader": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/Tumbler.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 8
+        }
+      ],
+      "Tumbler,TumblerColumn,TumblerColumn,QtObject": [
+        {
+          "path": "IntraoralScan/Bin/QtQuick/Extras/TumblerColumn.qml",
+          "service_connections": [
+            "[]"
+          ],
+          "signal_slot_connections": 0
+        }
+      ]
+    },
+    "identified_ui_flows": [
+      "Main Application: IntraoralScan/Bin/QtQuick/Controls.2/ApplicationWindow.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Dialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/DialogButtonBox.qml",
+      "Main Application: IntraoralScan/Bin/QtQuick/Controls.2/Fusion/ApplicationWindow.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Dialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Fusion/DialogButtonBox.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Page.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Fusion/PageIndicator.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Fusion/Popup.qml",
+      "Main Application: IntraoralScan/Bin/QtQuick/Controls.2/Imagine/ApplicationWindow.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Dialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Imagine/DialogButtonBox.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Page.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Imagine/PageIndicator.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Imagine/Popup.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Imagine/StackView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Imagine/SwipeView.qml",
+      "Main Application: IntraoralScan/Bin/QtQuick/Controls.2/Material/ApplicationWindow.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Material/Dialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Material/DialogButtonBox.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Material/Page.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Material/PageIndicator.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Material/Popup.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Material/StackView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Material/SwipeView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Page.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/PageIndicator.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Popup.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/ScrollView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/StackView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/SwipeView.qml",
+      "Main Application: IntraoralScan/Bin/QtQuick/Controls.2/Universal/ApplicationWindow.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Universal/Dialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Universal/DialogButtonBox.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Universal/Page.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Universal/PageIndicator.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls.2/Universal/Popup.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls.2/Universal/StackView.qml",
+      "Main Application: IntraoralScan/Bin/QtQuick/Controls/ApplicationWindow.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Private/BasicTableView.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Controls/Private/ModalPopupBehavior.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Private/ScrollViewHelper.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Private/StackViewSlideDelegate.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Private/TableViewItemDelegateLoader.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Private/TableViewSelection.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Private/TreeViewItemDelegateLoader.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/ScrollView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/SplitView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/StackView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/StackViewDelegate.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/StackViewTransition.qml",
+      "Main Application: IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ApplicationWindowStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Base/BasicTableViewStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Base/ScrollViewStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TabViewStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TableViewStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Base/TreeViewStyle.qml",
+      "Main Application: IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ApplicationWindowStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/ScrollViewStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TabViewStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TableViewStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/Styles/Desktop/TreeViewStyle.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/TabView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/TableView.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/TableViewColumn.qml",
+      "View/Page: IntraoralScan/Bin/QtQuick/Controls/TreeView.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/DefaultColorDialog.qml",
+      "Main Application: IntraoralScan/Bin/QtQuick/Dialogs/DefaultDialogWrapper.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/DefaultFileDialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/DefaultFontDialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/DefaultMessageDialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/WidgetColorDialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/WidgetFileDialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/WidgetFontDialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/WidgetMessageDialog.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/qml/ColorSlider.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/qml/DefaultWindowDecoration.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/qml/IconButtonStyle.qml",
+      "Dialog/Popup: IntraoralScan/Bin/QtQuick/Dialogs/qml/IconGlyph.qml"
+    ],
+    "common_imports": {
+      "[]": 387,
+      "[\"Connections {\"]": 8,
+      "[\"Connections {\"": 8,
+      "\"Connections {\"]": 8,
+      "\"Connections {\"": 6,
+      "[\"d.initItemConnections(item)\"": 1,
+      "\"function initItemConnections(item)\"": 1,
+      "\"// should match disconnections in terminateItemConnections\"": 1,
+      "\"function terminateItemConnections(item)\"": 1,
+      "\"// should match connections in initItemConnections\"": 1
+    },
+    "signal_patterns": {
+      "total_connections": 409,
+      "average_per_file": 6.1,
+      "max_connections": 33,
+      "files_with_connections": 67
+    }
+  },
+  "parsing_coverage": {
+    "total_configuration_files": 470,
+    "successfully_parsed": 469,
+    "parsing_success_rate": 99.79,
+    "file_types_covered": [
+      "Qt Resources (.qrc)",
+      "QML Files (.qml)",
+      "Python Modules (.py)"
+    ],
+    "parsing_methods_used": [
+      "rcc tool",
+      "QML parser",
+      "Python AST analysis"
+    ]
+  },
+  "configuration_insights": [
+    "Identified 79 UI flow components"
+  ]
+}

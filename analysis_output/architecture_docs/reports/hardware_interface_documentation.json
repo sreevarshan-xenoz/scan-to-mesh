@@ -1,0 +1,1057 @@
+{
+  "title": "Hardware Interface Documentation",
+  "generated_at": "2025-08-15T23:26:35.122652",
+  "interface_summary": {
+    "total_hardware_interfaces": 105,
+    "interface_types": {
+      "calibration_interface": [
+        {
+          "dll_name": "JsdCalibration.dll",
+          "dll_path": "IntraoralScan/Bin/JsdCalibration.dll",
+          "file_size": 1095680,
+          "confidence_score": 0.6
+        }
+      ],
+      "camera_interface": [
+        {
+          "dll_name": "ITKIOImageBase-5.2.dll",
+          "dll_path": "IntraoralScan/Bin/ITKIOImageBase-5.2.dll",
+          "file_size": 197632,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "SnDXGICapturePlugin.dll",
+          "dll_path": "IntraoralScan/Bin/SnDXGICapturePlugin.dll",
+          "file_size": 28672,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "imageTestTool.dll",
+          "dll_path": "IntraoralScan/Bin/imageTestTool.dll",
+          "file_size": 881664,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "snCameraControl.dll",
+          "dll_path": "IntraoralScan/Bin/snCameraControl.dll",
+          "file_size": 78848,
+          "confidence_score": 0.6
+        }
+      ],
+      "communication_interface": [
+        {
+          "dll_name": "CommunicateLayer.dll",
+          "dll_path": "IntraoralScan/Bin/CommunicateLayer.dll",
+          "file_size": 55808,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "DentalCommonTool.dll",
+          "dll_path": "IntraoralScan/Bin/DentalCommonTool.dll",
+          "file_size": 74240,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ITKCommon-5.2.dll",
+          "dll_path": "IntraoralScan/Bin/ITKCommon-5.2.dll",
+          "file_size": 973312,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "SnCommon.dll",
+          "dll_path": "IntraoralScan/Bin/SnCommon.dll",
+          "file_size": 439296,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "SnMITKCommon.dll",
+          "dll_path": "IntraoralScan/Bin/SnMITKCommon.dll",
+          "file_size": 945152,
+          "confidence_score": 0.6
+        }
+      ],
+      "scanner_interface": [
+        {
+          "dll_name": "D3Dcompiler_47.dll",
+          "dll_path": "IntraoralScan/Bin/D3Dcompiler_47.dll",
+          "file_size": 4173928,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "DentalScanAppLogicTool.dll",
+          "dll_path": "IntraoralScan/Bin/DentalScanAppLogicTool.dll",
+          "file_size": 50688,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DAIOutUnity.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DAIOutUnity.dll",
+          "file_size": 83968,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DAVXImp.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DAVXImp.dll",
+          "file_size": 163840,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DCBCTLoader.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DCBCTLoader.dll",
+          "file_size": 6432768,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DCBCTSegLite.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DCBCTSegLite.dll",
+          "file_size": 3793408,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DCalibrationJR.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DCalibrationJR.dll",
+          "file_size": 7440896,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DColorCorrect.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DColorCorrect.dll",
+          "file_size": 1891328,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DCork.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DCork.dll",
+          "file_size": 1961984,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DCrownGen.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DCrownGen.dll",
+          "file_size": 1370112,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DCrypto.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DCrypto.dll",
+          "file_size": 335872,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalAICBCTSeg.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalAICBCTSeg.dll",
+          "file_size": 4811264,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalAbutmentCloudDet.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalAbutmentCloudDet.dll",
+          "file_size": 1023488,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalBoxDet.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalBoxDet.dll",
+          "file_size": 640512,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalDesktop.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalDesktop.dll",
+          "file_size": 3327488,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalGeometryFeatureDet.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalGeometryFeatureDet.dll",
+          "file_size": 1244160,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalMeshParameterize.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalMeshParameterize.dll",
+          "file_size": 16896,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalOral.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalOral.dll",
+          "file_size": 316416,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalOralCls.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalOralCls.dll",
+          "file_size": 902144,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalRealTimeSemSeg.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalRealTimeSemSeg.dll",
+          "file_size": 975360,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDigital.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDigital.dll",
+          "file_size": 7693824,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDraco.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDraco.dll",
+          "file_size": 732160,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DFace.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DFace.dll",
+          "file_size": 1089536,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DFaceParsing.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DFaceParsing.dll",
+          "file_size": 1699840,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DFaceUnity.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DFaceUnity.dll",
+          "file_size": 1034240,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DGeometricTrackFusion.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DGeometricTrackFusion.dll",
+          "file_size": 3393536,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DInfraredCariesDet.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DInfraredCariesDet.dll",
+          "file_size": 1324544,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DInspect.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DInspect.dll",
+          "file_size": 2688512,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DInspection.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DInspection.dll",
+          "file_size": 3462144,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DLandmarksDetForCli.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DLandmarksDetForCli.dll",
+          "file_size": 1229312,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DMagic.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DMagic.dll",
+          "file_size": 14639104,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DOralExamCCP.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DOralExamCCP.dll",
+          "file_size": 1334272,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DOralExamResidualCrown.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DOralExamResidualCrown.dll",
+          "file_size": 1368064,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DOralExamWedgeDefect.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DOralExamWedgeDefect.dll",
+          "file_size": 1359872,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DOrthoEx.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DOrthoEx.dll",
+          "file_size": 10037760,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DPhaseBuild.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DPhaseBuild.dll",
+          "file_size": 4809728,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DPhotometricStereo.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DPhotometricStereo.dll",
+          "file_size": 1288192,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DRegistration.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DRegistration.dll",
+          "file_size": 11133440,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DScanSlam.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DScanSlam.dll",
+          "file_size": 532992,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DSparseSolver.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DSparseSolver.dll",
+          "file_size": 59904,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DSpeckle.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DSpeckle.dll",
+          "file_size": 20197888,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DTextureBasedTrack.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DTextureBasedTrack.dll",
+          "file_size": 675840,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DTextureSlam.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DTextureSlam.dll",
+          "file_size": 2961408,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DTooling.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DTooling.dll",
+          "file_size": 82432,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DVulkanWrapper.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DVulkanWrapper.dll",
+          "file_size": 122880,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "iScanCalibration.dll",
+          "dll_path": "IntraoralScan/Bin/iScanCalibration.dll",
+          "file_size": 1309184,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "opencv_calib3d348.dll",
+          "dll_path": "IntraoralScan/Bin/opencv_calib3d348.dll",
+          "file_size": 2320896,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "print3DSlicing.dll",
+          "dll_path": "IntraoralScan/Bin/print3DSlicing.dll",
+          "file_size": 7332352,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "sn3DCommunicateLayerM.dll",
+          "dll_path": "IntraoralScan/Bin/sn3DCommunicateLayerM.dll",
+          "file_size": 97792,
+          "confidence_score": 0.6
+        }
+      ],
+      "unknown_interface": [
+        {
+          "dll_name": "64_ftbusui.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/amd64/64_ftbusui.dll",
+          "file_size": 168384,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "64_ftcserco.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/amd64/64_ftcserco.dll",
+          "file_size": 75200,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "64_ftlang.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/amd64/64_ftlang.dll",
+          "file_size": 274880,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "64_ftserui2.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/amd64/64_ftserui2.dll",
+          "file_size": 65472,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "WdfCoinstaller01011.dll",
+          "dll_path": "IntraoralScan/Driver/3dCamera/WdfCoinstaller01011.dll",
+          "file_size": 1805592,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ftbusui.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/i386/ftbusui.dll",
+          "file_size": 156096,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ftcserco.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/i386/ftcserco.dll",
+          "file_size": 78784,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ftlang.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/i386/ftlang.dll",
+          "file_size": 255424,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ftserui2.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/i386/ftserui2.dll",
+          "file_size": 63424,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "opencv_videoio348.dll",
+          "dll_path": "IntraoralScan/Bin/opencv_videoio348.dll",
+          "file_size": 507904,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "vulkan-1.dll",
+          "dll_path": "IntraoralScan/Bin/vulkan-1.dll",
+          "file_size": 1278824,
+          "confidence_score": 0.6
+        }
+      ],
+      "usb_interface": [
+        {
+          "dll_name": "64_ftd2xx64.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/amd64/64_ftd2xx64.dll",
+          "file_size": 316864,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "AxUsbEth.inf",
+          "dll_path": "IntraoralScan/Driver/3W/mcu_ap_drivers-R4/ap/ASIX_USB_Ethernet_Win10_v3.20.1.0_Drivers_Setup_v2.0.1.0/program files/ASIX/ASIX USB Ethernet Win10_Drivers/64-bit/AxUsbEth.inf",
+          "file_size": 95642,
+          "confidence_score": 0.8
+        },
+        {
+          "dll_name": "AxUsbEth.inf",
+          "dll_path": "IntraoralScan/Driver/3W/mcu_ap_drivers-R4/ap/ASIX_USB_Ethernet_Win11_v3.22.1.0_Drivers_Setup_v2.0.1.0/program files/ASIX/ASIX_USB_Ethernet_Win11_Drivers/64-bit/AxUsbEth.inf",
+          "file_size": 95642,
+          "confidence_score": 0.8
+        },
+        {
+          "dll_name": "CH375DLL.dll",
+          "dll_path": "IntraoralScan/Driver/3W/mcu_ap_drivers-R4/mcu/FILE/CH375DLL.dll",
+          "file_size": 22632,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "CH375DLL.dll",
+          "dll_path": "IntraoralScan/Driver/3W/mcu_ap_drivers-R4/mcu/FILE/WIN 1X/CH375DLL.dll",
+          "file_size": 23152,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "CH375DLL64.dll",
+          "dll_path": "IntraoralScan/Bin/CH375DLL64.dll",
+          "file_size": 19968,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "CH375DLL64.dll",
+          "dll_path": "IntraoralScan/Driver/3W/mcu_ap_drivers-R4/mcu/FILE/CH375DLL64.dll",
+          "file_size": 30824,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "CH375DLL64.dll",
+          "dll_path": "IntraoralScan/Driver/3W/mcu_ap_drivers-R4/mcu/FILE/WIN 1X/CH375DLL64.dll",
+          "file_size": 31344,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "CommonFunc.dll",
+          "dll_path": "IntraoralScan/Bin/CommonFunc.dll",
+          "file_size": 5450752,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "DentalCommon.dll",
+          "dll_path": "IntraoralScan/Bin/DentalCommon.dll",
+          "file_size": 128512,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ISSetup.dll",
+          "dll_path": "IntraoralScan/Driver/3W/mcu_ap_drivers-R4/ap/ASIX_USB_Ethernet_Win10_v3.20.1.0_Drivers_Setup_v2.0.1.0/ISSetup.dll",
+          "file_size": 5425020,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ISSetup.dll",
+          "dll_path": "IntraoralScan/Driver/3W/mcu_ap_drivers-R4/ap/ASIX_USB_Ethernet_Win11_v3.22.1.0_Drivers_Setup_v2.0.1.0/ISSetup.dll",
+          "file_size": 5425055,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Qt5SerialPort.dll",
+          "dll_path": "IntraoralScan/Bin/Qt5SerialPort.dll",
+          "file_size": 86648,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "SH3DU3DRIVER.inf",
+          "dll_path": "IntraoralScan/Driver/3dCamera/SH3DU3DRIVER.inf",
+          "file_size": 3918,
+          "confidence_score": 0.9
+        },
+        {
+          "dll_name": "Sn3DDental.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDental.dll",
+          "file_size": 6773760,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DDentalAI.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DDentalAI.dll",
+          "file_size": 3677184,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DFaceScan.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DFaceScan.dll",
+          "file_size": 5726720,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DLineCode.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DLineCode.dll",
+          "file_size": 13480448,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DRealtimeScan.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DRealtimeScan.dll",
+          "file_size": 9862144,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "Sn3DSpeckleFusion.dll",
+          "dll_path": "IntraoralScan/Bin/Sn3DSpeckleFusion.dll",
+          "file_size": 40804352,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "UsbTreeModel.dll",
+          "dll_path": "IntraoralScan/Bin/UsbTreeModel.dll",
+          "file_size": 32256,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "VimbaC.dll",
+          "dll_path": "IntraoralScan/Bin/VimbaC.dll",
+          "file_size": 598528,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "avdevice-58.dll",
+          "dll_path": "IntraoralScan/Bin/avdevice-58.dll",
+          "file_size": 798208,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "common.dll",
+          "dll_path": "IntraoralScan/Bin/common.dll",
+          "file_size": 6302720,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "commonGpu.dll",
+          "dll_path": "IntraoralScan/Bin/commonGpu.dll",
+          "file_size": 1492480,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ftd2xx.dll",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/i386/ftd2xx.dll",
+          "file_size": 274368,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "ftdibus.inf",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/ftdibus.inf",
+          "file_size": 25910,
+          "confidence_score": 0.9
+        },
+        {
+          "dll_name": "ftdiport.inf",
+          "dll_path": "IntraoralScan/Driver/Turntable/CDMV21224/ftdiport.inf",
+          "file_size": 16522,
+          "confidence_score": 0.9
+        },
+        {
+          "dll_name": "iScanRebuild.dll",
+          "dll_path": "IntraoralScan/Bin/iScanRebuild.dll",
+          "file_size": 3452416,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "librenderkit.extensions.dentalscan.dll",
+          "dll_path": "IntraoralScan/Bin/librenderkit.extensions.dentalscan.dll",
+          "file_size": 14720000,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "librenderkit.extensions.dentalscand.dll",
+          "dll_path": "IntraoralScan/Bin/librenderkit.extensions.dentalscand.dll",
+          "file_size": 41185280,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "print3DAuxilary.dll",
+          "dll_path": "IntraoralScan/Bin/print3DAuxilary.dll",
+          "file_size": 8194048,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "print3DCommon.dll",
+          "dll_path": "IntraoralScan/Bin/print3DCommon.dll",
+          "file_size": 1176064,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "sn3DHIDCommunication.dll",
+          "dll_path": "IntraoralScan/Bin/sn3DHIDCommunication.dll",
+          "file_size": 33792,
+          "confidence_score": 0.6
+        },
+        {
+          "dll_name": "sn3DHIDCommunicationM.dll",
+          "dll_path": "IntraoralScan/Bin/sn3DHIDCommunicationM.dll",
+          "file_size": 30720,
+          "confidence_score": 0.6
+        }
+      ]
+    },
+    "high_confidence_interfaces": 5,
+    "analysis_methods": [
+      "inf_file_parsing",
+      "string_analysis"
+    ]
+  },
+  "device_capabilities": {
+    "identified_capabilities": {
+      "\"stream: .?av?$basic_ostream@du?$char_traits@d@std@@@std@@\"": 38,
+      "\"sync: cudamemcpyfromarrayasync\"": 37,
+      "\"buffer: cudad3d9mapvertexbuffer\"": 37,
+      "\"sync: cudamemcpy2dtoarrayasync\"": 34,
+      "\"sync: cudamemcpy2dasync_ptsz\"": 32,
+      "\"sync: cudamemsetasync_ptsz\"": 32,
+      "\"stream: cudastreamiscapturing\"": 32,
+      "\"stream: operation not permitted on an event last recorded in a capturing stream\"": 32,
+      "\"sync: cudawaitexternalsemaphoresasync_ptsz\"": 31,
+      "\"stream: cuctxgetstreampriorityrange\"": 30,
+      "\"buffer: cudad3d9unregistervertexbuffer\"": 24,
+      "\"stream: custreambatchmemop\"": 24,
+      "\"sync: cumemcpy3dasync_v2\"": 20,
+      "\"stream: ?_pninc@?$basic_streambuf@du?$char_traits@d@std@@@std@@ieaapeadxz\"": 18,
+      "\"stream: ??6?$basic_ostream@du?$char_traits@d@std@@@std@@qeaaaeav01@_n@z\"": 17,
+      "[\"buffer: ?getblockputsize@filterwithbufferedinput@cryptopp@@meba_kxz\"": 16,
+      "\"buffer: ?getlastputsize@filterwithbufferedinput@cryptopp@@meba_kxz\"": 16,
+      "\"buffer: ?get@bufferedtransformation@cryptopp@@ueaa_kpeae_k@z\"": 16,
+      "\"stream: ?sync@?$basic_streambuf@du?$char_traits@d@std@@@std@@meaahxz\"": 15,
+      "\"stream: ?flush@?$basic_ostream@_wu?$char_traits@_w@std@@@std@@qeaaaeav12@xz\"": 15
+    },
+    "total_capability_mentions": 1618,
+    "unique_capabilities": 718
+  },
+  "communication_protocols": {
+    "identified_protocols": {
+      "\"PCIe\"": 41,
+      "\"Camera\"": 41,
+      "\"SPI\"]": 40,
+      "\"Ethernet\"]": 40,
+      "\"SPI\"": 37,
+      "\"Serial\"": 31,
+      "[\"Ethernet\"": 30,
+      "\"HID\"": 22,
+      "[\"Camera\"": 19,
+      "\"USB\"": 18
+    },
+    "total_protocol_mentions": 403,
+    "unique_protocols": 21
+  },
+  "driver_analysis": {
+    "driver_categories": {
+      "camera_drivers": 1,
+      "usb_drivers": 5,
+      "scanner_drivers": 63,
+      "communication_drivers": 14
+    },
+    "driver_details": {
+      "camera_drivers": [
+        {
+          "name": "snCameraControl.dll",
+          "confidence": 0.6
+        }
+      ],
+      "usb_drivers": [
+        {
+          "name": "AxUsbEth.inf",
+          "confidence": 0.8
+        },
+        {
+          "name": "AxUsbEth.inf",
+          "confidence": 0.8
+        },
+        {
+          "name": "UsbTreeModel.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "sn3DHIDCommunication.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "sn3DHIDCommunicationM.dll",
+          "confidence": 0.6
+        }
+      ],
+      "scanner_drivers": [
+        {
+          "name": "D3Dcompiler_47.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "DentalScanAppLogicTool.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DAIOutUnity.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DAVXImp.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DCBCTLoader.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DCBCTSegLite.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DCalibrationJR.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DColorCorrect.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DCork.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DCrownGen.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DCrypto.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalAICBCTSeg.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalAbutmentCloudDet.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalBoxDet.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalDesktop.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalGeometryFeatureDet.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalMeshParameterize.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalOral.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalOralCls.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalRealTimeSemSeg.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDigital.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDraco.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DFace.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DFaceParsing.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DFaceUnity.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DGeometricTrackFusion.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DInfraredCariesDet.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DInspect.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DInspection.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DLandmarksDetForCli.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DMagic.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DOralExamCCP.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DOralExamResidualCrown.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DOralExamWedgeDefect.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DOrthoEx.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DPhaseBuild.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DPhotometricStereo.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DRegistration.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DScanSlam.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DSparseSolver.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DSpeckle.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DTextureBasedTrack.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DTextureSlam.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DTooling.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DVulkanWrapper.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "iScanCalibration.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "opencv_calib3d348.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "print3DSlicing.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "sn3DCommunicateLayerM.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "SH3DU3DRIVER.inf",
+          "confidence": 0.9
+        },
+        {
+          "name": "Sn3DDental.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DDentalAI.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DFaceScan.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DLineCode.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DRealtimeScan.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Sn3DSpeckleFusion.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "iScanRebuild.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "librenderkit.extensions.dentalscan.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "librenderkit.extensions.dentalscand.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "print3DAuxilary.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "print3DCommon.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "sn3DHIDCommunication.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "sn3DHIDCommunicationM.dll",
+          "confidence": 0.6
+        }
+      ],
+      "communication_drivers": [
+        {
+          "name": "CommunicateLayer.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "DentalCommonTool.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "ITKCommon-5.2.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "SnCommon.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "SnMITKCommon.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "sn3DCommunicateLayerM.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "CommonFunc.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "DentalCommon.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "Qt5SerialPort.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "common.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "commonGpu.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "print3DCommon.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "sn3DHIDCommunication.dll",
+          "confidence": 0.6
+        },
+        {
+          "name": "sn3DHIDCommunicationM.dll",
+          "confidence": 0.6
+        }
+      ]
+    }
+  },
+  "confidence_metrics": {
+    "average_confidence": 0.612,
+    "confidence_distribution": {
+      "high_confidence": 5,
+      "medium_confidence": 100,
+      "low_confidence": 0
+    },
+    "analysis_completeness": "Complete"
+  }
+}

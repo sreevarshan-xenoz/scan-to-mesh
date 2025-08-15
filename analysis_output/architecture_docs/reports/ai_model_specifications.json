@@ -1,0 +1,3261 @@
+{
+  "title": "AI Model Specifications",
+  "generated_at": "2025-08-15T23:26:35.119155",
+  "model_inventory": {
+    "total_inferred_models": 11,
+    "models_by_type": {
+      "Dental AI": 1,
+      "Detection": 5,
+      "Classification": 1,
+      "Segmentation": 3,
+      "Unknown AI Model": 1
+    },
+    "models_by_stage": {
+      "ai_analysis": 6,
+      "unknown": 4,
+      "visualization": 1
+    },
+    "model_details": [
+      {
+        "model_source": "Sn3DDentalAI.dll",
+        "inferred_type": "Dental AI",
+        "processing_stage": "ai_analysis",
+        "confidence": 0.7
+      },
+      {
+        "model_source": "Sn3DDentalBoxDet.dll",
+        "inferred_type": "Detection",
+        "processing_stage": "ai_analysis",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DDentalOralCls.dll",
+        "inferred_type": "Classification",
+        "processing_stage": "ai_analysis",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DDentalRealTimeSemSeg.dll",
+        "inferred_type": "Segmentation",
+        "processing_stage": "ai_analysis",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DInfraredCariesDet.dll",
+        "inferred_type": "Detection",
+        "processing_stage": "ai_analysis",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DLandmarksDetForCli.dll",
+        "inferred_type": "Detection",
+        "processing_stage": "ai_analysis",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DCBCTSegLite.dll",
+        "inferred_type": "Segmentation",
+        "processing_stage": "unknown",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DDentalAICBCTSeg.dll",
+        "inferred_type": "Segmentation",
+        "processing_stage": "unknown",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DDentalAbutmentCloudDet.dll",
+        "inferred_type": "Detection",
+        "processing_stage": "unknown",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DDentalGeometryFeatureDet.dll",
+        "inferred_type": "Detection",
+        "processing_stage": "unknown",
+        "confidence": 0.35
+      },
+      {
+        "model_source": "Sn3DAIOutUnity.dll",
+        "inferred_type": "Unknown AI Model",
+        "processing_stage": "visualization",
+        "confidence": 0.35
+      }
+    ]
+  },
+  "algorithm_analysis": {
+    "total_algorithm_dlls": 62,
+    "processing_stages": {
+      "acquisition": [
+        {
+          "dll_name": "Sn3DPhotometricStereo.dll",
+          "file_size": 1288192,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DRealtimeScan.dll",
+          "file_size": 9862144,
+          "export_count": 50,
+          "confidence_score": 0.7
+        }
+      ],
+      "ai_analysis": [
+        {
+          "dll_name": "Sn3DDentalAI.dll",
+          "file_size": 3677184,
+          "export_count": 50,
+          "confidence_score": 0.7
+        },
+        {
+          "dll_name": "Sn3DDentalBoxDet.dll",
+          "file_size": 640512,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDentalOralCls.dll",
+          "file_size": 902144,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDentalRealTimeSemSeg.dll",
+          "file_size": 975360,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DInfraredCariesDet.dll",
+          "file_size": 1324544,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DLandmarksDetForCli.dll",
+          "file_size": 1229312,
+          "export_count": 0,
+          "confidence_score": 0.35
+        }
+      ],
+      "algorithms": [
+        {
+          "dll_name": "algorithm1.dll",
+          "file_size": 8006656,
+          "export_count": 50,
+          "confidence_score": 0.7
+        },
+        {
+          "dll_name": "algorithm2.dll",
+          "file_size": 7297024,
+          "export_count": 50,
+          "confidence_score": 0.7
+        },
+        {
+          "dll_name": "algorithmHlj.dll",
+          "file_size": 5714432,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "algorithmLy.dll",
+          "file_size": 5954560,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "algorithmLzy.dll",
+          "file_size": 24945152,
+          "export_count": 50,
+          "confidence_score": 0.7
+        },
+        {
+          "dll_name": "algorithmMigrate.dll",
+          "file_size": 852480,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "algorithmSaj.dll",
+          "file_size": 799744,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "algorithmZbt.dll",
+          "file_size": 6445056,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "algorithmZys.dll",
+          "file_size": 1217024,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "algorithmlyc.dll",
+          "file_size": 3526144,
+          "export_count": 0,
+          "confidence_score": 0.35
+        }
+      ],
+      "calibration": [
+        {
+          "dll_name": "Sn3DCalibrationJR.dll",
+          "file_size": 7440896,
+          "export_count": 50,
+          "confidence_score": 0.7
+        }
+      ],
+      "dental_specific": [
+        {
+          "dll_name": "Sn3DCrownGen.dll",
+          "file_size": 1370112,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDental.dll",
+          "file_size": 6773760,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDentalDesktop.dll",
+          "file_size": 3327488,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDentalOral.dll",
+          "file_size": 316416,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DOrthoEx.dll",
+          "file_size": 10037760,
+          "export_count": 0,
+          "confidence_score": 0.35
+        }
+      ],
+      "fusion": [
+        {
+          "dll_name": "Sn3DPhaseBuild.dll",
+          "file_size": 4809728,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DSpeckle.dll",
+          "file_size": 20197888,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DSpeckleFusion.dll",
+          "file_size": 40804352,
+          "export_count": 50,
+          "confidence_score": 0.7
+        }
+      ],
+      "mesh_processing": [
+        {
+          "dll_name": "Sn3DCork.dll",
+          "file_size": 1961984,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDraco.dll",
+          "file_size": 732160,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DMagic.dll",
+          "file_size": 14639104,
+          "export_count": 50,
+          "confidence_score": 0.7
+        },
+        {
+          "dll_name": "Sn3DTooling.dll",
+          "file_size": 82432,
+          "export_count": 0,
+          "confidence_score": 0.35
+        }
+      ],
+      "registration": [
+        {
+          "dll_name": "Sn3DRegistration.dll",
+          "file_size": 11133440,
+          "export_count": 50,
+          "confidence_score": 0.7
+        },
+        {
+          "dll_name": "Sn3DScanSlam.dll",
+          "file_size": 532992,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DTextureBasedTrack.dll",
+          "file_size": 675840,
+          "export_count": 0,
+          "confidence_score": 0.35
+        }
+      ],
+      "unknown": [
+        {
+          "dll_name": "Sn3DAVXImp.dll",
+          "file_size": 163840,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DApplicationCommon.dll",
+          "file_size": 132096,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DApplicationRenderKit.dll",
+          "file_size": 2118656,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DApplicationUtility.dll",
+          "file_size": 187392,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DCBCTLoader.dll",
+          "file_size": 6432768,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DCBCTSegLite.dll",
+          "file_size": 3793408,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DColorCorrect.dll",
+          "file_size": 1891328,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DCrypto.dll",
+          "file_size": 335872,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDentalAICBCTSeg.dll",
+          "file_size": 4811264,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDentalAbutmentCloudDet.dll",
+          "file_size": 1023488,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDentalGeometryFeatureDet.dll",
+          "file_size": 1244160,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDentalMeshParameterize.dll",
+          "file_size": 16896,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DDigital.dll",
+          "file_size": 7693824,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DFaceParsing.dll",
+          "file_size": 1699840,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DFaceScan.dll",
+          "file_size": 5726720,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DGeometricTrackFusion.dll",
+          "file_size": 3393536,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DInspect.dll",
+          "file_size": 2688512,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DInspection.dll",
+          "file_size": 3462144,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DLineCode.dll",
+          "file_size": 13480448,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DOralExamCCP.dll",
+          "file_size": 1334272,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DOralExamResidualCrown.dll",
+          "file_size": 1368064,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DOralExamWedgeDefect.dll",
+          "file_size": 1359872,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DSparseSolver.dll",
+          "file_size": 59904,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DTextureSlam.dll",
+          "file_size": 2961408,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DVulkanWrapper.dll",
+          "file_size": 122880,
+          "export_count": 0,
+          "confidence_score": 0.35
+        }
+      ],
+      "visualization": [
+        {
+          "dll_name": "Sn3DAIOutUnity.dll",
+          "file_size": 83968,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DFace.dll",
+          "file_size": 1089536,
+          "export_count": 0,
+          "confidence_score": 0.35
+        },
+        {
+          "dll_name": "Sn3DFaceUnity.dll",
+          "file_size": 1034240,
+          "export_count": 0,
+          "confidence_score": 0.35
+        }
+      ]
+    },
+    "high_confidence_dlls": 0,
+    "total_exported_functions": 450
+  },
+  "processing_pipeline": {
+    "functions_by_dll": {
+      "Sn3DCalibrationJR.dll": [
+        {
+          "signature": "?compute_epilines@MarkPointTrack@Sn3DAlgorithm@@AEAA?AV?$Matrix@N$02$00$0A@$02$00@Eigen@@AEBV?$Matrix@N$01$00$0A@$01$00@4@@Z",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "?compute_epilines_r@MarkPointTrack@Sn3DAlgorithm@@AEAA?AV?$Matrix@N$02$00$0A@$02$00@Eigen@@AEBV?$Matrix@N$01$00$0A@$01$00@4@@Z",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "?compute_extrinsic@CameraIMUCalibration@Sn3DAlgorithm@@AEAA?AW4RetVal@2@AEBV?$Matrix@N$02$02$0A@$02$02@Eigen@@AEBV?$Quaternion@N$0A@@5@AEAV45@@Z",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "?compute_homography_with_mark_normal@MarkPointTrack@Sn3DAlgorithm@@QEAA?AW4RetVal@2@NAEBV?$Matrix@N$02$00$0A@$02$00@Eigen@@0AEAV?$Matrix@N$02$02$0A@$02$02@5@1@Z",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "?compute_nInOutColor@MarkPointRecognition@Sn3DAlgorithm@@AEAA?AW4RetVal@2@AEBV?$Image@$00M@2@AEAVEllipseEdge@2@@Z",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "?init@Sn3D_MarkPointTrack@Sn3DAlgorithm@@QEAAXAEBUCameraParam@2@00AEBVRigidMatrix@2@1UImplantsParam@2@USn3DCalibrationOpt@2@@Z",
+          "type": "initialization",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "?init@Sn3D_MarkPointTrack@Sn3DAlgorithm@@QEAAXAEBUCameraParam@2@0AEBVRigidMatrix@2@UImplantsParam@2@USn3DCalibrationOpt@2@@Z",
+          "type": "initialization",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "?set_all_param@MarkPointTrack@Sn3DAlgorithm@@QEAA_NUSn3DCalibrationOpt@2@@Z",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "D:\\Jenkins\\workspace\\SnAlgCalibration\\BuildCuda112\\Release\\Sn3DCalibrationJR.pdb",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "D:\\Jenkins\\workspace\\SnAlgCalibration\\Calibration\\Sn3DCalibrationJR\\Sn3DCalibrationInclude.cpp",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "D:\\Jenkins\\workspace\\SnAlgCalibration\\Calibration\\Sn3DCalibrationJR\\Sn3DCalibrationManager.cpp",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "D:\\Jenkins\\workspace\\SnAlgCalibration\\Calibration\\Sn3DCalibrationJR\\cmm_compensate\\sn3DCMMCompensate.cpp",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::MarkPointTrack::compute_homography_with_mark_normal",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.8999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::MarkPointTrack::frame_filter",
+          "type": "utility",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::MarkPointTrack::init_cad_location",
+          "type": "initialization",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::MarkPointTrack::match_hat_rod",
+          "type": "registration",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::MarkPointTrack::run_mark_point_rebuild_Trio",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::MarkPointTrack::run_mark_track",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::MarkPointTrack::run_mark_track_pt",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::MarkPointTrack::run_rebuild",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3D_E15_compute_camera_pose",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3D_E15_extrinsic_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3D_Track3_compute_pose2",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3D_Track3_extrinsic_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3D_UEP_extrinsic_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::compute_implants_transfer_error",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::single_calbTable_multi_camera_calibration_cmm",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DCalibrationJR.dll",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_E15_compute_camera_pose",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_E15_extrinsic_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_Small_calibTable_camera_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_Track3_compute_pose2",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_Track3_extrinsic_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_UEP_extrinsic_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_UE_series_fast_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_compute_camera_pose",
+          "type": "processing",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_double_camera_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_double_camera_calibration_extrinsic",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_double_camera_projector_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_double_camera_projector_calibration_high",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_multi_camera_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_multi_camera_calibration_extrinsic",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_single_camera_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_two_calib_multicamera_calibration",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3D_write_calibration_ccf",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "\\D:\\Jenkins\\workspace\\SnAlgCalibration\\Calibration\\Sn3DCalibrationJR\\Sn3DCalibrationManager.cpp",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "\\D:\\Jenkins\\workspace\\SnAlgCalibration\\Calibration\\Sn3DCalibrationJR\\cmm_compensate\\sn3DCMMCompensate.cpp",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "\\D:\\Jenkins\\workspace\\SnAlgCalibration\\Calibration\\Sn3DCalibrationJR\\fast_recognition\\FastCalibRecognition.cpp",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "\\D:\\Jenkins\\workspace\\SnAlgCalibration\\Calibration\\Sn3DCalibrationJR\\imu\\filter.cpp",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "\\D:\\Jenkins\\workspace\\SnAlgCalibration\\Calibration\\Sn3DCalibrationJR\\mvg\\MarkPointTrack.cpp",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        }
+      ],
+      "Sn3DDentalAI.dll": [
+        {
+          "signature": ".?AU?$CtorArgN@UShmMeshInfo@DentalDesktopSemanticSegment@Sn3DAlgorithm@@$0A@$$V@ipcdetail@interprocess@boost@@",
+          "type": "processing",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": ".?AU?$CtorArgN@UShmMeshInfo@DentalSemanticSegment@Sn3DAlgorithm@@$0A@$$V@ipcdetail@interprocess@boost@@",
+          "type": "processing",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": ".?AU?$placement_destroy@UShmMeshInfo@DentalDesktopSemanticSegment@Sn3DAlgorithm@@@ipcdetail@interprocess@boost@@",
+          "type": "processing",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": ".?AU?$placement_destroy@UShmMeshInfo@DentalSemanticSegment@Sn3DAlgorithm@@@ipcdetail@interprocess@boost@@",
+          "type": "processing",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?check_mesh@DentalDesktopSemanticSegment@Sn3DAlgorithm@@AEAA_NAEBVTriMesh@2@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?check_mesh@DentalInstanceSegment@Sn3DAlgorithm@@AEAA_NAEBVTriMesh@2@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?check_mesh@DentalSemanticSegment@Sn3DAlgorithm@@AEAA_NAEBVTriMesh@2@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?client_dental_detection@DentalDesktopSemanticSegment@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@AEAV?$vector@HV?$allocator@H@std@@@std@@1_N@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?client_dental_detection@DentalSemanticSegment@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@AEAV?$vector@HV?$allocator@H@std@@@std@@1_N@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?client_initialization@DentalDesktopSemanticSegment@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0UDentalDetectionOpt@2@@Z",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?client_initialization@DentalSemanticSegment@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0UDentalDetectionOpt@2@@Z",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?compute_curvature_fast@DentalDetectionCommon@Sn3DAlgorithm@@SA_NAEBVTriMesh@2@AEBV?$vector@MV?$allocator@M@std@@@std@@AEAV45@22@Z",
+          "type": "processing",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?compute_curvature_fast@DentalDetectionCommon@Sn3DAlgorithm@@SA_NAEBVTriMesh@2@AEBV?$vector@MV?$allocator@M@std@@@std@@AEAV45@2@Z",
+          "type": "processing",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?dental_desktop_semantic_segment@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@AEAV?$vector@HV?$allocator@H@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?dental_desktop_semantic_segment@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@MAEAV?$vector@HV?$allocator@H@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?dental_detection@DentalDetectionManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@AEAV?$vector@HV?$allocator@H@std@@@std@@1_N@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?dental_semantic_segment@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@AEAV?$vector@HV?$allocator@H@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?dental_semantic_segment@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@MAEAV?$vector@HV?$allocator@H@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "?expand_vertex_component@DentalDesktopSemanticSegment@Sn3DAlgorithm@@AEAA_NAEBVTriMesh@2@MHAEAV?$vector@_NV?$allocator@_N@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?expand_vertex_component@DentalDetectionCommon@Sn3DAlgorithm@@SA_NAEBVTriMesh@2@MHAEAV?$vector@EV?$allocator@E@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?expand_vertex_component@DentalSemanticSegment@Sn3DAlgorithm@@AEAA_NAEBVTriMesh@2@MHAEAV?$vector@_NV?$allocator@_N@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?expand_vertex_labels@DentalDesktopSemanticSegment@Sn3DAlgorithm@@AEAA?AW4RetVal@2@AEBVTriMesh@2@MAEAV?$vector@HV?$allocator@H@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?expand_vertex_labels@DentalSemanticSegment@Sn3DAlgorithm@@AEAA?AW4RetVal@2@AEBVTriMesh@2@MAEAV?$vector@HV?$allocator@H@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?generate_multi_view_labels@DentalDesktopSemanticSegment@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@0HHAEAV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@11@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?generate_multi_view_labels@DentalSemanticSegment@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@0HHAEAV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@11@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?get_oral_examination_segment_for_child_opt@DentalDetectionThreadSafe@Sn3DAlgorithm@@QEAA?AUOralExaminationSegmentOpt@2@XZ",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?get_oral_examination_segment_for_child_opt@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AUOralExaminationSegmentOpt@2@XZ",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?get_oral_examination_segment_opt@DentalDetectionThreadSafe@Sn3DAlgorithm@@QEAA?AUOralExaminationSegmentOpt@2@XZ",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?get_oral_examination_segment_opt@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AUOralExaminationSegmentOpt@2@XZ",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_dental_desktop_semantic_segment_for_gl@DentalDetectionThreadSafe@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_dental_desktop_semantic_segment_for_gl@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_dental_instance_segment_for_gl@DentalDetectionThreadSafe@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_dental_instance_segment_for_gl@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_dental_semantic_segment_for_gl@DentalDetectionThreadSafe@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_dental_semantic_segment_for_gl@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_oral_examination_segment@DentalDetectionThreadSafe@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUOralExaminationSegmentOpt@2@@Z",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_oral_examination_segment_two_stage_for_child_for_gl@DentalDetectionThreadSafe@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_oral_examination_segment_two_stage_for_child_for_gl@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?initialize_oral_examination_segment_two_stage_for_gl@DentalDetectionThreadSafe@Sn3DAlgorithm@@QEAA?AW4RetVal@2@XZ",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "?ridge_semantic_segment@DentalDetectionThreadSafeManager@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBVTriMesh@2@AEAV?$vector@HV?$allocator@H@std@@@std@@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9999999999999999
+        },
+        {
+          "signature": "D:\\Jenkins\\workspace\\SnAlgDeepLearning\\DeepLearning\\Sn3DDentalAI\\DentalDetection\\OralExaminationSegmentTwoStage.cpp",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_3a38b6d0b29a1d3f543ad060fe1a2fb4>::operator ()",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_6b9326a35a2e2349cc37f6c7ddc32d92>::operator ()",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage::<lambda_a7ced1b2499e5b87583690666b35cc9a>::operator ()",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage_for_child::<lambda_a63dc2c77e4520edca7f55cd6a3444b6>::operator ()",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::DentalDetectionThreadSafe::oral_examination_segment_two_stage_for_child::<lambda_a7f69706f9a1ffb659cab0921055b154>::operator ()",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::DentalInstanceSegment::check_mesh",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 1.0
+        },
+        {
+          "signature": "\\D:\\Jenkins\\workspace\\SnAlgDeepLearning\\DeepLearning\\Sn3DDentalAI\\DentalDetection\\DentalInstanceSegment.cpp",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "\\D:\\Jenkins\\workspace\\SnAlgDeepLearning\\DeepLearning\\Sn3DDentalAI\\DentalDetection\\OralExaminationSegmentTwoStage.cpp",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "\\D:\\Jenkins\\workspace\\SnAlgDeepLearning\\DeepLearning\\Sn3DDentalAI\\DentalDetection\\ToothKeyPointDetect.cpp",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        }
+      ],
+      "Sn3DMagic.dll": [
+        {
+          "signature": "?clip_points@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEBV?$Matrix@N$02$00$0A@$02$00@Eigen@@0@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?download_redundance_mesh@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEAUGpuFusionResult@2@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?fusion_mesh@RealTimeImageFusionHelperCuda@Sn3DAlgorithm@@QEAAXAEBVCloud@2@AEAV?$vector@MV?$allocator@M@std@@@std@@AEAVRigidMatrix@2@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?fusion_mesh_with_weight@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAA?AVRigidMatrix@2@AEBVCloud@2@00AEBV32@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?fusion_mesh_with_weight@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAA?AVRigidMatrix@2@AEBVCloud@2@00AEBV32@AEAW4GPUFusionRetVal@12@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?fusion_mesh_with_weight@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAA?AVRigidMatrix@2@AEBVCloudWithWeight@2@AEBVCloud@2@1AEBV32@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?fusion_mesh_with_weight_without_registration@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAA?AVRigidMatrix@2@AEBVCloud@2@00AEBV32@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?fusion_one_cloud_with_ptImg@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXAEBVCloud@2@AEBVPointImage@2@AEBVRigidMatrix@2@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?fusion_one_laser_with_ptImg@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXAEBVCloud@2@AEBVPointImage@2@AEBVRigidMatrix@2@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?get_generate_mesh_mem@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEAH@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?get_generate_mesh_mem@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAA?AW4RetVal@2@AEAUMemEstimationInfo@2@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?get_mesh_pkg@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXPEAPEAXAEAH@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?get_mesh_pkg_with_weight@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXPEAPEAX0AEAH@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?get_mesh_pkg_with_weight@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXPEAPEAXAEAH@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?get_mesh_topo_pkg@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXPEAPEAXAEAI1@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?get_whole_mesh@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXAEAVBaseTriMesh@2@_N@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?get_whole_mesh_in_host@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXAEAVBaseTriMesh@2@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "?ray_casting@RealTimeFusionCloudHelperCuda@Sn3DAlgorithm@@QEAAXAEBVPointImage@2@AEBVRigidMatrix@2@AEAV32@@Z",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::RealTimeFusionCloudHelperCuda",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::clip_points",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::delete_grid_point_by_save_cloud",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::delete_grid_point_by_select_faces",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::delete_grid_point_by_select_points",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::download_redundance_mesh",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_cloud_with_weight",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_mesh_with_weight",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_mesh_with_weight_without_registration",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_one_cloud_with_ptImg",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_one_frame",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::fusion_one_laser_with_ptImg",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_cloud_pkg",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_fn",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_fusion_info",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_generate_mesh_mem",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_is_enough_mem_for_gen_cld",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_mesh_pkg",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_mesh_pkg_with_weight",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_mesh_topo_pkg",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_vn",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_whole_cloud",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_whole_mesh",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::get_whole_mesh_in_host",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::integrate_has_normal",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::map_on_frame_delete_point",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::release",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::set_early_show",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::sync_to_vulkan_instance",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::update_fusion_info",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::update_near_far_scalar",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::RealTimeFusionCloudHelperCuda::~RealTimeFusionCloudHelperCuda",
+          "type": "fusion",
+          "stage": "mesh_processing",
+          "confidence": 0.95
+        }
+      ],
+      "Sn3DRealtimeScan.dll": [
+        {
+          "signature": "Sn3DAlgorithm::CloudManipulation::filter_cloud_data_using_pointimage",
+          "type": "utility",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::CloudManipulation::filter_pointimage_using_cloud_data",
+          "type": "utility",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::CloudManipulation::map_cloud_ai_2_pointimage",
+          "type": "utility",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::CloudManipulation::map_pointimage_ai_2_cloud",
+          "type": "utility",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::CloudVertexGetColor::model_reproject_for_point_color_multi_times",
+          "type": "geometry",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::ExpandMarchingCube<struct Sn3DAlgorithm::Fusion::LeafTeethLoad>::get_cloud_cubeId_tbb_using_ai",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::ExpandMarchingCube<struct Sn3DAlgorithm::Fusion::UpSampleLeafData>::get_cloud_cubeId_tbb_using_ai",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::FusionAttach<struct Sn3DAlgorithm::IntraoralScan::LeafTSDFTeeth>::delete_seletced_point_mesh",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.9
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::FusionTrack::fusion_nonrigid_delete_points_gpu",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::FusionTrackCuda::OnlyTrackOneFrame",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::FusionTrackCuda::TrackOneFrame",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::FusionTsdfMuliResolution<struct Sn3DAlgorithm::Fusion::MultiLeafTsdf>::muli_octree_integrate_tsdfvolume_for_mesh",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::MeshForParall::add_and_getnum_cloud",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.9
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::MeshForParall::add_and_getnum_face",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::MeshForParall::add_and_getnum_vert",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::Realtime_Marching_Cube<struct Sn3DAlgorithm::IntraoralScan::LeafTSDFTeeth>::get_show_data_mesh",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Fusion::fusion_all_frame_cylinder_process_leaf_teeth",
+          "type": "processing",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::FusionHelperCloudVertexColor::model_reproject_for_point_color_multi_times",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.9
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::FusionHelperDeleteFrame::ref_cloud_sync_single_frame",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::FusionHelperInfoMapping::ref_cloud_sync_single_frame",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::FusionHelperInfoMapping::set_ref_cloud",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::FusionHelperTSDF::get_mesh",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::LDNIGridField::construct_field_use_cloud",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::get_mesh_interface",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::octreeField::construct_field_use_cloud",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::ref_cloud_sync_single_frame_interface",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::FusionTrackManagerNameSpace::set_ref_cloud_interface",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::IntraoralScan::TeethSLAM::delete_point_through_disToIso_find_fusionRange",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::IntraoralScan::TeethSLAM::delete_select_point_mesh",
+          "type": "geometry",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::IntraoralScan::TeethSLAM::delete_select_point_mesh_single",
+          "type": "geometry",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::IntraoralScan::TeethSLAM::fusion_with_markPoints",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::IntraoralScan::TeethSLAM::high_resolution_fusion_delete_frame_point_through_tsdf",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::IntraoralScan::TeethSlamCuda::fusion_thread_function",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::IntraoralScan::TeethSlamCuda::track_and_fusion_thread_function",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::MultiFusionSplit::arrange_cloud_by_bbox",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::MultiFusionSplit::arrange_cloud_by_bbox_del",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::MultiFusionSplit::compute_bbox_set",
+          "type": "processing",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::MultiFusionSplit::compute_shift",
+          "type": "processing",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::MultiFusionSplit::mesh_combine",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::MultiFusionSplit::mesh_combine_using_vnrv",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_all_frame_cylinder_process",
+          "type": "processing",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_all_frame_cylinder_process_with_weight",
+          "type": "processing",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_all_frame_cylinder_process_with_weight_AIInform",
+          "type": "processing",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_nonrigid_delete_points_through_tsdf",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_nonrigid_gpu_delete_points_through_tsdf",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.95
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_one_mesh",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_without_track_applying_gpudeform",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_without_track_applying_gpudeform_save_deform_result",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_without_track_applying_gpudeform_set_wight_uplim",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::fusion_without_track_applying_gpudeform_set_wight_uplim_mod_rt",
+          "type": "fusion",
+          "stage": "acquisition",
+          "confidence": 0.8500000000000001
+        }
+      ],
+      "Sn3DRegistration.dll": [
+        {
+          "signature": "Sn3DAlgorithm::AxisCalib::compute_axis",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::CloudType::flush_delete",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::DentalArticulation::process",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::ExtremeNumRegOpt::process",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::GlobalFramepointReg::process",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::LargeRefReg::process",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::LaserScanReg::process",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::LaserScanReg::process_fix_ref",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::LaserScanReg::process_ref_only_no_frame::<lambda_8b1180f38be264c695f7e63caddde5d0>::operator ()",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::LaserScanReg::process_with_frame",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::LaserScanReg::process_with_frame_and_flag",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RefRegistrationUsingLineFeature::process",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::DisplayCloudImp::beautify",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::DisplayCloudImp::delete_isolate_region_imp",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::MainBlockImp::accept_cloud",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::AddThread::exec",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::FeatureThread::exec",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::FeatureTreeThread::exec",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::MergeThread::exec",
+          "type": "fusion",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::RegBaseSLAMForDental",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::add_frame",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::archive_ex",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::clear_pre_buf",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::create_from_pro_file",
+          "type": "initialization",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::delete_isolate_region",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::delete_points_by_plane",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::detect_base_plane",
+          "type": "analysis",
+          "stage": "registration",
+          "confidence": 0.8999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::wait_pause",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::RegBaseSLAMForDental::wait_pause::<lambda_425c88d992e6fc33ee6773b57a41ff4d>::operator ()",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::TreeSearchFor1Dimension::add_points",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::fusion_cover",
+          "type": "fusion",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::RegBaseSLAM::sdf_gen_cal_points",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DLargeScaleRefRegistration::refpoint_registertion",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DLargeScaleRefRegistration::update_refpoints_kdtrees",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DRegistration::global_registertion_framepoint",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DRegistration::group_registertion",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::TriMeshICPForDental::process",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 1.0
+        },
+        {
+          "signature": "Sn3DAlgorithm::dental_mark_mesh_registration",
+          "type": "geometry",
+          "stage": "registration",
+          "confidence": 0.8999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::dental_mix_registration",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::global_registertion",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::group_registertion_imp",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::largescale_registration_post_process",
+          "type": "processing",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::multi_TriMesh_icp",
+          "type": "geometry",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::robust_triMesh_icp",
+          "type": "geometry",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::sn3DKeyFrameSelector::next_start_point",
+          "type": "utility",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::sn3DRegistrationManager::global_registertion",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::sn3DRegistrationManager::pair_registertion",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::sn3DRegistrationManagerEx::global_registertion",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::sn3DRegistrationManagerEx::pair_registertion",
+          "type": "registration",
+          "stage": "registration",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::triMesh_icp_for_abutment",
+          "type": "geometry",
+          "stage": "registration",
+          "confidence": 0.8
+        }
+      ],
+      "Sn3DSpeckleFusion.dll": [
+        {
+          "signature": "Sn3DAlgorithm::Sn3DSpeckleFusion::SpeckleRebuildGPUGPU::result_data_tranform",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.9500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute11census_costEN16Sn3DGPUAlgorithm9PtrStepSzIiEES4_Ph4int2S6_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute11census_costILi1024ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIT1_EES6_Phiii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute11census_costILi320ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIT1_EES6_Phiii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute11census_costILi540ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIT1_EES6_Phiii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute11census_costILi640ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIT1_EES6_Phiii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute11census_costILi800ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIT1_EES6_Phiii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute15census_tranformEN16Sn3DGPUAlgorithm9PtrStepSzIhEES4_4int2NS3_IiEES6_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute15census_tranformILi1024ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIhEES5_NS4_IT1_EES7_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute15census_tranformILi320ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIhEES5_NS4_IT1_EES7_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute15census_tranformILi540ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIhEES5_NS4_IT1_EES7_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute15census_tranformILi640ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIhEES5_NS4_IT1_EES7_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute15census_tranformILi800ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIhEES5_NS4_IT1_EES7_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute16census_cost_maskILi320ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIT1_EES6_PhiiiNS4_IhEES8_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute16census_cost_maskILi640ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIT1_EES6_PhiiiNS4_IhEES8_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute18census_cost_weightILi320ELi5EjEEvN16Sn3DGPUAlgorithm9PtrStepSzIT1_EES6_PhiiiNS3_5PtrSzIfEE",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute25kernel_image_type_convertEN16Sn3DGPUAlgorithm9PtrStepSzIhEES4_PhS5_4int2",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute26kernel_zncc_cost_impl_halfILj1024ELi1224EEEvPhS3_S3_Pf4int2",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute26kernel_zncc_cost_impl_halfILj512ELi612EEEvPhS3_S3_Pf4int2",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute26kernel_zncc_cost_impl_halfILj512ELi640EEEvPhS3_S3_Pf4int2",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute26kernel_zncc_cost_impl_halfILj972ELi1296EEEvPhS3_S3_Pf4int2",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute28kernel_compute_cost_5x5_implEN16Sn3DGPUAlgorithm9PtrStepSzIjEES4_Ph4int2S6_S6_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute32kernel_census_transform_5x5FloatEN16Sn3DGPUAlgorithm9PtrStepSzIfEENS3_IjEE",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute32kernel_census_transform_5x5UCharEN16Sn3DGPUAlgorithm9PtrStepSzIhEENS3_IjEE",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute33kernel_census_transform_7x7SampleEN16Sn3DGPUAlgorithm9PtrStepSzIhEES4_NS3_IjEES5_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute33kernel_census_transform_9x9SampleEN16Sn3DGPUAlgorithm9PtrStepSzIhEES4_NS3_IjEES5_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostCompute34kernel_census_transform_5x5UCharLREN16Sn3DGPUAlgorithm9PtrStepSzIhEES4_NS3_IjEES5_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostProcess17fill_point_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_4int4ii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostProcess19save_invaild_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_4int4ii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11CostProcess24check_left_to_right_lastEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_iif",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess12update_pointEN16Sn3DGPUAlgorithm9PtrStepSzI6float3EENS3_IfEENS2_10IntrDeviceES4_ii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess17fill_point_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_4int4ii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess19delete_point_updateEN16Sn3DGPUAlgorithm9PtrStepSzIbEENS3_IfEENS3_I6float3EES7_NS3_I6float2EEii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess19delete_point_updateEN16Sn3DGPUAlgorithm9PtrStepSzIbEENS3_IfEEii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess19kernel_delete_pointEN16Sn3DGPUAlgorithm9PtrStepSzIbEENS3_IfEENS3_I6float3EES7_NS3_I6float2EEi",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess21find_point_image_edgeEN16Sn3DGPUAlgorithm9PtrStepSzIcEENS3_I6float3EES6_ii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess21generate_point_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEENS3_I6float3EES5_NS2_10IntrDeviceEiii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess24kernel_delget_edge_pointEN16Sn3DGPUAlgorithm9PtrStepSzIfEENS3_IbEEiii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess27kernel_delete_invaild_pointEN16Sn3DGPUAlgorithm9PtrStepSzI6float3EES5_NS3_IfEENS2_5PtrSzIjEEiNS3_IhEE4int2",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess32kernel_delete_invaild_point_testEN16Sn3DGPUAlgorithm9PtrStepSzI6float3EENS3_IfEENS2_5PtrSzIjEEiNS3_IhEE4int2",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion11DataProcess33delget_edge_point_in_right_cornerEN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS3_IbEEiii",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 1.0
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion13SpePreProcess14pyrdown_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_S4_S4_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion13SpePreProcess15USM_for_pyramidEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_S4_S4_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion13SpePreProcess22USM_and_pyramid_kernelEN16Sn3DGPUAlgorithm9PtrStepSzIfEES4_S4_S4_S4_S4_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion13SpePreProcess7rectifyEN16Sn3DGPUAlgorithm9PtrStepSzIhEES4_NS3_IfEES5_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion15CostAggregation30kernel_compute_right_disparityEPtPfbf4int2S4_",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion15CostAggregation44kernel_sum_cost_and_compute_disparity_path_4ILj32ELj16ELj16EEEvPfPhS4_S4_S4_4int2S5_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion15CostAggregation44kernel_sum_cost_and_compute_disparity_path_4ILj32ELj16ELj32EEEvPfPhS4_S4_S4_4int2S5_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion15CostAggregation44kernel_sum_cost_and_compute_disparity_path_4ILj32ELj16ELj4EEEvPfPhS4_S4_S4_4int2S5_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm17Sn3DSpeckleFusion15CostAggregation44kernel_sum_cost_and_compute_disparity_path_4ILj32ELj16ELj8EEEvPfPhS4_S4_S4_4int2S5_i",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.95
+        }
+      ],
+      "algorithm1.dll": [
+        {
+          "signature": "?Cloud_pair_feature_registration_compute_registration@Sn3DAlgorithm@@YA?AW4RetVal@1@PEAXAEAVRigidMatrix@1@AEAH@Z",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_absulute_gaussian_curvature@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_area@FlipEdgeSF_T@Sn3DAlgorithm@@IEAAXAEAVTriMesh@2@UVertexHandle@OpenMesh@@AEAM@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_coord@TextureFusion@Sn3DAlgorithm@@AEAA_NXZ",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_cost_about_halfedge@EdgeFlipMean@Sn3DAlgorithm@@IEAAMAEAVTriMesh@2@UHalfedgeHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_curvature_cost1@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_curvature_cost2@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_curvature_cost3@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_face_area@EdgeFlipMean@Sn3DAlgorithm@@IEAAMAEAVTriMesh@2@UFaceHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_face_area@FlipEdgeSF_T@Sn3DAlgorithm@@IEAAMAEAVTriMesh@2@UFaceHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_face_normal_changeby_curvature@EdgeFlipMean@Sn3DAlgorithm@@IEAAXAEAVTriMesh@2@UHalfedgeHandle@OpenMesh@@AEAV?$Matrix@M$02$00$0A@$02$00@Eigen@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_flip_cost@EdgeFlipGauss@Sn3DAlgorithm@@QEAANAEAVTriMesh@2@UEdgeHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_flip_cost@EdgeFlipMean@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UEdgeHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_flip_cost@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UEdgeHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_gaussian_cost@EdgeFlipGauss@Sn3DAlgorithm@@QEAAMAEAVTriMesh@2@UEdgeHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_gaussian_curvature@EdgeFlipGauss@Sn3DAlgorithm@@QEAAMAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_halfedge_vec_changeby_curvature@EdgeFlipMean@Sn3DAlgorithm@@IEAAXAEAVTriMesh@2@UHalfedgeHandle@OpenMesh@@AEAV?$Matrix@M$02$00$0A@$02$00@Eigen@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_hole_tex_coord@TextureFusion@Sn3DAlgorithm@@AEAAXXZ",
+          "type": "processing",
+          "stage": "fusion",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_hull@Sn3DAlgorithm@@YAXAEAVTriMesh@1@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_integral_absolute_mean_curvature2@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_integral_absolute_mean_curvature3@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_integral_absolute_mean_curvature@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_integral_gaussian_curvature@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_integral_mean_curvature@FlipEdgeSF_T@Sn3DAlgorithm@@IEAANAEAVTriMesh@2@UVertexHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_mean_curvature@EdgeFlipGauss@Sn3DAlgorithm@@QEAAMAEAVTriMesh@2@UEdgeHandle@OpenMesh@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_principal_curvature_direction@EdgeFlipMean@Sn3DAlgorithm@@IEAAXAEAVTriMesh@2@UVertexHandle@OpenMesh@@AEAV?$Matrix@M$02$02$0A@$02$02@Eigen@@AEAM3@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "?compute_principal_curvature_direction@FlipEdgeSF_T@Sn3DAlgorithm@@IEAAXAEAVTriMesh@2@UVertexHandle@OpenMesh@@AEAV?$Matrix@M$02$02$0A@$02$02@Eigen@@AEAM3@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7
+        },
+        {
+          "signature": "Sn3DAlgorithm::BaseTriMesh_face_and_tooth_feature_registration",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::BaseTriMesh_pair_feature_registration_for_multi_abutment",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::BaseTriMesh_tooth_feature_registration",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::BlockedVector<struct Sn3DAlgorithm::Poisson::DualPointInfo<3,float,float,0>,10,10,2>::resize",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::BlockedVector<struct Sn3DAlgorithm::Poisson::Point<float,3>,10,10,2>::resize",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::FEMTree<3,float>::_addPointValues",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::FEMTree<3,float>::_splatPointData",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::FEMTree<3,float>::check_sample_point",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::Point<float,1>::_init",
+          "type": "initialization",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::Point<float,3>::_init",
+          "type": "initialization",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::SparseNodeData<struct Sn3DAlgorithm::Poisson::DualPointInfo<3,float,float,0>,struct Sn3DAlgorithm::Poisson::UIntPack<0,0,0> >::operator []",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::SparseNodeData<struct Sn3DAlgorithm::Poisson::Point<float,3>,struct Sn3DAlgorithm::Poisson::UIntPack<6,6,6> >::operator []",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::SparseNodeData<struct Sn3DAlgorithm::Poisson::Point<float,3>,struct Sn3DAlgorithm::Poisson::UIntPack<7,7,7> >::operator []",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::Poisson::SparseNodeData<struct Sn3DAlgorithm::Poisson::Point<float,3>,struct Sn3DAlgorithm::Poisson::UIntPack<8,8,8> >::operator []",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::PoissonRecon::cloud_sampling",
+          "type": "utility",
+          "stage": "general",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::PoissonRecon::set_ref_mesh",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::PoissonReconImpl<3,float>::ExtractMesh",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::compress_mesh_to_file",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::compress_mesh_to_stream",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::compress_mesh_to_string",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::decompress_file_to_mesh",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::decompress_stream_to_mesh",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::decompress_string_to_mesh",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7000000000000001
+        }
+      ],
+      "algorithm2.dll": [
+        {
+          "signature": "?clip_cloud_box@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEAVCloud@2@AEBV?$vector@VOBBox@Sn3DAlgorithm@@V?$allocator@VOBBox@Sn3DAlgorithm@@@std@@@std@@_N_N@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?clip_pointImage_box@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEAVPointImage@2@AEBV?$vector@VOBBox@Sn3DAlgorithm@@V?$allocator@VOBBox@Sn3DAlgorithm@@@std@@@std@@_N_N@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?collect_points@Sn3DModelProcess@Sn3DAlgorithm@@SAXAEBV?$vector@PEAVRangeDataDense@Sn3DAlgorithm@@V?$allocator@PEAVRangeDataDense@Sn3DAlgorithm@@@std@@@std@@AEAVCloud@2@@Z",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?collect_points@Sn3DModelProcess@Sn3DAlgorithm@@SAXAEBV?$vector@PEBVRangeData@Sn3DAlgorithm@@V?$allocator@PEBVRangeData@Sn3DAlgorithm@@@std@@@std@@AEAVCloud@2@@Z",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?compute_mean_curv@PointCloudCurvature@Sn3DAlgorithm@@QEAAHXZ",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?estimate_point_dis_c@Sn3DCloudProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEBV?$vector@V?$Matrix@M$02$00$0A@$02$00@Eigen@@V?$allocator@V?$Matrix@M$02$00$0A@$02$00@Eigen@@@std@@@std@@AEAM@Z",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?estimate_point_dis_c@Sn3DCloudProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEBVCloud@2@AEAM@Z",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?estimate_point_dis_m@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEBVBaseTriMesh@2@AEAM@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?flip_faces_by_selected_points@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEAVBaseTriMesh@2@AEBV?$vector@HV?$allocator@H@std@@@std@@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?get_endpoint@Sn3DMeshPlaneSegment@Sn3DAlgorithm@@CA_NAEBVTriMesh@2@AEBUEdgeHandle@OpenMesh@@AEAH2@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?get_mesh_cut_plane_info@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEBVCloud@2@AEBV?$Matrix@M$02$00$0A@$02$00@Eigen@@11AEAV56@AEAM3AEAVRigidMatrix@2@@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?get_point_bd@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEBVTriMesh@2@AEAV?$vector@HV?$allocator@H@std@@@std@@H@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?get_point_bd_queue@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEBVTriMesh@2@AEAV?$vector@HV?$allocator@H@std@@@std@@1H@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?get_point_curvature@SnModelProcessGPU@Sn3DAlgorithm@@SAHAEBVRangeDataGpu@Sn3DGPUAlgorithm@@AEAV?$vector@MV?$allocator@M@std@@@std@@@Z",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.85
+        },
+        {
+          "signature": "?get_tri_points@MeshProcessHelper@Sn3DAlgorithm@@SAXAEBVTriMesh@2@UFaceHandle@OpenMesh@@AEAV?$Matrix@M$02$00$0A@$02$00@Eigen@@22@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?point_to_segment@Sn3DMeshDoctor@Sn3DAlgorithm@@AEAAMAEBV?$Matrix@M$02$00$0A@$02$00@Eigen@@00AEAV34@@Z",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?remove_by_points@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEAVBaseTriMesh@2@AEBV42@M@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "?remove_poisson_boundary_by_mesh@Sn3DMeshProcess@Sn3DAlgorithm@@SA?AW4RetVal@2@AEAVBaseTriMesh@2@AEBVCloud@2@MAEBV?$vector@HV?$allocator@H@std@@@std@@H@Z",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.8
+        },
+        {
+          "signature": "Sn3DAlgorithm::MeshBatchProcess::mesh_quick_repair",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::MeshBatchProcess::remove_largest_boundary_verts",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshColorFusion::fusion_mesh",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshHoleColorFusion::fusion_mesh_hole",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshHoleColorFusion::generate_coefMat",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshHoleColorFusion::generate_subMesh",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::add_point_on_disruption",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.9
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::calc_distance",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::check_self_intersection",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::dispart_mesh",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::filter_not_onplane_holes",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::generate_hole_mesh",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::plane_segment",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::reverse_normal",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshPlaneSegment::split_mesh",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshProcess::remove_mesh_spike",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DMeshSubdivide::approximate_to_cloud",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::Sn3DModelProcess::collect_points",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::SnModelProcessGPU::process_model_gpu",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::estimate_point_dis_mesh",
+          "type": "geometry",
+          "stage": "mesh_processing",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::process_model_gpu",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "Sn3DAlgorithm::segment_mesh_planar",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DMeshProcess::get_point_bd_queue(mesh, dist_to_bd, largest_bd, bd_ring)",
+          "type": "processing",
+          "stage": "mesh_processing",
+          "confidence": 0.9
+        },
+        {
+          "signature": "_ZN17GPU_model_process11g_set_v_delEN16Sn3DGPUAlgorithm5PtrSzIiEENS1_IcEE",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN17GPU_model_process14g_range_clip_zEN16Sn3DGPUAlgorithm9PtrStepSzIiEENS0_5PtrSzI6float3EEfNS3_IcEE",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN17GPU_model_process15g_mark_cell_delEN16Sn3DGPUAlgorithm9PtrStepSzIiEES2_NS0_5PtrSzIfEENS3_IcEEf",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN17GPU_model_process15g_swapRangeDataEN16Sn3DGPUAlgorithm5PtrSzIiEENS0_9PtrStepSzIiEENS1_I6float3EENS1_IcEES7_NS1_I7ushort2EES6_NS1_I6uchar3EEbb",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN17GPU_model_process18g_get_camera_angleEN16Sn3DGPUAlgorithm9PtrStepSzIiEENS0_5PtrSzI6float3EES5_NS3_IcEES4_NS3_IfEE",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN17GPU_model_process19g_get_global_coordsEN16Sn3DGPUAlgorithm9PtrStepSzIiEENS0_5PtrSzI6float3EENS3_IdEES6_S5_",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN17GPU_model_process21g_get_dihedral_weightEN16Sn3DGPUAlgorithm9PtrStepSzIiEENS0_5PtrSzI6float3EES5_NS3_IiEEiNS3_IfEES7_",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN17GPU_model_process21g_swapRangeWeightPropEN16Sn3DGPUAlgorithm5PtrSzIiEENS0_9PtrStepSzIiEENS1_IfEE",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN17GPU_model_process23g_get_camera_angle_vertEN16Sn3DGPUAlgorithm9PtrStepSzIiEENS0_5PtrSzI6float3EES5_S4_NS3_IfEE",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        }
+      ],
+      "algorithmLzy.dll": [
+        {
+          "signature": "Sn3DAlgorithm::LaserPlaneCalibration::calc_laser_order_points_with_coor2d_calib",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DAlgorithm::LaserPlaneCalibration::calc_laser_order_points_with_coor2d_nx_windows",
+          "type": "calibration",
+          "stage": "calibration",
+          "confidence": 0.7999999999999999
+        },
+        {
+          "signature": "Sn3DGPUAlgorithm::device::AboutDeviceLaserRebuild::device_detect",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.8500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm14delete_processEN16Sn3DGPUAlgorithm9PtrStepSzI6float4EENS1_IiEENS0_5PtrSzI6float2EE",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm14get_segment_LREN16Sn3DGPUAlgorithm9PtrStepSzIjEENS1_I4int2EENS0_5PtrSzIS3_EENS5_IiEES2_S4_S6_S7_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm15cudaComputeGauXEN16Sn3DGPUAlgorithm9PtrStepSzIfEEiS2_",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm15cudaComputeGauYEN16Sn3DGPUAlgorithm9PtrStepSzIfEEiS2_",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm16cudaComputeGauXTEN16Sn3DGPUAlgorithm9PtrStepSzIfEEiS2_",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm16get_segment_2_SNILi16EEEvN16Sn3DGPUAlgorithm5PtrSzI4int2EENS2_IiEENS1_9PtrStepSzIS3_EES4_S5_S7_NS6_IjEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm16get_segment_2_TYILi16EEEvN16Sn3DGPUAlgorithm5PtrSzI4int2EENS2_IiEENS1_9PtrStepSzIS3_EES4_S5_S7_NS6_IjEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm16get_segment_LR_2EN16Sn3DGPUAlgorithm5PtrSzI4int2EENS0_9PtrStepSzIjEENS4_IS2_EES6_NS1_IiEES5_S6_S6_S7_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm18tsdf_fusion_kernelEN16Sn3DGPUAlgorithm9PtrStepSzI6float4EES3_i6float3NS0_5PtrSzI4int2EENS5_INS_11TsdfLeafGpuEEE",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm19segment_cut_sn_NX_LILi16EEEvN16Sn3DGPUAlgorithm5PtrSzIjEENS2_IiEENS2_I4int2EENS1_9PtrStepSzIS5_EENS2_IhEES6_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm19segment_cut_sn_NX_RILi16EEEvN16Sn3DGPUAlgorithm5PtrSzIjEENS2_IiEENS2_I4int2EENS1_9PtrStepSzIS5_EENS2_IhEES6_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm21extract_fusion_kernelEN16Sn3DGPUAlgorithm5PtrSzINS_11TsdfLeafGpuEEENS1_I6float3EENS1_IiEES4_",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm21get_segment_LENGTH_SNILi16EEEvN16Sn3DGPUAlgorithm5PtrSzI4int2EENS2_IiEENS1_9PtrStepSzIS3_EES7_S5_S7_S7_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm21get_segment_LENGTH_TYILi16EEEvN16Sn3DGPUAlgorithm5PtrSzI4int2EENS2_IiEENS1_9PtrStepSzIS3_EES7_S5_S7_S7_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm22cudaBinningComputeGauXEN16Sn3DGPUAlgorithm9PtrStepSzIfEEiS2_",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm23segment_cut_sn_triviewsILi16EEEvN16Sn3DGPUAlgorithm5PtrSzI4int2EENS2_IiEENS1_9PtrStepSzIS3_EES5_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm25remove_little_segment_triEN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS1_I4int2EEiNS1_I6float4EES7_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm26cudaComputeGauXSecondOrderEN16Sn3DGPUAlgorithm9PtrStepSzIfEEiS2_",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm26delete_process_disContinueEN16Sn3DGPUAlgorithm9PtrStepSzI6float4EENS1_IiEENS0_5PtrSzI6float2EEi",
+          "type": "processing",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm36delete_discrete_segment_triviews_midEN16Sn3DGPUAlgorithm9PtrStepSzI4int2EEiS3_NS0_5PtrSzI4int3EES6_NS1_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm37delete_discrete_segment_triviews_leftEN16Sn3DGPUAlgorithm9PtrStepSzI4int2EEiS3_NS0_5PtrSzIS2_EENS4_IiEENS4_I4int3EES8_NS1_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm38delete_discrete_segment_triviews_rightEN16Sn3DGPUAlgorithm9PtrStepSzI4int2EEiS3_NS0_5PtrSzI4int3EES6_NS1_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm40delete_discrete_line_segment_ty_speedup_EN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS1_I4int2EEiS5_NS0_5PtrSzIS4_EENS6_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm42delete_discrete_line_segment_LR_sn_speedupEN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS1_I4int2EES3_S5_iS5_S5_NS0_5PtrSzIS4_EENS6_IiEES7_S8_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm43delete_discrete_line_segment_lmr_sn_speedupEN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS1_I4int2EES3_S5_S3_S5_iS5_S5_S5_NS0_5PtrSzIS4_EENS6_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm45delete_discrete_line_segment_sn_speedup_left_ILi7EEEvN16Sn3DGPUAlgorithm9PtrStepSzIhEENS2_I6float2EENS2_I4int2EES7_NS1_5PtrSzIS6_EENS8_IiEESA_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm46delete_discrete_line_segment_sn_speedup_right_ILi7EEEvN16Sn3DGPUAlgorithm9PtrStepSzIhEENS2_I6float2EENS2_I4int2EES7_NS1_5PtrSzIS6_EENS8_IiEESA_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm47delete_discrete_line_segment_lmr_sn_speedup_NewEN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS1_I4int2EEi",
+          "type": "initialization",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm48delete_discrete_line_segment_sn_triviews_speedupEN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS1_I4int2EES3_S5_S3_S5_iS5_S5_S5_NS0_5PtrSzIS4_EENS6_IiEES7_S8_S7_S8_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm52delete_discrete_line_segment_lmr_sn_speedup_single_LILi4EEEvN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS2_I4int2EENS1_5PtrSzIS5_EENS7_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm52delete_discrete_line_segment_lmr_sn_speedup_single_LILi7EEEvN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS2_I4int2EENS1_5PtrSzIS5_EENS7_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm53delete_discrete_line_segment_lmr_sn_speedup_single_L2ILi4EEEvN16Sn3DGPUAlgorithm5PtrSzIhEENS1_9PtrStepSzI6float2EENS4_I4int2EENS2_IS7_EENS2_IiEES3_S6_S8_S9_SA_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm53delete_discrete_line_segment_lmr_sn_speedup_single_L2ILi4ELi16EEEvN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS2_I4int2EENS1_5PtrSzIS5_EENS7_IiEES8_S9_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm53delete_discrete_line_segment_lmr_sn_speedup_single_LMILi7EEEvN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS2_I4int2EENS1_5PtrSzIjEENS7_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm54delete_discrete_line_segment_lmr_sn_speedup_single_LM2ILi4ELi16EEEvN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS2_I4int2EENS1_5PtrSzIjEENS7_IiEENS7_IS5_EES9_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm57delete_discrete_line_segment_lmr_sn_speedup_single_LM2_idILi4ELi16EEEvN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS2_I4int2EENS1_5PtrSzIS5_EENS7_IjEENS7_IiEES8_SA_",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm60delete_discrete_line_segment_lmr_sn_speedup_single_LM_11LineILi4EEEvN16Sn3DGPUAlgorithm9PtrStepSzI6float2EENS2_I4int2EENS1_5PtrSzIS5_EENS7_IiEE",
+          "type": "analysis",
+          "stage": "ai_analysis",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm70marker_point_before_match_and_small_line_segment_delete_two_dot_zero_2EN16Sn3DGPUAlgorithm5PtrSzIiEEiNS0_9PtrStepSzI4int2EENS3_I6float2EENS1_IS4_EENS3_IfEES9_NS3_IhEESA_f",
+          "type": "registration",
+          "stage": "ai_analysis",
+          "confidence": 0.85
+        },
+        {
+          "signature": "_ZN13Sn3DAlgorithm72marker_point_before_match_and_small_line_segment_delete_two_dot_zero_R_2EN16Sn3DGPUAlgorithm5PtrSzIiEEiNS0_9PtrStepSzI4int2EENS3_I6float2EENS1_IS4_EENS3_IfEES9_NS3_IhEESA_f",
+          "type": "registration",
+          "stage": "ai_analysis",
+          "confidence": 0.85
+        },
+        {
+          "signature": "_ZN16Sn3DGPUAlgorithm14fusionRangeConE",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN16Sn3DGPUAlgorithm19point_smooth_kernelENS_5PtrSzIiEENS0_INS_18LeafCountNormalGpuEEEiNS0_I6float3EES5_NS0_I4int3EE",
+          "type": "gpu_compute",
+          "stage": "general",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN16Sn3DGPUAlgorithm19volumeSizeFusionConE",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN16Sn3DGPUAlgorithm23fusion_one_frame_kernelENS_5PtrSzINS_13LeafTSDFLaserEEENS0_I6float3EES4_NS0_IfEEiS3_",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN16Sn3DGPUAlgorithm24volumeSizeInverFusionConE",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN16Sn3DGPUAlgorithm25volumeResolutionFusionConE",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN16Sn3DGPUAlgorithm26count_focuse_fusion_kernelENS_5PtrSzI6float3EES2_iS2_",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        },
+        {
+          "signature": "_ZN16Sn3DGPUAlgorithm26disThBetweenFusionModelConE",
+          "type": "fusion",
+          "stage": "fusion",
+          "confidence": 0.7500000000000001
+        }
+      ]
+    },
+    "function_types": {
+      "processing": 156,
+      "initialization": 19,
+      "calibration": 31,
+      "utility": 35,
+      "registration": 12,
+      "analysis": 73,
+      "fusion": 103,
+      "geometry": 20,
+      "gpu_compute": 1
+    },
+    "algorithm_stages": {
+      "calibration": 52,
+      "ai_analysis": 93,
+      "mesh_processing": 101,
+      "acquisition": 50,
+      "registration": 50,
+      "fusion": 65,
+      "general": 39
+    },
+    "high_confidence_functions": 254
+  },
+  "tensor_documentation": {
+    "functions_with_tensor_hints": 2,
+    "tensor_hint_details": [
+      {
+        "dll_name": "algorithm2.dll",
+        "function": "Sn3DAlgorithm::MeshBatchProcess::mesh_quick_repair",
+        "inferred_tensor_info": [
+          "Supports batch processing"
+        ]
+      },
+      {
+        "dll_name": "algorithm2.dll",
+        "function": "Sn3DAlgorithm::MeshBatchProcess::remove_largest_boundary_verts",
+        "inferred_tensor_info": [
+          "Supports batch processing"
+        ]
+      }
+    ],
+    "common_tensor_patterns": {
+      "Supports batch processing": 2
+    }
+  },
+  "confidence_assessment": {
+    "average_dll_confidence": 0.401,
+    "average_function_confidence": 0.835,
+    "high_confidence_threshold": 0.8,
+    "analysis_completeness": {
+      "dll_analysis": "Complete",
+      "function_analysis": "Complete",
+      "tensor_analysis": "Inferred"
+    }
+  }
+}
