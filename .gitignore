@@ -85,4 +85,11 @@ IntraoralScan/Bin/*.dll
 # Exclude Python compiled files
 IntraoralScan/Bin/*.pyd
 
-# Temporary
+# Large test files
+test_order.zip
+*.zip
+
+# Temporary files
+*.tmp
+*.temp
+*.log
