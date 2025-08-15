@@ -1,0 +1,1571 @@
+﻿{
+    "Default":{
+        "defaultLogoVisible": true,
+        "namePathSeperator": "-",
+        "auxiliaryRec": true,
+        "showDesc": false,
+        "showNoteAndPlan": false,
+        "showNotes": false,
+        "showDescAndPlan": false,
+        "crowdingValue": {
+            "from": -4,
+            "to": 4
+        },
+        "aiPopupTipVisible": true,
+        "entrance": {
+            "zh_CN": {
+                "prefix": "牙小先",
+                "brand": "TM"
+            }
+        }
+    },
+    "ModelCaptureZoom":{
+        "maxDistance": 10,
+        "minDistance": 80
+    },
+    "IssueType": {
+        "adult": false,
+        "defSetting_adult": {
+            "type_1": true,
+            "type_2": true,
+            "type_3": true,
+            "type_4": true,
+            "type_5": true,
+            "type_6": true,
+            "type_7": true,
+            "type_8": true,
+            "type_9": true,
+            "type_10": true,
+            "type_13": true,
+            "type_3_1": true,
+            "type_3_2": true,
+            "type_3_3": true,
+            "type_4_1": true,
+            "type_4_2": true,
+            "type_4_3": true,
+            "type_4_4": true,
+            "type_4_5": true,
+            "type_4_6": true,
+            "type_4_7": true,
+            "type_4_8": true,
+            "type_10_1": true,
+            "type_10_2": true,
+            "type_10_3": true
+
+        },
+        "defSetting_child": {
+            "type_1": true,
+            "type_2": true,
+            "type_3": true,
+            "type_4": true,
+            "type_5": true,
+            "type_6": true,
+            "type_7": true,
+            "type_8": true,
+            "type_9": true,
+            "type_11": true,
+            "type_12": true,
+            "type_13": true,
+            "type_3_1": true,
+            "type_3_2": true,
+            "type_3_3": true,
+            "type_4_1": true,
+            "type_4_2": true,
+            "type_4_3": true,
+            "type_4_4": true,
+            "type_4_5": true,
+            "type_4_6": true,
+            "type_4_7": true,
+            "type_4_8": true
+        },
+        "userSetting_adult": {
+            "type_1": true,
+            "type_2": true,
+            "type_3": true,
+            "type_4": true,
+            "type_5": true,
+            "type_6": true,
+            "type_7": true,
+            "type_8": true,
+            "type_9": true,
+            "type_10": true,
+            "type_13": true,
+            "type_3_1": true,
+            "type_3_2": true,
+            "type_3_3": true,
+            "type_4_1": true,
+            "type_4_2": true,
+            "type_4_3": true,
+            "type_4_4": true,
+            "type_4_5": true,
+            "type_4_6": true,
+            "type_4_7": true,
+            "type_4_8": true,
+            "type_10_1": true,
+            "type_10_2": true,
+            "type_10_3": true
+        },
+        "userSetting_child": {
+            "type_1": true,
+            "type_2": true,
+            "type_3": true,
+            "type_4": true,
+            "type_5": true,
+            "type_6": true,
+            "type_7": true,
+            "type_8": true,
+            "type_9": true,
+            "type_11": true,
+            "type_12": true,
+            "type_13": true,
+            "type_3_1": true,
+            "type_3_2": true,
+            "type_3_3": true,
+            "type_4_1": true,
+            "type_4_2": true,
+            "type_4_3": true,
+            "type_4_4": true,
+            "type_4_5": true,
+            "type_4_6": true,
+            "type_4_7": true,
+            "type_4_8": true
+        },
+        "rulesSetting_adult": [
+            [
+                ["type_1", "type_2", "type_3", "type_4", "type_5", "type_6", "type_7", "type_8", "type_9", "type_10", "type_13"]
+            ],
+            [
+                [],
+                [],
+                ["type_3_1", "type_3_2", "type_3_3"],
+                ["type_4_1", "type_4_2", "type_4_3", "type_4_4", "type_4_5", "type_4_6", "type_4_7", "type_4_8"],
+                [],
+                [],
+                [],
+                [],
+                [],
+                ["type_10_1", "type_10_2", "type_10_3"],
+                []
+            ]
+        ],
+
+        "rulesSetting_child": [
+            [
+                ["type_1", "type_2", "type_3", "type_4", "type_5", "type_6", "type_7", "type_8", "type_9", "type_11", "type_12", "type_13"]
+            ],
+            [
+                [],
+                [],
+                ["type_3_1", "type_3_2", "type_3_3"],
+                ["type_4_1", "type_4_2", "type_4_3", "type_4_4", "type_4_5", "type_4_6", "type_4_7", "type_4_8"],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ]
+        ],
+        "aiSetting": {
+            "crowdingValue": {
+                "from": -4,
+                "to": 4
+            },
+            "types": {
+                "missingtooth": "type_5",
+                "crowding": "type_4_2",
+                "spacing": "type_4_3",
+                "crossbite": "type_4_4",
+                "openbite": "type_4_5",
+                "scissorbite": "type_4_6",
+                "overbite": "type_4_7",
+                "overjet": "type_4_8",
+                "malocclusion": "type_6",
+                "calculus":"type_2",
+                "pigment":"type_7",
+                "caries":"type_3"
+            }
+        },
+        "translation": {
+            "zh_CN": {
+                "type_1": {
+                    "type": "健康牙",
+                    "brief": "世界卫生组织制定的牙齿健康标准：1、牙齿清洁，2、无龋洞，3、无疼痛感，4、牙龈颜色正常，5、无出血现象。",
+                    "plan": "方案：保持良好的口腔卫生习惯，定期进行口腔检查。"
+                },
+                "type_2": {
+                    "type": "牙结石",
+                    "brief": "沉积在牙齿表面已钙化的牙菌斑及软垢，牙齿表面可呈现黄白色至棕黑色。",
+                    "plan": "方案：改善口腔卫生习惯，可进行牙周洁治（俗称洗牙）。"
+                },
+                "type_3": {
+                    "type": "龋病",
+                    "brief": "龋病俗称蛀牙、虫牙，初期表现为牙齿表面的的白色斑块或黄褐色斑块，进一步发展会形成龋洞并出现牙齿敏感。",
+                    "plan": "方案：及时进行龋齿充填，俗称补牙。"
+                },
+                "type_3_1": {
+                    "type": "龋病-浅龋",
+                    "brief": "龋坏限于釉质，一般无明显龋洞，无自觉症状，探查也无反应。",
+                    "plan": "方案：改善口腔卫生习惯，可能需要进行龋齿充填（俗称补牙）。"
+                },
+                "type_3_2": {
+                    "type": "龋病-中龋",
+                    "brief": "龋坏达到牙本质层，有明显龋洞，对外界刺激可有敏感症状。",
+                    "plan": "方案：改善口腔卫生习惯，并尽快进行龋齿充填（俗称补牙）。"
+                },
+                "type_3_3": {
+                    "type": "龋病-深龋",
+                    "brief": "一般表现为大而深的龋洞，对外界刺激(如冷、热、甜、酸和食物嵌入等)反应较重。",
+                    "plan": "方案：改善口腔卫生习惯，并尽快进行龋齿充填（俗称补牙）。"
+                },
+                "type_4": {
+                    "type": "牙齿排列情况",
+                    "brief": "正常牙列外形规则、整齐，每个牙在牙槽骨内有其特定的位置，牙与牙之间紧密邻接；牙齿排列异常会对面部美观、咀嚼、发音等功能产生不同程度的影响。",
+                    "plan": "方案：牙齿排列情况与遗传、口腔习惯等多因素有关，建议保持良好的口腔卫生习惯，定期进行口腔检查。"
+                },
+                "type_4_1": {
+                    "type": "牙齿排列情况-正常",
+                    "brief": "牙弓形态规则且对称。",
+                    "plan": "方案：保持良好的口腔卫生习惯，定期进行口腔检查。"
+                },
+                "type_4_2": {
+                    "type": "牙齿排列情况-拥挤",
+                    "brief": "牙列拥挤是最常见的错合畸形，可表现为牙齿拥挤错位排列不齐。",
+                    "plan": "方案：可进行活动矫治器、隐形矫治器或固定矫治器治疗。"
+                },
+                "type_4_3": {
+                    "type": "牙齿排列情况-间隙",
+                    "brief": "牙齿之间存在明显间隙",
+                    "plan": "方案：可进行活动矫治器、隐形矫治器或固定矫治器治疗。"
+                },
+                "type_4_4": {
+                    "type": "牙齿排列情况-反合",
+                    "brief": "分为单牙反颌和多牙反颌，多牙反颌俗称“地包天”，通常表现为下牙包住上牙。",
+                    "plan": "方案：可进行活动矫治器、隐形矫治器或固定矫治器治疗。"
+                },
+                "type_4_5": {
+                    "type": "牙齿排列情况-开合",
+                    "brief": "指正常咬合时上下颌部分牙齿在垂直向无接触。",
+                    "plan": "方案：可进行活动矫治器、隐形矫治器或固定矫治器治疗。"
+                },
+                "type_4_6": {
+                    "type": "牙齿排列情况-锁合",
+                    "brief": "锁合在临床上可分为正锁合和反锁合。正锁合是指上颌后牙舌尖的舌斜面位于下颌后牙颊尖的颊斜面的颊侧，合面无咬合接触，临床较为多见；反锁合是指上后牙颊尖的颊斜面位于下后牙舌尖舌斜面的舌侧，合面多无咬合接触，临床上较少见。正反锁合可发生于单侧或者双侧，最常见于上下颌第二磨牙，前磨牙区的锁合也较常发生。",
+                    "plan": "方案：可进行活动矫治器、隐形矫治器或固定矫治器治疗。"
+                },
+                "type_4_7": {
+                    "type": "牙齿排列情况-深覆合",
+                    "brief": "指上牙包住下牙的范围超过了2～3毫米",
+                    "plan": "方案：可进行活动矫治器、隐形矫治器或固定矫治器治疗。"
+                },
+                "type_4_8": {
+                    "type": "牙齿排列情况-深覆盖",
+                    "brief": "是指上前牙切端至下前牙唇面的最大水平距离超过2-3毫米，也就是上颌前牙比下颌前牙向前突超过2-3毫米",
+                    "plan": "方案：可进行活动矫治器、隐形矫治器或固定矫治器治疗。"
+                },
+                "type_5": {
+                    "type": "牙齿缺失",
+                    "brief": "俗称缺牙，牙齿缺失后会影响到正常的饮食、发音及美观，建议及时修复",
+                    "plan": "方案：及时进行牙齿修复治疗。"
+                },
+                "type_6": {
+                    "type": "错颌畸形",
+                    "brief": "指牙齿、牙弓、颌骨和颅面位置相互间的关系不调",
+                    "plan": "方案：某些习惯动作是造成一些牙颌畸形的原因,称之为口腔不良习惯,常见的有吮指习惯、不良舌习惯、不良唇习惯等，应尽早克服；如果已经出现错颌畸形表现，建议尽快就医。"
+                },
+                "type_7": {
+                    "type": "牙齿色素附着",
+                    "brief": "饮食、烟茶咖啡等附着于牙齿表面形成的黄或黑色斑块，或者四环素等药物造成的牙齿呈灰、黄或棕色。",
+                    "plan": "方案：改善口腔卫生习惯，必要时可洗牙去除色素。"
+                },
+                "type_8": {
+                    "type": "牙齿缺损",
+                    "brief": "由龋病、外伤、磨损、酸蚀等造成的牙齿形态的不完整。",
+                    "plan": "方案：及时进行充填治疗或修复治疗。"
+                },
+                "type_9": {
+                    "type": "牙龈炎",
+                    "brief": "牙龈炎是牙龈边缘牙菌斑堆积造成的牙龈炎症，可表现为牙龈红肿、牙龈出血。",
+                    "plan": "方案：改善口腔卫生习惯，可进行牙周洁治（俗称洗牙）。"
+                },
+                "type_10": {
+                    "type": "牙周炎",
+                    "brief": "由牙菌斑、牙结石、创伤等因素造成的牙周组织的慢性炎症。",
+                    "plan": "方案：建议改善口腔卫生习惯，进行系统性牙周治疗。"
+                },
+                "type_10_1": {
+                    "type": "慢性牙周炎",
+                    "brief": "由牙菌斑、牙结石、创伤等因素造成，表现为牙龈红肿出血、口臭、牙龈退缩甚至松动。",
+                    "plan": "方案：建议改善口腔卫生习惯，进行系统性牙周治疗。"
+                },
+                "type_10_2": {
+                    "type": "侵袭性牙周炎",
+                    "brief": "常发生于全身健康的年轻人，疾病进展快速、有家族聚集性。",
+                    "plan": "方案：建议改善口腔卫生习惯，进行系统性牙周治疗。"
+                },
+                "type_10_3": {
+                    "type": "全身疾病导致的牙周炎",
+                    "brief": "糖尿病、艾滋病等可加重牙周炎症。",
+                    "plan": "方案：建议改善口腔卫生习惯，进行系统性牙周治疗，积极治疗全身性疾病。"
+                },
+                "type_11": {
+                    "type": "融合牙",
+                    "brief": "融合牙是一种畸形牙齿，一般是在两个牙胚发育期间，相邻的牙胚之间受到了一定的刺激，两个牙胚就长在并一起萌出。",
+                    "plan": "方案：可拔除或进行修复治疗。"
+                },
+                "type_12": {
+                    "type": "畸形牙",
+                    "brief": "畸形中央尖、畸形舌侧窝、畸形舌侧尖、牙中牙，同属于牙齿形态畸形。",
+                    "plan": "方案：可拔除或进行修复治疗。"
+                },
+                "type_13": {
+                    "type": "其他",
+                    "brief": "",
+                    "plan": ""
+                }
+
+            },
+            "en_US": {
+                "type_1": {
+                    "type": "Healthy teeth",
+                    "brief": "Dental health standards established by the World Health Organization: 1. Teeth clean, 2. No cavities, 3. No pain, 4. Normal gum color, 5. No bleeding.",
+                    "plan": "Solution:Maintain good oral hygiene habits and have regular oral inspections."
+                },
+                "type_2": {
+                    "type": "Dental calculus",
+                    "brief": "The calcified dental plaque and soft deposits on the surface of the teeth can appear yellowish-white to brownish-black.",
+                    "plan": "Solution:Improve oral hygiene habits and perform periodontal scaling."
+                },
+                "type_3": {
+                    "type": "Caries",
+                    "brief": "Caries is also called tooth decay. The initial appearance is white patches or yellowish brown patches on the surface of the teeth, and the further development of caries and tooth sensitivity.",
+                    "plan": "Solution:Caries filling in time."
+                },
+                "type_3_1": {
+                    "type": "Dental caries-Superficial caries",
+                    "brief": "Caries is limited to enamel, generally no obvious cavities, no symptoms, no response to exploration.",
+                    "plan": "Solution:Improve oral hygiene habits and dental caries filling may be required."
+                },
+                "type_3_2": {
+                    "type": "Dental caries-Moderate caries",
+                    "brief": "Caries have reached the superficial layer of dentin, usually with cavities, and may have symptoms of sensitivity to external stimuli.",
+                    "plan": "Solution:Improve oral hygiene habits and fill dental caries in time."
+                },
+                "type_3_3": {
+                    "type": "Dental caries-Deep caries",
+                    "brief": "Caries have reached the deep layer of dentin, with deeper cavities, and the response to external stimuli (such as cold, hot, sweet, acid stimuli and food insertion) is heavier than moderate caries.",
+                    "plan": "Solution:Improve oral hygiene habits and fill dental caries in time."
+                },
+                "type_4": {
+                    "type": "Teeth alignment",
+                    "brief": "Normal dentition has a regular and neat appearance, each tooth has its specific position in the alveolar bone, and the teeth are closely adjacent to each other; abnormal tooth arrangement will affect facial appearance, chewing, pronunciation and other functions.",
+                    "plan": "Solution:The arrangement of teeth is related to multiple factors such as genetics and oral habits. It is recommended to maintain good oral hygiene habits and have regular oral inspections."
+                },
+                "type_4_1": {
+                    "type": "Teeth alignment-Normal",
+                    "brief": "Dental arch is manifested as regular & symmetric.",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_4_2": {
+                    "type": "Teeth alignment-Crowding",
+                    "brief": "Teeth crowding is the most common malocclusion. It can be shown as teeth misalignment.",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_4_3": {
+                    "type": "Teeth alignment-Spacing",
+                    "brief": "Obvious space between the teeth.",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_4_4": {
+                    "type": "Teeth alignment-Cross bite",
+                    "brief": "It can be divided into single tooth cross bite and multiple teeth cross bite. Cross bite is a dental condition that affects the way your teeth are aligned. The main sign of having a cross bite is that upper teeth fit behind your lower teeth when your mouth is closed or at rest. ",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_4_5": {
+                    "type": "Teeth alignment-Open bite",
+                    "brief": "Open bite is a type of malocclusion that is majorly characterized by a vertical gap. This gap is usually visible when the teeth from the two jaws are completely in contact.",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_4_6": {
+                    "type": "Teeth alignment-Scissor bite",
+                    "brief": "A scissor bite is defined as buccal displacement of a maxillary posterior tooth with or without contact between the lingual surface of maxillary lingual cusp and the buccal surface of the mandibular antagonist's buccal cusp.",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_4_7": {
+                    "type": "Teeth alignment-Overbite",
+                    "brief": "Refer to the extent of vertical (superior-inferior) overlap of the maxillary central incisors over the mandibular central incisors, it is overbite more than 2-3mm.",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_4_8": {
+                    "type": "Teeth alignment-Overjet",
+                    "brief": "Overjet is the extent of horizontal (anterior-posterior) overlap of the maxillary central incisors over the mandibular central incisors, it is overjet more than 2-3mm.",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_5": {
+                    "type": "Loss of teeth",
+                    "brief": "Commonly known as missing teeth. Missing teeth will affect normal eating, pronunciation and aesthetics.",
+                    "plan": "Solution:Dental restoration treatment."
+                },
+                "type_6": {
+                    "type": "Malocclusion",
+                    "brief": "Malocclusion refers to the irregular relationship between the teeth, dental arch, jaw and craniofacial position.",
+                    "plan": "Solution:Some habits are the cause of some dental and jaw deformities, called oral bad habits. The common ones include finger sucking habits, bad tongue habits, bad lip habits, etc., which should be overcome as soon as possible. If malocclusion already occurs, seek medical attention as soon as possible."
+                },
+                "type_7": {
+                    "type": "Pigmentation of teeth",
+                    "brief": "Food, tobacco, tea, coffee, etc. are attached to the surface of the teeth which appear yellow or black staining, some are also caused by tetracycline drugs, which make the teeth gray, yellow or brown.",
+                    "plan": "Solution:Improve oral hygiene habits and perform periodontal scaling."
+                },
+                "type_8": {
+                    "type": "Teeth defect",
+                    "brief": "Incomplete tooth morphology caused by caries, trauma, abrasion, acid erosion, etc.",
+                    "plan": "Solution:Filling treatment or restoration treatment."
+                },
+                "type_9": {
+                    "type": "Gingivitis",
+                    "brief": "Gingivitis is inflammation of the gums caused by the accumulation of plaque on the edge of the gums, which can be manifested as red and swollen gums and bleeding gums.",
+                    "plan": "Solution:Improve oral hygiene habits and perform periodontal scaling."
+                },
+                "type_10": {
+                    "type": "Periodontitis",
+                    "brief": "Chronic inflammation of periodontal tissue caused by dental plaque, calculus, trauma and other factors.",
+                    "plan": "Solution:Improve oral hygiene habits and perform systemic periodontal treatment."
+                },
+                "type_10_1": {
+                    "type": "Chronic periodontitis",
+                    "brief": "Caused by dental plaque, calculus, trauma and other factors, manifested as swelling and bleeding of the gums, bad breath, receding gums or even loosening.",
+                    "plan": "Solution:Improve oral hygiene habits and perform systemic periodontal treatment."
+                },
+                "type_10_2": {
+                    "type": "Aggressive periodontitis",
+                    "brief": "It often occurs in young people who are healthy, with rapid disease progression and familial clusters.",
+                    "plan": "Solution:Improve oral hygiene habits and perform systemic periodontal treatment."
+                },
+                "type_10_3": {
+                    "type": "Periodontitis caused by systemic diseases",
+                    "brief": "Diabetes, AIDS, etc. can aggravate periodontal inflammation.",
+                    "plan": "Solution:Improve oral hygiene habits, perform systemic periodontal treatment, and actively treat systemic diseases."
+                },
+                "type_11": {
+                    "type": "Fused tooth",
+                    "brief": "Tooth fusion arises through union of two normally separated tooth germs due to a certain amount of stimulation.",
+                    "plan": "Solution:Teeth extraction or restorative treatment."
+                },
+                "type_12": {
+                    "type": "Malformed tooth",
+                    "brief": "Central cusp deformity ; lingual cusp deformity; malformed lingual fossa & dens invaginatus are all tooth deformities.",
+                    "plan": "Solution:Teeth extraction or restorative treatment."
+                },
+                "type_13": {
+                    "type": "Others",
+                    "brief": "",
+                    "plan": ""
+                }
+            },
+            "it_IT": {
+                "type_1": {
+                    "type": "Salute dentale",
+                    "brief": "Standard di salute dentale stabiliti dall'Organizzazione Mondiale della Sanità: 1. Pulizia dei denti, 2. Nessuna carie, 3. Nessun dolore, 4. Colore gengivale normale, 5. Nessun sanguinamento.",
+                    "plan": "Soluzione: mantenere buone abitudini di igiene orale e sottoporsi a regolari ispezioni orali."
+                },
+                "type_2": {
+                    "type": "Tartaro dentale",
+                    "brief": "La placca dentale calcificata e i depositi morbidi sulla superficie dei denti possono apparire da bianco giallastro a nero-brunastro.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale ed eseguire la levigatura parodontale."
+                },
+                "type_3": {
+                    "type": "Carie",
+                    "brief": "L'aspetto iniziale è costituito da macchie bianche o macchie bruno-giallastre sulla superficie dei denti e dall'ulteriore sviluppo della carie e della sensibilità dei denti.",
+                    "plan": "Soluzione: Rimuovere il tessuto carioso e otturare la cavita il prima possibile."
+                },
+                "type_3_1": {
+                    "type": "Carie dentali-Carie superficiali",
+                    "brief": "La carie è limitata allo smalto, in generale nessuna cavità evidente, nessun sintomo, nessuna risposta all'esplorazione.",
+                    "plan": "Soluzione:  migliorare le abitudini di igiene orale; potrebbe essere necessario rimuovere le tracce di tessuto carioso superficiale ."
+                },
+                "type_3_2": {
+                    "type": "Carie dentale-Carie moderata",
+                    "brief": "La carie ha raggiunto lo strato superficiale della dentina, solitamente con cavità, e può presentare sintomi di sensibilità agli stimoli esterni.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale e rimuovere le tracce di tessuto carioso superficiale il prima possibile."
+                },
+                "type_3_3": {
+                    "type": "Carie dentale-Carie profonde",
+                    "brief": "La carie ha raggiunto lo strato profondo della dentina, con cavità più profonde, e la risposta agli stimoli esterni (come stimoli freddi, caldi, dolci, acidi e residui di cibo) è più grave della carie moderata.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale e rimuovere le tracce di tessuto carioso superficiale il prima possibile."
+                },
+                "type_4": {
+                    "type": "Allineamento dei denti",
+                    "brief": "La dentatura normale ha un aspetto regolare e pulito, ogni dente ha la sua posizione specifica nell'osso alveolare e i denti sono strettamente adiacenti l'uno all'altro; la disposizione anormale dei denti influenzerà l'aspetto del viso, la masticazione, la pronuncia e altre funzioni.",
+                    "plan": "Soluzione: la disposizione dei denti è correlata a molteplici fattori come la genetica e le abitudini orali. Si raccomanda di mantenere buone abitudini di igiene orale e di sottoporsi a regolari ispezioni orali."
+                },
+                "type_4_1": {
+                    "type": "Allineamento dei denti-Normale",
+                    "brief": "L'arcata dentale si presenta come regolare e simmetrica.",
+                    "plan": "Soluzione: per il trattamento è possibile utilizzare apparecchi ortodontici rimovibili, allineatori invisibili o apparecchi ortodontici fissi."
+                },
+                "type_4_2": {
+                    "type": "Allineamento dei denti-Affollamento",
+                    "brief": "L'affollamento dei denti porta alla malocclusione più comune. Può presentarsi come disallineamento dei denti.",
+                    "plan": "Soluzione: per il trattamento è possibile utilizzare apparecchi ortodontici rimovibili, allineatori invisibili o apparecchi ortodontici fissi."
+                },
+                "type_4_3": {
+                    "type": "Allineamento dei denti-Spaziatura",
+                    "brief": "Evidente spazio tra i denti.",
+                    "plan": "Soluzione: per il trattamento è possibile utilizzare apparecchi ortodontici rimovibili, allineatori invisibili o apparecchi ortodontici fissi."
+                },
+                "type_4_4": {
+                    "type": "Allineamento dei denti - Morso crociato",
+                    "brief": "Può essere suddiviso in morso crociato parziale e morso incrociato completo. Il morso crociato è una condizione dentale che influisce sul modo in cui i denti sono allineati. Il principale segno di un morso crociato è che i denti superiori si adattano dietro i denti inferiori quando la bocca è chiusa o a riposo. ",
+                    "plan": "Soluzione: per il trattamento è possibile utilizzare apparecchi ortodontici rimovibili, allineatori invisibili o apparecchi ortodontici fissi."
+                },
+                "type_4_5": {
+                    "type": "Allineamento dei denti: morso aperto",
+                    "brief": "Il morso aperto è un tipo di malocclusione caratterizzato principalmente da uno spazio vuoto verticale. Questo spazio è solitamente visibile quando i denti delle due arcate sono completamente in contatto.",
+                    "plan": "Soluzione: per il trattamento è possibile utilizzare apparecchi ortodontici rimovibili, allineatori invisibili o apparecchi ortodontici fissi."
+                },
+                "type_4_6": {
+                    "type": "Allineamento dei denti-Scissor bite",
+                    "brief": "Uno scissor bite è definito come lo spostamento vestibolare di un dente posteriore con o senza contatto tra la cuspide della superficie linguale e la superficie della cuspide vestibolare dell'antagonista .",
+                    "plan": "Soluzione: per il trattamento è possibile utilizzare apparecchi ortodontici rimovibili, allineatori invisibili o apparecchi ortodontici fissi."
+                },
+                "type_4_7": {
+                    "type": "Allineamento dei denti-Overbite",
+                    "brief": "Si riferisce all'estensione della sovrapposizione verticale (superiore-inferiore) degli incisivi centrali superiori sugli incisivi centrali inferiori, è considerato overbite da misure di 2-3 mm.",
+                    "plan": "Soluzione: per il trattamento è possibile utilizzare apparecchi ortodontici rimovibili, allineatori invisibili o apparecchi ortodontici fissi."
+                },
+                "type_4_8": {
+                    "type": "Allineamento dei denti-Overjet",
+                    "brief": "Si riferisce all'estensione della sovrapposizione orizzontale (anteriore-posteriore) degli incisivi centrali superiori sugli incisivi centrali inferiori, è considerato overjet da misure di 2-3 mm.",
+                    "plan": "Soluzione: per il trattamento è possibile utilizzare apparecchi ortodontici rimovibili, allineatori invisibili o apparecchi ortodontici fissi."
+                },
+                "type_5": {
+                    "type": "Perdita di denti",
+                    "brief": "Comunemente nota come mancanza di denti. questa influirà sulla normale alimentazione, pronuncia ed estetica.",
+                    "plan": "Solutione:Trattamento di odontoiatria restaurativa e protesica."
+                },
+                "type_6": {
+                    "type": "Malocclusione dentale",
+                    "brief": "La malocclusione si riferisce alla relazione irregolare tra i denti, l'arcata dentale, la mascella e la posizione craniofacciale.",
+                    "plan": "Soluzione: Sono molteplici le cause che determinano condizioni di malocclusione: si considerano infatti sempre come il risultato di una concomitanza di fattori genetici, anomalie di posizione della lingua a riposo e durante la deglutizione, anomalie respiratorie ed abitudini scorrette, che dovrebbero essere risolte il prima possibile. Se si verifica già una malocclusione, consultare un medico il prima possibile."
+                },
+                "type_7": {
+                    "type": "Pigmentazione dei denti",
+                    "brief": "Cibo, tabacco, tè, caffè, ecc. possono danneggiare la superficie dei denti che appaiono macchiati di giallo o nero, alcuni sono anche causati da farmaci, che rendono i denti grigi, gialli o marroni.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale ed eseguire una pulizia superficiale dello smalto e sottogengivale."
+                },
+                "type_8": {
+                    "type": "Denti danneggiati",
+                    "brief": "Morfologia dentale incompleta causata da carie, traumi, abrasioni, erosioni acide, ecc.",
+                    "plan": "Solutione:Trattamento odontoiatrico restaurativo."
+                },
+                "type_9": {
+                    "type": "Gengivite",
+                    "brief": "La gengivite è un'infiammazione delle gengive causata dall'accumulo di placca sul bordo delle gengive, che può manifestarsi con gengive arrossate e gonfie o sanguinanti.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale ed eseguire una pulizia sottogengivale."
+                },
+                "type_10": {
+                    "type": "Parodontite",
+                    "brief": "Infiammazione cronica del tessuto parodontale causata da placca dentale, tartaro, traumi e altri fattori.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale ed eseguire una pulizia sottogengivale."
+                },
+                "type_10_1": {
+                    "type": "Parodontite cronica",
+                    "brief": "Causato da placca dentale, tartaro, traumi e altri fattori, che si manifestano come gonfiore e sanguinamento delle gengive, alitosi, recessione gengivale o allentamento.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale ed eseguire una pulizia sottogengivale."
+                },
+                "type_10_2": {
+                    "type": "Parodontite aggressiva",
+                    "brief": "Si verifica spesso nei giovani sani, con una rapida progressione della malattia e cluster familiari.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale ed eseguire una pulizia sottogengivale."
+                },
+                "type_10_3": {
+                    "type": "Parodontite causata da malattie sistemiche",
+                    "brief": "Diabete, AIDS, ecc. possono aggravare l'infiammazione parodontale.",
+                    "plan": "Soluzione: migliorare le abitudini di igiene orale ed eseguire una pulizia sottogengivale, trattare attivamente le malattie sistemiche."
+                },
+                "type_11": {
+                    "type": "Fusione dentale",
+                    "brief": "La fusione dei denti nasce dall'unione di due germi dentali normalmente separati.",
+                    "plan": "Soluzione: estrazione dei denti o trattamento restaurativo."
+                },
+                "type_12": {
+                    "type": "Malformazione dentale",
+                    "brief": "Deformità della cuspide centrale; deformità della cuspide linguale; fossa linguale malformata e dens invaginatus sono tutte deformità dei denti.",
+                    "plan": "Soluzione: estrazione dei denti o trattamento restaurativo."
+                },
+                "type_13": {
+                    "type": "Others",
+                    "brief": "",
+                    "plan": ""
+                }
+            },
+            "ja_JP": {
+                "type_1": {
+                    "type": "健康な歯",
+                    "brief": "世界保健機関（WHO）が定めた歯の健康基準。1. 歯がきれい、2.虫歯がない、3.痛みがない、4.歯茎の色が正常、5.出血がない",
+                    "plan": "対策：口腔衛生ケアを習慣化し、定期的に口腔検診を受ける。"
+                },
+                "type_2": {
+                    "type": "歯石",
+                    "brief": "歯の表面に石灰した歯垢（プラーク）や沈着物が白色や茶色に見えることがある。",
+                    "plan": "対策：口腔衛生ケアを習慣化し、歯石除去（スケーリング）を行う。"
+                },
+                "type_3": {
+                    "type": "カリエス",
+                    "brief": "カリエスは虫歯とも呼ばれる。初期には歯の表面に白斑や茶色いシミが見える。カリエスが進行すると知覚過敏になることがある。",
+                    "plan": "対策：虫歯の治療を行う。"
+                },
+                "type_3_1": {
+                    "type": "カリエス‐軽度のカリエス、表面う蝕",
+                    "brief": "カリエスはエナメル質に限られ、一般に明らかな虫歯はなく、症状もなく、診断検査に反応しない。",
+                    "plan": "対策：口腔衛生ケアを習慣化し、必要な場合は虫歯の治療を行う。"
+                },
+                "type_3_2": {
+                    "type": "カリエス‐中等度のカリエス",
+                    "brief": "カリエスが象牙質の表層に達しており、通常は虫歯も進行し外部刺激に過敏になる場合もある",
+                    "plan": "口腔ケア習慣を改善し、遅れずに虫歯の治療を行う。"
+                },
+                "type_3_3": {
+                    "type": "カリエス‐重度のカリエス",
+                    "brief": "カリエスが象牙質の深い層まで達しており、虫歯がひどく、外部刺激（熱いもの、冷たいもの、甘いもの、酸の刺激、食べ物の取り込みなど）に対する過敏反応が中等度より重い。",
+                    "plan": "対策：口腔ケア習慣を改善し、遅れずに虫歯の治療を行う。"
+                },
+                "type_4": {
+                    "type": "歯列",
+                    "brief": "正常な歯列は規則的で整然と揃っている。各歯は歯槽骨の中で特定の位置を占め、歯は互いに密接に隣接している。歯の配列に異常があると、顔の外見、咀嚼、発音、その他の機能に影響を及ぼす。",
+                    "plan": "対策：歯の配列は遺伝や口腔内の習慣など複数の要因が関係している。口腔衛生ケアを適切に行い、定期的に口腔健康検診を受ける必要がある。"
+                },
+                "type_4_1": {
+                    "type": "歯列‐普通",
+                    "brief": "歯列弓が規則的かつ対称的である",
+                    "plan": "対策：取り外し可能な矯正装置、見えないアライナー、固定式矯正装置を使用して治療することができる。"
+                },
+                "type_4_2": {
+                    "type": "歯列‐叢生",
+                    "brief": "叢生は最も一般的な不正咬合である。歯並びが悪く見える。",
+                    "plan": "対策：取り外し可能な矯正装置、見えないアライナー、固定式矯正装置を使用して治療することができる。"
+                },
+                "type_4_3": {
+                    "type": "歯列‐すきっ歯",
+                    "brief": "歯と歯の間にすき間がある。",
+                    "plan": "対策：取り外し可能な矯正装置、見えないアライナー、固定式矯正装置を使用して治療することができる。"
+                },
+                "type_4_4": {
+                    "type": "歯列‐反対咬合",
+                    "brief": "交叉咬合と複数交叉咬合に分けられる。交叉咬合は、歯並びに影響を与える歯科疾患です。口を閉じたときや安静時に、下の前歯が上の前歯よりも前に出ているのが主な症状である。",
+                    "plan": "対策：取り外し可能な矯正装置、見えないアライナー、固定式矯正装置を使用して治療することができる。"
+                },
+                "type_4_5": {
+                    "type": "歯列‐開咬",
+                    "brief": "開咬は不正咬合の一種で、奥歯を咬んでいても上の前歯と下の前歯に隙間ができて噛み合わないのが主な症状である。",
+                    "plan": "対策：取り外し可能な矯正装置、見えないアライナー、固定式矯正装置を使用して治療することができる。"
+                },
+                "type_4_6": {
+                    "type": "歯列‐交叉咬合",
+                    "brief": "交叉咬合とは、上顎舌尖の舌側表面と下顎対合歯の頬側表面との接触を伴うか伴わない上顎後方歯の頬側変位と定義される。",
+                    "plan": "対策：取り外し可能な矯正装置、見えないアライナー、固定式矯正装置を使用して治療することができる。"
+                },
+                "type_4_7": {
+                    "type": "歯列‐過蓋咬合",
+                    "brief": "上の中切歯が下の中切歯に大きくかぶさっている状態で、上の歯が2-3mm以上重なっている。",
+                    "plan": "対策：取り外し可能な矯正装置、見えないアライナー、固定式矯正装置を使用して治療することができる。"
+                },
+                "type_4_8": {
+                    "type": "歯列‐オーバージェット",
+                    "brief": "上顎の中切歯のかみ合わせの状態が下顎の中切歯より水平方向（前後方向）で突出の度合いが2～3mm以上である。",
+                    "plan": "対策：取り外し可能な矯正装置、見えないアライナー、固定式矯正装置を使用して治療することができる。"
+                },
+                "type_5": {
+                    "type": "歯の喪失",
+                    "brief": "一般的に歯がないことを言う。歯がなくなると、正常な食事や発音、審美性に影響がある。",
+                    "plan": "歯の修復治療"
+                },
+                "type_6": {
+                    "type": "不正咬合",
+                    "brief": "歯、歯列弓、顎、頭蓋顔面の位置関係に異常がある。",
+                    "plan": "対策：口腔内悪習慣は、歯と顎の変形の原因になるもので、一般的に、指しゃぶりや舌と唇の悪い癖などがある。できるだけ早く治療する必要がある。もし、すでに不正咬合が発生している場合は、早めに医療機関で受診する。"
+                },
+                "type_7": {
+                    "type": "歯の色素沈着",
+                    "brief": "食べ物、タバコ、お茶、コーヒーなどが歯の表面に付着して黄色や黒く見える。またテトラサイクリン系の薬剤が原因で、歯がグレー、黄色、茶色になることもある。",
+                    "plan": "対策：口腔衛生習慣を改善し、歯石除去（スケーリング）をする。"
+                },
+                "type_8": {
+                    "type": "歯牙欠損",
+                    "brief": "う蝕、外傷、擦過傷、酸蝕症などによる歯の不完全な形態",
+                    "plan": "対策：充填治療または修復治療を行う。"
+                },
+                "type_9": {
+                    "type": "歯肉炎",
+                    "brief": "歯肉炎とは、歯肉の縁に歯垢が蓄積することによって起こる歯肉の炎症で、歯肉の赤みや腫れ、歯肉からの出血などの症状が現れる。",
+                    "plan": "対策：口腔衛生習慣を改善し、歯石除去（スケーリング）を行う。"
+                },
+                "type_10": {
+                    "type": "歯周炎",
+                    "brief": "歯垢、石灰、外傷などが原因で起こる歯周組織の慢性炎症。",
+                    "plan": "対策：口腔衛生習慣を改善し、全身的な歯周病治療を行う。"
+                },
+                "type_10_1": {
+                    "type": "慢性歯周炎",
+                    "brief": "歯垢、石灰、外傷などが原因で、歯茎の腫れや出血、口臭、歯茎の退縮、あるいは緩みとして現れる。",
+                    "plan": "対策：口腔衛生習慣を改善し、全身的な歯周病治療を行う。"
+                },
+                "type_10_2": {
+                    "type": "侵襲性歯周炎",
+                    "brief": "健康な若年者に発症することが多く、疾患の進行が早く、家族内発症することがある。",
+                    "plan": "対策：口腔内の衛生習慣を改善し、全身的な歯周病治療を行う。"
+                },
+                "type_10_3": {
+                    "type": "全身疾患による歯周炎",
+                    "brief": "糖尿病、エイズなどは歯周病の炎症を悪化させることがある。",
+                    "plan": "対策：口腔衛生習慣の改善、全身的な歯周病治療を行い、全身疾患の治療を積極的に行う。"
+                },
+                "type_11": {
+                    "type": "癒合歯",
+                    "brief": "癒合歯は、通常離れている2つの歯胚が一定の刺激によって結合することによって生じる。",
+                    "plan": "対策：抜歯または修復治療を行う。"
+                },
+                "type_12": {
+                    "type": "歯の奇形",
+                    "brief": "中央咬頭の変形、舌側咬頭の変形、舌側面窩の変形舌窩の変形、歯内歯などは歯の奇形である。",
+                    "plan": "対策：抜歯または修復治療を行う。"
+                },
+                "type_13": {
+                    "type": "その他",
+                    "brief": "",
+                    "plan": ""
+                }
+            },
+            "zh_TW": {
+                "type_1": {
+                    "type": "健康的牙齒",
+                    "brief": "世界衛生組織制定的牙齒健康標準：1、牙齒清潔，2、無齲洞，3、無疼痛感，4、牙齦顏色正常，5、無出血現象。",
+                    "plan": "方案:保持良好的口腔衛生習慣，定期進行口腔檢查。"
+                },
+                "type_2": {
+                    "type": "牙結石",
+                    "brief": "沉積在牙齒表面已鈣化的牙菌斑及軟垢，牙齒表面會呈現黃白色至棕黑色。",
+                    "plan": "方案：改善口腔衛生習慣，可進行牙周清潔（俗稱洗牙）。"
+                },
+                "type_3": {
+                    "type": "齲齒",
+                    "brief": "齲齒俗稱蛀牙，初期表現為牙齒表面有白色斑塊或黃褐色斑塊，進一步發展會形成齲洞並出現牙齒敏感。",
+                    "plan": "方案：及時進行齲齒充填，俗稱補牙。"
+                },
+                "type_3_1": {
+                    "type": "齲病-淺齲",
+                    "brief": "齲壞限於釉質，一般無明顯齲洞，無自覺症狀，探查也無反應。",
+                    "plan": "方案：改善口腔衛生習慣，可能需要進行齲齒充填（俗稱補牙）。"
+                },
+                "type_3_2": {
+                    "type": "齲病-中齲",
+                    "brief": "齲壞達到牙本質，有明顯齲洞，對外界刺激有敏感症狀。",
+                    "plan": "方案：改善口腔衛生習慣，並儘快進行齲齒充填（俗稱補牙）。"
+                },
+                "type_3_3": {
+                    "type": "齲病-深齲",
+                    "brief": "一般表現為大而深的齲洞，對外界刺激(如冷、熱、甜、酸和食物嵌入等)反應較重。",
+                    "plan": "方案：改善口腔衛生習慣，可能需要進行齲齒充填（俗稱補牙）。"
+                },
+                "type_4": {
+                    "type": "牙齒排列情況",
+                    "brief": "正常牙列外形規則、整齊，每個牙在牙槽骨內有其特定的位置，牙與牙之間緊密鄰接；牙齒排列異常會對面部美觀、咀嚼、發音等功能產生不同程度的影響。",
+                    "plan": "方案：牙齒排列情況與遺傳、口腔習慣等多因素有關，建議保持良好的口腔衛生習慣，定期進行口腔檢查。"
+                },
+                "type_4_1": {
+                    "type": "牙齒排列情況-正常",
+                    "brief": "牙弓形態規則且對稱。",
+                    "plan": "方案：保持良好的口腔衛生習慣，定期進行口腔檢查。"
+                },
+                "type_4_2": {
+                    "type": "牙齒排列情況-擁擠",
+                    "brief": "牙列擁擠是最常見的錯咬畸形，可表現為牙齒擁擠錯位排列不齊。",
+                    "plan": "方案：可進行活動矯正器、隱形牙套或固定矯正器治療。"
+                },
+                "type_4_3": {
+                    "type": "牙齒排列情況-間隙",
+                    "brief": "牙齒之間存在明顯間隙。",
+                    "plan": "方案：可進行活動矯正器、隱形牙套或固定矯正器治療。"
+                },
+                "type_4_4": {
+                    "type": "牙齒排列情況-錯咬或反咬",
+                    "brief": "分為單牙反咬和多牙反咬，多牙反咬俗稱“地包天”，通常表現為下牙包往上牙。",
+                    "plan": "方案：可進行活動矯正器、隱形牙套或固定矯正器治療。"
+                },
+                "type_4_5": {
+                    "type": "牙齒排列情況-開咬",
+                    "brief": "指正常咬合時上下頜部分牙齒在垂直向無接觸。",
+                    "plan": "方案：可進行活動矯正器、隱形牙套或固定矯正器治療。"
+                },
+                "type_4_6": {
+                    "type": "牙齒排列情況-切咬",
+                    "brief": "切咬在臨床上可分為正切和反切。正切是指上頜後牙舌側咬頭位於下頜後牙頰側咬頭的頰側，正常咬合面無咬合接觸，臨床較為多見；反切是指上頜後牙頰側咬頭的位於下頜後牙舌側咬頭的舌側，咬合面多無咬合接觸，臨床上較少見。正反切可發生於單側或者雙側，最常見於上下頜第二大臼齒，前牙區的切咬也較常發生。",
+                    "plan": "方案：可進行活動矯正器、隱形牙套或固定矯正器治療。"
+                },
+                "type_4_7": {
+                    "type": "牙齒排列情況-深咬",
+                    "brief": "指上牙包住下牙的範圍超過了2～3毫米。",
+                    "plan": "方案：可進行活動矯正器、隱形牙套或固定矯正器治療。"
+                },
+                "type_4_8": {
+                    "type": "牙齒排列情況-暴牙",
+                    "brief": "是指上前牙切端至下前牙唇面的最大水平距離超過2-3毫米，也就是上頜前牙比下頜前牙向前突超過2-3毫米。",
+                    "plan": "方案：可進行活動矯正器、隱形牙套或固定矯正器治療。"
+                },
+                "type_5": {
+                    "type": "牙齒缺失",
+                    "brief": "俗稱缺牙，牙齒缺失後會影響到正常的飲食、發音及美觀，建議及時修復。",
+                    "plan": "方案：及時進行牙齒修復治療。"
+                },
+                "type_6": {
+                    "type": "咬合不正",
+                    "brief": "指牙齒、牙弓、頜骨和顱面位置相互間的關係不協調。",
+                    "plan": "方案：某些習慣動作是造成一些牙頜畸形的原因,稱之為口腔不良習慣,常見的有吮指習慣、不良舌習慣、不良唇習慣等，應儘早克服；如果已經出現錯頜畸形表現，建議盡快就醫。"
+                },
+                "type_7": {
+                    "type": "牙齒色素附著",
+                    "brief": "飲食、煙茶咖啡等附著於牙齒表面形成的黃或黑色斑塊，或者四環素等藥物造成的牙齒呈灰、黃或棕色。",
+                    "plan": "方案：改善口腔衛生習慣，必要時可洗牙去除色素。"
+                },
+                "type_8": {
+                    "type": "牙齒缺損",
+                    "brief": "由齲齒、外傷、磨損、酸蝕等造成的牙齒形態的不完整。",
+                    "plan": "方案：及時進行充填治療或修復治療。"
+                },
+                "type_9": {
+                    "type": "牙齦發炎",
+                    "brief": "牙齦炎是牙齦邊緣牙菌斑堆積造成的牙齦炎症，可表現為牙齦紅腫、牙齦出血。",
+                    "plan": "方案：改善口腔衛生習慣，可進行牙周清潔（俗稱洗牙）。"
+                },
+                "type_10": {
+                    "type": "牙周炎",
+                    "brief": "由牙菌斑、牙結石、創傷等因素造成的牙周組織的慢性炎症。",
+                    "plan": "方案：建議改善口腔衛生習慣，進行系統性牙周治療。"
+                },
+                "type_10_1": {
+                    "type": "慢性牙周炎",
+                    "brief": "由牙菌斑、牙結石、創傷等因素造成，表現為牙齦紅腫出血、口臭、牙齦退縮甚至鬆動。",
+                    "plan": "方案：建議改善口腔衛生習慣，進行系統性牙周治療。"
+                },
+                "type_10_2": {
+                    "type": "侵襲性牙周炎",
+                    "brief": "常發生於全身健康的年輕人，疾病進展快速、有家族聚集性。",
+                    "plan": "方案：建議改善口腔衛生習慣，進行系統性牙周治療。"
+                },
+                "type_10_3": {
+                    "type": "全身疾病導致的牙周炎",
+                    "brief": "糖尿病、艾滋病等可加重牙周炎症。",
+                    "plan": "方案：建議改善口腔衛生習慣，進行系統性牙周治療，積極治療全身性疾病。"
+                },
+                "type_11": {
+                    "type": "融和牙",
+                    "brief": "融合牙是一種畸形牙齒，一般是在兩個牙胚發育期間，相鄰的牙胚之間受到了一定的刺激，兩個牙胚就長在並一起萌出。",
+                    "plan": "方案：可拔除或進行修復治療。"
+                },
+                "type_12": {
+                    "type": "畸形牙",
+                    "brief": "畸形中央尖、畸形舌側窩、畸形舌側尖、牙中牙，同屬於牙齒形態畸形。",
+                    "plan": "方案：可拔除或進行修復治療。"
+                },
+                "type_13": {
+                    "type": "其他",
+                    "brief": "",
+                    "plan": ""
+                }
+            },
+            "ko_KR": {
+                "type_1": {
+                    "type": "건강한 치아",
+                    "brief": "세계보건기구(WHO)에서 제정한 치과 건강 기준: 1. 깨끗한 치아, 2. 충치 없음, 3. 통증 없음, 4. 정상적인 잇몸색, 5. 출혈 없음.",
+                    "plan": "해결책: 올바른 구강 위생 습관을 유지하고 정기적인 구강 검사를 받으십시오."
+                },
+                "type_2": {
+                    "type": "치석",
+                    "brief": "석회화된 치태와 치아 표면의 부드러운 침전물은 황백색에서 갈색을 띤 검정색으로 나타날 수 있습니다.",
+                    "plan": "해결책: 구강 위생 습관을 개선하고 치주 스케일링을 시행합니다."
+                },
+                "type_3": {
+                    "type": "카리에스",
+                    "brief": "카리에스는 충치라고도 합니다. 초기 모습은 치아 표면에 흰색 반점 또는 황갈색 반점이며, 카리에스와 치아 민감도가 추가로 발달합니다.",
+                    "plan": "해결책: 적시 카리에스 충전."
+                },
+                "type_3_1": {
+                    "type": "치아 카리에스 - 표재성 카리에스",
+                    "brief": "카리에스가 법랑질에 국한되며 일반적으로 명백한 충치가 없고 증상이 없으며 탐색에 대한 반응이 없습니다.",
+                    "plan": "해결책: 구강 위생 습관을 개선하고 치아 카리에스 충전이 필요할 수 있습니다."
+                },
+                "type_3_2": {
+                    "type": "치아 카리에스 - 중등도 카리에스",
+                    "brief": "카리에스가 일반적으로 충치가 있는 상아질의 표층에 도달했으며 외부 자극에 민감한 증상을 보일 수 있습니다.",
+                    "plan": "해결책: 구강 위생 습관을 개선하고 제때 치아 카리에스를 채웁니다."
+                },
+                "type_3_3": {
+                    "type": "치아 카리에스 –심각한 카리에스",
+                    "brief": "카리에스가 더 깊은 충치가 있는 상아질의 깊은 층에 도달했으며 외부 자극(예: 찬 것, 뜨거운 것, 단맛, 산성 자극 및 음식물)에 대한 반응은 중등도의 카리에스보다 심합니다.",
+                    "plan": "해결책: 구강 위생 습관을 개선하고 제때 치아 카리에스를 채웁니다."
+                },
+                "type_4": {
+                    "type": "치아 정렬",
+                    "brief": "정상적인 치열은 규칙적이고 깔끔한 외관을 가지며 각 치아는 치조골에서 특정 위치를 가지며 치아는 서로 밀접하게 인접합니다. 비정상적인 치아 배열은 얼굴 모양, 저작, 발음 및 기타 기능에 영향을 미칩니다.",
+                    "plan": "해결책: 치아 배열은 유전과 구강 습관과 같은 여러 요인과 관련이 있습니다. 올바른 구강 위생 습관을 유지하고 정기적인 구강 검사를 받는 것이 좋습니다."
+                },
+                "type_4_1": {
+                    "type": "치아 정렬 - 정상",
+                    "brief": "치열궁이 규칙적이고 대칭적으로 나타납니다.",
+                    "plan": "해결책: 가철식 교정 장치, 보이지 않는 교정 장치 또는 고정 교정 장치를 사용하여 치료할 수 있습니다."
+                },
+                "type_4_2": {
+                    "type": "치아 정렬 - 총생",
+                    "brief": "치아 총생은 가장 흔한 부정교합입니다. 치아의 부정교합으로 나타날 수 있습니다.",
+                    "plan": "해결책: 가철식 교정 장치, 보이지 않는 교정 장치 또는 고정 교정 장치를 사용하여 치료할 수 있습니다."
+                },
+                "type_4_3": {
+                    "type": "치아 정렬-이개",
+                    "brief": "치아 사이의 명백한 간격.",
+                    "plan": "해결책: 가철식 교정 장치, 보이지 않는 교정 장치 또는 고정 교정 장치를 사용하여 치료할 수 있습니다."
+                },
+                "type_4_4": {
+                    "type": "치아 정렬 - 교차 교합",
+                    "brief": "단일 치아 교차 교합과 여러 치아 교차 교합으로 나눌 수 있습니다. 교차 교합은 치아가 정렬되는 방식에 영향을 미치는 치과 질환입니다. 교차교합의 주요 징후는 입을 다물거나 쉬고 있을 때 윗니가 아랫니 뒤에 맞춰지는 것입니다.",
+                    "plan": "해결책: 가철식 교정 장치, 보이지 않는 교정 장치 또는 고정 교정 장치를 사용하여 치료할 수 있습니다."
+                },
+                "type_4_5": {
+                    "type": "치아 정렬 - 개방 교합",
+                    "brief": "개방 교합은 주로 수직 간격이 특징인 부정교합의 한 유형입니다. 이 간격은 일반적으로 두 턱의 치아가 완전히 접촉할 때 볼 수 있습니다.",
+                    "plan": "해결책: 가철식 교정 장치, 보이지 않는 교정 장치 또는 고정 교정 장치를 사용하여 치료할 수 있습니다."
+                },
+                "type_4_6": {
+                    "type": "치아 정렬 - 가위 교합",
+                    "brief": "가위 교합은 위턱 설측 교두의 설면과 아래턱 대합 협측 교두의 협측 표면 사이에 접촉이 있거나 없는 위턱 구치의 협측 변위로 정의됩니다.",
+                    "plan": "해결책: 가철식 교정 장치, 보이지 않는 교정 장치 또는 고정 교정 장치를 사용하여 치료할 수 있습니다."
+                },
+                "type_4_7": {
+                    "type": "치아 정렬 – 피개 교합",
+                    "brief": "위턱 중절치와 아래턱 중절치가 수직(상하) 겹치는 정도를 말하며, 2~3mm 이상 피개 교합입니다.",
+                    "plan": "해결책: 가철식 교정 장치, 보이지 않는 교정 장치 또는 고정 교정 장치를 사용하여 치료할 수 있습니다."
+                },
+                "type_4_8": {
+                    "type": "치아 정렬-오버젯",
+                    "brief": "오버젯은 위턱 중절치가 아래턱 중절치에 수평(전후) 중첩되는 정도이며, 2-3mm 이상 오버젯입니다.",
+                    "plan": "해결책: 가철식 교정 장치, 보이지 않는 교정 장치 또는 고정 교정 장치를 사용하여 치료할 수 있습니다."
+                },
+                "type_5": {
+                    "type": "치아 상실",
+                    "brief": "일반적으로 빠진 치아로 알려져 있습니다. 치아가 없으면 정상적인 식사, 발음 및 미관에 영향을 미칩니다.",
+                    "plan": "솔루션: 치아 수복 치료."
+                },
+                "type_6": {
+                    "type": "부정교합",
+                    "brief": "부정교합은 치아, 치열궁, 턱 및 두개안면의 위치 사이의 불규칙한 관계를 말합니다.",
+                    "plan": "해결책: 일부 습관은 구강 나쁜 습관이라고 하는 일부 치아 및 턱 기형의 원인입니다. 흔한 습관으로는 손가락 빠는 습관, 나쁜 혀 습관, 나쁜 입술 습관 등이 있으며 이를 빨리 극복해야 합니다. 부정교합이 이미 발생한 경우 가능한 한 빨리 의사의 진료를 받으십시오."
+                },
+                "type_7": {
+                    "type": "치아의 착색",
+                    "brief": "음식, 담배, 차, 커피 등이 치아 표면에 부착되어 노란색 또는 검은색으로 변색되며 일부는 치아를 회색, 노란색 또는 갈색으로 만드는 테트라사이클린 약물에 의해 발생하기도 합니다.",
+                    "plan": "솔루션: 구강 위생 습관을 개선하고 치주 스케일링을 수행합니다."
+                },
+                "type_8": {
+                    "type": "치아 결함",
+                    "brief": "충치, 외상, 찰과상, 산성 침식 등으로 인한 불완전한 치아 형태",
+                    "plan": "해결책: 충전 처리 또는 수복 처리."
+                },
+                "type_9": {
+                    "type": "치은염",
+                    "brief": "치은염은 잇몸 가장자리에 플라그가 축적되어 잇몸에 염증이 생기는 것으로 잇몸이 붉어지고 부어 오르고 잇몸에서 피가 나는 증상이 나타날 수 있습니다.",
+                    "plan": "구강 위생 습관을 개선하고 치주 스케일링을 시행합니다."
+                },
+                "type_10": {
+                    "type": "치주염",
+                    "brief": "치태, 치석, 외상 및 기타 요인으로 인한 치주 조직의 만성 염증.",
+                    "plan": "해결책: 구강 위생 습관을 개선하고 전신적인 치주 치료를 시행합니다."
+                },
+                "type_10_1": {
+                    "type": "만성 치주염",
+                    "brief": "치태, 치석, 외상 및 기타 요인으로 인해 잇몸이 붓고 출혈이 생기며 구취, 잇몸이 물러나거나 느슨해지기까지 합니다.",
+                    "plan": "해결책: 구강 위생 습관을 개선하고 전신적인 치주 치료를 시행합니다."
+                },
+                "type_10_2": {
+                    "type": "공격적인 치주염",
+                    "brief": "빠른 질병 진행과 가족 내에서 건강한 젊은 사람들에게서 자주 발생합니다.",
+                    "plan": "해결책: 구강 위생 습관을 개선하고 전신적인 치주 치료를 수행합니다."
+                },
+                "type_10_3": {
+                    "type": "전신질환으로 인한 치주염",
+                    "brief": "당뇨병, AIDS 등은 치주 염증을 악화시킬 수 있습니다.",
+                    "plan": "해결책: 구강 위생 습관을 개선하고 전신 치주 치료를 수행하며 전신 질환을 적극적으로 치료합니다."
+                },
+                "type_11": {
+                    "type": "쌍생치",
+                    "brief": "치아 융합은 일정량의 자극에 의해 정상적으로 분리된 두 개의 치아 세균이 결합하여 발생합니다.",
+                    "plan": "해결책: 치아 발치 또는 수복 치료."
+                },
+                "type_12": {
+                    "type": "기형 치아",
+                    "brief": "중심 교두 변형; 설측 교두 변형; 기형 설측와 및 중적치(치내치) 모두 치아 기형입니다.",
+                    "plan": "해결책: 치아 발치 또는 수복 치료."
+                },
+                "type_13": {
+                    "type": "기타",
+                    "brief": "",
+                    "plan": ""
+                }
+            },
+            "fr_FR": {
+                "type_1": {
+                    "type": "Des dents saines",
+                    "brief": "Normes de santé dentaire établies par l'Organisation mondiale de la santé : 1. Dents propres, 2. Aucune carie, 3. Aucune douleur, 4. Couleur normale des gencives, 5. Aucun saignement.",
+                    "plan": "Solution : Maintenir de bonnes habitudes d'hygiène bucco-dentaire et faire des inspections bucco-dentaires régulières."
+                },
+                "type_2": {
+                    "type": "Tartre dentaire",
+                    "brief": "La plaque dentaire calcifiée et les dépôts mous à la surface des dents peuvent apparaître blanc jaunâtre à noir brunâtre.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et effectuer un détartrage parodontal."
+                },
+                "type_3": {
+                    "type": "Caries",
+                    "brief": "La carie est aussi appelée carie dentaire. L'apparition initiale est des taches blanches ou des taches brun jaunâtre sur la surface des dents, et le développement ultérieur de la carie et de la sensibilité dentaire.",
+                    "plan": "Solution : les caries se remplissent dans le temps."
+                },
+                "type_3_1": {
+                    "type": "Caries dentaires-Caries superficielles",
+                    "brief": "La carie est limitée à l'émail, généralement pas de caries évidentes, pas de symptômes, pas de réponse à l'exploration.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et le remplissage des caries dentaires peut être nécessaire."
+                },
+                "type_3_2": {
+                    "type": "Caries dentaires-Caries modérées",
+                    "brief": "Les caries ont atteint la couche superficielle de la dentine, généralement avec des caries, et peuvent présenter des symptômes de sensibilité aux stimuli externes.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et combler les caries dentaires à temps."
+                },
+                "type_3_3": {
+                    "type": "Caries dentaires-Caries profondes",
+                    "brief": "Les caries ont atteint la couche profonde de la dentine, avec des cavités plus profondes, et la réponse aux stimuli externes (comme le froid, le chaud, le sucré, les stimuli acides et l'insertion d'aliments) est plus lourde que les caries modérées.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et combler les caries dentaires à temps."
+                },
+                "type_4": {
+                    "type": "Alignement des dents",
+                    "brief": "La dentition normale a une apparence régulière et soignée, chaque dent a sa position spécifique dans l'os alvéolaire et les dents sont étroitement adjacentes les unes aux autres ; une disposition anormale des dents affectera l'apparence du visage, la mastication, la prononciation et d'autres fonctions. ",
+                    "plan": "Solution :La disposition des dents est liée à de multiples facteurs tels que la génétique et les habitudes bucco-dentaires. Il est recommandé de maintenir de bonnes habitudes d'hygiène bucco-dentaire et d'effectuer des inspections bucco-dentaires régulières."
+                },
+                "type_4_1": {
+                    "type": "Alignement des dents-Normal",
+                    "brief": "L'arcade dentaire se manifeste comme régulière et symétrique.",
+                    "plan": "Solution : Un appareil orthodontique amovible, des gouttières invisibles ou un appareil orthodontique fixe peuvent être utilisés pour le traitement."
+                },
+                "type_4_2": {
+                    "type": "Alignement des dents-Chevauchement",
+                    "brief": "L'encombrement des dents est la malocclusion la plus courante. Cela peut se traduire par un mauvais alignement des dents.",
+                    "plan": "Solution : Un appareil orthodontique amovible, des gouttières invisibles ou un appareil orthodontique fixe peuvent être utilisés pour le traitement."
+                },
+                "type_4_3": {
+                    "type": "Alignement des dents-Espacement",
+                    "brief": "Espace évident entre les dents.",
+                    "plan": "Solution : Un appareil orthodontique amovible, des gouttières invisibles ou un appareil orthodontique fixe peuvent être utilisés pour le traitement."
+                },
+                "type_4_4": {
+                    "type": "Alignement des dents-occlusion croisée",
+                    "brief": "Il peut être divisé en occlusion croisée à une seule dent et en occlusion croisée à plusieurs dents. L'occlusion croisée est une condition dentaire qui affecte la façon dont vos dents sont alignées. Le principal signe d'occlusion croisée est que les dents supérieures s'insèrent derrière votre dents du bas lorsque la bouche est fermée ou au repos. ",
+                    "plan": "Solution : Un appareil orthodontique amovible, des gouttières invisibles ou un appareil orthodontique fixe peuvent être utilisés pour le traitement."
+                },
+                "type_4_5": {
+                    "type": "Alignement des dents - occlusion ouverte",
+                    "brief": "La béance est un type de malocclusion qui se caractérise principalement par un espace vertical. Cet espace est généralement visible lorsque les dents des deux mâchoires sont complètement en contact.",
+                    "plan": "Solution : Un appareil orthodontique amovible, des gouttières invisibles ou un appareil orthodontique fixe peuvent être utilisés pour le traitement."
+                },
+                "type_4_6": {
+                    "type": "Alignement des dents-occlusion en ciseaux",
+                    "brief": "Un articulé en ciseaux est défini comme un déplacement vestibulaire d'une dent postérieure maxillaire avec ou sans contact entre la surface linguale de la cuspide linguale maxillaire et la surface buccale de la cuspide buccale de l'antagoniste mandibulaire.",
+                    "plan": "Solution : Un appareil orthodontique amovible, des gouttières invisibles ou un appareil orthodontique fixe peuvent être utilisés pour le traitement."
+                },
+                "type_4_7": {
+                    "type": "Alignement des dents-Overbite",
+                    "brief": "Reportez-vous à l'étendue du chevauchement vertical (supérieur-inférieur) des incisives centrales maxillaires sur les incisives centrales mandibulaires, il s'agit d'une surocclusion supérieure à 2-3 mm.",
+                    "plan": "Solution : Un appareil orthodontique amovible, des gouttières invisibles ou un appareil orthodontique fixe peuvent être utilisés pour le traitement."
+                },
+                "type_4_8": {
+                    "type": "Alignement des dents-Overjet",
+                    "brief": "Le surplomb est l'étendue du chevauchement horizontal (antéro-postérieur) des incisives centrales maxillaires sur les incisives centrales mandibulaires, il est surplombé de plus de 2-3 mm.",
+                    "plan": "Solution : Un appareil orthodontique amovible, des gouttières invisibles ou un appareil orthodontique fixe peuvent être utilisés pour le traitement."
+                },
+                "type_5": {
+                    "type": "Perte de dents",
+                    "brief": "Communément connu sous le nom de dents manquantes. Les dents manquantes affecteront l'alimentation, la prononciation et l'esthétique.",
+                    "plan": "Solution :Traitement de restauration dentaire."
+                },
+                "type_6": {
+                    "type": "Malocclusion",
+                    "brief": "La malocclusion fait référence à la relation irrégulière entre les dents, l'arcade dentaire, la mâchoire et la position craniofaciale.",
+                    "plan": "Solution : certaines habitudes sont à l'origine de certaines déformations dentaires et de la mâchoire, appelées mauvaises habitudes orales. Les plus courantes sont les habitudes de succion des doigts, les mauvaises habitudes de la langue, les mauvaises habitudes des lèvres, etc., qui doivent être surmontées dès que possible. Si une malocclusion se produit déjà, consultez un médecin dès que possible."
+                },
+                "type_7": {
+                    "type": "Pigmentation des dents",
+                    "brief": "La nourriture, le tabac, le thé, le café, etc. sont attachés à la surface des dents qui apparaissent des taches jaunes ou noires, certains sont également causés par des médicaments à base de tétracycline, qui rendent les dents grises, jaunes ou brunes.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et effectuer un détartrage parodontal."
+                },
+                "type_8": {
+                    "type": "Dents défectueuses",
+                    "brief": "Morphologie dentaire incomplète causée par des caries, un traumatisme, une abrasion, une érosion acide, etc.",
+                    "plan": "Solution : Traitement de comblement ou traitement de restauration."
+                },
+                "type_9": {
+                    "type": "Gingivite",
+                    "brief": "La gingivite est une inflammation des gencives causée par l'accumulation de plaque sur le bord des gencives, qui peut se manifester par des gencives rouges et enflées et des saignements des gencives.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et effectuer un détartrage parodontal."
+                },
+                "type_10": {
+                    "type": "Parodontite",
+                    "brief": "Inflammation chronique du tissu parodontal causée par la plaque dentaire, le calcul, les traumatismes et d'autres facteurs.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et effectuer un traitement parodontal systémique."
+                },
+                "type_10_1": {
+                    "type": "Parodontite chronique",
+                    "brief": "Causé par la plaque dentaire, le tartre, un traumatisme et d'autres facteurs, se manifestant par un gonflement et un saignement des gencives, une mauvaise haleine, un déchaussement des gencives ou même un relâchement.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et effectuer un traitement parodontal systémique."
+                },
+                "type_10_2": {
+                    "type": "Parodontite agressive",
+                    "brief": "Il survient souvent chez les jeunes en bonne santé, avec une progression rapide de la maladie et des grappes familiales.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire et effectuer un traitement parodontal systémique."
+                },
+                "type_10_3": {
+                    "type": "Parodontite causée par des maladies systémiques",
+                    "brief": "Le diabète, le SIDA, etc. peuvent aggraver l'inflammation parodontale.",
+                    "plan": "Solution : Améliorer les habitudes d'hygiène bucco-dentaire, effectuer un traitement parodontal systémique et traiter activement les maladies systémiques."
+                },
+                "type_11": {
+                    "type": "Dent fusionnée",
+                    "brief": "La fusion dentaire résulte de l'union de deux germes dentaires normalement séparés en raison d'une certaine stimulation.",
+                    "plan": "Solution : Extraction de dents ou traitement de restauration."
+                },
+                "type_12": {
+                    "type": "Dent mal formée",
+                    "brief": "Difformité de la cuspide centrale ; déformation de la cuspide linguale ; fosse linguale malformée et dens invaginatus sont toutes des déformations dentaires.",
+                    "plan": "Solution : Extraction de dents ou traitement de restauration."
+                },
+                "type_13": {
+                    "type": "Autres",
+                    "brief": "",
+                    "planifier": ""
+                }
+            },
+            "ru_RU": {
+                "type_1": {
+                    "type": "Здоровые зубы",
+                    "brief": "Стандарты гигиены полости рта, установленные Всемирной организацией здравоохранения: 1. Зубы чистые, 2. Отсутствие кариеса, 3. Отсутствие боли, 4. Нормальный цвет десен, 5. Отсутствие кровотечения.",
+                    "plan": "Решение:Соблюдайте правила гигиены полости рта и регулярно проводите осмотры полости рта."
+                },
+                "type_2": {
+                    "type": "Зубной камень",
+                    "brief": "Кальцифицированный зубной налет и мягкие отложения на поверхности зубов могут выглядеть от желтовато-белого до коричневато-черного цвета.",
+                    "plan": "Решение: улучшите гигиену полости рта и выполните удаление зубного камня."
+                },
+                "type_3": {
+                    "type": "Кариес зубов",
+                    "brief": "Кариес также называют разрушением зубов. Первоначальное появление - это белые пятна или желтовато-коричневые пятна на поверхности зубов, а также дальнейшее развитие кариеса и чувствительности зубов.",
+                    "plan": "Решение:Своевременное заполнение кариеса."
+                },
+                "type_3_1": {
+                    "type": "Кариес зубов - Поверхностный кариес",
+                    "brief": "Кариес ограничивается эмалью, как правило, без явных полостей, без симптомов, без реакции на осмотр.",
+                    "plan": "Решение: Улучшите гигиену полости рта, и может потребоваться пломбирование кариеса."
+                },
+                "type_3_2": {
+                    "type": "Кариес зубов - Умеренный кариес",
+                    "brief": "Кариес достиг поверхностного слоя дентина, обычно с полостями, и может иметь симптомы чувствительности к внешним раздражителям.",
+                    "plan": "Решение: Улучшите гигиену полости рта и вовремя устраните кариес."
+                },
+                "type_3_3": {
+                    "type": "Кариес зубов - Глубокий кариес",
+                    "brief": "Кариес достиг глубокого слоя дентина с более глубокими полостями, и реакция на внешние раздражители (такие как холодные, горячие, сладкие, кислотные раздражители и принятие пищи) тяжелее, чем при умеренном кариесе.",
+                    "plan": "Решение: Улучшите гигиену полости рта и вовремя устраните кариес."
+                },
+                "type_4": {
+                    "type": "Выравнивание зубов",
+                    "brief": "Нормальный зубной ряд имеет правильный и аккуратный внешний вид, каждый зуб имеет свое определенное положение в альвеолярной кости, а зубы плотно прилегают друг к другу; неправильное расположение зубов повлияет на внешний вид лица, процесс жевания, произношение и другие функции.",
+                    "plan": "Решение: Расположение зубов связано с множеством факторов, таких как генетика и привычки. Рекомендуется соблюдать правила гигиены полости рта и регулярно осматривать полость рта."
+                },
+                "type_4_1": {
+                    "type": "Выравнивание зубов - Нормальное",
+                    "brief": "Зубная дуга выглядит правильной и симметричной.",
+                    "plan": "Решение: Для лечения можно использовать съемный ортодонтический аппарат, элайнеры или фиксированный ортодонтический аппарат."
+                },
+                "type_4_2": {
+                    "type": "Выравнивание зубов -Скученность",
+                    "brief": "Скученность зубов - наиболее распространенный неправильный прикус. Это может быть выражено в виде смещения зубов.",
+                    "plan": "Решение: Для лечения можно использовать съемный ортодонтический аппарат, элайнеры или фиксированный ортодонтический аппарат."
+                },
+                "type_4_3": {
+                    "type": "Выравнивание зубов-Расстояние между зубами",
+                    "brief": "Очевидный промежуток между зубами.",
+                    "plan": "Решение: Для лечения можно использовать съемный ортодонтический аппарат, элайнеры или фиксированный ортодонтический аппарат."
+                },
+                "type_4_4": {
+                    "type": "Выравнивание зубов -Перекрёстный прикус",
+                    "brief": "Его можно разделить на перекрестный прикус с одним зубом и перекрестный прикус с несколькими зубами. Перекрестный прикус - это состояние зубов, которое влияет на то, как расположены ваши зубы. Основным признаком перекрестного прикуса является то, что верхние зубы прилегают к нижним зубам, когда ваш рот закрыт или находится в состоянии покоя.",
+                    "plan": "Решение: Для лечения можно использовать съемный ортодонтический аппарат, элайнеры или фиксированный ортодонтический аппарат."
+                },
+                "type_4_5": {
+                    "type": "Выравнивание зубов - Открытый прикус",
+                    "brief": "Открытый прикус - это тип неправильного прикуса, который в основном характеризуется вертикальным промежутком. Этот промежуток обычно виден, когда зубы двух челюстей полностью соприкасаются.",
+                    "plan": "Решение: Для лечения можно использовать съемный ортодонтический аппарат, элайнеры или фиксированный ортодонтический аппарат."
+                },
+                "type_4_6": {
+                    "type": "Выравнивание зубов - Перекрёстный прикус",
+                    "brief": "Перекрестный прикус определяется как щечное смещение заднего зуба верхней челюсти с контактом или без контакта между язычной поверхностью язычного выступа верхней челюсти и щечной поверхностью щечного выступа антагониста нижней челюсти.",
+                    "plan": "Решение: Для лечения можно использовать съемный ортодонтический аппарат, элайнеры или фиксированный ортодонтический аппарат."
+                },
+                "type_4_7": {
+                    "type": "Выравнивание зубов - Глубокий прикус",
+                    "brief": "Относится к степени вертикального (верхнего-нижнего) перекрытия центральных резцов верхней челюсти над центральными резцами нижней челюсти, это неправильный прикус более 2-3 мм.",
+                    "plan": "Решение: Для лечения можно использовать съемный ортодонтический аппарат, элайнеры или фиксированный ортодонтический аппарат."
+                },
+                "type_4_8": {
+                    "type": "Teeth alignment- с тенденцией к открытому nприкусу",
+                    "brief": "С тенденцией к открытому прикусу- это степень горизонтального (передне-заднего) перекрытия центральных резцов верхней челюсти над центральными резцами нижней челюсти, это превышение более чем на 2-3 мм.",
+                    "plan": "Solution:Removable orthodontic appliance, invisible aligners or fixed orthodontic appliance can be used for treatment."
+                },
+                "type_5": {
+                    "type": "Потеря зубов",
+                    "brief": "Широко известный как отсутствующие зубы. Отсутствие зубов повлияет на нормальное употребление пищи, произношение и эстетику.",
+                    "plan": "Решение: Реставрационное лечение зубов."
+                },
+                "type_6": {
+                    "type": "Неправильный прикус",
+                    "brief": "Неправильный прикус относится к неправильному соотношению между зубами, зубной дугой, челюстью и черепно-лицевым положением.",
+                    "plan": "Решение: Некоторые привычки являются причиной некоторых деформаций зубов и челюстей, называемых вредными привычками полости рта. К распространенным из них относятся привычки сосать пальцы, плохие привычки языка, плохие привычки губ и т.д., Которые следует преодолеть как можно скорее. Если неправильный прикус уже имеет место, как можно скорее обратитесь к врачу."
+                },
+                "type_7": {
+                    "type": "Пигментация зубов",
+                    "brief": "Пища, табак, чай, кофе и т.д. Прилипают к поверхности зубов, на которых появляются желтые или черные пятна, некоторые из них также вызваны препаратами тетрациклина, которые делают зубы серыми, желтыми или коричневыми.",
+                    "plan": "Решение: Улучшите привычки гигиены полости рта и выполните проф гигиену полости рта."
+                },
+                "type_8": {
+                    "type": "Дефект зубов",
+                    "brief": "Неполная морфология зуба, вызванная кариесом, травмой, стиранием, кислотной эрозией и т.д.",
+                    "plan": "Решение: Пломбировка или рестоврация зубов."
+                },
+                "type_9": {
+                    "type": "Гингивит",
+                    "brief": "Гингивит - это воспаление десен, вызванное накоплением зубного налета на краю десен, которое может проявляться в виде красных и опухших десен и кровоточивости десен.",
+                    "plan": "Решение: Улучшите привычки гигиены полости рта и выполните проф гигиену полости рта."
+                },
+                "type_10": {
+                    "type": "Периодонтит",
+                    "brief": "Хроническое воспаление тканей пародонта, вызванное зубным налетом, зубным камнем, травмой и другими факторами.",
+                    "plan": "Решение: Улучшите гигиену полости рта и проведите системное лечение пародонта."
+                },
+                "type_10_1": {
+                    "type": "Хронический периодонтит",
+                    "brief": "Вызвано зубным налетом, зубным камнем, травмой и другими факторами, проявляющимися в виде отека и кровоточивости десен, неприятного запаха изо рта, опущения десен или даже их расшатывания.",
+                    "plan": "Решение: Улучшите гигиену полости рта и проведите системное лечение пародонта."
+                },
+                "type_10_2": {
+                    "type": "Агрессивный периодонтит",
+                    "brief": "Это часто встречается у здоровых молодых людей с быстрым прогрессированием заболевания и генетической предрасположенностью.",
+                    "plan": "Решение: Улучшите гигиену полости рта и проведите системное лечение пародонта."
+                },
+                "type_10_3": {
+                    "type": "Периодонтит, вызванный системными заболеваниями",
+                    "brief": "Диабет, СПИД и т.д. могут усугубить воспаление пародонта.",
+                    "plan": "Решение: Улучшить гигиену полости рта, проводить системное лечение пародонта и активно лечить системные заболевания."
+                },
+                "type_11": {
+                    "type": "Сросшийся зуб",
+                    "brief": "Сращивание зубов возникает в результате соединения двух нормально разделенных зубных зародышей из-за определенной степени стимуляции.",
+                    "plan": "Решение: Удаление зубов или восстановительное лечение."
+                },
+                "type_12": {
+                    "type": "Деформированный зуб",
+                    "brief": "Деформация центрального выступа; деформация язычного выступа; деформированная язычная ямка и инвагинатус - все это деформации зубов.",
+                    "plan": "Решение: Удаление зубов или восстановительное лечение."
+                },
+                "type_13": {
+                    "type": "Другие",
+                    "brief": "",
+                    "plan": ""
+                }
+            },
+            "de_DE": {
+                "type_1": {
+                    "type": "Gesunde Zähne",
+                    "brief": "Die Standards für Zahngesundheit der Weltgesundheitsorganisation: 1. Zahnreinigung, 2. keine Karies, 3. keine Schmerzen, 4. normale Zahnfleischfarbe, 5. keine Blutungen.",
+                    "plan": "Lösung: Achten Sie auf eine gute Mundhygiene und führen Sie regelmäßig Kontrolluntersuchungen durch."
+                },
+                "type_2": {
+                    "type": "Zahnstein",
+                    "brief": "Der verkalkte Zahnbelag und die weichen Ablagerungen auf der Oberfläche der Zähne können gelblich-weiß bis bräunlich-schwarz erscheinen.",
+                    "plan": "Lösung: Verbessern Sie Ihre Mundhygienegewohnheiten und führen Sie eine Zahnsteinentfernung durch."
+                },
+                "type_3": {
+                    "type": "Karies",
+                    "brief": "Karies wird auch als Zahnfäule bezeichnet. Das anfängliche Symptom sind weiße oder gelblich-braune Flecken auf der Oberfläche der Zähne, und die weitere Entwicklung von Karies und Zahnempfindlichkeit.",
+                    "plan": "Lösung: Rechtzeitige Kariesauffüllung."
+                },
+                "type_3_1": {
+                    "type": "Zahnkaries - Oberflächliche Karies",
+                    "brief": "Karies ist auf den Zahnschmelz beschränkt, im Allgemeinen keine offensichtlichen Hohlräume, keine Symptome, keine Reaktion auf die Untersuchung.",
+                    "plan": "Lösung: Verbessern Sie Ihre Mundhygienegewohnheiten, und es kann eine Kariesfüllung erforderlich sein."
+                },
+                "type_3_2": {
+                    "type": "Zahnkaries-Moderate Karies",
+                    "brief": "Karies hat die oberflächliche Schicht des Dentins erreicht, in der Regel mit Hohlräumen, und kann Symptome der Empfindlichkeit gegenüber äußeren Reizen aufweisen.",
+                    "plan": "Lösung: Verbessern Sie Ihre Mundhygienegewohnheiten und füllen Sie Karies rechtzeitig auf."
+                },
+                "type_3_3": {
+                    "type": "Zahnkaries-Tiefe Karies",
+                    "brief": "Die Karies hat die tiefe Schicht des Dentins erreicht, mit tieferen Kavitäten, und die Reaktion auf äußere Reize (wie Kälte, Hitze, Süße, saure Reize und Nahrungsaufnahme) ist stärker als bei moderater Karies.",
+                    "plan": "Lösung: Verbessern Sie Ihre Mundhygienegewohnheiten und füllen Sie Karies rechtzeitig auf."
+                },
+                "type_4": {
+                    "type": "Ausrichtung der Zähne",
+                    "brief": "Ein gesundes Gebiss hat ein gleichmäßiges und ordentliches Aussehen, jeder Zahn hat seine spezifische Position im Kieferknochen, und die Zähne liegen eng beieinander; eine abnorme Zahnanordnung beeinträchtigt das Aussehen des Gesichts, das Kauen, die Aussprache und andere Funktionen.",
+                    "plan": "Lösung: Die Zahnanordnung hängt von mehreren Faktoren ab, wie z. B. der Genetik und den Mundgewohnheiten. Es wird empfohlen, gute Mundhygienegewohnheiten zu pflegen und regelmäßige Kontrolluntersuchungen vorzunehmen."
+                },
+                "type_4_1": {
+                    "type": "Ausrichtung der Zähne - normal",
+                    "brief": "Der Zahnbogen wird als gleichmäßig und symmetrisch dargestellt.",
+                    "plan": "Lösung: Für die Behandlung können herausnehmbare kieferorthopädische Apparate, unsichtbare Schienen oder festsitzende kieferorthopädische Apparate verwendet werden."
+                },
+                "type_4_2": {
+                    "type": "Ausrichtung der Zähne - Überfüllung",
+                    "brief": "Engstehende Zähne sind die häufigste Malokklusion. Sie kann als Zahnfehlstellung dargestellt werden.",
+                    "plan": "Lösung: Für die Behandlung können herausnehmbare kieferorthopädische Apparate, unsichtbare Schienen oder feste kieferorthopädische Apparate verwendet werden."
+                },
+                "type_4_3": {
+                    "type": "Ausrichtung der Zähne - Zahnlücken",
+                    "brief": "Offensichtliche Lücken zwischen den Zähnen.",
+                    "plan": "Lösung: Für die Behandlung können herausnehmbare kieferorthopädische Apparate, unsichtbare Schienen oder feste kieferorthopädische Apparate verwendet werden."
+                },
+                "type_4_4": {
+                    "type": "Ausrichtung der Zähne - Kreuzbiss",
+                    "brief": "Er kann in Einzelzahn-Kreuzbiss und Mehrzahn-Kreuzbiss unterteilt werden. Der Kreuzbiss ist ein zahnmedizinischer Zustand, der die Ausrichtung der Zähne beeinträchtigt. Das wichtigste Anzeichen für einen Kreuzbiss ist, dass die oberen Zähne bei geschlossenem Mund oder im Ruhezustand hinter die unteren Zähne passen. ",
+                    "plan": "Lösung: Für die Behandlung können herausnehmbare kieferorthopädische Apparate, unsichtbare Schienen oder feste kieferorthopädische Apparate verwendet werden."
+                },
+                "type_4_5": {
+                    "type": "Ausrichtung der Zähne - Offener Biss",
+                    "brief": "Der offene Biss ist eine Art von Fehlstellung, die vor allem durch eine vertikale Zahnlücke gekennzeichnet ist. Diese Lücke ist in der Regel sichtbar, wenn die Zähne der beiden Kiefer vollständig in Kontakt sind.",
+                    "plan": "Lösung: Für die Behandlung können herausnehmbare kieferorthopädische Apparate, unsichtbare Schienen oder feste kieferorthopädische Apparate verwendet werden."
+                },
+                "type_4_6": {
+                    "type": "Ausrichtung der Zähne - Scherengebiss",
+                    "brief": "Ein Scherenbiss ist definiert als bukkale Verschiebung eines Oberkieferseitenzahns mit oder ohne Kontakt zwischen der lingualen Oberfläche des Oberkieferseitenzahns und der bukkalen Oberfläche des bukkalen Höckers des Unterkieferantagonisten.",
+                    "plan": "Lösung: Für die Behandlung können herausnehmbare kieferorthopädische Apparate, unsichtbare Schienen oder feste kieferorthopädische Apparate verwendet werden."
+                },
+                "type_4_7": {
+                    "type": "Ausrichtung der Zähne - Überbiss",
+                    "brief": "Es handelt sich um einen Überbiss von mehr als 2-3 mm, der sich auf das Ausmaß der vertikalen (superior-inferioren) Überlappung der zentralen Oberkieferschneidezähne über die zentralen Unterkieferschneidezähne bezieht.",
+                    "plan": "Lösung: Für die Behandlung können herausnehmbare kieferorthopädische Apparate, unsichtbare Schienen oder festsitzende kieferorthopädische Apparate verwendet werden."
+                },
+                "type_4_8": {
+                    "type": "Ausrichtung der Zähne - Overjet",
+                    "brief": "Overjet ist das Ausmaß der horizontalen (anterior-posterioren) Überlappung der zentralen Oberkieferschneidezähne über die zentralen Unterkieferschneidezähne, wobei der Overjet mehr als 2-3 mm beträgt.",
+                    "plan": "Lösung: Für die Behandlung können herausnehmbare kieferorthopädische Apparate, unsichtbare Schienen oder feste kieferorthopädische Apparate verwendet werden."
+                },
+                "type_5": {
+                    "type": "Fehlende Zähne",
+                    "brief": "Fehlende Zähne beeinträchtigen das normale Essen, die Aussprache und die Ästhetik.",
+                    "plan": "Lösung: Behandlung von Zahnrestaurationen."
+                },
+                "type_6": {
+                    "type": "Fehlkontakten der Zähne",
+                    "brief": "Unter Fehlkontakten der Zähne versteht man die irreguläre Anordnung der Zähne, des Zahnbogens, des Kiefers und der kraniofazialen Position.",
+                    "plan": "Lösung: Bestimmte Angewohnheiten sind die Ursache für einige Zahn- und Kieferdeformationen, die als schlechte Angewohnheiten bezeichnet werden. Zu den üblichen Gewohnheiten gehören das Lutschen an den Fingern, die schlechte Zunge, die schlechten Lippen usw., die so schnell wie möglich überwunden werden sollten. Wenn bereits eine Zahnfehlstellung vorliegt, sollten Sie so schnell wie möglich einen Arzt aufsuchen."
+                },
+                "type_7": {
+                    "type": "Pigmentierung der Zähne",
+                    "brief": "Essen, Tabak, Tee, Kaffee usw. lagern sich an der Oberfläche der Zähne an, die gelb oder schwarz verfärbt erscheinen, einige werden auch durch Tetrazyklin-Medikamente verursacht, die die Zähne grau, gelb oder braun färben.",
+                    "plan": "Lösung: Verbessern Sie Ihre Mundhygienegewohnheiten und führen Sie eine Zahnreinigungsbehandlung durch."
+                },
+                "type_8": {
+                    "type": "Mängel an den Zähnen",
+                    "brief": "Unvollständige Zahnmorphologie aufgrund von Karies, Trauma, Abrasion, Säureerosion usw.",
+                    "plan": "Lösung: Füllungsbehandlung oder Restaurationsbehandlung."
+                },
+                "type_9": {
+                    "type": "Zahnfleischentzündung (Gingivitis)",
+                    "brief": "Gingivitis ist eine Entzündung des Zahnfleischs, die durch die Ansammlung von Plaque am Zahnfleischrand verursacht wird und sich durch rotes und geschwollenes Zahnfleisch sowie Zahnfleischbluten äußern kann.",
+                    "plan": "Lösung: Verbessern Sie Ihre Mundhygienegewohnheiten und führen Sie eine parodontale Zahnsteinentfernung durch."
+                },
+                "type_10": {
+                    "type": "Parodontitis",
+                    "brief": "Chronische Entzündung des Parodontalgewebes, verursacht durch Zahnbelag, Zahnstein, Trauma und andere Faktoren.",
+                    "plan": "Lösung: Verbesserung der Mundhygienegewohnheiten und systemische Parodontalbehandlung."
+                },
+                "type_10_1": {
+                    "type": "Chronische Parodontitis",
+                    "brief": "Verursacht durch Zahnbelag, Zahnstein, Traumata und andere Faktoren, die sich in Form von Schwellungen und Blutungen des Zahnfleischs, Mundgeruch, Zahnfleischrückgang oder sogar Zahnlockerung äußern.",
+                    "plan": "Lösung: Verbesserung der Mundhygienegewohnheiten und systemische Parodontalbehandlung."
+                },
+                "type_10_2": {
+                    "type": "Aggressive Parodontitis",
+                    "brief": "Die Krankheit tritt häufig bei jungen, gesunden Menschen auf, schreitet schnell voran und tritt familiär gehäuft auf.",
+                    "plan": "Lösung: Verbesserung der Mundhygienegewohnheiten und systemische Parodontalbehandlung."
+                },
+                "type_10_3": {
+                    "type": "Parodontitis aufgrund von systemischen Erkrankungen",
+                    "brief": "Diabetes, AIDS usw. können eine parodontale Entzündung verschlimmern.",
+                    "plan": "Lösung: Verbessern Sie die Mundhygiene, führen Sie eine systemische Parodontalbehandlung durch und behandeln Sie aktiv systemische Erkrankungen."
+                },
+                "type_11": {
+                    "type": "Geschmolzener Zahn",
+                    "brief": "Die Zahnverschmelzung entsteht durch die Vereinigung von zwei normalerweise getrennten Zahnkeimen aufgrund einer bestimmten Stimulation.",
+                    "plan": "Lösung: Zahnextraktion oder restaurative Behandlung."
+                },
+                "type_12": {
+                    "type": "Fehlgebildeter Zahn",
+                    "brief": "Zentrale Höckerdeformität, linguale Höckerdeformität, fehlgebildete Fossa lingualis und Dens invaginatus sind alles Zahndeformitäten.",
+                    "plan": "Lösung: Zahnextraktion oder restaurative Behandlung."
+                },
+                "type_13": {
+                    "type": "Others",
+                    "brief": "",
+                    "plan": ""
+                }
+            },
+            "es_ES": {
+                "type_1": {
+                    "type": "Dientes saludables",
+                    "brief": "Los estándares de salud de la cavidad oral establecidos por la Organización Mundial de la Salud son: 1. Dientes limpios, 2. Sin caries, 3. Sin dolor, 4. El color de la encía es normal, 5. Sin sangrado.",
+                    "plan": "Solución: Mantener hábitos adecuados de higiene bucodental Y realizar controles regulares¨."
+                },
+                "type_2": {
+                    "type": "Calculo dental o sarro",
+                    "brief": "La placa bacteriana y los depósitos blandos en la superficie de los dientes pueden aparecer de color blanco amarillento a negro pardusco",
+                    "plan": "Solución: Mejorar los hábitos de higiene bucal y realizar un raspado de encías."
+                },
+                "type_3": {
+                    "type": "Caries",
+                    "brief": "Las caries también son llamadas caries dentales. La apariencia inicial en la superficie de los dientes es de manchas blancas o manchas de color marrón amarillento, y luego se produce el desarrollo de caries y sensibilidad dental.",
+                    "plan": "Solución: Rellenar las cavidades que provocan las caries a tiempo."
+                },
+                "type_3_1": {
+                    "type": "Caries dentales – caries superficiales",
+                    "brief": "Las caries se limitan al esmalte, generalmente sin cavidades evidentes, sin síntomas, sin respuesta a la exploración.",
+                    "plan": "Solución: Mejorar los hábitos de higiene bucal y si es necesario, el relleno de caries dentales."
+                },
+                "type_3_2": {
+                    "type": "Caries dentales - Caries de etapa moderada",
+                    "brief": "La caries llegan a la capa superficial de la dentina, generalmente provocando cavidades, y pueden ser sensibles a los estímulos externos.",
+                    "plan": "Mejorar los hábitos de higiene bucal y rellenar las cavidades a tiempo."
+                },
+                "type_3_3": {
+                    "type": "Caries dentales-Caries profundas",
+                    "brief": "La caries llegan a la capa profunda de la dentina, provocando cavidades más profundas, y una respuesta más intensa a los estímulos externos (como el frío, el calor, lo dulce, los estímulos ácidos y la inserción de alimentos) que la caries en etapa moderada",
+                    "plan": "Solución: Mejorar los hábitos de higiene bucal y rellenar las cavidades a tiempo."
+                },
+                "type_4": {
+                    "type": "Alineamiento de los dientes",
+                    "brief": "La dentición normal tiene una apariencia regular y prolija, cada diente tiene su posición específica en el hueso alveolar y los dientes están muy cerca unos de otros; la disposición anormal de los dientes afectará la apariencia facial, la masticación, la pronunciación y otras funciones",
+                    "plan": "Solución: La disposición de los dientes está relacionada con múltiples factores como la genética y los hábitos bucales. Se recomienda mantener buenos hábitos de higiene bucal y realizar revisiones periódicas."
+                },
+                "type_4_1": {
+                    "type": "Alineamiento de los dientes- Normal",
+                    "brief": "El arco dental se manifiesta como regular y simétrico.",
+                    "plan": "Solución: Para realizar el tratamiento se pueden usar aparatos de ortodoncia removibles, alineadores invisibles o aparatos de ortodoncia fijos."
+                },
+                "type_4_2": {
+                    "type": "Alineamiento de los dientes - Apiñamiento",
+                    "brief": "El apiñamiento de los dientes es la maloclusión más común. Puede manifestarse como una desalineación de los dientes.",
+                    "plan": "Solución: para realizar el tratamiento se pueden usar aparatos de ortodoncia removibles, alineadores invisibles o aparatos de ortodoncia fijos."
+                },
+                "type_4_3": {
+                    "type": "Alineamiento de los dientes- Espaciado",
+                    "brief": "Espacio obvio entre los dientes.",
+                    "plan": "Solución: para el tratamiento se pueden usar aparatos de ortodoncia removibles, alineadores invisibles o aparatos de ortodoncia fijos."
+                },
+                "type_4_4": {
+                    "type": "Alineamiento de los dientes - Mordida cruzada",
+                    "brief": "La mordida cruzada puede ocurrir en un solo diente o en varios dientes. La mordida cruzada es una condición dental que afecta la forma en que se alinean los dientes. El principal signo de tener una mordida cruzada es que los dientes superiores encajan detrás de los dientes inferiores cuando la boca está cerrada o en reposo.",
+                    "plan": "Solución: para el tratamiento se pueden usar aparatos de ortodoncia removibles, alineadores invisibles o aparatos de ortodoncia fijos."
+                },
+                "type_4_5": {
+                    "type": "Alineamiento de los dientes - Mordida abierta.",
+                    "brief": "La mordida abierta es un tipo de maloclusión que se caracteriza principalmente por un espacio vertical. Este espacio suele ser visible cuando los dientes de las dos mandíbulas están completamente en contacto.",
+                    "plan": "Solución: para el tratamiento se pueden usar aparatos de ortodoncia removibles, alineadores invisibles o aparatos de ortodoncia fijos."
+                },
+                "type_4_6": {
+                    "type": "Alineamiento de los dientes - Mordida en tijera",
+                    "brief": "Una mordida en tijera se define como el desplazamiento bucal de un diente posterior superior con o sin contacto entre la superficie lingual de la cúspide lingual del maxilar y la superficie bucal de la cúspide bucal del antagonista mandibular.",
+                    "plan": "Solución: para el tratamiento se pueden usar aparatos de ortodoncia removibles, alineadores invisibles o aparatos de ortodoncia fijos"
+                },
+                "type_4_7": {
+                    "type": "Alineamiento de los dientes - Sobremordida",
+                    "brief": "Consulte la extensión de la superposición vertical (superior-inferior) de los incisivos centrales superiores sobre los incisivos centrales mandibulares, es una sobremordida de más de 2-3 mm.",
+                    "plan": "Solución: para el tratamiento se pueden usar aparatos de ortodoncia removibles, alineadores invisibles o aparatos de ortodoncia fijos."
+                },
+                "type_4_8": {
+                    "type": "Alineamiento de los dientes - Resalte incisal",
+                    "brief": "El resalte incisal es la extensión de la superposición horizontal (anterior-posterior) de los incisivos centrales superiores sobre los incisivos centrales inferiores, es un resalte de más de 2-3 mm.",
+                    "plan": "Solución: para el tratamiento se pueden usar aparatos de ortodoncia removibles, alineadores invisibles o aparatos de ortodoncia fijos."
+                },
+                "type_5": {
+                    "type": "Pérdida de dientes",
+                    "brief": "También conocido como ausencia de dientes. La falta de dientes puede afectar la alimentación, la pronunciación y la estética.",
+                    "plan": "Solución:Tratamiento de restauración dental."
+                },
+                "type_6": {
+                    "type": "Maloclusión",
+                    "brief": "La maloclusión se refiere a la relación irregular entre los dientes, el arco dental, la mandíbula y la posición craneofacial.",
+                    "plan": "Solución: Los llamados malos hábitos orales son la causa de algunas deformidades dentales y mandibulares. Los más comunes son los hábitos de chuparse los dedos, malos hábitos con respecto a la lengua, malos hábitos con respecto a los labios, etc., que deben superarse lo antes posible. Si ya se presenta una maloclusión, busque atención médica lo antes posible."
+                },
+                "type_7": {
+                    "type": "Pigmentación de los dientes",
+                    "brief": "Los alimentos, el tabaco, el té, el café, etc. se adhieren a la superficie de los dientes y se tiñen de amarillo o negro, además las tetraciclinas hacen que los dientes se tiñan grises, amarillos o marrones.",
+                    "plan": "Solución: Mejorar los hábitos de higiene bucal y realizar un tratamiento periodontal."
+                },
+                "type_8": {
+                    "type": "Anomalía dentaria",
+                    "brief": "Morfología dental incompleta causada por caries, trauma, abrasión, erosión ácida, etc.",
+                    "plan": "Solución:Tratamiento de relleno o tratamiento de restauración."
+                },
+                "type_9": {
+                    "type": "Gingivitis",
+                    "brief": "La gingivitis es la inflamación de las encías provocada por la acumulación de placa en el borde de estas, que puede manifestarse como encías rojas e hinchadas y encías sangrantes.",
+                    "plan": "Solución: Mejorar los hábitos de higiene bucal y realizar raspado periodontal."
+                },
+                "type_10": {
+                    "type": "Periodontitis",
+                    "brief": "Inflamación crónica del tejido periodontal causada por placa dental, cálculos, traumatismos y otros factores.",
+                    "plan": "Solución: Mejorar los hábitos de higiene bucal y realizar un tratamiento periodontal completo."
+                },
+                "type_10_1": {
+                    "type": "Periodontitis crónica",
+                    "brief": "Provocada por placa dental, cálculos, traumatismos y otros factores, que se manifiestan como hinchazón y sangrado de las encías, mal aliento, retracción de las encías o incluso aflojamiento.",
+                    "plan": "Solución: Mejorar los hábitos de higiene bucal y realizar un tratamiento periodontal completo."
+                },
+                "type_10_2": {
+                    "type": "Periodontitis agresiva",
+                    "brief": "Suele ocurrir en jóvenes que generalmente tienen hábitos sanos, con una progresión rápida de la enfermedad y en grupos familiares.",
+                    "plan": "Solución: Mejorar los hábitos de higiene bucal y realizar un tratamiento periodontal completo."
+                },
+                "type_10_3": {
+                    "type": "Periodontitis causada por enfermedades sistémicas",
+                    "brief": "Enfermedades como diabetes, SIDA, etc. pueden agravar la inflamación periodontal.",
+                    "plan": "Solución:Mejorar los hábitos de higiene bucal, realizar un tratamiento periodontal completo y tratar activamente las enfermedades sistémicas."
+                },
+                "type_11": {
+                    "type": "Diente fusionado",
+                    "brief": "La fusión dental surge a través de la unión de dos gérmenes dentarios normalmente separados debido a una cierta cantidad de estimulación.",
+                    "plan": "Solución:Extracción dental o tratamiento restaurador."
+                },
+                "type_12": {
+                    "type": "Diente malformado",
+                    "brief": "La deformidad de la cúspide central; la deformidad de la cúspide lingual; la fosa lingual malformada y dens invaginatus son todas deformidades dentales.",
+                    "plan": "Solución:Extracción dental o tratamiento restaurador."
+                },
+                "type_13": {
+                    "type": "Otros",
+                    "brief": "",
+                    "plan": ""
+                }
+            }
+        }
+    },
+    "BasicTemplatesForDevice": {
+        "templates": ["b97d56c0-2c39-5e71-aa96-c68ee82e499c","00439f72-9103-5ca0-a1c2-f09cf91badad","d9203edc-0509-5101-9673-8f2c0f827963"]
+    },
+    "TouchDeviceParam": {
+        "MouseMoveRobustValue": 10
+    }
+}

@@ -1,0 +1,102 @@
+On Error Resume Next
+Set objShell = CreateObject("WScript.Shell")
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+' 释放微端对象
+'Dim objWMIService, colProcess
+
+' 创建 WMI 服务对象
+'Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
+
+' 查询指定进程
+'Set colProcess = objWMIService.ExecQuery("SELECT * FROM Win32_Process WHERE Name = 'MineClient.exe'")
+
+' 遍历进程并终止它们
+'For Each objProcess in colProcess
+'objProcess.Terminate()
+'Next
+
+' 释放对象
+Set objWMIService = Nothing
+
+
+
+' 获取命令行个数
+Dim count
+count = WScript.Arguments.Count
+'WScript.Echo count
+'获取命令行输出
+Dim input1
+Dim input2
+Dim scriptPath
+Dim cmd
+If count = 1 Then
+
+	
+	
+	input1 = WScript.Arguments.Item(0)
+	
+	' 启动另一个 VBScript 脚本，不阻塞当前脚本
+	
+	scriptPath = WScript.ScriptFullName
+	'WScript.Echo scriptPath
+	currentPath = objFSO.GetAbsolutePathName(".")
+
+	'WScript.Echo "Current directory: " & currentPath
+	' WScript.Echo input1 //nologo
+	'cmd = "cscript " & currentPath & "\tem.vbs" & " uninstall " & input1
+	cmd = "cscript " & scriptPath & " uninstall " & input1
+	'WScript.Echo cmd
+	objShell.Run cmd, 0, False
+
+ElseIf count = 2 Then
+	' 等待1秒
+	WScript.Sleep 500
+	'获取命令行输出
+	WScript.Echo input2
+	WScript.Echo input1
+	input1 = WScript.Arguments.Item(0)
+	input2 = WScript.Arguments.Item(1)
+	
+	' 删除目录
+	Dim folderPath
+	folderPath = input2
+	If objFSO.FolderExists(folderPath) Then
+		DeleteFolderRecursive folderPath
+		'objFSO.DeleteFolder folderPath, True
+		'If Err.Number <> 0 Then
+			' 删除失败，不显示警告
+		'	Err.Clear
+		'End If
+	End If
+
+	' 删除自己
+	
+	scriptPath = WScript.ScriptFullName
+	objFSO.DeleteFile scriptPath
+End If
+
+
+ 
+
+' 继续执行当前脚本的其他代码
+
+Set objShell = Nothing
+
+
+
+'退出脚本
+WScript.Qui
+Sub DeleteFolderRecursive(folderPath)
+	Dim subFolder, file
+
+	Set subFolder = objFSO.GetFolder(folderPath)
+	For Each file In subFolder.Files
+	file.Delete True ' 删除文件
+	Next
+
+	For Each subFolder In subFolder.SubFolders
+	DeleteFolderRecursive subFolder.Path ' 递归删除子文件夹
+	Next
+
+	objFSO.DeleteFolder folderPath, True ' 删除空文件夹
+End Sub

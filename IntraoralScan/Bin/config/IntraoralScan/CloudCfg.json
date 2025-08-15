@@ -1,0 +1,32 @@
+{
+    "Cloud": {
+        "enabled": true,
+        "cloudUrl": "https://www.dental3dcloud.com",
+        "cloudName": "index"
+    },
+    "SoftUp": {
+        "enabled": false,
+        "modelCode": "newaoralscan_domestic",
+        "version": "3.0.0.0",
+        "env": "beta"
+    },
+    "Ads": {
+        "fetchLoginAds": true,
+        "fetchHomeAds": true
+    },
+    "UserInfo": {
+        "name": "",
+        "phone": "",
+        "email": "",
+        "hospital": "",
+        "language": "zh_CN",
+        "country": "CN",
+        "industry": "Industrial Manufacturing & Design",
+        "enterprise": "Prototyping"
+    },
+    "CloudOption": {
+        "getInstitutionSearchPageSize": 100,
+        "getInstitutionSearchMaxSize":  200,
+        "getLabConnectionListPageSize": 100
+    }
+}

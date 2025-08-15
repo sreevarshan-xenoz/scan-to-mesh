@@ -1,0 +1,13 @@
+{
+  "Tunnel": {
+    "Channel": "demo",
+    "HostAddress": "LocalHost",
+    "Port": 1883,
+    "ServiceName": "DentalHub",
+    "SharedMemoryName": "demo",
+    "SharedMemorySize": "4G"
+  },
+  "Default": {
+    "EncryptLog": false
+  }
+}

@@ -1,0 +1,344 @@
+{
+    "checkedTimer": -1,
+    "cmds": [
+        "--writeDataMethod",
+        "sync"
+    ],
+    "community": {
+        "env": "release",
+        "letLiveOnExit": true,
+        "modelCode": "newaoralscan_simplified_international",
+        "path": "DentalNetwork.exe",
+        "run": true
+    },
+    "exitTimeOut": 5000,
+    "guiname": "IntraoralScan",
+    "hubConnectCount": 10,
+    "hubLoggingRules": "*.debug=false",
+    "initialMaxNum": 3,
+    "killOnePidMaxNum": 10,
+    "launcherLogToFile": true,
+    "letHubLiveOnExit": false,
+    "logExpiredDateNum": 90,
+    "maxstartTime": 60000,
+    "maxstartTimeGUI": 50000,
+    "moduleCrashTip": false,
+    "moduleKillMaxNum": 10,
+    "openConsole": false,
+    "showErrorMessageBox": true,
+    "showInfoWindow": false,
+    "startTimeOut": 5000,
+    "startmodulelists": [
+        {
+            "name": "other",
+            "startmodules": [
+            ]
+        },
+        {
+            "name": "default",
+            "startmodules": [
+                {
+                    "exitLevel": 0,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalNetwork",
+                    "path": "DentalNetwork.exe",
+                    "startLevel": 0
+                },
+                {
+                    "exitLevel": 0,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "SnSyncService",
+                    "path": "SnSyncService.exe",
+                    "startLevel": 0
+                },
+                {
+                    "exitLevel": 0,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "SnAuthenticator",
+                    "path": "SnAuthenticator.exe",
+                    "startLevel": 0
+                },
+                {
+                    "exitLevel": 10,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalAlgoService",
+                    "path": "DentalAlgoService.exe",
+                    "startLevel": 10
+                },
+                {
+                    "exitLevel": 10,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalOrderDataMgr",
+                    "path": "DentalOrderDataMgr.exe",
+                    "startLevel": 10
+                },
+                {
+                    "exitLevel": 20,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalOrderAppLogic",
+                    "path": "DentalOrderAppLogic.exe",
+                    "startLevel": 20
+                },
+                {
+                    "exitLevel": 20,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalScanAppLogic",
+                    "path": "DentalScanAppLogic.exe",
+                    "startLevel": 20
+                },
+                {
+                    "exitLevel": 20,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalDesignAppLogic",
+                    "path": "DentalDesignAppLogic.exe",
+                    "startLevel": 20
+                },
+                {
+                    "exitLevel": 100,
+                    "isGUI": true,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "IntraoralScan",
+                    "path": "IntraoralScan.exe",
+                    "startLevel": 100
+                }
+            ]
+        },
+        {
+            "exitOnDefaultExit": false,
+            "name": "dentalview",
+            "startmodules": [
+                {
+                    "exitLevel": 10,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalAlgoService",
+                    "path": "DentalAlgoService.exe",
+                    "startLevel": 10
+                },
+                {
+                    "exitLevel": 20,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalViewAppLogic",
+                    "path": "DentalViewer/DentalViewAppLogic.exe",
+                    "startLevel": 20
+                },
+                {
+                    "exitLevel": 100,
+                    "isGUI": true,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalView",
+                    "path": "DentalViewer/DentalViewer.exe",
+                    "startLevel": 100
+                }
+            ]
+        },
+        {
+            "exitOnDefaultExit": false,
+            "name": "DentalDataRecover",
+            "startmodules": [
+                {
+                    "exitLevel": 10,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalAlgoService",
+                    "path": "DentalAlgoService.exe",
+                    "startLevel": 10
+                },
+                {
+                    "exitLevel": 20,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "SnSyncService",
+                    "path": "SnSyncService.exe",
+                    "startLevel": 20
+                },
+                {
+                    "exitLevel": 30,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalScanAppLogic",
+                    "path": "DentalScanAppLogic.exe",
+                    "startLevel": 30
+                },
+                {
+                    "exitLevel": 100,
+                    "isGUI": true,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "IS_RecoverTool",
+                    "path": "IS_RecoverTool.exe",
+                    "startLevel": 100
+                }
+            ]
+        },
+        {
+            "name": "dentalapitest",
+            "startmodules": [
+                {
+                    "exitLevel": 0,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "SnSyncService",
+                    "path": "SnSyncService.exe",
+                    "startLevel": 0
+                },
+                {
+                    "exitLevel": 0,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": false,
+                    "name": "SnAIService",
+                    "path": "SnAIService.exe",
+                    "startLevel": 0
+                },
+                {
+                    "exitLevel": 0,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "mustStart": true,
+                    "name": "SnAuthenticator",
+                    "path": "SnAuthenticator.exe",
+                    "startLevel": 0
+                },
+                {
+                    "exitLevel": 10,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalAlgoService",
+                    "path": "DentalAlgoService.exe",
+                    "startLevel": 10
+                },
+                {
+                    "exitLevel": 20,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalScanAppLogic",
+                    "path": "DentalScanAppLogic.exe",
+                    "startLevel": 20
+                },
+                {
+                    "exitLevel": 100,
+                    "isGUI": true,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalAPITest",
+                    "path": "DentalAPITest/DentalAPITest.exe",
+                    "startLevel": 100
+                }
+            ]
+        },
+        {
+            "name": "logTracing",
+            "startmodules": [
+                {
+                    "exitLevel": 0,
+                    "log": true,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalNetwork",
+                    "path": "DentalNetwork.exe",
+                    "startLevel": 0
+                }
+            ]
+        },
+        {
+            "name": "DentalDesignAppDentalSphere",
+            "startmodules": [
+                {
+                    "exitLevel": 0,
+                    "log": false,
+                    "logExpiredDateNum": 90,
+                    "logToFile": 1,
+                    "loggingRules": "*.debug=false",
+                    "mustStart": true,
+                    "name": "DentalCopilot",
+                    "otherExeLog": true,
+                    "path": "DentalDesignAppDentalSphere/Main/DentalCopilot.exe",
+                    "startLevel": 0
+                }
+            ]
+        }
+    ],
+    "taskFileDirName": "TaskFile",
+    "useLocalAuthInfo": true,
+    "usetest": false,
+    "version": "3.5.4.6",
+    "version_mac": "3.4.1.3",
+    "writeTaskStatus": true
+}

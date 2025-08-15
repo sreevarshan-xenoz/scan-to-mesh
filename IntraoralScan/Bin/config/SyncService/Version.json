@@ -1,0 +1,33 @@
+{
+	"Iscan3FirmwareVersionH11": "I3_V3.34_V4.25_CN",
+	"Iscan3FirmwareVersionH21": "I3_V3.34_V4.25_CN",
+	"Iscan3FirmwareVersionH12": "I3_V3.34_V4.27_CN",
+	"Iscan3FirmwareVersionH22": "I3_V3.29_V4.23_CN",
+	"Iscan3FirmwareVersionH32": "I3_V3.36_V4.29_CN",
+	"MixProjectorVersion": "F25_S30",
+	"MixOldMotorVersion": "f1.2.2",
+	"MixNewMotorVersion": "f2.0.1",
+	"MixProjectorST_01": "F25_S30",
+	"MixMotorGD_01": "f1.3.3",
+	"Iscan3DriversVersion": "2020.12.24.16.49.45.460",
+	"ExUpdateList": {
+		"EPCA-": "2.14-48",
+		"EPCB-": "2.14-48",
+		"EX2A-": "3.05-48",
+		"EPCC-": "4.00-48"
+	},
+	"ExphUpdateList": {
+		"EPHA-": "0.18-1.00-3.0.1"
+	},
+	"FacecanFirmwareVersionH1": "MULTI_INFRARED_01_XXX_CH_FX3_V4.1_FPGA_V2.3_IAP",
+	"Iscan4FirmwareVersionH1": "AV1.430CN_MV19.1_KV2.0_UV1.1_FV2.3-UPGRADE_V2.3",
+    "Iscan5_Version":"AV1.178CN_MV1.2.78.3_KV3.6_UV2.0_FV3.7-UPGRADE_V0.3",
+	"Iscan4AP_APP_VersionH1": "APP_V23_IAP_V2",
+	"Iscan4AP_AP_VersionH1": "AP_V2.6",
+	"Iscan4AP_CartBoard_Version": "APP_V8_IAP_V1",
+	"ExphMotorGD_01_0":"4.0.5",
+	"ExphProjector03":"2.01-1.00",
+	"ExpcMotorGD_01_0":"74",
+	"ExpcProjector5":"5.00"
+	
+}

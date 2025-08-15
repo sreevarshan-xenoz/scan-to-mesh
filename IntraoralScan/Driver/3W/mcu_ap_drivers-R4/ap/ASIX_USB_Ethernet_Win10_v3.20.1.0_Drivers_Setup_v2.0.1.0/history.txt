@@ -1,0 +1,26 @@
+//======================================================================
+// ASIX AX88279/AX88179x/AX88178A/AX88772D/AX88772E Windows 10 Driver Setup Program
+// Revision History
+//
+// This document describes the major changes, additions and bug fixes made 
+// to the program between released versions. 
+//======================================================================
+
+Note:
+=====
+Before run the setup program to install newer driver, please uninstall the older version 
+driver setup program that user installed before. User can check the list in "Control Panel" 
+-> "Programs" -> "Programs and Features". If there is a AX88279/AX88179x/AX88178A/AX88772D/AX88772E driver in the list, 
+uninstall it before run the setup program. 
+
+Version 2.0.1.0 (2024-01-23) 
+1. This setup program includes the following AX88279/AX88179x/AX88178A/AX88772D/AX88772E Windows 10 64-bit HLK driver.
+   AX88279/AX88179x/AX88178A/AX88772D/AX88772E Windows 10 64-bit HLK driver v3.20.1.0
+
+Version 2.0.0.0 (2023-11-02) 
+1. This setup program includes the following AX88179x/AX88178A/AX88772D Windows 10 64-bit HLK driver.
+   AX88179x/AX88178A/AX88772D Windows 10 64-bit HLK driver v3.20.0.0
+
+ 
+
+

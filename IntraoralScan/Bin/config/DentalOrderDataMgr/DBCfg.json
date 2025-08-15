@@ -1,0 +1,6 @@
+{
+    "Sqlite": {
+        "journal_mode": "WAL",
+        "wal_autocheckpoint": 100
+    }
+}

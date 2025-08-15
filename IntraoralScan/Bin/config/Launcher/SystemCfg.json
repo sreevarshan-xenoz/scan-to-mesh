@@ -1,0 +1,21 @@
+{
+    "Default": {
+	    "LauncherExeName": "DentalLauncher",
+        "Example": false,
+        "Language": "en",
+        "DiskFreeLimit":2  
+    },
+    "Tunnel": {
+        "Channel": "Dental",
+        "HostAddress": "LocalHost",
+        "Port": 18830,
+        "ServiceName": "IntraoralScanHub",
+        "SharedMemoryName": "DentalShared",
+        "SharedMemorySize": "2G",
+        "tcpUsed": "false"
+    },
+	"UdpInfo": {
+		"HostAddress": "LocalHost",
+		"Port": 61398
+	}
+}

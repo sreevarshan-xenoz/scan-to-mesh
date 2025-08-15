@@ -1,0 +1,16 @@
+{
+	"moduleInfo":{
+		"modelCode":"newaoralscan_international",
+		"environment":"beta",
+		"adaptiveModels": [],
+		"adaptiveModulars": [],
+		"version": "3.4.0",
+		"os": "win",
+		"lang": "cn",
+		"maxPatch":10
+	},
+	"autoUpgrade":{
+		"checkInterval":12
+	},
+	"cloudEnvironment":"test"
+}

@@ -1,0 +1,10 @@
+﻿{
+    "UI": {
+        "visibility": "FullScreen",
+        "useCloud": true,
+        "useOrderSystem": true,
+        "hideAfterFinishing": false,
+        "trySkippingEditing": true,
+        "attachFilters": []
+    }
+}

@@ -1,0 +1,325 @@
+{
+    "supportDevices": [
+        {
+            "name": "AOS",
+            "isNative": false,
+            "disabled": true,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3",
+            "softVersionSimple": true,
+            "disableAuthFunctions": [
+                "RemovableDenture"
+            ],
+            "images": {
+                "about": "aoral_scan2.png",
+                "calibration": [
+                    "cali_step1.png",
+                    "cali_step2.png",
+                    "cali_step3.png"
+                ],
+                "connection": {
+                    "image": "AOS.png",
+                    "imageWidth": 711,
+                    "imageHeight": 538,
+                    "fullTip": true
+                }
+            }
+        },
+        {
+            "name": "AOS3",
+            "isNative": false,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3",
+            "softVersionSimple": true,
+            "disabled": false,
+            "images": {
+                "about": "aoral_scan3.png",
+                "calibration": [
+                    "cali_step1_IScan3.png",
+                    "cali_step2_IScan3.png",
+                    "cali_step3_IScan3.png"
+                ],
+                "connection": {
+                    "image": "AOS3.png",
+                    "imageWidth": 756,
+                    "imageHeight": 547,
+                    "fullTip": false
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3.svg"
+                }
+            }
+        },
+        {
+            "name": "AOS3-LAB",
+            "isNative": false,
+            "disabled": true,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3",
+            "softVersionSimple": true,
+            "disableAuthFunctions": [
+                "RemovableDenture",
+                "ImpressionScan",
+                "MultipleJawRelationship",
+                "AdditionalScan",
+                "ExtraAlign"
+            ],
+            "images": {
+                "about": "aoral_scan3_lab.png",
+                "calibration": [
+                    "cali_step1_IScan3_lab.png",
+                    "cali_step2_IScan3_lab.png",
+                    "cali_step3_IScan3_lab.png"
+                ],
+                "connection": {
+                    "image": "AOS3.png",
+                    "imageWidth": 756,
+                    "imageHeight": 547,
+                    "fullTip": false
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3.svg"
+                }
+            }
+        },
+        {
+            "name": "A3I",
+            "isNative": false,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3i",
+            "softVersionSimple": true,
+            "disabled": false,
+            "images": {
+                "about": "aoral_scanC.png",
+                "calibration": [
+                    "cali_step1_IScanC.png",
+                    "cali_step2_IScanC.png",
+                    "cali_step3_IScanC.png"
+                ],
+                "connection": {
+                    "image": "AOS3.png",
+                    "imageWidth": 756,
+                    "imageHeight": 547,
+                    "fullTip": false
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3.svg"
+                }
+            }
+        },
+        {
+            "name": "A3W",
+            "isNative": false,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3 Wireless",
+            "softVersionSimple": true,
+            "disabled": false,
+            "images": {
+                "about": "aoral_scan3_WL.png",
+                "deviceInfo": "aoral_scan3_WL_withoutAp_big",
+                "deviceList": "aoral_scan3_WL_withoutAp",
+                "calibration": [
+                    "cali_step1_IScan3W.png",
+                    "cali_step2_IScan3W.png",
+                    "cali_step3_IScan3W.png"
+                ],
+                "connection": {
+                    "image": "A3W.png",
+                    "wirelessImage": "A3W_Wireless.png",
+                    "imageWidth": 550,
+                    "imageHeight": 420,
+                    "fullTip": true
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3w.svg"
+                }
+            }
+        },
+        {
+            "name": "AOSL",
+            "isNative": false,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3",
+            "softVersionSimple": true,
+            "disableCalibrationCH": "needCloudCheck",
+            "disableCalibrationInter": "enable",
+            "hideCalibrationDays": false,
+            "disabled": true,
+            "disableAuthFunctions": [
+                "InspectionReport",
+                "OneClickPrinting",
+                "ModelCompare",
+                "TempCrownDesign",
+                "IBT",
+                "CreSplint",
+                "AccuWare",
+                "PreparedTeethMonitoring",
+                "RemovableDenture",
+                "ImpressionScan",
+                "MultipleJawRelationship",
+                "AdditionalScan",
+                "ExtraAlign"
+            ],
+            "images": {
+                "about":"aoral_scan3_lab.png",
+                "calibration":[
+                    "cali_step1_IScan3_lab.png",
+                    "cali_step2_IScan3_lab.png",
+                    "cali_step3_IScan3_lab.png"
+                ],
+                "connection": {
+                    "image": "AOS3.png",
+                    "imageWidth": 756,
+                    "imageHeight": 547,
+                    "fullTip": false
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3.svg"
+                }
+            }
+        },
+        {
+           "name": "A3M",
+           "isNative": true,
+           "softReleaseVer": "3",
+           "softModel": "iScan-3",
+           "softVersionSimple": true,
+           "disableCalibrationCH": "needCloudCheck",
+           "disableCalibrationInter": "enable",
+           "hideCalibrationDays": false,
+           "disabled": true,
+           "disableAuthFunctions": [
+               "DynamicBite",
+               "InspectionReport",
+               "OneClickPrinting",
+               "ModelCompare",
+               "TempCrownDesign",
+               "IBT",
+               "CreSplint",
+               "PreparationManipulation",
+               "PreparedTeethMonitoring",
+               "ScanbodyOrAbutment_Match",
+               "RemovableDenture",
+               "ImpressionScan",
+               "MultipleJawRelationship",
+               "AdditionalScan",
+               "ExtraAlign"
+           ],
+           "images": {
+              "about": "aoral_starscan.png",
+              "calibration": [
+                  "cali_step1_starScan.png",
+                  "cali_step2_starScan.png",
+                  "cali_step3_starScan.png"
+               ],
+               "connection": {
+                   "image": "AOS3.png",
+                   "imageWidth": 756,
+                   "imageHeight": 547,
+                   "fullTip": false
+               },
+               "scanGuide": {
+                   "airOutlet": "guide_outlet_iscan3.svg"
+               }
+           }
+        },
+        {
+            "name": "A3L",
+            "isNative": true,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3",
+            "softVersionSimple": true,
+            "disableCalibrationCH": "needCloudCheck",
+            "disableCalibrationInter": "enable",
+            "hideCalibrationDays": false,
+            "disabled": true,
+            "disableAuthFunctions": [
+                "DynamicBite",
+                "InspectionReport",
+                "OneClickPrinting",
+                "ModelCompare",
+                "TempCrownDesign",
+                "IBT",
+                "CreSplint",
+                "PreparationManipulation",
+                "PreparedTeethMonitoring",
+                "ScanbodyOrAbutment_Match",
+                "RemovableDenture",
+                "ImpressionScan",
+                "MultipleJawRelationship",
+                "AdditionalScan",
+                "ExtraAlign"
+            ],
+            "images": {
+                "about": "aoral_inscan.png",
+                "calibration": [
+                    "cali_step1_inscan.png",
+                    "cali_step2_inscan.png",
+                    "cali_step3_inscan.png"
+                ],
+                "connection": {
+                    "image": "AOS3.png",
+                    "imageWidth": 756,
+                    "imageHeight": 547,
+                    "fullTip": false
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3.svg"
+                }
+            }
+        },
+        {
+            "name": "A3IP",
+            "isNative": false,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3i",
+            "softVersionSimple": true,
+            "disabled": true,
+            "images": {
+                "about": "aoral_scan_3ip.png",
+                "calibration": [
+                    "cali_step1_3ip.png",
+                    "cali_step2_3ip.png",
+                    "cali_step3_3ip.png"
+                ],
+                "connection": {
+                    "image": "AOS3.png",
+                    "imageWidth": 756,
+                    "imageHeight": 547,
+                    "fullTip": false
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3.svg"
+                }
+            }
+        },
+        {
+            "name": "A3IW",
+            "isNative": false,
+            "softReleaseVer": "3",
+            "softModel": "iScan-3i Wireless",
+            "softVersionSimple": true,
+            "disabled": false,
+            "images": {
+                "about": "aoral_scan3_IW.png",
+                "deviceInfo": "aoral_scan3_IW_withoutAp_big",
+                "deviceList": "aoral_scan3_IW_withoutAp",
+                "calibration": [
+                    "cali_step1_IScan3IW.png",
+                    "cali_step2_IScan3IW.png",
+                    "cali_step3_IScan3IW.png"
+                ],
+                "connection": {
+                    "image": "A3W.png",
+                    "wirelessImage": "A3W_Wireless.png",
+                    "imageWidth": 550,
+                    "imageHeight": 420,
+                    "fullTip": true
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3w.svg"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+﻿{
+    "Patient": {
+        "patientName": "patient",
+        "patientAge": "2002",
+        "patientSex": "male"
+    }
+}

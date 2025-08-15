@@ -1,9 +1,7 @@
-# Binaries and executables
+# Large executables and installers
 *.exe
-*.dll
-*.so
-*.dylib
 *.snpkg
+QuickInstaller_*.exe
 
 # Database files
 *.db
@@ -12,7 +10,6 @@
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
 # IDE files
 .vscode/
@@ -22,12 +19,70 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Large binary files
-IntraoralScan/
+# Large binary directories (but keep important config and algorithm files)
 TeamViewer/
 addition/
+IntraoralScan/Bin/7z/
+IntraoralScan/Bin/adsdata/
+IntraoralScan/Bin/AIModels/
+IntraoralScan/Bin/audio/
+IntraoralScan/Bin/bearer/
+IntraoralScan/Bin/config_Backup/
+IntraoralScan/Bin/DB/
+IntraoralScan/Bin/DentalDesignAppDentalSphere/
+IntraoralScan/Bin/DentalQuickControls/
+IntraoralScan/Bin/DentalViewer/
+IntraoralScan/Bin/device/
+IntraoralScan/Bin/DSD/
+IntraoralScan/Bin/firmware/
+IntraoralScan/Bin/ftconfig/
+IntraoralScan/Bin/hub/
+IntraoralScan/Bin/iconengines/
+IntraoralScan/Bin/imageformats/
+IntraoralScan/Bin/logic/
+IntraoralScan/Bin/mediaservice/
+IntraoralScan/Bin/music/
+IntraoralScan/Bin/OCCM/
+IntraoralScan/Bin/osgPlugins-3.6.3/
+IntraoralScan/Bin/platforminputcontexts/
+IntraoralScan/Bin/platforms/
+IntraoralScan/Bin/playlistformats/
+IntraoralScan/Bin/position/
+IntraoralScan/Bin/privacypolicy/
+IntraoralScan/Bin/python/
+IntraoralScan/Bin/qmltooling/
+IntraoralScan/Bin/QRModels/
+IntraoralScan/Bin/Qt/
+IntraoralScan/Bin/QtCharts/
+IntraoralScan/Bin/QtGraphicalEffects/
+IntraoralScan/Bin/QtMultimedia/
+IntraoralScan/Bin/QtQml/
+IntraoralScan/Bin/QtQuick/
+IntraoralScan/Bin/QtQuick.2/
+IntraoralScan/Bin/QtScxml/
+IntraoralScan/Bin/QtWebEngine/
+IntraoralScan/Bin/QuickCloudCfg/
+IntraoralScan/Bin/QuickControls/
+IntraoralScan/Bin/rendermodel/
+IntraoralScan/Bin/replaceable/
+IntraoralScan/Bin/res/
+IntraoralScan/Bin/resources/
+IntraoralScan/Bin/scenegraph/
+IntraoralScan/Bin/Sn3D/
+IntraoralScan/Bin/sqldrivers/
+IntraoralScan/Bin/StdModels/
+IntraoralScan/Bin/styles/
+IntraoralScan/Bin/translation/
+IntraoralScan/Bin/translations/
+IntraoralScan/Bin/virtualkeyboard/
 
-# Temporary files
-*.tmp
-*.temp
-*.log
+# Exclude most DLLs but keep algorithm ones
+IntraoralScan/Bin/*.dll
+!IntraoralScan/Bin/algorithm*.dll
+!IntraoralScan/Bin/Sn3D*.dll
+!IntraoralScan/Bin/iScan*.dll
+
+# Exclude Python compiled files
+IntraoralScan/Bin/*.pyd
+
+# Temporary

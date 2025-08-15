@@ -1,0 +1,21 @@
+{
+    "SaveOption": {
+        "createFormats": "Exo",
+        "orderNamingRule": ["DateTime", "DoctorCode", "ID"],
+        "checkOrderNamingOnResave": true,
+        "randomID": false
+    },
+    "NewOption": {
+        "defaultDentistry": "SDENTT_Restoration"
+    },
+    "CloudOption": {
+        "getOrderListPageSize": 200,
+        "getPatientListPageSize": 200
+    },
+    "randomTrayNo": {
+        "lastUser": {
+            "endRandomTrayNo": 0,
+            "lastTrayNo": 0
+        }
+    }
+}

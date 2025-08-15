@@ -1,0 +1,69 @@
+{
+    "partners": [
+            {
+                "name": "angelalign",
+                "cloudName": "partner_angelalign",
+                "labid": "fc8c87d5-995e-5137-9134-5b1e9d3dc5e3",
+                "labname": "时代天使",
+                "image": "/replaceable/partners/angelalign_normal.png"
+            },
+            {
+                "name": "suyastar",
+                "cloudName": "partner_suyastar",
+                "labid": "16e9d081-7fac-5272-aa5c-dbc535b5d36e",
+                "labname": "舒雅星系",
+                "image": "/replaceable/partners/suyastar_normal.png"
+            },
+            {
+                "name": "smartee",
+                "cloudName": "partner_smartee",
+                "labid": "342fa0ce-f863-5638-a59d-7a25421473f2",
+                "labname": "正雅齿科",
+                "image":  "/replaceable/partners/smartee_normal.png"
+            },
+            {
+                "name": "clear",
+                "cloudName": "partner_clear",
+                "labid": "d30b07fb-5f63-5bff-af7a-0785815c6fd0",
+                "labname": "可丽儿",
+                "image":  "/replaceable/partners/clear_normal.png"
+            },
+            {
+                "name": "KTJ",
+                "cloudName": "partner_KTJ",
+                "labid": "ff7fd312-86ae-5269-ad0d-0236b8c10639",
+                "labname": "康泰健",
+                "image":  "/replaceable/partners/KTJ_normal.png"
+            },
+            {
+                "name": "irok",
+                "cloudName": "partner_unismile",
+                "image":  "/replaceable/partners/irok_normal.png",
+                "urlInfo": {
+                    "installUrl":  "https://5ismile.com/upload.html",
+                    "questionUrl": "https://5ismile.com/upload.html"
+                },
+                "appPath": "C:/IROKDDS/OrthoRxUnit/OrthoRxUnit.exe",
+                "modelFormats": ["stl"],
+                "supportOS":["windows"]
+
+            },
+            {
+                "name": "hibeauty",
+                "cloudName": "partner_eyar",
+                "image": "/replaceable/partners/hibeauty_normal.png",
+                "modelFormats": ["stl"],
+                "urlInfo": {
+                    "installUrl":  "http://www.hibeauty.com/oralscanlink.shtml"
+                },
+                "supportOS":["windows"]
+            },
+            {
+                "name": "dcarer",
+                "cloudName": "partner_dcarer",
+                "labid": "ab07bfee-852d-5e84-83e7-9d801f1e2b61",
+                "labname": "迪凯尔",
+                "image": "/replaceable/partners/dcarer.jpg"
+            }
+    ]
+}

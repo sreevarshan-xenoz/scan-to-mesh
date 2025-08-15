@@ -1,0 +1,23 @@
+﻿{
+    "NewOption": {
+        "defaultDentistry": null
+    },
+    "SaveOption": {
+        "orderDataPath": null,
+        "createFormats": null,
+        "orderNamingRule": null,
+        "randomID": null
+    },
+    "UI": {
+        "dentalNotation": null
+    },
+    "Path": {
+        "exocad": null
+    },
+    "HistoryDateDel": {
+        "autoDelData": null,
+        "remindInterval": null,
+        "lastRemindDate": null,
+        "retainDays": null
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "Defult": {
+        "scanDiskFreeSpaceLimit": 20,
+        "processDiskFreeSpaceLimit": 2,
+        "processMemoryLimit": 50,
+        "frameRateCollect": false,
+        "scanDiskFreeSpaceLimit_saveImage": 50,
+        "autoGainSetEnabled_A3": false,
+        "maxCrossDist": 0.02
+    },
+    "IMU": {
+        "times": 1500,
+        "timerStartRatio": 0.8,
+        "enable": true,
+        "selectChangedRatio": 0.1
+    },
+    "Calibration": {
+        "debug": false,
+        "expiredDate": 14
+    },
+    "Scan": {
+        "debug": false,
+		"debug_markpoint": false
+    },
+    "Guider": {
+        "perTime": 5000,
+        "timerInterval": 10,
+        "notShowAgain": false,
+        "openScanGuide": true,
+        "openIconText": false,
+        "tutorialFinished": false,
+        "showOnFirstEnter": true,
+        "myostaticLowerNeverMind": false,
+        "myostaticLowerShowed": false,
+        "myostaticUpperNeverMind": false,
+        "myostaticUpperShowed": false
+    },
+    "General": {
+        "intraoralScan": true,
+        "autoRefined": true,
+        "autoMarkTeeth": false,
+        "addScan": true,
+        "autoMarkNeckline": false,
+        "autoGain": true,
+        "fillHoleSimpleColor": false,
+        "biteAdjust": true,
+        "savePerpareDetailScanData": false,
+        "openCamera": true,
+        "autoStartScan": true,
+        "myostaticScan":true,
+        "irAutoBrightness": true
+    },
+    "Music": {
+        "checked": true,
+        "chooseMusicPath": ""
+    },
+    "Perference": {
+        "scanningSquency": 0,
+        "scanningView": 0,
+        "scanningPosition": 0,
+        "mirrorUpperJaw": false,
+        "rotateAngle": {
+            "A2": {
+                "scannerPerspective1": {
+                    "Upper": 0,
+                    "Lower": 0,
+                    "Total": 0
+                },
+                "scannerPerspective2": {
+                    "Upper": 90,
+                    "Lower": 90,
+                    "Total": 0
+                },
+                "operatorPerspective": {
+                    "patientsFront": {
+                        "Upper": -90,
+                        "Lower": 90,
+                        "Total": 0
+                    },
+                    "patientsRear": {
+                        "Upper": 90,
+                        "Lower": -90,
+                        "Total": 0
+                    }
+                }
+            },
+            "A3": {
+                "scannerPerspective1": {
+                    "Upper": 90,
+                    "Lower": 90,
+                    "Total": 90
+                },
+                "scannerPerspective2": {
+                    "Upper": 180,
+                    "Lower": 180,
+                    "Total": 90
+                },
+                "operatorPerspective": {
+                    "patientsFront": {
+                        "Upper": 0,
+                        "Lower": 180,
+                        "Total": 90
+                    },
+                    "patientsRear": {
+                        "Upper": 180,
+                        "Lower": 0,
+                        "Total": 90
+                    }
+                }
+            },
+            "A5": {
+                "operatorPerspective": {
+                    "patientsFront": {
+                        "Lower": 0,
+                        "Total": -90,
+                        "Upper": 180
+                    },
+                    "patientsRear": {
+                        "Lower": 180,
+                        "Total": -90,
+                        "Upper": 0
+                    }
+                },
+                "scannerPerspective1": {
+                    "Lower": -90,
+                    "Total": -90,
+                    "Upper": -90
+                },
+                "scannerPerspective2": {
+                    "Lower": 0,
+                    "Total": -90,
+                    "Upper": 0
+                } 
+            }
+        }
+    },
+    "prepareToothContrast": {
+        "contrastAmplifyWeight": 1.6,
+        "amplifyWeightBeginThreshold": 50,
+        "amplifyWeightRunThreshold": 80,
+        "insufficientThreshold": 0.20,
+        "excessThreshold": -0.20
+    },
+    "ManualAlignShowTexture": {
+        "TotalManualAlign": false,
+        "ExtraAlginAbutment":false
+    },
+    "extraData":{
+        "maxSize":10
+    }
+}

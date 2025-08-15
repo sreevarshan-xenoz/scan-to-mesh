@@ -1,0 +1,17 @@
+﻿{
+    "Name": {
+        "cn": "简体中文",
+        "en": "English",
+        "ja": "日本語"
+    },
+    "Cloud": {
+        "enabled": true
+    },
+    "TemplateKJeyList": [
+        "cn"
+    ],
+    "softLang2Key": {
+        "en_US": "en",
+        "zh_CN": "cn"
+    }
+}

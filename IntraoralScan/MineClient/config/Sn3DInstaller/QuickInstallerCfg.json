@@ -1,0 +1,550 @@
+{
+    "install":{
+        "forceInstall":true,
+        "olderSoftwareInfo": {
+            "getOlderInstallPath": {
+                "settingPath": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\DentalLauncher.exe",
+                "key": "path"
+            },
+            "process": [
+                {
+                    "path": "${olderInstallPath}/IntraoralScan/MineClient/MineClient.exe",
+                    "arg": [
+                        "uninstall",
+                        "silent"
+                    ],
+                    "runingTimeout": -1,
+                    "waitTime": 5,
+                    "errorLevel":"warn"
+                },
+                {
+                    "path": "${olderInstallPath}/IntraoralScan/MineClient/Sn3DInstaller.exe",
+                    "arg": [
+                        "uninstall"
+                    ],
+                    "runingTimeout": -1,
+                    "waitTime": 5,
+                    "errorLevel":"warn"
+                },
+                {
+                    "path": "${olderInstallPath}/uninst.exe",
+                    "arg": [
+                        "_?=${olderInstallPath}"
+                    ],
+                    "runingTimeout": -1,
+                    "waitTime": 5,
+                    "extraProcess": "waitExecOlderUninstall",
+                    "errorLevel":"warn"
+                }
+            ],
+            "removeSettings": [
+                "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\IntraoralScan",
+                "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\DentalLauncher.exe"
+            ],
+            "removeFiles": [
+                "${olderInstallPath}/uninst.exe"
+            ]
+        },
+        "links":[
+            {
+                "src":"${installPath}/IntraoralScan/Bin/DentalLauncher.exe",
+                "dest":"${desktop}/DentalLauncher.lnk"
+            },
+            {
+                "src":"${installPath}/IntraoralScan/Bin/DentalViewer/DentalViewer.exe",
+                "dest":"${desktop}/DentalViewer.lnk"
+            },
+            {
+                "src":"${installPath}/IntraoralScan/Bin/DentalLauncher.exe",
+                "dest":"${startMenuPrograms}/DentalLauncher/DentalLauncher.lnk"
+            },
+            {
+                "src":"${installPath}/IntraoralScan/Bin/DentalViewer/DentalViewer.exe",
+                "dest":"${startMenuPrograms}/DentalLauncher/DentalViewer.lnk"
+            },
+            {
+                "src":"${installPath}/IntraoralScan/Bin/ScanningBinder.exe",
+                "dest":"${startMenuPrograms}/DentalLauncher/ScanningBinder.lnk"
+            }
+        ],
+        "settings":{
+            "HKCR\\.stl":{
+                ".":".stlfile"
+            },
+            "HKCR\\.stlfile\\DefaultIcon":{
+                ".":"${installPath}\\IntraoralScan\\Bin\\DentalViewer\\res\\DentalViewer.ico"
+            },
+            "HKCR\\.stlfile\\shell\\open\\command":{
+                ".":"${installPath}\\IntraoralScan\\Bin\\DentalViewer\\DentalViewer.exe \"%1\""
+            },
+            "HKCR\\.obj":{
+                ".":".objfile"
+            },
+            "HKCR\\.objfile\\DefaultIcon":{
+                ".":"${installPath}\\IntraoralScan\\Bin\\DentalViewer\\res\\DentalViewer.ico"
+            },
+            "HKCR\\.objfile\\shell\\open\\command":{
+                ".":"${installPath}\\IntraoralScan\\Bin\\DentalViewer\\DentalViewer.exe \"%1\""
+            },
+            "HKCR\\.beb":{
+                ".":".bebfile"
+            },
+            "HKCR\\.bebfile\\DefaultIcon":{
+                ".":"${installPath}\\IntraoralScan\\Bin\\DentalViewer\\res\\DentalViewer.ico"
+            },
+            "HKCR\\.bebfile\\shell\\open\\command":{
+                ".":"${installPath}\\IntraoralScan\\Bin\\DentalViewer\\DentalViewer.exe \"%1\""
+            },
+            "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\DentalLauncher.exe":{
+                ".":"${installPath}\\IntraoralScan\\Bin\\DentalLauncher.exe",
+                "path":"${installPath}"
+            },
+            "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\IntraoralScan":{
+                "DisplayName":"IntraoralScan",
+                "UninstallString":"${installPath}\\uninst.exe",
+                "DisplayIcon":"${installPath}\\IntraoralScan\\Bin\\DentalLauncher.exe",
+                "DisplayVersion":"",
+                "URLInfoAbout":"",
+                "Publisher":"Shining3D"
+            }
+        },
+        "process":[
+            {
+                "path":"${installPath}/IntraoralScan/Driver/Runtime/vcredist2013EN_x64.exe",
+                "arg":[
+                    "/Q",
+                    "/norestart"
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${installPath}/IntraoralScan/Driver/Runtime/vcredist2015-2019_x64.exe",
+                "arg":[
+                    "/Q"
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${installPath}/IntraoralScan/Driver/Vimba/InstallVimba.bat",
+                "arg":[
+                    ""
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${installPath}/IntraoralScan/Driver/3dCamera/Uninstall.bat",
+                "arg":[
+                    ""
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${installPath}/IntraoralScan/Driver/3dCamera/Install.bat",
+                "arg":[
+                    ""
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${installPath}/IntraoralScan/Driver/Turntable/CDMV21224/CDM_install.bat",
+                "arg":[
+                    ""
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${installPath}/IntraoralScan/Driver/SoftDog/haspdinst.exe",
+                "arg":[
+                    "-i",
+                    "-nomsg"
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${Sn3DInstallerPath}/changedVerifiedAndReputablePolicyState.bat",
+                "arg":[
+                    "-i",
+                    "-nomsg"
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${installPath}/IntraoralScan/Bin/RegisterVddsMedia.exe",
+                "arg":[
+                    "-i",
+                    "-nomsg"
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            },
+            {
+                "path":"${installPath}/IntraoralScan/Bin/setenv.exe",
+                "arg":[
+                    "-i",
+                    "-nomsg"
+                ],
+                "runingTimeout":-1,
+                "waitTime":0,
+                "errorLevel":"warn"
+            }
+        ],
+      "checkDrivers": [
+        "3DCamera"
+      ],
+      "coverFiles": [
+        {
+          "src": "${Sn3DInstallerPath}/uninst.exe",
+          "dest": "${installPath}/uninst.exe",
+          "errorLevel":"warn"
+        },
+        {
+          "src": "${installPath}/IntraoralScan/Bin/config/DentalScanAppLogic/default/config/OpenCfg.json",
+          "dest": "${installPath}/IntraoralScan/Bin/config/DentalScanAppLogic/default/config/OpenCfg.json",
+          "errorLevel":"warn"
+        }
+      ]
+    },
+    "updatePatch":{
+      "coverFiles": [
+        {
+          "src": "${Sn3DInstallerPath}/uninst.exe",
+          "dest": "${installPath}/uninst.exe",
+          "errorLevel":"warn"
+        },
+        {
+          "src": "${Sn3DInstallerPath}/../../IntraoralScan",
+          "dest": "${installPath}/IntraoralScan",
+          "errorLevel":"warn"
+        },
+        {
+          "src": "${Sn3DInstallerPath}/../../TeamViewer",
+          "dest": "${installPath}/TeamViewer",
+          "errorLevel":"warn"
+        }
+      ],
+        "removeFiles":[
+            "${Sn3DInstallerPath}/../../IntraoralScan",
+            "${Sn3DInstallerPath}/../../TeamViewer",
+            "${installPath}/IntraoralScan/Bin/SnCommunity/datas"
+        ]
+    },
+    "update":{
+        "olderSoftwareInfo":{
+            "getOlderInstallPath":{
+                "settingPath":"HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\DentalLauncher.exe",
+                "key":"path"
+            },
+            "process":[
+                {
+                    "path":"${olderInstallPath}/IntraoralScan/MineClient/MineClient.exe",
+                    "arg":[
+                        "uninstall",
+                        "silent",
+                        "update"
+                    ],
+                    "runingTimeout":-1,
+                    "waitTime":5,
+                    "errorLevel":"warn"
+                },
+                {
+                    "path":"${olderInstallPath}/IntraoralScan/MineClient/Sn3DInstaller.exe",
+                    "arg":[
+                        "uninstall"
+                    ],
+                    "runingTimeout":-1,
+                    "waitTime":5,
+                    "errorLevel":"warn"
+                },
+                {
+                    "path": "${olderInstallPath}/uninst.exe",
+                    "arg": [
+                        "_?=${olderInstallPath}"
+                    ],
+                    "runingTimeout": -1,
+                    "waitTime": 5,
+                    "extraProcess": "waitExecOlderUninstall",
+                    "errorLevel":"warn"
+                }
+            ],
+            "removeSettings":[
+                "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\IntraoralScan",
+                "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\DentalLauncher.exe"
+            ]
+        },
+        "whiteList":[
+            "${olderInstallPath}/tmp"
+        ],
+		"removeFiles":[
+            "${Sn3DInstallerPath}/../../IntraoralScan",
+            "${Sn3DInstallerPath}/../../TeamViewer"
+        ],
+        "coverFiles":[
+          {
+            "src": "${Sn3DInstallerPath}/uninst.exe",
+            "dest": "${installPath}/uninst.exe",
+            "errorLevel":"warn"
+          },
+          {
+            "src": "${Sn3DInstallerPath}/../../TeamViewer",
+            "dest": "${installPath}/TeamViewer",
+            "errorLevel":"warn"
+          },
+          {
+            "src": "${Sn3DInstallerPath}/../../IntraoralScan",
+            "dest": "${installPath}/IntraoralScan",
+            "errorLevel":"warn"
+          }
+        ]
+    },
+    "uninstall":{
+        "removeFiles":[
+            "${olderInstallPath}/IntraoralScan/Bin",
+            "${olderInstallPath}/IntraoralScan/Doc",
+            "${olderInstallPath}/IntraoralScan/Driver",
+            "${olderInstallPath}/DentalViewer",
+            "${olderInstallPath}/TeamViewer",
+            "${olderInstallPath}/SentinelUpdate",
+            "${olderInstallPath}/IntraoralScan/MineClient",
+            "${olderInstallPath}/uninst.exe",
+            "${startMenuPrograms}/DentalLauncher/S3D_TeamViewer.lnk",
+            "${startMenuPrograms}/DentalLauncher/ScanningBinder.lnk",
+            "${startMenuPrograms}/DentalLauncher/uninst.lnk",
+            "${startMenuPrograms}/DentalLauncher/DentalViewer.lnk",
+            "${startMenuPrograms}/DentalLauncher/DentalLauncher.lnk",
+            "${desktop}/DentalViewer.lnk",
+            "${desktop}/S3D_TeamViewer.lnk",
+            "${desktop}/DentalLauncher.lnk"
+        ],
+        "removeSettings":[
+            "HKCR\\.stl",
+            "HKCR\\.stlfile",
+            "HKCR\\.obj",
+            "HKCR\\.objfile",
+            "HKCR\\.beb",
+            "HKCR\\.bebfile",
+            "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\IntraoralScan",
+            "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\DentalLauncher.exe"
+        ],
+        "process":[
+            {
+                "path":"${olderInstallPath}/IntraoralScan/Bin/removeenv.exe",
+                "arg":[
+                    ""
+                ],
+                "runingTimeout":3,
+                "waitTime":0,
+                "errorLevel":"warn"
+            }
+        ]
+    },
+    "clearProcess":[
+        "DentalLauncher.exe",
+        "DentalDesignAlgoService.exe",
+        "DentalCopilot.exe",
+        "ConsulReportApp.exe",
+        "MetronTrackApp.exe",
+        "ModuleTempCrownApp.exe",
+        "IBTApp.exe",
+        "SplintApp.exe",
+        "IntraoralScan.exe",
+        "AccuDesignApp.exe",
+        "DentalOrthoAppLogic.exe",
+        "OrthoApp.exe",
+        "OrthoSimApp.exe",
+        "DentalDesignAppLogic.exe",
+        "DentalScanAppLogic.exe",
+        "DentalOrderAppLogic.exe",
+        "DentalOrderDataMgr.exe",
+        "DentalAlgoService.exe",
+        "SnAuthenticator.exe",
+        "SnAIService.exe",
+        "SnSyncService.exe",
+        "DentalHub.exe",
+        "Sn3DCommunity.exe",
+        "DentalNetwork.exe",
+        "SyncServiceProc.exe",
+        "UpdateFirmwareTools.exe",
+        "DentalViewer.exe",
+        "DentalViewAppLogic.exe",
+        "FileTransfer.exe",
+        "DentalDesignCloudService.exe",
+        "DentalSphereHub.exe",
+        "DentalDesignAIService.exe",
+        "OrthoSimCommunity.exe",
+        "OrthoSimSharedMemWatcher.exe",
+        "OrthoSimAlgoService.exe",
+        "FacialAnalyserApp.exe",
+        "node.exe",
+        "DentalCopilotWinFrame.exe",
+        "DentalDesignHttpServer.exe",
+        "DentalDesignHttpServerNode.exe"
+    ],
+    "downloadModuleInfo":{
+        "modelCode":"newaoralscan_simplified_international",
+        "environment":"release",
+        "adaptiveModels":[
+
+        ],
+        "adaptiveModulars":[
+
+        ],
+        "version":"3.5.4",
+        "os":"win",
+        "lang":"",
+        "maxPatch":10
+    },
+    "sn3DInstallerModuleInfo":{
+        "modelCode":"IntraoralScanMineClient",
+        "environment":"release",
+        "adaptiveModels":[
+
+        ],
+        "adaptiveModulars":[
+
+        ],
+        "version":"0.0.0.4",
+        "os":"win",
+        "lang":"cn",
+        "maxPatch":10
+    },
+	"plugin":{
+		"loadPath":"${Sn3DInstallerPath}/QuickInstallerCfg/plugins"
+	},
+    "download":{
+        "retryInterval":5
+    },
+    "quickcloud":{
+        "cloud":{
+
+        },
+        "cloudEnvironment":"production",
+        "autoUpgrade":{
+            "checkInterval":12
+        }
+    },
+    "additions":{
+      "en_US":{
+        "install":{
+            "links":[
+                {
+                    "src":"${installPath}/TeamViewer/S3D_TeamViewer_EN.exe",
+                    "dest":"${desktop}/S3D_TeamViewer.lnk"
+                },
+    
+                {
+                    "src":"${installPath}/TeamViewer/S3D_TeamViewer_EN.exe",
+                    "dest":"${startMenuPrograms}/DentalLauncher/S3D_TeamViewer.lnk"
+                }
+            ],
+    
+            "coverFiles":[
+                {
+                    "src":"${installPath}/IntraoralScan/Bin/config/IntraoralScan/SystemCfg-EN.json",
+                    "dest":"${installPath}/IntraoralScan/Bin/config/IntraoralScan/SystemCfg.json",
+                    "errorLevel":"warn"
+                },
+                {
+                    "src":"${installPath}/IntraoralScan/Bin/DentalViewer/config/DentalView/SystemCfg-EN.json",
+                    "dest":"${installPath}/IntraoralScan/Bin/DentalViewer/config/DentalView/SystemCfg.json",
+                    "errorLevel":"warn"
+                }]
+            
+            }
+        },
+        "zh_CN":{
+            "install":{
+                "links":[
+                    {
+                        "src":"${installPath}/TeamViewer/S3D_TeamViewer_ZH.exe",
+                        "dest":"${desktop}/S3D_TeamViewer.lnk"
+                    },
+        
+                    {
+                        "src":"${installPath}/TeamViewer/S3D_TeamViewer_ZH.exe",
+                        "dest":"${startMenuPrograms}/DentalLauncher/S3D_TeamViewer.lnk"
+                    }
+                ],
+        
+                "coverFiles":[
+                    {
+                        "src":"${installPath}/IntraoralScan/Bin/config/IntraoralScan/SystemCfg-ZH.json",
+                        "dest":"${installPath}/IntraoralScan/Bin/config/IntraoralScan/SystemCfg.json",
+                        "errorLevel":"warn"
+                    },
+                    {
+                        "src":"${installPath}/IntraoralScan/Bin/DentalViewer/config/DentalView/SystemCfg-ZH.json",
+                        "dest":"${installPath}/IntraoralScan/Bin/DentalViewer/config/DentalView/SystemCfg.json",
+                        "errorLevel":"warn"
+                    }
+                ]
+                
+            }
+        },
+        "win10":{
+            "install":{
+                "process":[
+                    {
+                        "path":"${installPath}/IntraoralScan/Driver/3W/script_bat/1uninstall_win10.bat",
+                        "arg":[
+                            ""
+                        ],
+                        "runingTimeout":-1,
+                        "waitTime":0,
+                        "errorLevel":"critical"
+                    },
+                    {
+                        "path":"${installPath}/IntraoralScan/Driver/3W/script_bat/1install_win10.bat",
+                        "arg":[
+                            ""
+                        ],
+                        "runingTimeout":-1,
+                        "waitTime":0,
+                        "errorLevel":"critical"
+                    }
+                ]
+                
+            }
+        },
+        "win11":{
+            "install":{
+		        "process":[
+			        {
+                        "path":"${installPath}/IntraoralScan/Driver/3W/script_bat/2uninstall_win11.bat",
+                        "arg":[
+                         ""
+                        ],
+                        "runingTimeout":-1,
+                        "waitTime":0,
+                        "errorLevel":"critical"
+                    },
+                    {
+                        "path":"${installPath}/IntraoralScan/Driver/3W/script_bat/2install_win11.bat",
+                        "arg":[
+                          ""
+                        ],
+                        "runingTimeout":-1,
+                        "waitTime":0,
+                        "errorLevel":"critical"
+                    }
+		        ]
+            }
+        }
+    }
+}

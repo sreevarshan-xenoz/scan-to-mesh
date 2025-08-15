@@ -1,0 +1,96 @@
+{
+    "cloud": {
+        "urls": {
+        },
+        "eventTracking": {
+            "default": {
+                "body": {
+                    "idsite": "30",
+                    "rec": "1"
+                },
+                "headers": {
+                    "X-Auth-AppID": "DOTAPI_80136ce5-5b79-5fee-9c0d-620a84040546"
+                }
+            },
+            "test": {
+                "body": {
+                    "idsite": "18",
+                    "rec": "1"
+                },
+                "headers": {
+                    "X-Auth-AppID": "DOTAPI_8d473c6a-6fa8-5ef5-9076-dff4f735c663"
+                }
+            },
+            "production": {
+                "body": {
+                    "idsite": "30",
+                    "rec": "1"
+                },
+                "headers": {
+                    "X-Auth-AppID": "DOTAPI_80136ce5-5b79-5fee-9c0d-620a84040546"
+                }
+            }
+        }
+    },
+    "aws": {
+        "urls": {
+            "actionPlugin": {
+                "encryptType": "default",
+                "requestType": "post"
+            },
+            "clientPluginDetail": {
+                "encryptType": "null",
+                "requestType": "get"
+            },
+            "collectorData": {
+                "encryptType": "default",
+                "requestType": "post"
+            },
+            "getDeviceAction": {
+                "authentication": "apiToken",
+                "encryptType": "null",
+                "requestType": "post"
+            },
+            "mupload": {
+                "encryptType": "null",
+                "requestType": "post"
+            }
+        }
+    },
+    "mqtt": {
+        "autoReconnectInterval": 3000,
+        "keepAlive": 3000,
+        "isCleanSession": true
+    },
+    "startUpload": {
+        "retry": 3
+    },
+    "startDownload": {
+        "chunkSize": 100
+    },
+    "savePath": {
+        "update": "../../tmp/update"
+    },
+    "software": {
+        "modelCode": "newaoralscan_domestic",
+        "version": "3.0.0.0"
+    },
+    "soft": {
+        "maxPatch": 10
+    },
+    "autoUpgrade": {
+        "checkInterval": 10
+    },
+    "networkSpeedTest": {
+        "level": {
+            "fast": {
+                "short": 700,
+                "long": 500
+            },
+            "slow": {
+                "short": 14000,
+                "long": 2
+            }
+        }
+    }
+}

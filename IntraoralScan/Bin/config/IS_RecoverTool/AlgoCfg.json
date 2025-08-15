@@ -1,0 +1,14 @@
+{
+    "InitFusionParam": {
+        "pointDis": 0.2,
+        "treeDepth": 11
+    },
+    "Intraoral": {
+        "saveFrameRate": false,
+        "frameSmoothNum": 10,
+        "pauseScanFillHole": true,
+        "fillHoleSimpleColor": false,
+        "autoResetImageDelay": 0,
+        "performanceTestResetTimes": 5
+    }
+}

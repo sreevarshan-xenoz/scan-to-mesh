@@ -1,0 +1,13 @@
+{
+    "Default": {
+        "auxiliaryRec": null,
+        "showDesc": null,
+        "showNoteAndPlan": null,
+        "aiPopupTipVisible": null,
+        "showNotes": null,
+        "showDescAndPlan": null,
+    },
+    "IssueType": {
+        "adult": null
+    }
+}

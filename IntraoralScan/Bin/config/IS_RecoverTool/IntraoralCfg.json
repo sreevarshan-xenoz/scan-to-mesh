@@ -1,0 +1,21 @@
+{
+  "default": {
+    "saveFrameRate": false,
+    "frameSmoothNum": 10,
+    "pauseScanFillHole": true,
+    "fillHoleSimpleColor": false,
+    "autoResetImageDelay": 0,
+    "performanceTestResetTimes": 5,
+    "bEnableDeletedFrames": false
+  },
+  "OEM": {
+    "plyfileCreate": false,
+     "vertexColor":  false
+  },
+  "intraoralDetectionParam": {
+    "enable": true,
+    "detectionNum":  1,
+    "intervalTime":  500,
+    "threshold":  4
+  }
+}

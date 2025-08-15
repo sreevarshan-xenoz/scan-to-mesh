@@ -1,0 +1,14 @@
+{
+    "test": {
+        "en_US": "v0",
+        "zh_CN": "v0"
+    },
+    "rc": {
+        "en_US": "v0",
+        "zh_CN": "v0"
+    },
+    "production": {
+        "en_US": "v0",
+        "zh_CN": "v0"
+    }
+}

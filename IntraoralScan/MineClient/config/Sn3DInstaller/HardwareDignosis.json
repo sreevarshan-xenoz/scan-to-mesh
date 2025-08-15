@@ -1,0 +1,44 @@
+{
+    "cpu":{
+        "intel":{
+            "minimum_configuration":{
+                "minimum_level": "-1",
+                "minimum_generation": "-1" 
+            },
+            "recommened_configuration":{
+                "recommened_level": "7",
+                "recommened_generation": "11"               
+            }
+        },
+        "otherCPU": true
+    },
+    "gpu":{
+        "nvidia":{
+            "minimum_configuration":{
+                "minimum_level": "-1",
+                "minimum_memory": "4"
+            },
+            "recommened_configuration":{
+                "recommened_level": "2060",
+                "recommened_memory": "6"
+            }
+        },
+        "otherGPU": false
+    },
+    "memory":{
+        "minimum_configuration":{
+            "minimum_memory": "-1"
+        },
+        "recommened_configuration":{
+            "recommened_memory": "32"
+        }
+    },
+    "virtualMemory":{
+        "minimum_configuration":{
+            
+        },
+      "recommened_configuration": {
+        "NeedVirtualMemory": true
+      }
+    }
+}

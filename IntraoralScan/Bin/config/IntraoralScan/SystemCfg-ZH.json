@@ -1,0 +1,210 @@
+{
+    "AifilesSizeLimit": {
+        "SizeLimit": 10
+    },
+    "CountryCode": {
+    },
+    "Default": {
+        "EncryptLog": false,
+        "Example": false,
+        "FullOfflineModeSwitchOn": false,
+        "IREnabled": true,
+        "IgnoreJSDTipTempError": false,
+        "OpenErrorCodeDebug": false,
+        "ToughMode": false,
+        "authFuncSalable": false,
+        "authorDynamicType": "dynamic",
+        "calibrationCycle": 30,
+        "devicePairQrcodeSize": 12,
+        "devicePairQrcodeSize_describtion": "设备配对二维码的物理尺寸，单位毫米",
+        "diskFreeLimit": 2,
+        "enableFullOfflineMode": false,
+        "expoMode": false,
+        "logReqParams": true,
+        "memoryLimit": 16,
+        "timestampVisible": true,
+        "touchDoubleClickDistance": 30
+    },
+    "Device": {
+    },
+    "DeviceConnectionTip": {
+        "hasTipedOnStart": false,
+        "showAgain": true
+    },
+    "GraphicCardDriver": {
+        "driverDownloadUrl": "https://www.nvidia.com/en-us/geforce/drivers/"
+    },
+    "Language": {
+        "availableLanguages": [
+            "en_US",
+            "zh_CN",
+            "zh_TW",
+            "fr_FR",
+            "de_DE",
+            "it_IT",
+            "ja_JP",
+            "pt_BR",
+            "ru_RU",
+            "es_ES",
+            "ko_KR",
+            "uk_UA"
+        ],
+        "language": "zh_CN",
+        "languages": {
+            "cs_CZ": {
+                "community": "cs-cz",
+                "forCloudV1": "cz",
+                "name": "Čeština"
+            },
+            "de_DE": {
+                "community": "de-de",
+                "forCloudV1": "de",
+                "name": "Deutsch"
+            },
+            "el_GR": {
+                "community": "el-gr",
+                "forCloudV1": "gr",
+                "name": "Ελληνική"
+            },
+            "en_US": {
+                "community": "en-us",
+                "forCloudV1": "us",
+                "name": "English"
+            },
+            "es_ES": {
+                "community": "es-es",
+                "forCloudV1": "es",
+                "name": "Español"
+            },
+            "fr_FR": {
+                "community": "fr-fr",
+                "forCloudV1": "fr",
+                "name": "français"
+            },
+            "it_IT": {
+                "community": "it-it",
+                "forCloudV1": "it",
+                "name": "italiano"
+            },
+            "ja_JP": {
+                "community": "ja-jp",
+                "forCloudV1": "jp",
+                "name": "日本語"
+            },
+            "ko_KR": {
+                "community": "ko-kr",
+                "forCloudV1": "kr",
+                "name": "한국어"
+            },
+            "pl_PL": {
+                "community": "pl",
+                "name": "Polski"
+            },
+            "pt_BR": {
+                "community": "pt-ptT",
+                "forCloudV1": "ptT",
+                "name": "Português (Brasil)"
+            },
+            "pt_PT": {
+                "community": "pt-ptT",
+                "forCloudV1": "ptT",
+                "name": "Português (Portugal)"
+            },
+            "ru_RU": {
+                "community": "ru-ru",
+                "forCloudV1": "ru",
+                "name": "русский язык"
+            },
+            "tr_TR": {
+                "community": "tr",
+                "name": "Türkçe"
+            },
+            "uk_UA": {
+                "community": "uk-ua",
+                "forCloudV1": "ua",
+                "name": "Українська мова"
+            },
+            "zh_CN": {
+                "community": "zh-cn",
+                "forCloudV1": "cn",
+                "name": "简体中文"
+            },
+            "zh_TW": {
+                "community": "zh-tw",
+                "forCloudV1": "tw",
+                "name": "繁體中文"
+            }
+        }
+    },
+    "MemoryTipCfg": {
+        "notifyLimit": 1,
+        "notifyMiniThreshold": 0.5,
+        "notifyTimes": 1,
+        "timerInterval": 5
+    },
+    "Message": {
+        "enableTest": true
+    },
+    "PcPerformanceTest": {
+        "BadFps": 17,
+        "BestFps": 21,
+        "HasTest": false,
+        "HighFps": 27,
+        "NeedAutoTest": false,
+        "NeedNewTest": false,
+        "NeedNewTest_description": "如果某个版本必须重新进行性能检测，把NeedNewTest置为true",
+        "NeverRemind": false,
+        "TestProcessing": false,
+        "normalFps": 21
+    },
+    "PreViewRC": {
+        "enable": false,
+        "envCacheDefault": "release"
+    },
+    "Server": {
+        "httpSocket": [
+            ":3000",
+            ":3001"
+        ],
+        "open": true
+    },
+    "ShowAgain": {
+        "accuWareClearTip": true,
+        "finishTipPopup": true,
+        "shortcutTip": true
+    },
+    "StretchGuider": {
+        "totalManualAlignGuideExpand": true
+    },
+    "System": {
+        "modelCode": "newaoralscan_domestic",
+        "version": "3.0.0.0",
+        "versionSuffix": "",
+        "versionSuffixEN": "",
+        "visibility": "FullScreen"
+    },
+    "TotalMemory": {
+        "errorLimit": 1,
+        "notifyLimit": 3,
+        "notifyTime": 3,
+        "timerInterval": 5
+    },
+    "Tunnel": {
+        "Channel": "Dental",
+        "HostAddress": "LocalHost",
+        "Port": 18830,
+        "ServiceName": "DentalHub",
+        "SharedMemoryName": "DentalShared",
+        "SharedMemorySize": "4G"
+    },
+    "Update": {
+        "autoDownload": true,
+        "ignoredMaxVersion": "0.0.0.0"
+    },
+    "User": {
+        "enableTest": true
+    },
+    "UserBehaviorCollection": {
+        "CanSendToCloud": true
+    }
+}

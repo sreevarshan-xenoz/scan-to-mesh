@@ -1,0 +1,94 @@
+{
+  "OrderType": [
+    {
+      "source": "IntraoralScan",
+      "format": "IntraOral",
+      "config": "default.json",
+      "suffix": "inProject",
+      "nameFilter": "*.inProject",
+      "sourceFilter": true,
+      "import": true,
+      "export": false
+    },
+    {
+      "source": "exocad",
+      "format": "Exo",
+      "config": "exocad.json",
+      "suffix": "dentalProject",
+      "nameFilter": "*.dentalProject",
+      "sourceFilter": true,
+      "import": true,
+      "export": true
+    },
+    {
+      "source": "3rd party order",
+      "format": "Itero",
+      "config": "thirdparty.json",
+      "suffix": "",
+      "nameFilter": "",
+      "sourceFilter": false,
+      "import": false,
+      "export": false
+    },
+    {
+      "source": "dental wings",
+      "format": "DentalWings",
+      "config": "dentalwings.json",
+      "suffix": "xorder",
+      "nameFilter": "*.xorder",
+      "sourceFilter": false,
+      "import": false,
+      "export": false
+    },
+    {
+      "source": "Common3rd",
+      "format": "Common3rd",
+      "config": "default.json",
+      "suffix": "",
+      "nameFilter": "",
+      "sourceFilter": true,
+      "import": false,
+      "export": false
+    },
+    {
+      "source": "ScanOnlyFor3rd",
+      "format": "ScanOnlyFor3rd",
+      "config": "default3rd.json",
+      "suffix": "",
+      "nameFilter": "",
+      "sourceFilter": true,
+      "import": false,
+      "export": false
+    },
+    {
+      "source": "DoctorAssist",
+      "format": "DoctorAssist",
+      "config": "default3rd.json",
+      "suffix": "",
+      "nameFilter": "",
+      "sourceFilter": true,
+      "import": false,
+      "export": false
+    },
+    {
+      "source": "OpenDental",
+      "format": "Common3rd",
+      "config": "opendental.json",
+      "suffix": "",
+      "nameFilter": "",
+      "sourceFilter": true,
+      "import": false,
+      "export": false
+    },
+    {
+      "source": "VDDS",
+      "format": "VDDS",
+      "config": "vdds.json",
+      "suffix": "",
+      "nameFilter": "",
+      "sourceFilter": true,
+      "import": false,
+      "export": false
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+    "relatedGuides": {
+    },
+    "guides": {
+        "ExtraScan_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "OcclusionModel_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "MultipleOcclusal_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "AfterAddExtraScan_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "MultipleOcclusalDesign_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ExtraScanDesign_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "OcclusionModeScanFlow_guide_total": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ScanAndAlign_guide_total": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ScanAlign_guide_total": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "OcclusionModeScanFlow_guide_half": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ScanAndAlign_guide_half": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ScanAlign_guide_half": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ExtraAlignModelType_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ExtraAlignScan_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ExtraAlignBroad_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ExtraAlignButton_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ImpressionScanButton_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "ExtraAlignDesign_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "YunshuSend_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "YunshuCBCTText_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "YunshuCBCTImage_guide": {
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "YunshuOrder_guide":{
+            "enabled": true,
+            "version": "3.4.00",
+            "relation": ""
+        },
+        "TotalManualAlign_guide":{
+            "enabled": true,
+            "version": "3.4.20",
+            "relation": ""
+        },
+        "MyostaticToolBar_guide": {
+            "enabled": true,
+            "version": "3.4.20",
+            "relation": ""
+        },
+        "MyostaticSubFlowBar_guide":{
+            "enabled": true,
+            "version": "3.4.20",
+            "relation": ""
+        },
+        "MyostaticAreaLockOperBar_guide": {
+            "enabled": true,
+            "version": "3.4.20",
+            "relation": ""
+        },
+        "PrepareTooth_guide": {
+            "enabled": true,
+            "version": "3.5.30",
+            "relation": ""
+        }
+    },
+    "passage": {
+        "scanPassage": {
+            "scences": {
+                "DefaultScence": [
+                    "OcclusionModeScanFlow_guide_half",
+                    "OcclusionModeScanFlow_guide_total",
+                    "ExtraScan_guide",
+                    "ExtraAlignButton_guide",
+                    "MyostaticToolBar_guide",
+                    "ImpressionScanButton_guide",
+                    "ExtraAlignScan_guide",
+                    "ExtraAlignBroad_guide",
+                    "AfterAddExtraScan_guide",
+                    "ScanAndAlign_guide_total",
+                    "ScanAlign_guide_total",
+                    "ScanAndAlign_guide_half",
+                    "ScanAlign_guide_half",
+                    "MultipleOcclusal_guide",
+                    "MyostaticSubFlowBar_guide",
+                    "MyostaticAreaLockOperBar_guide",
+                    "TotalManualAlign_guide",
+                    "PrepareTooth_guide"
+                ],
+                "PrepareToothScence" : ["PrepareTooth_guide"]
+            }
+        },
+        "orderPassage": {
+            "scences": {
+                "DefaultScence": ["YunshuOrder_guide","OcclusionModel_guide" ]
+            }
+
+        },
+        "designPassage": {
+            "scences": {
+                "DefaultScence": [ "MultipleOcclusalDesign_guide", "ExtraScanDesign_guide", "ExtraAlignDesign_guide" ]
+            }
+        },
+        "exportYunshuPassage": {
+            "scences": {
+                "DefaultScence": [],
+                "CBCTScence": ["YunshuCBCTImage_guide" ],
+                "ExportScence": [ "YunshuSend_guide", "YunshuCBCTText_guide"]
+            }
+        },
+        "popupPassage": {
+            "scences": {
+                "ExtraAlignTypeSence": [ "ExtraAlignModelType_guide" ]
+            }
+        }
+    }
+}

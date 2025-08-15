@@ -1,0 +1,43 @@
+{
+  "productName": "IntraoralScan",
+  "titleContent": "MineClient",
+  "version": "1.0.12.0",
+  "defaultInstallPath": "D:/Shining3D",
+  "selectInstallPathPre": "Shining3D",
+  "softLauncher": "${installPath}/IntraoralScan/Bin/DentalLauncher.exe",
+  "scanningBinderPath": "${installPath}/IntraoralScan/Bin/ScanningBinder.exe",
+  "installedSn3DInstallerConfigPath": "${installPath}/IntraoralScan/MineClient/config/Sn3DInstaller/SnInstallerCfg.json",
+  "language": "",
+  "executeCommand": "install",
+  "log": {
+    "path": "${temp}/Shining3d/Sn3DInstaller",
+    "loggingRules": "quickcloud.lib.debug=false\nquickcloud.dll.debug=false",
+    "openConsole": false,
+    "expiredDateNum": 7
+  },
+  "preLaunchCheckExe": ["IntraoralScan", "DentalViewer", "DentalLauncher", "DentalHub"],
+  "productFolder": "DentalLauncher",
+  "checkConflictPath":
+  [
+    {
+      "settingPath":"HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\DentalScan.exe",
+      "key":"path",
+      "folderName":"DentalScan"
+    },
+    {
+      "settingPath":"HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\UltraLauncher.exe",
+      "key":"path",
+	  "folderName":"UltraLauncher"
+    },
+    {
+      "settingPath":"HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\HearingAidScan.exe",
+      "key":"path",
+	  "folderName":"HearingAidScan"
+    },
+    {
+      "settingPath":"HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\FSLauncher.exe",
+      "key":"path",
+	  "folderName":"FaceScan"
+    }
+  ]
+}

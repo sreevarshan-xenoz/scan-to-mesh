@@ -1,0 +1,252 @@
+{
+  "autoFeatureRegParam": {
+    "houghBinSize": 0.6,
+    "objSampleRadius": 0.3,
+    "refSamplingRadius": 0.6,
+    "featureRadius": 3.0,
+    "uniformSampleRadius": 0.5
+  },
+  "buildFusionICPStableParam": {
+    "StableRatioTH0": 1500,
+    "StableRatioTH1": 900,
+    "bIsPlant": 0,
+    "bIsTotalJaw": 0,
+    "icpStableThresholdBuild": 5,
+    "icpStableThresholdFeatureRegist": 10
+  },
+  "buildFusionICPStableParam_Implant": {
+    "StableRatioTH0": 1500,
+    "StableRatioTH1": 900,
+    "bIsPlant": true,
+    "bIsTotalJaw": 0,
+    "icpStableThresholdBuild": 20,
+    "icpStableThresholdFeatureRegist": 10
+  },
+  "buildParam": {
+    "bIsOutPutCalibParam": 0,
+    "disAvg3dIcpTh": 0.12,
+    "disAvgPixTh": 2.5,
+    "gauSmoothWid": 5,
+    "gauXwid": 7,
+    "grayTH": 5,
+    "height": 488,
+    "iter3dIcpNum": 10,
+    "iterNum": 5,
+    "length": 10,
+    "maxFindRane": 9,
+    "minFindRane": 9,
+    "rebType": 0,
+    "sigma": 1,
+    "width": 648,
+    "nearPixelGrayThresh": 1.0,
+    "depthMin": 119,
+    "depthMaxOffset": 4
+  },
+  "buildValidRange": {
+    "bottomCut": 0,
+    "leftCut": 80,
+    "rightCut": 80,
+    "topCut": 0
+  },
+  "compress": {
+  },
+  "decompress": {
+  },
+  "deleteIslandParam": {
+    "getShowDataDeleteIslandFreq": 30,
+    "getShowDataDeleteIslandNumTH": 2000,
+    "pointImageDeleteIslandNum": 500,
+    "rayCastDeleteIslandFreq": 3
+  },
+  "featureRegCheckParam": {
+    "convergence": 1e-05,
+    "fineDistance": 0.1,
+    "finePercentage": 0.6,
+    "maxAvgMoveDis": 3,
+    "maxIterTime": 4,
+    "searchRadius": 2,
+    "seedNum": 2000
+  },
+  "featureRegCheckParamSimpleMesh": {
+    "convergence": 1e-05,
+     "fineDistance": 0.1,
+    "finePercentage": 0.6,
+    "maxAvgMoveDis": 3,
+    "maxIterTime": 4,
+    "searchRadius": 2,
+    "seedNum": 2000
+  },
+  "featureRegistMeshDS": {
+    "featureRegParam": {
+      "default": {
+        "featureRadius": 3,
+        "houghBinSize": 1,
+        "objSampleRadius": 0.5,
+        "refSamplingRadius": 1
+      }
+    }
+  },
+  "fusionParam": {
+    "codeNumSet": 4,
+    "currPointOffsetShow": 0.1,
+    "frequencyOfDeleteIsland": 20,
+    "fusionLimitNum": 1500,
+    "fusionLimitNumFeature": 2000,
+    "pointDis": 0.2,
+    "treeDepth": 11,
+    "viewBox0": 119,
+    "viewBox1Expand": 3.0,
+    "viewThreshold": 15.0
+  },
+  "meshICP": {
+    "maxCrossDist": 0.5,
+    "maxIterNum": 50,
+    "maxSearchRadius": 3,
+    "minSearchRadiu": 0.5,
+    "pairNormalMax": 0.7854,
+    "retainRatio": 1,
+    "seedNum": 2000,
+    "stopDiff": 1e-05
+  },
+  "pauseRefineMeshParam": {
+    "isOral": 1,
+    "minNumTris": 500,
+    "minNumVertex": 500
+  },
+  "realTimeMutiMeshIcpParam": {
+    "applyRt": true,
+    "crossFilterDist": 0.2,
+    "crossRadius": 3,
+    "crossSeedIncreaseTime": 1.5,
+    "durationNum": 5,
+    "maxCrossDist": 0.02,
+    "maxCrossSeedNum": 50000,
+    "maxIterNum": 50,
+    "maxSearchRadiu": 3,
+    "maxThreadNum": -1,
+    "minCrossSeedNum": 1000,
+    "minSearchRadiu": 1,
+    "pairNormalMax": 45,
+    "retainRatio": 1,
+    "searchRadiusDecreaseTime": 10,
+    "seedNum": 2000,
+    "stopDiff": 1e-05,
+    "validNormalMax": 100
+  },
+  "realtimeRegistParam": {
+    "bEnable": 1,
+    "combineDistance": 0.002,
+    "isIntraoral": 1,
+    "leastUpdateThre": 100,
+    "maxUpdateThre": 500,
+    "simpleRate": 4,
+    "threadSafe": 1,
+    "updateDis": 0.3
+  },
+  "scanFlags": {
+    "bApplayRealtimeReg": true,
+    "bEnableAutoGain": true,
+    "bEnableColorCompensate": false,
+    "bEnableColorTrack": true,
+    "bEnableMetalTeeth": false,
+    "bEnableTeethAI": false,
+    "IntraoralScan": true
+  },
+  "scanImgParam": {
+    "cameraHeight": 488,
+    "cameraNum": 2,
+    "cameraWidth": 648,
+    "imageHeight": 488,
+    "imageWidth": 648,
+    "projectorHeight": 0,
+    "projectorWidth": 0,
+    "sampleRatio": 4
+  },
+  "trackParamSelect":{
+    "cameraWidthSplit":[800],
+    "trackParamKey":["trackParam", "trackParam_2"]
+  },
+  "trackParam": {
+    "disUniform": 0.3,
+    "icpDis0": 3,
+    "icpDis1": 10,
+    "icpDisAvgFeatureThread_intraoral": 0.07,
+    "icpDisAvgFeatureThread_outoral": 0.05,
+    "icpDisAvgFeatureThread": 0.05,
+    "icpDisAvgThreadMax": 0.055,
+    "icpDisAvgThread": 0.049,
+    "icpDisFeature0": 0.4,
+    "icpDisFeature1": 0.4,
+    "icpInterNumFixed": 1,
+    "icpIterNum": 8,
+    "icpParticleSize": 0.7,
+    "icpRataRay0": 0.2,
+    "icpRataRay1": 0.3,
+    "icpRataRayMax": 0.5,
+    "icpRataRayFeature0": 0.3,
+    "icpRataRayFeature1": 0.4,
+    "validNumMoveOfDisAvgLarge": 5000,
+    "disAvgThOfStable": 0.045,
+    "rataRayOfStable0": 0.4,
+    "rataRayOfStable1": 0.5,
+    "trackParamSmall": {
+      "validNumMoveOfDisAvgLarge": 1500,
+      "icpRataRay0": 0.0,
+      "icpRataRay1": 0.3,
+      "disAvgThOfStable": 0.045,
+      "rataRayOfStable0": 0.0,
+      "rataRayOfStable1": 0.4
+    }
+  },
+  "multiTriMeshIcpForDental": {
+    "applyRt": true,
+    "seedNum": 1000,
+    "maxIteNum": 20,
+    "maxRadius": 3.0,
+    "minRadius": 1.0,
+    "stopDiff": 0.0000001,
+    "retainRatio": 0.9,
+    "maxNormalAngle": 0.78539815
+  },
+  "trackParam_2": {
+    "disUniform": 0.3,
+    "icpDis0": 3,
+    "icpDis1": 10,
+    "icpDisAvgFeatureThread_intraoral": 0.07,
+    "icpDisAvgFeatureThread_outoral": 0.05,
+    "icpDisAvgFeatureThread": 0.05,
+	  "icpDisAvgThreadMax":0.05,
+    "icpDisAvgThread": 0.045,
+    "icpDisFeature0": 0.4,
+    "icpDisFeature1": 0.4,
+    "icpInterNumFixed": 1,
+    "icpIterNum": 8,
+    "icpParticleSize": 0.7,
+    "icpRataRay0": 0.2,
+    "icpRataRay1": 0.3,
+	  "icpRataRayMax":0.5,
+    "icpRataRayFeature0": 0.3,
+    "icpRataRayFeature1": 0.4
+  },
+  "multiDieAlignParam": {
+    "objSampleRadius": 0.5,
+    "refSamplingRadius": 0.5,
+    "featureRadius": 2.5,
+    "houghBinSize": 0.8,
+    "maxNum": 30,
+    "abutmentDis": 2.5,
+    "seedNum": 2000,
+    "maxIteNum": 50,
+    "maxRadius": 1.5,
+    "stopDiff": 0.0000001,
+    "retainRatio": 1,
+    "maxNormalAngle": 0.78539815,
+    "corrDistThreshold": 0.5,
+    "kCorrespondences": 10,
+    "lmInitLambdaFactor": 0,
+    "lmLambda": 0.5,
+    "lmMaxIterations": 50,
+    "bRemesh": false,
+    "bGicp": false
+  }
+}

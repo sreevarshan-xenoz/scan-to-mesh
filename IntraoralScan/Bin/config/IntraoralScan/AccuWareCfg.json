@@ -1,0 +1,22 @@
+{
+    "HistoryAccuWareInfo": {
+        "version": "",
+        "printType": "",
+        "printName": "",
+        "commpany": "",
+        "material": "",
+        "thick":""
+    },
+    "DeivceTypeMapping": {
+        "AccuFab-D1": "1",
+        "AccuFab-D1s": "2",
+        "AccuFab-C1": "3",
+        "AccuFab-C1s": "4",
+        "AccuFab-L4D": "5",
+        "AccuFab-L4K": "6",
+        "AccuFab-L6D": "7",
+        "AccuFab-D22": "8",
+        "AccuFab-D1sUltra": "9",
+        "AccuFab-L4DPlus": "10"
+    }
+}

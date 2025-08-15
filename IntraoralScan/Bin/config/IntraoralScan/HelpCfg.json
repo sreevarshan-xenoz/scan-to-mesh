@@ -1,0 +1,220 @@
+{
+    "Support": {
+        "Url": {
+            "EN": "https://support.shining3ddental.com/en/support/home",
+            "ZH": "https://3dsupport.qiyukf.com/client?k=fd6f1b3e5030e20130f1315ccd143ab9&wp=1&robotShuntSwitch=0&gid=480468592"
+        }
+    },
+    "TeamViewer": {
+        "Path": {
+            "EN": "../../TeamViewer/S3D_TeamViewer_EN",
+            "OEM": "../../TeamViewer/TeamViewer",
+            "ZH": "../../TeamViewer/S3D_TeamViewer_ZH"
+        }
+    },
+    "UserManual": {
+        "docs": [
+            {
+                "deviceName": "AoralScan 2",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan2",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan2/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan2",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan2/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "AoralScan 3",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan3",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3-simple/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan3",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3-simple/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "AoralScan 3 标配",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan3s",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3s/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan3s",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3s/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "AoralScan L",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "AoralscanL",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscanl-simple/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "AoralscanL",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscanl-simple/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Aoralscan L+",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan L+",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscanl-b/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan L+",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscanl/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Aoralscan L+ Pro",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan L+ Pro",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscanlp/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan L+ Pro",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscanlp/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "AoralScan 3i",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan3i",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3i/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan3i",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3i/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Aoralscan 3 Wireless",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan3w",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3w/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan3w",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3w/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Aoralscan Elite",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "AoralscanElite",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/elite/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "AoralscanElite",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/elite/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Aoralscan 3 Wireless NEO",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan3w-neo",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3w-neo/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan3w-neo",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3w-neo/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Inscan",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "InScan",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/inscan/zh-cn/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Star Scan",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "StarScan",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/starscan/zh-cn/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Aoralscan 3i Wireless",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan3iw",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3iw/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan3iw",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3iw/en-us/overview/"
+                    }
+                ]
+            },
+            {
+                "deviceName": "Aoralscan 3iP",
+                "doc": [
+                    {
+                        "language": "zh_CN",
+                        "offlineFolder": "Aoralscan3ip",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3ip/zh-cn/overview/"
+                    },
+                    {
+                        "language": "en_US",
+                        "offlineFolder": "Aoralscan3ip",
+                        "urlOnline": "https://docs.shining3d.com/intraoralscan/%version%/aoralscan3ip/en-us/overview/"
+                    }
+                ]
+            }
+        ],
+        "offlineFileSuffix": "pdf"
+    }
+}

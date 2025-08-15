@@ -1,0 +1,34 @@
+{
+    "features": {
+        "cameraSubWindow": true,
+        "designIRViewButton": true,
+        "perferencesSettings": true,
+        "navHelp": true,
+        "shortcutManualMenu": true,
+        "screenShotSwipView": true,
+        "multipleOcclusalRelationship": true,
+        "removableDenture": true,
+        "extraScan": true,
+        "extraAlign": true,
+        "impressionScan": true,
+        "announcement": false,
+        "totalManualAlign": true,
+        "designMoreApplication": true,
+        "markPointTip": true,
+        "alignCheckBtn": true
+    },
+    "dependOn": {
+        "navHelp": ["shortcutManualMenu", "announcement"]
+    },
+    "dependBy": {
+        "shortcutManualMenu": ["navHelp"],
+        "announcement": ["navHelp"]
+    },
+    "guides": {
+        "newbieGuideEnableFlag": true,
+        "showedGuides": []
+    },
+    "toolsBubble": {
+    	"markPoint": true
+    }
+}

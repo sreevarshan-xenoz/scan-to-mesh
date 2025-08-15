@@ -1,0 +1,45 @@
+{
+    "Tunnel": {
+        "Channel": "Dental",
+        "HostAddress": "LocalHost",
+        "Port": 18830,
+        "ServiceName": "DentalHub",
+        "SharedMemoryName": "DentalShared",
+        "SharedMemorySize": "2G"
+    },
+    "Default": {
+        "retryInterval": 3000,
+        "EncryptLog": false,
+        "orderUserCloud": "cloud",
+        "cloudEnvironment": "test",
+        "logExpiredDateNum": 7,
+        "openConsole": false,
+        "logToFile": true,
+        "modelCode": "newaoralscan_domestic",
+        "version": "3.0.0.0",
+        "funcTimeout": 30,
+        "specUrlTimeout": {
+            "setConfigData": 12,
+            "userLogin": 120,
+            "codeLogin": 120,
+            "dentalPatientDetailV2": 6,
+            "dentalOrderDetailV2": 12,
+            "serviceStatus": 8,
+            "eventTracking": 12,
+            "unsubscribe": 6,
+            "disconnectFromServer": 6,
+            "scanningRodFactoryBox": 3,
+            "scanningRodBoxDetail": 3,
+            "scanningRodSync": 3,
+            "patientMerge": 600,
+            "startDownload:start": -1,
+            "autoUpgrade:startDownload": -1,
+            "startUpload:start": -1
+        }
+    },
+    "SavePath": {
+        "update": "../../tmp/update",
+        "adsSavePath": "../../tmp/ads",
+        "reportPath": "../../tmp/report"
+    }
+}

@@ -1,0 +1,16 @@
+﻿{
+    "UI": {
+        "visibility": "FullScreen",
+        "useCloud": false,
+        "useOrderSystem": false,
+        "hideAfterFinishing": true,
+        "trySkippingEditing": false
+    },
+    "ParseOrder": {
+        "tempOrderDirPath": "./DentalWingsOrders"
+    },
+    "ExportOrder": {
+        "modelSuffix": "obj",
+        "insertSituAsWaxUp": true
+    }
+}

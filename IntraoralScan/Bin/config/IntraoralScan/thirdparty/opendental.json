@@ -1,0 +1,13 @@
+{
+    "UI": {
+        "visibility": "FullScreen",
+        "useCloud": true,
+        "useOrderSystem": true,
+        "hideAfterFinishing": false,
+        "trySkippingEditing": false,
+        "attachFilters": []
+    },
+    "ParseOrder": {
+        "intraoral": true
+    }
+}

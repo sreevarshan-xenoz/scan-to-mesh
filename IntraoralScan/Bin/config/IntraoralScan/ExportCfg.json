@@ -1,0 +1,27 @@
+﻿{
+    "defaultOptions":{
+        "exportDirPath":"",
+        "CADType":"Exocad",
+        "dataFormats": ["OBJ"]
+    },
+    "dataFormats":["OBJ", "PLY", "STL"],
+    "CADTypes":["Exocad", "DentalWings", "3rd party"],
+    "CADOption":{
+        "DentalWings":{
+            "defaultDataFormat": "OBJ",
+            "innerKey": "DentalWings",
+            "folderSuffix": "dw"
+        },
+        "Exocad":{
+            "defaultDataFormat": "OBJ",
+            "innerKey": "Exo",
+            "folderSuffix": "exo"
+        },
+        "3rd party":{
+            "defaultDataFormat": "PLY",
+            "innerKey": "Itero",
+            "folderSuffix": "3rd",
+            "unsupportFormats": ["OBJ"]
+        }
+    }
+}

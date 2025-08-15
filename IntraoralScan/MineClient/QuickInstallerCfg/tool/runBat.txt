@@ -1,0 +1,16 @@
+' 检查参数是否正确
+
+' 获取传入的参数
+batFile = WScript.Arguments(0)
+Dim arguments
+If WScript.Arguments.Count > 1 Then
+	arguments = WScript.Arguments(1)
+End If
+
+
+
+' 创建Shell对象
+Set WshShell = CreateObject("WScript.Shell")
+
+' 运行.bat文件，并传入参数
+WshShell.Run """" & batFile & """ " & arguments, 0, True

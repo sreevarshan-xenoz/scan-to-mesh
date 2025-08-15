@@ -1,0 +1,10 @@
+{
+    "SaveOption": {
+        "orderDataPath": "C:/DentalOrder",
+        "thirdPartySuffix": "_thirdParty",
+        "independentThirdPartyFolder": false,
+        "independentThirdPartyFolderName": "thirdparty",
+        "minSpaceMB": 1,
+        "maxFilePathLength": 210
+    }
+}

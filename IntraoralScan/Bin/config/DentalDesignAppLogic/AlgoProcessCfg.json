@@ -1,0 +1,113 @@
+{
+  "Default": {
+    "RmvSmallPathSize": 1000
+  },
+  "MeshSimplification": {
+    "qemSimplify_remainRatio": 0.5,
+    "qemSimplify_boundaryWeight": 1.0,
+    "qemSimplify_isCheckFaceFlip": true,
+    "qemSimplify_isFeatureSensitive": true,
+    "qemSimplify_bParallel": true
+  },
+  "FillHoleParam": {
+    "fillHole_max_v_num": 1200,
+    "fillHole_max_area": 0,
+    "fillHole_max_hole_normal": 0,
+    "fillHole_max_area_cir2_ratio": 0,
+    "fillHole_connect_factor": 2.5,
+    "fillHole_smooth_ring_num": 3,
+    "fillHole_smooth_ring_num_IS": 0,
+    "fillHole_smooth_type": 2,
+    "fillHole_smooth_type_IS": 2,
+    "fillHole_smooth_fix_vertex": 1,
+    "fillHole_weight_type": 1,
+    "fillHole_remesh_iterator": 0,
+    "fillHole_refine_factor": 1.7,
+    "fillHole_uniform_refine": 1,
+    "fillHole_advancedMode": 0,
+    "fillHole_triangulation_type": 1,
+    "fillHole_remesh_point_dis": 1,
+    "fillHole_max_perimeter": 150,
+    "fillHole_showHoleThresholdValue": 50,
+    "fillHole_bShowHoleAfterProcessAll": 0,
+    "fillHole_bUpdateTexture": true,
+    "fillHole_holeTexColorR": 0.4,
+    "fillHole_holeTexColorG": 0.4,
+    "fillHole_holeTexColorB": 0.4
+  },
+  "bestViewImageParams": {
+    "minMeshPointNum": 2000,
+    "featureRegParam": {
+      "houghBinSize": 0.6,
+      "objSampleRadius": 0.3,
+      "refSamplingRadius": 0.6,
+      "featureRadius": 3.0
+    },
+    "jawFeatureRegCheckParam": {
+      "convergence": 1e-05,
+      "fineDistance": 0.1,
+      "finePercentage": 0.6,
+      "maxAvgMoveDis": 3,
+      "maxIterTime": 4,
+      "searchRadius": 2,
+      "seedNum": 2000
+    },
+    "selectBestViewImages": {
+      "viewDirCoef": 1.0,
+      "topDirCoef": 1.0,
+      "imageUVCoef": 1.0,
+      "viewPosDirAngleThre": 80.0,
+      "viewPosUVThre": 0.7
+    }
+  },
+  "dentalArticulation": {
+    "maxCrossDis": [
+      0.05,
+      0.10,
+      0.20,
+      0.30
+    ],
+    "importantRegion": [
+    ]
+  },
+  "dentalRegistration": {
+    "boundaryRadius": 0.0,
+    "maxIterNum": 50,
+    "seedNum": 1000,
+    "durationNum": 5,
+    "minCrossSeedNum": 1000,
+    "maxCrossSeedNum": 50000,
+    "crossSeedIncreaseTime": 1.5,
+    "minSearchRadiu": 1.0,
+    "maxSearchRadius": 3.0,
+    "searchRadiusDecreaseTime": 10.0,
+    "pairNormalMax": 45.0,
+    "validNormalMax": 100.0,
+    "retainRatio": 1.0,
+    "stopDiff": 0.0001,
+    "crossFilterDist": 0.3,
+    "crossRadius": 3.0,
+    "maxCrossDis": [
+      0.05,
+      0.10,
+      0.20,
+      0.30
+    ]
+  },
+  "occlusion": {
+    "crossPlaneRadius": 30.0
+  },
+  "DicomMeshICP": {
+    "description": "",
+    "enable": true,
+    "seedNum": 20000,
+    "maxIterNum": 50,
+    "maxSearchRadius": 3.0,
+    "minSearchRadiu": 0.5,
+    "maxCrossDist": 0.5,
+    "stopDiff": 1e-5,
+    "retainRatio": 1,
+    "pairNormalMax": 0.7854,
+    "doIcpFlag": true
+  }
+}

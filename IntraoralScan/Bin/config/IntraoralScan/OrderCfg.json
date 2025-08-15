@@ -1,0 +1,162 @@
+{
+    "OrderSystem": {
+        "enabled": true,
+        "refreshInfoTimeSpan": 5,
+        "CurStandardTimeSpan": 24,
+        "MaxRetrySendOnlineTimes": 3
+    },
+    "NewOption": {
+        "defaultDentistry": "SDENTT_Restoration"
+    },
+    "SaveOption": {
+        "importOrderDataPath": "",
+        "orderDataPath": "",
+        "createFormats": "Exo",
+        "orderNamingRule": ["DateTime", "DoctorCode", "ID"],
+        "thirdPartySuffix": "_thirdParty",
+        "independentThirdPartyFolder": false,
+        "independentThirdPartyFolderName": "thirdparty",
+        "randomID": false
+    },
+    "ImagePath": {
+        "model": "/modelPreview.png"
+    },
+    "Filters": {
+        "hideCloudOrder": true
+    },
+    "UI": {
+        "dentalNotation": "SDNT_FDI",
+		"preopScan": "Maxillofacial_Select",
+        "tableElement": [{
+                "element": "orderNumber",
+                "width": 250
+            }, {
+                "element": "patientName",
+                "width": 164
+            }, {
+                "element": "dentistry",
+                "width": 220
+            }, {
+                "element": "orderState",
+                "width": 280
+            }, {
+                "element": "createTime",
+                "width": 258
+            }, {
+                "element": "func",
+                "width": 200
+            }
+        ],
+      "patientTableElement": [
+        {
+          "element": "patientName",
+          "width": 208
+        },
+        {
+          "element": "patientSex",
+          "width": 188
+        },
+        {
+          "element": "patientAge",
+          "width": 180
+        },
+        {
+          "element": "contactInfo",
+          "width": 288
+        },
+        {
+          "element": "createTime",
+          "width": 226
+        },
+        {
+          "element": "func",
+          "width": 200
+        }
+      ]
+    },
+    "Path": {
+        "exocad": "../../DentalCADApp/bin/DentalCADApp.exe"
+    },
+    "ToothColor": {
+        "type_N1": [
+            "",
+            "A1",
+            "A2",
+            "A3",
+            "A3.5",
+            "A4",
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "D2",
+            "D3",
+            "D4",
+            "0M1",
+            "0M2",
+            "0M3"
+        ],
+        "type16": [
+            "A1",
+            "A2",
+            "A3",
+            "A3.5",
+            "A4",
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "D1",
+            "D2",
+            "D3",
+            "D4"
+        ],
+        "type26": [
+            "1M1",
+            "1M2",
+            "2L1.5",
+            "2L2.5",
+            "2M1",
+            "2M2",
+            "2M3",
+            "2R1.5",
+            "2R2.5",
+            "3L1.5",
+            "3L2.5",
+            "3M1",
+            "3M2",
+            "3M3",
+            "3R1.5",
+            "3R2.5",
+            "4L1.5",
+            "4L2.5",
+            "4M1",
+            "4M2",
+            "4M3",
+            "4R1.5",
+            "4R2.5",
+            "5M1",
+            "5M2",
+            "5M3"
+        ]
+    },
+    "HistoryDateDel": {
+        "autoDelData": true,
+        "minDiskAvailable": 20,
+        "remindInterval": "15",
+        "lastRemindDate": "",
+        "retainDays": 1
+    },
+	"UserUseIr":{
+        "CommonDentistryType":false,
+        "Other":true
+	}
+}

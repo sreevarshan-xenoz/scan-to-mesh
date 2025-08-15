@@ -1,0 +1,15 @@
+﻿{
+    "UI": {
+        "visibility": "FullScreen",
+        "useCloud": true,
+        "useOrderSystem": true,
+        "hideAfterFinishing": true,
+        "trySkippingEditing": true
+    },
+    "ExportOrder": {
+        "matrixFileName": "EXO_IntraoralScan.matrix4"
+    },
+    "PostprocessOrder": {
+        "exportMatrix": true
+    }
+}

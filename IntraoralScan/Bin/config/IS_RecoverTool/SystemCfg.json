@@ -1,0 +1,31 @@
+{
+  "Default": {
+    "EncryptLog": false,
+    "errorContinue": false,
+    "autoRestoreOrder": false,
+    "startClearHub": true,
+    "savePostTempMeshJaw": [],
+    "filterHandelJaw": []
+  },
+  "Tunnel": {
+    "Channel": "ISRecoverTool",
+    "HostAddress": "LocalHost",
+    "Port": 1883,
+    "SharedMemoryName": "ISRecoverToolShared",
+    "SharedMemorySize": "2G"
+  },
+  "beb": {
+    "version": "001",
+    "src": "001",
+    "mode": "",
+    "allowCrossOpen": true,
+    "allowExport": false,
+    "author": "shining3d"
+  },
+  "OnlyFrame2Mesh": {
+    "frame2Mesh": false,
+    "doPostMesh": false
+  },
+  "logFileOutmodel": "1",
+  "version": "2.0.0.0R"
+}

@@ -1,0 +1,717 @@
+{
+    "supportDevices": [
+        {
+            "disableAuthFunctions": [
+                "RemovableDenture"
+            ],
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_A2",
+                    "scanPage": "imu/scan_imu"
+                },
+                "about": "aoral_scan2.png",
+                "calibration": [
+                    "cali_step1.png",
+                    "cali_step2.png",
+                    "cali_step3.png"
+                ],
+                "connection": {
+                    "fullTip": true,
+                    "image": "AOS.png",
+                    "imageHeight": 538,
+                    "imageWidth": 711
+                },
+                "stateBar": {
+                    "scanner": "scanner.svg"
+                }
+            },
+            "isNative": false,
+            "name": "AOS",
+            "softModel": "IOS-3",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disableAuthFunctions": [
+                "PreparedTeethMonitoring",
+                "RemovableDenture",
+                "IBT",
+                "TempCrownDesign",
+                "CreSplint"
+            ],
+            "disabled": false,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3",
+                    "longPressed": "imu/imu_long_pressed_IScan_3",
+                    "oneClick": "imu/imu_click_IScan_3",
+                    "scanPage": "imu/scanIS3_imu"
+                },
+                "about": "aoral_scan3.png",
+                "calibration": [
+                    "cali_step1_IScan3.png",
+                    "cali_step2_IScan3.png",
+                    "cali_step3_IScan3.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3.png",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3"
+                },
+                "stateBar": {
+                    "scanner": "scannerA3.svg"
+                }
+            },
+            "isNative": false,
+            "name": "AOS3",
+            "softModel": "IOS-3",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3",
+                    "longPressed": "imu/imu_long_pressed_IScan_3",
+                    "oneClick": "imu/imu_click_IScan_3",
+                    "scanPage": "imu/scanIS3_imu"
+                },
+                "about": "aoral_scan3.png",
+                "calibration": [
+                    "cali_step1_IScan3.png",
+                    "cali_step2_IScan3.png",
+                    "cali_step3_IScan3.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3.png",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3"
+                },
+                "stateBar": {
+                    "scanner": "scannerA3.svg"
+                }
+            },
+            "isNative": false,
+            "name": "A3S",
+            "softModel": "IOS-3",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disableAuthFunctions": [
+                "PreparedTeethMonitoring",
+                "RemovableDenture",
+                "IBT",
+                "TempCrownDesign",
+                "CreSplint"
+            ],
+            "disabled": false,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3",
+                    "longPressed": "imu/imu_long_pressed_IScan_3",
+                    "oneClick": "imu/imu_click_IScan_3",
+                    "scanPage": "imu/scanIS3_imu"
+                },
+                "about": "aoral_scan3_lab.png",
+                "calibration": [
+                    "cali_step1_IScan3_lab.png",
+                    "cali_step2_IScan3_lab.png",
+                    "cali_step3_IScan3_lab.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3L.svg",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3"
+                },
+                "stateBar": {
+                    "scanner": "scannerA3.svg"
+                }
+            },
+            "isNative": false,
+            "name": "AOS3-LAB",
+            "softModel": "IOS-3",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3",
+                    "longPressed": "imu/imu_long_pressed_IScan_3",
+                    "oneClick": "imu/imu_click_IScan_3",
+                    "scanPage": "imu/scanIS3_imu"
+                },
+                "about": "aoral_scanC.png",
+                "calibration": [
+                    "cali_step1_IScanC.png",
+                    "cali_step2_IScanC.png",
+                    "cali_step3_IScanC.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3.png",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3"
+                },
+                "stateBar": {
+                    "scanner": "scannerA3.svg"
+                }
+            },
+            "isNative": false,
+            "name": "A3I",
+            "softModel": "IOS-3i",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3_WL",
+                    "longPressed": "imu/imu_long_pressed_IScan_3_WL",
+                    "oneClick": "imu/imu_click_IScan_3_WL",
+                    "scanPage": "imu/scanIS3_WL_imu"
+                },
+                "about": "aoral_scan3_WL.png",
+                "calibration": [
+                    "cali_step1_IScan3W.png",
+                    "cali_step2_IScan3W.png",
+                    "cali_step3_IScan3W.png"
+                ],
+                "connection": {
+                    "fullTip": true,
+                    "image": "A3W.png",
+                    "imageHeight": 420,
+                    "imageWidth": 550,
+                    "wirelessImage": "A3W_Wireless.png"
+                },
+                "deviceInfo": "aoral_scan3_WL_withoutAp_big",
+                "deviceList": "aoral_scan3_WL_withoutAp",
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3w"
+                },
+                "stateBar": {
+                    "connected": "device_state/a3w/connected",
+                    "connectedLong": "device_state/a3w/connected_long",
+                    "connectingLong": "device_state/a3w/connecting_long",
+                    "disconnectedLong": "device_state/a3w/disconnected_long",
+                    "errorLong": "device_state/a3w/error_long",
+                    "overheat": "device_state/a3w/overheat",
+                    "scanner": "scannerA3W.svg",
+                    "standby": "device_state/a3w/standby",
+                    "tipBroken": "device_state/a3w/tip_broken",
+                    "working": "device_state/a3w/working"
+                }
+            },
+            "isNative": false,
+            "name": "A3W",
+            "softModel": "IOS-3 Wireless",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3_WL",
+                    "longPressed": "imu/imu_long_pressed_IScan_3_WL",
+                    "oneClick": "imu/imu_click_IScan_3_WL",
+                    "scanPage": "imu/scanIS3_WL_imu"
+                },
+                "about": "aoral_scan3_WL.png",
+                "calibration": [
+                    "cali_step1_IScan3W.png",
+                    "cali_step2_IScan3W.png",
+                    "cali_step3_IScan3W.png"
+                ],
+                "connection": {
+                    "fullTip": true,
+                    "image": "A3W.png",
+                    "imageHeight": 420,
+                    "imageWidth": 550,
+                    "wirelessImage": "A3W_Wireless.png"
+                },
+                "deviceInfo": "aoral_scan3_WL_withoutAp_big",
+                "deviceList": "aoral_scan3_WL_withoutAp",
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3w"
+                },
+                "stateBar": {
+                    "connected": "device_state/a3w/connected",
+                    "connectedLong": "device_state/a3w/connected_long",
+                    "connecting": "device_state/a3w/connecting",
+                    "connectingLong": "device_state/a3w/connecting_long",
+                    "disconnectedLong": "device_state/a3w/disconnected_long",
+                    "error": "device_state/a3w/error",
+                    "errorLong": "device_state/a3w/error_long",
+                    "overheat": "device_state/a3w/overheat",
+                    "scanner": "scannerA3W.svg",
+                    "standby": "device_state/a3w/standby",
+                    "tipBroken": "device_state/a3w/tip_broken",
+                    "working": "device_state/a3w/working"
+                }
+            },
+            "isNative": false,
+            "name": "A3IW",
+            "softModel": "IOS-3i Wireless",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_5",
+                    "longPressed": "imu/imu_long_pressed_IScan_5",
+                    "oneClick": "imu/imu_click_IScan_5",
+                    "scanPage": "imu/scanIS5_imu"
+                },
+                "about": "aoral_scan5.png",
+                "calibration": [
+                    "cali_step1_IScan5.png",
+                    "cali_step2_IScan5.png",
+                    "cali_step3_IScan5.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "ALWC.png",
+                    "imageHeight": 535,
+                    "imageWidth": 700
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan5"
+                },
+                "stateBar": {
+                    "connectedLong": "device_state/alwc/connected_long",
+                    "connectingLong": "device_state/alwc/connecting_long",
+                    "disconnectedLong": "device_state/alwc/disconnected_long",
+                    "errorLong": "device_state/alwc/error_long",
+                    "overheatLong": "device_state/alwc/overheat_long",
+                    "scanner": "scannerA5.svg",
+                    "sleepLong": "device_state/alwc/sleep_long",
+                    "standbyLong": "device_state/alwc/standby_long",
+                    "tipBrokenLong": "device_state/alwc/tip_broken_long",
+                    "workingLong": "device_state/alwc/working_long"
+                }
+            },
+            "isNative": false,
+            "name": "ALWC",
+            "softModel": "IOS-E",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_5",
+                    "longPressed": "imu/imu_long_pressed_IScan_5",
+                    "oneClick": "imu/imu_click_IScan_5",
+                    "scanPage": "imu/scanIS5_imu"
+                },
+                "about": "aoral_scan5_lync.png",
+                "calibration": [
+                    "cali_step1_IScan5.png",
+                    "cali_step2_IScan5.png",
+                    "cali_step3_IScan5.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "ASE.png",
+                    "imageHeight": 535,
+                    "imageWidth": 700
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan5"
+                },
+                "stateBar": {
+                    "connectedLong": "device_state/alwc/connected_long",
+                    "connectingLong": "device_state/alwc/connecting_long",
+                    "disconnectedLong": "device_state/alwc/disconnected_long",
+                    "errorLong": "device_state/alwc/error_long",
+                    "overheatLong": "device_state/alwc/overheat_long",
+                    "scanner": "scannerA5.svg",
+                    "sleepLong": "device_state/alwc/sleep_long",
+                    "standbyLong": "device_state/alwc/standby_long",
+                    "tipBrokenLong": "device_state/alwc/tip_broken_long",
+                    "workingLong": "device_state/alwc/working_long"
+                }
+            },
+            "isNative": false,
+            "name": "ASE",
+            "softModel": "IOS-LC",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_5_WL",
+                    "longPressed": "imu/imu_long_pressed_IScan_5_WL",
+                    "oneClick": "imu/imu_click_IScan_5_WL",
+                    "scanPage": "imu/scanIS5_WL_imu"
+                },
+                "about": "aoral_scan5_WL.png",
+                "calibration": [
+                    "cali_step1_IScan5.png",
+                    "cali_step2_IScan5.png",
+                    "cali_step3_IScan5.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "ALWW.png",
+                    "imageHeight": 535,
+                    "imageWidth": 700
+                },
+                "deviceInfo": "aoral_scan3_WL_withoutAp_big",
+                "deviceList": "aoral_scan3_WL_withoutAp",
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan5"
+                },
+                "stateBar": {
+                    "connected": "device_state/alww/connected",
+                    "connectedLong": "device_state/alww/connected_long",
+                    "connecting": "device_state/alww/connecting",
+                    "connectingLong": "device_state/alww/connecting_long",
+                    "disconnectedLong": "device_state/alww/disconnected_long",
+                    "error": "device_state/alww/error",
+                    "errorLong": "device_state/alww/error_long",
+                    "overheat": "device_state/alww/overheat",
+                    "scanner": "scannerALWW.svg",
+                    "sleepLong": "device_state/alww/sleep_long",
+                    "standby": "device_state/alww/standby",
+                    "tipBroken": "device_state/alww/tip_broken",
+                    "working": "device_state/alww/working"
+                }
+            },
+            "isNative": false,
+            "name": "ALWW",
+            "softModel": "IOS-EW",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disableAuthFunctions": [
+                "InspectionReport",
+                "OneClickPrinting",
+                "ModelCompare",
+                "TempCrownDesign",
+                "IBT",
+                "CreSplint",
+                "AccuWare",
+                "PreparedTeethMonitoring",
+                "RemovableDenture",
+                "ImpressionScan",
+                "MultipleJawRelationship",
+                "AdditionalScan",
+                "ExtraAlign"
+            ],
+            "disableCalibrationCH": "needCloudCheck",
+            "disableCalibrationInter": "enable",
+            "disabled": true,
+            "hideCalibrationDays": false,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3",
+                    "longPressed": "imu/imu_long_pressed_IScan_3",
+                    "oneClick": "imu/imu_click_IScan_3",
+                    "scanPage": "imu/scanIS3_imu"
+                },
+                "about": "aoral_scan3_lab.png",
+                "accuracyCheck": [
+                    "accu_step1.png",
+                    "accu_step2.png",
+                    "accu_step3.png"
+                ],
+                "calibration": [
+                    "cali_step1_IScan3_lab.png",
+                    "cali_step2_IScan3_lab.png",
+                    "cali_step3_IScan3_lab.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3L.svg",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3"
+                },
+                "stateBar": {
+                    "scanner": "scannerA3.svg"
+                }
+            },
+            "isNative": false,
+            "name": "AOSL",
+            "softModel": "IOS-3",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disableAuthFunctions": [
+                "InspectionReport",
+                "OneClickPrinting",
+                "ModelCompare",
+                "TempCrownDesign",
+                "IBT",
+                "CreSplint",
+                "AccuWare",
+                "PreparedTeethMonitoring",
+                "RemovableDenture",
+                "ImpressionScan",
+                "MultipleJawRelationship",
+                "AdditionalScan",
+                "ExtraAlign"
+            ],
+            "disableCalibrationInter": "enable",
+            "disabled": true,
+            "hideCalibrationDays": false,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3",
+                    "longPressed": "imu/imu_long_pressed_IScan_3",
+                    "oneClick": "imu/imu_click_IScan_3",
+                    "scanPage": "imu/scanIS3_imu"
+                },
+                "about": "aoral_scan3_lab.png",
+                "accuracyCheck": [
+                    "accu_step1.png",
+                    "accu_step2.png",
+                    "accu_step3.png"
+                ],
+                "calibration": [
+                    "cali_step1_IScan3_lab.png",
+                    "cali_step2_IScan3_lab.png",
+                    "cali_step3_IScan3_lab.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3L.svg",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3"
+                },
+                "stateBar": {
+                    "scanner": "scannerA3.svg"
+                }
+            },
+            "isNative": false,
+            "name": "A3LP",
+            "softModel": "IOS-3",
+            "softReleaseVer": "3",
+            "softVersionSimple": true,
+            "stayCalibDaysBgColor": true
+        },
+        {
+            "disableAuthFunctions": [
+                "DynamicBite",
+                "InspectionReport",
+                "OneClickPrinting",
+                "ModelCompare",
+                "TempCrownDesign",
+                "IBT",
+                "CreSplint",
+                "PreparationManipulation",
+                "PreparedTeethMonitoring",
+                "ScanbodyOrAbutment_Match",
+                "RemovableDenture",
+                "ImpressionScan",
+                "MultipleJawRelationship",
+                "AdditionalScan",
+                "ExtraAlign"
+            ],
+            "disableCalibrationCH": "needCloudCheck",
+            "disableCalibrationInter": "enable",
+            "disabled": true,
+            "hideCalibrationDays": false,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3",
+                    "longPressed": "imu/imu_long_pressed_IScan_3",
+                    "oneClick": "imu/imu_click_IScan_3",
+                    "scanPage": "imu/scanIS3_imu"
+                },
+                "about": "aoral_starscan.png",
+                "accuracyCheck": [
+                    "accu_step1.png",
+                    "accu_step2.png",
+                    "accu_step3.png"
+                ],
+                "calibration": [
+                    "cali_step1_starScan.png",
+                    "cali_step2_starScan.png",
+                    "cali_step3_starScan.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3L.svg",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3"
+                },
+                "stateBar": {
+                    "scanner": "scannerA3.svg"
+                }
+            },
+            "isNative": true,
+            "name": "A3M",
+            "softModel": "IOS-3",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disableAuthFunctions": [
+                "DynamicBite",
+                "InspectionReport",
+                "OneClickPrinting",
+                "ModelCompare",
+                "TempCrownDesign",
+                "IBT",
+                "CreSplint",
+                "PreparationManipulation",
+                "PreparedTeethMonitoring",
+                "ScanbodyOrAbutment_Match",
+                "RemovableDenture",
+                "ImpressionScan",
+                "MultipleJawRelationship",
+                "AdditionalScan",
+                "ExtraAlign"
+            ],
+            "disableCalibrationCH": "needCloudCheck",
+            "disableCalibrationInter": "enable",
+            "disabled": true,
+            "hideCalibrationDays": false,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3",
+                    "longPressed": "imu/imu_long_pressed_IScan_3",
+                    "oneClick": "imu/imu_click_IScan_3",
+                    "scanPage": "imu/scanIS3_imu"
+                },
+                "about": "aoral_inscan.png",
+                "accuracyCheck": [
+                    "accu_step1_inScan.png",
+                    "accu_step2_inScan.png",
+                    "accu_step3_inScan.png"
+                ],
+                "calibration": [
+                    "cali_step1_inscan.png",
+                    "cali_step2_inscan.png",
+                    "cali_step3_inscan.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3L.svg",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3"
+                },
+                "stateBar": {
+                    "scanner": "scannerA3.svg"
+                }
+            },
+            "isNative": true,
+            "name": "A3L",
+            "softModel": "IOS-3",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "about": "aoral_scan_3ip.png",
+                "calibration": [
+                    "cali_step1_3ip.png",
+                    "cali_step2_3ip.png",
+                    "cali_step3_3ip.png"
+                ],
+                "connection": {
+                    "fullTip": false,
+                    "image": "AOS3.png",
+                    "imageHeight": 547,
+                    "imageWidth": 756
+                },
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3.svg"
+                }
+            },
+            "isNative": false,
+            "name": "A3IP",
+            "softModel": "IOS-3i",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        },
+        {
+            "disabled": true,
+            "images": {
+                "IMU": {
+                    "doubleClick": "imu/imu_double_click_IScan_3_WL",
+                    "longPressed": "imu/imu_long_pressed_IScan_3_WL",
+                    "oneClick": "imu/imu_click_IScan_3_WL",
+                    "scanPage": "imu/scanIS3_WL_imu"
+                },
+                "about": "aoral_scan3_WN.png",
+                "calibration": [
+                    "cali_step1_IScan3WN.png",
+                    "cali_step2_IScan3WN.png",
+                    "cali_step3_IScan3WN.png"
+                ],
+                "connection": {
+                    "fullTip": true,
+                    "image": "A3W.png",
+                    "imageHeight": 420,
+                    "imageWidth": 550,
+                    "wirelessImage": "A3W_Wireless.png"
+                },
+                "deviceInfo": "aoral_scan3_WL_withoutAp_big",
+                "deviceList": "aoral_scan3_WL_withoutAp",
+                "scanGuide": {
+                    "airOutlet": "guide_outlet_iscan3w.svg"
+                },
+                "stateBar": {
+                    "connected": "device_state/a3w/connected",
+                    "connectedLong": "device_state/a3w/connected_long",
+                    "connectingLong": "device_state/a3w/connecting_long",
+                    "disconnectedLong": "device_state/a3w/disconnected_long",
+                    "errorLong": "device_state/a3w/error_long",
+                    "overheat": "device_state/a3w/overheat",
+                    "scanner": "scannerA3W.svg",
+                    "standby": "device_state/a3w/standby",
+                    "tipBroken": "device_state/a3w/tip_broken",
+                    "working": "device_state/a3w/working"
+                }
+            },
+            "isNative": false,
+            "name": "A3WN",
+            "softModel": "IOS-3 Wireless",
+            "softReleaseVer": "3",
+            "softVersionSimple": true
+        }
+    ]
+}

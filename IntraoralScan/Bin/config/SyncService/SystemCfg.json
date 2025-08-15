@@ -1,0 +1,46 @@
+{
+    "Plugin": {
+        "CommandPluginDirPath": "logic",
+		"DevicePluginDirPath":"device",
+		"LoadCommandPluginList":["DentalSyncInterface.2.81"]
+    },
+    "Tunnel": {
+        "HostAddress": "LocalHost",
+        "Port": 1883,
+        "Channel": "demo",
+        "SharedMemoryName": "demo",
+        "SharedMemorySize": "2G"
+    },
+	"Log":{
+		"LogLevel":4
+	},
+	"SharedMemory":{
+		"Name":"demo",
+		"Size":2147483648
+	},
+    "EncryptDongle": {
+        "IsOpen": 1
+    },
+    "Default": {
+        "EncryptLog": false,
+		"JSDCheckImageInterval": 1,
+        "JSDSaveImageSwitch":0,
+		"ProjectorMonoCountPerRGBDelayInterval":100,
+		"SkipDriversVersion":false,
+		"SkipHardwareError":false,
+		"iscan3WlAddress":"192.168.20.3:8888",
+		"iscan5Address":"192.168.32.3:8888",
+		"iscan3Hub":[
+			"05E3-0620"
+		],
+		"MixUseLocker":[
+			"MA",
+			"MB",
+			"IA",
+			"IB",
+			"SA",
+			"SB"
+		]
+		
+    }
+}

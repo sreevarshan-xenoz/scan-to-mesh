@@ -1,0 +1,9 @@
+{
+    "dir": "./python/order",
+    "thirdparty": {
+        "Exo": "order_exocad",
+        "DentalWings": "order_dentalwings",
+        "Itero": "order_thirdparty",
+        "Common3rd": "order_common3rd"
+    }
+}
