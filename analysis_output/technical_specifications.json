@@ -1,0 +1,428 @@
+{
+  "document_metadata": {
+    "title": "IntraoralScan 3.5.4.6 Technical Specifications",
+    "version": "1.0",
+    "analysis_date": "2024",
+    "overall_confidence": 0.73,
+    "analysis_scope": "Complete system reverse engineering",
+    "document_type": "Technical Specifications"
+  },
+  "system_overview": {
+    "application_name": "IntraoralScan 3.5.4.6",
+    "architecture_type": "Multi-process Qt/QML application with AI/ML components",
+    "deployment_model": "Desktop application with cloud connectivity",
+    "primary_use_case": "Professional dental intraoral scanning and analysis",
+    "target_market": "Dental practices, laboratories, and clinical institutions"
+  },
+  "system_architecture": {
+    "architecture_pattern": "Service-Oriented Architecture (SOA)",
+    "process_model": "Multi-process with dedicated service engines",
+    "communication_model": "IPC-based with shared memory and network services",
+    "data_flow_model": "Pipeline-based processing with real-time feedback",
+    "scalability_model": "Horizontal scaling through service distribution"
+  },
+  "technology_stack": {
+    "ui_framework": {
+      "primary": "Qt5",
+      "version": "5.x",
+      "ui_language": "QML",
+      "graphics_engine": "OpenSceneGraph 3.6.3",
+      "rendering": "OpenGL with hardware acceleration"
+    },
+    "processing_engines": {
+      "computer_vision": "OpenCV 3.4.8 & 4.5.5",
+      "gpu_acceleration": "CUDA 11.0",
+      "ai_inference": "TensorRT 8.5.3.1",
+      "ai_framework": "ONNX Runtime",
+      "3d_processing": "Custom Sn3D library suite"
+    },
+    "runtime_environments": {
+      "python": "3.8",
+      "dotnet": "Framework support",
+      "cpp": "Visual C++ 2015-2019"
+    },
+    "data_storage": {
+      "database": "SQLite",
+      "file_formats": ["STL", "OBJ", "PLY", "DICOM", "PDF", "JSON"],
+      "compression": "Custom binary formats with compression"
+    }
+  },
+  "system_components": {
+    "core_executables": [
+      {
+        "name": "IntraoralScan.exe",
+        "role": "Main UI Application",
+        "size_mb": 89.53,
+        "startup_level": 100,
+        "is_gui": true,
+        "confidence": 0.8,
+        "architectural_significance": "Primary user interface and system orchestrator"
+      },
+      {
+        "name": "DentalAlgoService.exe",
+        "role": "AI/ML Processing Engine",
+        "size_mb": 12.39,
+        "startup_level": 10,
+        "is_gui": false,
+        "confidence": 0.8,
+        "architectural_significance": "Core AI processing and algorithm execution"
+      },
+      {
+        "name": "DentalScanAppLogic.exe",
+        "role": "Real-time Scanning Engine",
+        "size_mb": 19.34,
+        "startup_level": 20,
+        "is_gui": false,
+        "confidence": 0.8,
+        "architectural_significance": "Real-time data acquisition and processing"
+      },
+      {
+        "name": "DentalLauncher.exe",
+        "role": "System Bootstrap",
+        "size_mb": 41.54,
+        "startup_level": 0,
+        "is_gui": true,
+        "confidence": 0.8,
+        "architectural_significance": "System initialization and process management"
+      },
+      {
+        "name": "DentalNetwork.exe",
+        "role": "Network Services",
+        "size_mb": 1.68,
+        "startup_level": 0,
+        "is_gui": false,
+        "confidence": 0.8,
+        "architectural_significance": "Cloud connectivity and data synchronization"
+      },
+      {
+        "name": "DentalOrderAppLogic.exe",
+        "role": "Order Management",
+        "size_mb": 2.56,
+        "startup_level": 20,
+        "is_gui": false,
+        "confidence": 0.8,
+        "architectural_significance": "Workflow and order processing management"
+      },
+      {
+        "name": "DentalDesignAppLogic.exe",
+        "role": "Design Services",
+        "size_mb": 3.17,
+        "startup_level": 20,
+        "is_gui": false,
+        "confidence": 0.8,
+        "architectural_significance": "Treatment planning and design functionality"
+      }
+    ],
+    "critical_libraries": [
+      {
+        "name": "Sn3DSpeckleFusion.dll",
+        "size_mb": 38.91,
+        "purpose": "TSDF-based mesh fusion and surface reconstruction",
+        "confidence": 0.9
+      },
+      {
+        "name": "Sn3DRegistration.dll",
+        "purpose": "Point cloud alignment and ICP registration",
+        "confidence": 0.9
+      },
+      {
+        "name": "Sn3DTextureBasedTrack.dll",
+        "purpose": "Visual SLAM and texture-based tracking",
+        "confidence": 0.8
+      },
+      {
+        "name": "algorithmLzy.dll",
+        "size_mb": 23.79,
+        "purpose": "Primary AI algorithm processing",
+        "confidence": 0.8
+      },
+      {
+        "name": "opencv_world455.dll",
+        "size_mb": 71.2,
+        "purpose": "Computer vision and image processing",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "ai_ml_specifications": {
+    "model_architecture": {
+      "total_models": 22,
+      "model_format": "ONNX (encrypted)",
+      "encryption": true,
+      "inference_engine": "TensorRT 8.5.3.1",
+      "gpu_acceleration": "CUDA 11.0"
+    },
+    "primary_models": [
+      {
+        "name": "fine_turn_0.70_align8_0.9593_294_13072023_v5.onnx",
+        "size_mb": 37.68,
+        "purpose": "Advanced tooth segmentation (V5 generation)",
+        "input_resolution": "240x176",
+        "depth_processing": "120x88",
+        "accuracy": 0.9593,
+        "confidence": 0.8
+      },
+      {
+        "name": "fine_turn_0.70_0.9557_405_03082024_v3_beikou_opera.onnx",
+        "size_mb": 37.69,
+        "purpose": "Posterior teeth segmentation",
+        "input_resolution": "240x176",
+        "accuracy": 0.9557,
+        "last_updated": "2024-03-08",
+        "confidence": 0.8
+      },
+      {
+        "name": "fine_turn_0.55_align8_0.9540_205_02122020_v2.onnx",
+        "size_mb": 42.2,
+        "purpose": "Legacy segmentation model (V2)",
+        "input_resolution": "240x240",
+        "accuracy": 0.9540,
+        "confidence": 0.8
+      }
+    ],
+    "model_categories": {
+      "segmentation": 7,
+      "detection": 6,
+      "classification": 2,
+      "facial_analysis": 1,
+      "tooth_analysis": 1,
+      "implant_analysis": 0,
+      "caries_detection": 0
+    },
+    "processing_configurations": {
+      "standard_config": {
+        "class_count": 4,
+        "entropy_threshold": 0.2,
+        "gpu_warmup": true,
+        "model_encryption": true,
+        "debug_mode": false
+      },
+      "device_specific_configs": ["DENTURE", "EJAW"],
+      "adaptive_processing": true
+    }
+  },
+  "data_processing_pipeline": {
+    "stages": [
+      {
+        "name": "Acquisition",
+        "component": "DentalScanAppLogic.exe",
+        "input": "Raw camera streams (stereo + depth)",
+        "output": "Point clouds (1-10MB)",
+        "processing_time": "Real-time (30+ FPS)",
+        "confidence": 0.6
+      },
+      {
+        "name": "Registration",
+        "component": "Sn3D Registration Libraries",
+        "input": "Point clouds",
+        "output": "Aligned point clouds (5-50MB)",
+        "algorithms": ["ICP", "Visual SLAM", "Pose Estimation"],
+        "confidence": 0.9
+      },
+      {
+        "name": "Fusion",
+        "component": "Sn3DSpeckleFusion.dll",
+        "input": "Aligned point clouds",
+        "output": "Triangle meshes (10-100MB)",
+        "algorithm": "TSDF-based surface reconstruction",
+        "confidence": 0.8
+      },
+      {
+        "name": "AI Analysis",
+        "component": "DentalAlgoService.exe",
+        "input": "Triangle meshes",
+        "output": "Segmented meshes + clinical findings",
+        "processing": ["Tooth segmentation", "Clinical analysis", "Quality assessment"],
+        "confidence": 0.6
+      },
+      {
+        "name": "Visualization",
+        "component": "OpenSceneGraph + Qt",
+        "input": "Processed 3D data",
+        "output": "Interactive 3D display",
+        "features": ["Real-time rendering", "Clinical annotations", "User interaction"],
+        "confidence": 0.7
+      },
+      {
+        "name": "Export",
+        "component": "DentalOrderAppLogic.exe",
+        "input": "Final 3D models + analysis",
+        "output": "Multiple formats (STL, DICOM, PDF)",
+        "formats": ["STL", "OBJ", "PLY", "DICOM", "PDF", "JSON"],
+        "confidence": 0.5
+      }
+    ],
+    "data_flow_characteristics": {
+      "processing_model": "Pipeline with real-time feedback",
+      "memory_usage": "4GB shared memory allocation",
+      "throughput": "Complete arch scan in 2-5 minutes",
+      "accuracy": "Sub-millimeter 3D precision"
+    }
+  },
+  "communication_architecture": {
+    "primary_channel": {
+      "service_name": "DentalHub",
+      "host": "LocalHost",
+      "port": 18830,
+      "shared_memory": "DentalShared",
+      "memory_size": "4GB"
+    },
+    "additional_services": {
+      "http_ports": [3000, 3001],
+      "protocols": ["HTTP", "WebSocket", "IPC"],
+      "security": "SSL/TLS for external communications"
+    },
+    "ipc_mechanisms": {
+      "named_pipes": "Qt-based IPC",
+      "shared_memory": "High-performance data sharing",
+      "message_queues": "Service coordination",
+      "confidence": 0.6
+    }
+  },
+  "device_support": {
+    "active_models": [
+      {
+        "name": "AOS3",
+        "model": "IOS-3",
+        "status": "Active",
+        "features": "Full feature set with limited restrictions"
+      },
+      {
+        "name": "AOS3-LAB",
+        "model": "IOS-3",
+        "status": "Active",
+        "features": "Laboratory variant with specialized capabilities"
+      }
+    ],
+    "legacy_models": [
+      "AOS", "A3S", "A3I", "A3W", "A3IW", "ALWC", "ASE", "ALWW",
+      "AOSL", "A3LP", "A3M", "A3L", "A3IP", "A3WN"
+    ],
+    "feature_matrix": {
+      "standard_features": [
+        "Basic intraoral scanning",
+        "3D mesh generation",
+        "Standard export formats"
+      ],
+      "advanced_features": [
+        "Dynamic bite analysis",
+        "Implant scanning",
+        "Preparation monitoring",
+        "Clinical analysis"
+      ],
+      "restricted_features": [
+        "Removable denture scanning",
+        "Temporary crown design",
+        "Advanced clinical reporting"
+      ]
+    }
+  },
+  "system_requirements": {
+    "minimum_hardware": {
+      "cpu": "x64 multi-core processor",
+      "gpu": "CUDA-compatible NVIDIA GPU",
+      "ram": "8GB (4GB for shared memory)",
+      "storage": "2GB+ application, additional for scan data",
+      "connectivity": "USB 3.0 for scanner"
+    },
+    "recommended_hardware": {
+      "gpu": "NVIDIA RTX series with 8GB+ VRAM",
+      "ram": "16GB+ for optimal performance",
+      "storage": "SSD for improved processing speed"
+    },
+    "software_dependencies": {
+      "os": "Windows x64 (Windows 10/11)",
+      "frameworks": [".NET Framework", "Visual C++ Redistributables"],
+      "runtimes": ["Qt5", "CUDA 11.0", "Python 3.8"]
+    }
+  },
+  "security_specifications": {
+    "data_protection": {
+      "model_encryption": true,
+      "authentication_service": "SnAuthenticator.exe",
+      "access_control": "Role-based feature access",
+      "audit_trail": "Comprehensive logging"
+    },
+    "network_security": {
+      "local_ipc": "Secure inter-process communication",
+      "cloud_connectivity": "Encrypted channels",
+      "certificate_management": "SSL/TLS support"
+    },
+    "compliance_features": {
+      "data_integrity": "Checksums and validation",
+      "traceability": "Complete audit trail",
+      "privacy": "Patient data protection",
+      "backup": "Automated data backup"
+    }
+  },
+  "performance_specifications": {
+    "real_time_capabilities": {
+      "frame_rate": "30+ FPS camera processing",
+      "ai_latency": "Sub-second inference",
+      "scan_duration": "2-5 minutes per arch",
+      "memory_allocation": "4GB shared memory"
+    },
+    "accuracy_metrics": {
+      "3d_precision": "Sub-millimeter accuracy",
+      "ai_accuracy": "95%+ for segmentation models",
+      "registration_accuracy": "Precise multi-segment alignment",
+      "color_accuracy": "Calibrated clinical reproduction"
+    },
+    "scalability": {
+      "multi_core": "Parallel CPU processing",
+      "gpu_acceleration": "CUDA-based acceleration",
+      "memory_management": "Efficient large dataset handling",
+      "storage_optimization": "Compressed data formats"
+    }
+  },
+  "integration_capabilities": {
+    "export_formats": {
+      "3d_formats": ["STL", "OBJ", "PLY", "3MF"],
+      "medical_formats": ["DICOM"],
+      "documentation": ["PDF"],
+      "data_exchange": ["JSON", "CSV"]
+    },
+    "api_integration": {
+      "plugin_architecture": "Qt-based plugin system",
+      "python_integration": "Python 3.8 runtime for custom algorithms",
+      "database_access": "SQLite for custom analysis",
+      "configuration": "Flexible workflow customization"
+    },
+    "third_party_compatibility": {
+      "cad_cam_systems": "Industry-standard 3D formats",
+      "practice_management": "Patient data integration",
+      "workflow_systems": "Order tracking and case management"
+    }
+  },
+  "confidence_assessment": {
+    "overall_confidence": 0.73,
+    "high_confidence_areas": [
+      "Registration stage components (0.9)",
+      "TSDF fusion algorithms (0.8)",
+      "Core executable identification (0.8)",
+      "Technology stack analysis (0.8)"
+    ],
+    "medium_confidence_areas": [
+      "AI model specifications (0.6-0.7)",
+      "Communication patterns (0.6)",
+      "Database schemas (0.5-0.6)",
+      "Export mechanisms (0.5)"
+    ],
+    "validation_methods": [
+      "Cross-validation between analysis methods",
+      "Dependency relationship verification",
+      "Configuration file validation",
+      "Domain knowledge verification"
+    ]
+  },
+  "analysis_metadata": {
+    "total_files_analyzed": "1000+",
+    "executables_analyzed": 7,
+    "libraries_analyzed": 90,
+    "ai_models_identified": 22,
+    "configuration_files": 50,
+    "database_tables": 3,
+    "analysis_duration": "Complete reverse engineering project",
+    "validation_coverage": "Cross-validated findings across multiple methods"
+  }
+}
