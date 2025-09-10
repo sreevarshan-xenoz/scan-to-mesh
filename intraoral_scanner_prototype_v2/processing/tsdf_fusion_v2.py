@@ -1,6 +1,8 @@
 """
 TSDF Fusion v2 - Professional TSDF implementation based on Sn3DSpeckleFusion.dll analysis
 Implements advanced volumetric fusion with GPU acceleration support
+
+Enhanced with PyTorch GPU acceleration for real-time performance
 """
 
 import numpy as np
@@ -8,7 +10,20 @@ import open3d as o3d
 import threading
 import time
 from typing import Optional, Tuple, Dict, Any
-import cupy as cp  # GPU acceleration (optional)
+
+# Import GPU acceleration libraries
+try:
+    import torch
+    import torch.nn.functional as F
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
+
+try:
+    import cupy as cp
+    CUPY_AVAILABLE = True
+except ImportError:
+    CUPY_AVAILABLE = False
 
 from config.system_config import get_config
 
