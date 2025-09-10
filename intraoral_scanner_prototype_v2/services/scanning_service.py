@@ -16,6 +16,7 @@ from hardware.camera_manager_v2 import CameraManagerV2
 from processing.slam_processor import SLAMProcessor
 from processing.tsdf_fusion_v2 import TSDFFusionV2
 from processing.gpu_tsdf_enhanced import EnhancedTSDFFusion, TSDFConfig
+from processing.meshroom_integration import MeshroomIntegration, SLAMMeshroomBridge
 from utils.performance_monitor import PerformanceMonitor
 from utils.shared_memory import SharedMemoryManager
 
@@ -55,10 +56,15 @@ class ScanningService:
         self.performance_monitor = PerformanceMonitor()
         self.shared_memory = SharedMemoryManager()
         
+        # Initialize Meshroom integration for professional reconstruction
+        self.meshroom_integration = MeshroomIntegration()
+        self.slam_meshroom_bridge = SLAMMeshroomBridge(self.slam_processor, self.meshroom_integration)
+        
         # Service state
         self.is_running = False
         self.is_scanning = False
         self.scan_session_id = None
+        self.meshroom_session_active = False
         
         # Threading
         self.processing_thread = None
@@ -161,6 +167,15 @@ class ScanningService:
                 if slam_result is None:
                     continue
                 
+                # Stage 2.5: Meshroom Integration (if session is active)
+                if self.meshroom_session_active:
+                    self.add_frame_to_meshroom(
+                        frame_data['color_image'],
+                        frame_data['depth_image'],
+                        slam_result['camera_pose'],
+                        self.frame_count
+                    )
+                
                 # Stage 3: Point Cloud Generation
                 points, colors = self._generate_point_cloud(
                     frame_data['color_image'],
@@ -245,6 +260,12 @@ class ScanningService:
             return self._get_performance_metrics()
         elif command == 'configure':
             return self._configure_service(message.get('params', {}))
+        elif command == 'start_meshroom':
+            return self._start_meshroom_session(message.get('params', {}))
+        elif command == 'stop_meshroom':
+            return self._finalize_meshroom_reconstruction()
+        elif command == 'meshroom_status':
+            return self._get_meshroom_status()
         else:
             return {'status': 'error', 'message': f'Unknown command: {command}'}
     
@@ -375,6 +396,53 @@ class ScanningService:
         except Exception as e:
             return {'status': 'error', 'message': f'Failed to update configuration: {e}'}
     
+    def _start_meshroom_session(self, params: Dict[str, Any]) -> Dict[str, Any]:
+        """Start a new Meshroom reconstruction session"""
+        try:
+            session_name = params.get('session_name', 'dental_scan')
+            quality_preset = params.get('quality_preset', 'dental_scan')
+            
+            success = self.start_meshroom_session(session_name, quality_preset)
+            
+            if success:
+                return {
+                    'status': 'success',
+                    'message': f'Meshroom session started: {session_name}',
+                    'session_name': session_name,
+                    'quality_preset': quality_preset
+                }
+            else:
+                return {'status': 'error', 'message': 'Failed to start Meshroom session'}
+            
+        except Exception as e:
+            return {'status': 'error', 'message': f'Failed to start Meshroom session: {e}'}
+    
+    def _finalize_meshroom_reconstruction(self) -> Dict[str, Any]:
+        """Finalize the Meshroom reconstruction process"""
+        try:
+            mesh_path = self.finalize_meshroom_reconstruction()
+            
+            if mesh_path:
+                return {
+                    'status': 'success',
+                    'message': 'Meshroom reconstruction completed',
+                    'mesh_path': mesh_path
+                }
+            else:
+                return {'status': 'error', 'message': 'Meshroom reconstruction failed'}
+            
+        except Exception as e:
+            return {'status': 'error', 'message': f'Failed to finalize Meshroom reconstruction: {e}'}
+    
+    def _get_meshroom_status(self) -> Dict[str, Any]:
+        """Get current Meshroom reconstruction status"""
+        try:
+            status = self.get_meshroom_status()
+            return {'status': 'success', 'meshroom_status': status}
+            
+        except Exception as e:
+            return {'status': 'error', 'message': f'Failed to get Meshroom status: {e}'}
+    
     def _generate_point_cloud(self, color_image: np.ndarray, depth_image: np.ndarray, 
                             camera_pose: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
         """Generate point cloud from color and depth images"""
@@ -415,6 +483,93 @@ class ScanningService:
             colors = np.column_stack((gray_colors, gray_colors, gray_colors))
         
         return points_world, colors
+    
+    def start_meshroom_session(self, session_name="dental_scan", quality_preset="dental_scan"):
+        """Start a new Meshroom reconstruction session"""
+        if self.meshroom_session_active:
+            print("Meshroom session already active")
+            return False
+        
+        try:
+            # Create Meshroom project for this scan session
+            project_path = self.meshroom_integration.create_project(
+                session_name, 
+                quality_preset=quality_preset
+            )
+            
+            if project_path:
+                self.meshroom_session_active = True
+                print(f"Meshroom session started: {project_path}")
+                return True
+            
+        except Exception as e:
+            print(f"Failed to start Meshroom session: {e}")
+        
+        return False
+    
+    def add_frame_to_meshroom(self, color_frame, depth_frame, camera_pose, frame_id):
+        """Add current frame to Meshroom reconstruction if session is active"""
+        if not self.meshroom_session_active:
+            return False
+        
+        try:
+            # Check if this frame should be added (keyframe detection via SLAM)
+            if self.slam_processor.is_keyframe():
+                # Use the SLAM-Meshroom bridge to add the frame
+                success = self.slam_meshroom_bridge.add_slam_frame(
+                    color_frame, depth_frame, camera_pose, frame_id
+                )
+                
+                if success:
+                    print(f"Frame {frame_id} added to Meshroom reconstruction")
+                    return True
+            
+        except Exception as e:
+            print(f"Failed to add frame to Meshroom: {e}")
+        
+        return False
+    
+    def finalize_meshroom_reconstruction(self):
+        """Complete the Meshroom reconstruction process"""
+        if not self.meshroom_session_active:
+            print("No active Meshroom session to finalize")
+            return None
+        
+        try:
+            # Run the reconstruction pipeline
+            print("Starting Meshroom reconstruction pipeline...")
+            mesh_path = self.meshroom_integration.run_reconstruction()
+            
+            if mesh_path:
+                print(f"Meshroom reconstruction completed: {mesh_path}")
+                self.meshroom_session_active = False
+                return mesh_path
+            else:
+                print("Meshroom reconstruction failed")
+                
+        except Exception as e:
+            print(f"Failed to finalize Meshroom reconstruction: {e}")
+        
+        self.meshroom_session_active = False
+        return None
+    
+    def get_meshroom_status(self):
+        """Get current Meshroom reconstruction status"""
+        if not self.meshroom_session_active:
+            return {"active": False, "status": "inactive"}
+        
+        try:
+            status = self.meshroom_integration.get_reconstruction_status()
+            return {
+                "active": True,
+                "status": status.get("status", "unknown"),
+                "progress": status.get("progress", 0),
+                "current_step": status.get("current_step", ""),
+                "frames_added": len(self.meshroom_integration.images_data)
+            }
+        except Exception as e:
+            print(f"Failed to get Meshroom status: {e}")
+            return {"active": True, "status": "error", "error": str(e)}
 
 def main():
     """Run scanning service as standalone process"""

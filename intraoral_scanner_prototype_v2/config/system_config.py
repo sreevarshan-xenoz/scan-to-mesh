@@ -1,6 +1,7 @@
 """
 System Configuration - Professional scanner configuration based on analysis
 Implements the configuration patterns discovered in IntraoralScan analysis
+Enhanced with Meshroom integration for professional 3D reconstruction
 """
 
 import json
@@ -151,6 +152,86 @@ class UIConfig:
             self.mesh_color = [0.8, 0.8, 0.8]
 
 @dataclass
+class MeshroomConfig:
+    """Meshroom integration configuration for professional 3D reconstruction"""
+    # Meshroom installation settings
+    enabled: bool = True
+    meshroom_path: str = "/opt/Meshroom-2023.3.0"
+    meshroom_batch_executable: str = "meshroom_batch"
+    
+    # Project settings
+    temp_directory: str = "/tmp/meshroom_dental"
+    project_base_name: str = "dental_scan"
+    auto_cleanup: bool = True
+    max_concurrent_sessions: int = 2
+    
+    # Quality presets
+    quality_presets: Dict[str, Dict[str, Any]] = None
+    default_preset: str = "dental_scan"
+    
+    # Keyframe detection settings
+    keyframe_threshold: float = 0.15  # Similarity threshold for keyframe detection
+    min_keyframe_distance: int = 10   # Minimum frames between keyframes
+    max_keyframes_per_session: int = 200
+    
+    # Processing settings
+    mesh_resolution: str = "high"  # low, medium, high, ultra
+    texture_resolution: int = 1024
+    enable_texturing: bool = True
+    enable_mesh_simplification: bool = False
+    
+    # Performance settings
+    cpu_cores: int = -1  # -1 for auto-detect
+    memory_limit_gb: int = 8
+    processing_timeout: int = 3600  # 1 hour timeout
+    
+    def __post_init__(self):
+        if self.quality_presets is None:
+            self.quality_presets = {
+                "dental_scan": {
+                    "description": "Optimized for intraoral dental scanning",
+                    "keyframe_threshold": 0.15,
+                    "min_keyframe_distance": 10,
+                    "max_images": 200,
+                    "mesh_resolution": "high",
+                    "enable_texturing": True,
+                    "processing_nodes": [
+                        "CameraInit", "FeatureExtraction", "ImageMatching",
+                        "FeatureMatching", "StructureFromMotion", "PrepareDenseScene",
+                        "DepthMap", "DepthMapFilter", "Meshing", "MeshFiltering",
+                        "Texturing"
+                    ]
+                },
+                "real_time": {
+                    "description": "Fast processing for real-time preview",
+                    "keyframe_threshold": 0.25,
+                    "min_keyframe_distance": 5,
+                    "max_images": 50,
+                    "mesh_resolution": "medium",
+                    "enable_texturing": False,
+                    "processing_nodes": [
+                        "CameraInit", "FeatureExtraction", "ImageMatching",
+                        "FeatureMatching", "StructureFromMotion", "PrepareDenseScene",
+                        "DepthMap", "DepthMapFilter", "Meshing"
+                    ]
+                },
+                "high_quality": {
+                    "description": "Maximum quality for final reconstruction",
+                    "keyframe_threshold": 0.10,
+                    "min_keyframe_distance": 15,
+                    "max_images": 500,
+                    "mesh_resolution": "ultra",
+                    "enable_texturing": True,
+                    "processing_nodes": [
+                        "CameraInit", "FeatureExtraction", "ImageMatching",
+                        "FeatureMatching", "StructureFromMotion", "PrepareDenseScene",
+                        "DepthMap", "DepthMapFilter", "Meshing", "MeshFiltering",
+                        "MeshDecimate", "Texturing"
+                    ]
+                }
+            }
+
+@dataclass
 class DatabaseConfig:
     """Database configuration for clinical workflow"""
     # Database settings
@@ -208,6 +289,7 @@ class SystemConfig:
         self.ui = UIConfig()
         self.database = DatabaseConfig()
         self.export = ExportConfig()
+        self.meshroom = MeshroomConfig()
         
         # Load configuration if file exists
         self.load_config()
@@ -234,6 +316,8 @@ class SystemConfig:
                     self.database = DatabaseConfig(**config_data['database'])
                 if 'export' in config_data:
                     self.export = ExportConfig(**config_data['export'])
+                if 'meshroom' in config_data:
+                    self.meshroom = MeshroomConfig(**config_data['meshroom'])
                 
                 return True
         except Exception as e:
@@ -254,7 +338,8 @@ class SystemConfig:
                 'hardware': asdict(self.hardware),
                 'ui': asdict(self.ui),
                 'database': asdict(self.database),
-                'export': asdict(self.export)
+                'export': asdict(self.export),
+                'meshroom': asdict(self.meshroom)
             }
             
             with open(self.config_file, 'w') as f:
