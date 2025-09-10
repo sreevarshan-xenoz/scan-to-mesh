@@ -15,6 +15,7 @@ from config.system_config import get_config
 from hardware.camera_manager_v2 import CameraManagerV2
 from processing.slam_processor import SLAMProcessor
 from processing.tsdf_fusion_v2 import TSDFFusionV2
+from processing.gpu_tsdf_enhanced import EnhancedTSDFFusion, TSDFConfig
 from utils.performance_monitor import PerformanceMonitor
 from utils.shared_memory import SharedMemoryManager
 
@@ -31,7 +32,26 @@ class ScanningService:
         # Initialize components
         self.camera_manager = CameraManagerV2()
         self.slam_processor = SLAMProcessor()
-        self.tsdf_fusion = TSDFFusionV2()
+        
+        # Initialize TSDF fusion with enhanced GPU support
+        use_enhanced_tsdf = self.config.get('processing', {}).get('use_enhanced_gpu_tsdf', True)
+        
+        if use_enhanced_tsdf:
+            # Enhanced GPU TSDF configuration for professional dental scanning
+            tsdf_config = TSDFConfig(
+                volume_size=(0.12, 0.12, 0.08),  # 12cm x 12cm x 8cm dental arch
+                voxel_size=0.001,  # 1mm resolution for high quality
+                use_gpu=True,
+                truncation_distance=0.008,  # 8mm truncation for fine details
+                max_weight=50.0
+            )
+            self.tsdf_fusion = EnhancedTSDFFusion(tsdf_config)
+            print("Enhanced GPU TSDF fusion initialized")
+        else:
+            # Fallback to original TSDF
+            self.tsdf_fusion = TSDFFusionV2()
+            print("Original TSDF fusion initialized")
+        
         self.performance_monitor = PerformanceMonitor()
         self.shared_memory = SharedMemoryManager()
         

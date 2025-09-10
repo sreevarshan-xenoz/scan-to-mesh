@@ -256,7 +256,7 @@ class EnhancedTSDFFusion:
                 for j in range(0, self.volume_dims[1], 4):
                     for k in range(0, self.volume_dims[2], 4):
                         world_point = np.array([x_coords[i], y_coords[j], z_coords[k], 1.0])
-                        camera_point = camera_pose @ world_point
+                        camera_point = np.dot(camera_pose, world_point)
                         
                         if camera_point[2] > 0:  # In front of camera
                             u = int(fx * camera_point[0] / camera_point[2] + cx)

@@ -43,6 +43,10 @@ class ProcessingConfig:
     sdf_truncation: float = 0.008  # 8mm truncation distance
     volume_size: List[float] = None  # [0.2, 0.2, 0.15] meters (20x20x15cm)
     
+    # Enhanced GPU TSDF configuration
+    use_enhanced_gpu_tsdf: bool = True  # Use PyTorch GPU acceleration
+    gpu_memory_limit_mb: float = 1024.0  # 1GB GPU memory limit
+    
     # Registration parameters (matching Sn3DRegistration.dll)
     icp_max_iterations: int = 50
     icp_convergence_threshold: float = 1e-6
