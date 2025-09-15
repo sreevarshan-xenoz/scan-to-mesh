@@ -11,6 +11,7 @@ class SharedMemoryManager:
     def __init__(self):
         self.memory_blocks = {}
         self.lock = threading.Lock()
+        self.latest_scan_data: Dict[str, Any] = {}
         
     def create_block(self, name: str, size: int) -> bool:
         """Create a shared memory block"""
@@ -26,3 +27,13 @@ class SharedMemoryManager:
         """Cleanup shared memory"""
         with self.lock:
             self.memory_blocks.clear()
+            self.latest_scan_data.clear()
+
+    # Added for scanning_service compatibility
+    def update_scan_data(self, data: Dict[str, Any]):
+        with self.lock:
+            self.latest_scan_data = data.copy()
+
+    def get_memory_usage(self) -> int:
+        with self.lock:
+            return sum(len(b) for b in self.memory_blocks.values())

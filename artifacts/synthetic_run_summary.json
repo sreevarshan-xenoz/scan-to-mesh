@@ -1,0 +1,13 @@
+{
+  "requested_frames": 10,
+  "processed_frames": 10,
+  "duration_sec": 0.8841474056243896,
+  "avg_fps": 11.310331214440364,
+  "scan_stats": {
+    "total_frames": 10,
+    "average_processing_time": 0.08656980991363525,
+    "mesh_vertices": 0,
+    "mesh_triangles": 0,
+    "scan_duration": 1757948962.498381
+  }
+}

@@ -8,15 +8,31 @@ import threading
 import queue
 import numpy as np
 from typing import Optional, Tuple, Dict, Any
-import zmq
+try:  # Optional for minimal synthetic run
+    import zmq  # type: ignore
+    _HAS_ZMQ = True
+except Exception:  # pragma: no cover
+    zmq = None  # type: ignore
+    _HAS_ZMQ = False
 import json
 
 from config.system_config import get_config
 from hardware.camera_manager_v2 import CameraManagerV2
+from hardware.synthetic_camera import SyntheticCamera
 from processing.slam_processor import SLAMProcessor
 from processing.tsdf_fusion_v2 import TSDFFusionV2
-from processing.gpu_tsdf_enhanced import EnhancedTSDFFusion, TSDFConfig
-from processing.meshroom_integration import MeshroomIntegration, SLAMMeshroomBridge
+# Optional heavy modules (GPU TSDF, Meshroom) imported lazily
+try:
+    from processing.gpu_tsdf_enhanced import EnhancedTSDFFusion, TSDFConfig  # type: ignore
+    HAS_ENHANCED_TSDF = True
+except Exception:
+    HAS_ENHANCED_TSDF = False
+
+try:
+    from processing.meshroom_integration import MeshroomIntegration, SLAMMeshroomBridge  # type: ignore
+    HAS_MESHROOM = True
+except Exception:
+    HAS_MESHROOM = False
 from utils.performance_monitor import PerformanceMonitor
 from utils.shared_memory import SharedMemoryManager
 
@@ -31,34 +47,50 @@ class ScanningService:
         self.service_port = service_port
         
         # Initialize components
-        self.camera_manager = CameraManagerV2()
+        if getattr(self.config, 'flags', None) and self.config.flags.simulation_mode:
+            self.camera_manager = SyntheticCamera(width=self.config.camera.width, height=self.config.camera.height)
+        else:
+            from hardware.camera_manager_v2 import CameraManagerV2 as _Cam
+            self.camera_manager = _Cam()
         self.slam_processor = SLAMProcessor()
         
-        # Initialize TSDF fusion with enhanced GPU support
-        use_enhanced_tsdf = self.config.get('processing', {}).get('use_enhanced_gpu_tsdf', True)
-        
+        # Initialize TSDF fusion (avoid heavy path in simulation or when deps missing)
+        enhanced_requested = getattr(self.config.processing, 'use_enhanced_gpu_tsdf', True)
+        simulation_mode = getattr(getattr(self.config, 'flags', object()), 'simulation_mode', False)
+        use_enhanced_tsdf = enhanced_requested and HAS_ENHANCED_TSDF and not simulation_mode
+
         if use_enhanced_tsdf:
-            # Enhanced GPU TSDF configuration for professional dental scanning
-            tsdf_config = TSDFConfig(
-                volume_size=(0.12, 0.12, 0.08),  # 12cm x 12cm x 8cm dental arch
-                voxel_size=0.001,  # 1mm resolution for high quality
-                use_gpu=True,
-                truncation_distance=0.008,  # 8mm truncation for fine details
-                max_weight=50.0
-            )
-            self.tsdf_fusion = EnhancedTSDFFusion(tsdf_config)
-            print("Enhanced GPU TSDF fusion initialized")
+            try:
+                tsdf_config = TSDFConfig(
+                    volume_size=(0.12, 0.12, 0.08),
+                    voxel_size=0.001,
+                    use_gpu=True,
+                    truncation_distance=0.008,
+                    max_weight=50.0
+                )
+                self.tsdf_fusion = EnhancedTSDFFusion(tsdf_config)
+                print("Enhanced GPU TSDF fusion initialized")
+            except Exception as e:
+                print(f"Failed to init enhanced TSDF ({e}); falling back to basic TSDF")
+                self.tsdf_fusion = TSDFFusionV2()
         else:
-            # Fallback to original TSDF
             self.tsdf_fusion = TSDFFusionV2()
-            print("Original TSDF fusion initialized")
+            if enhanced_requested and not HAS_ENHANCED_TSDF:
+                print("Enhanced TSDF requested but module unavailable - using basic TSDF")
+            elif simulation_mode:
+                print("Simulation mode: using basic TSDF (no heavy deps)")
         
         self.performance_monitor = PerformanceMonitor()
         self.shared_memory = SharedMemoryManager()
         
-        # Initialize Meshroom integration for professional reconstruction
-        self.meshroom_integration = MeshroomIntegration()
-        self.slam_meshroom_bridge = SLAMMeshroomBridge(self.slam_processor, self.meshroom_integration)
+        # Initialize Meshroom integration only if enabled and available
+        meshroom_enabled_flag = getattr(getattr(self.config, 'flags', object()), 'enable_meshroom', False)
+        if meshroom_enabled_flag and HAS_MESHROOM and not simulation_mode:
+            self.meshroom_integration = MeshroomIntegration()
+            self.slam_meshroom_bridge = SLAMMeshroomBridge(self.slam_processor, self.meshroom_integration)
+        else:
+            self.meshroom_integration = None
+            self.slam_meshroom_bridge = None
         
         # Service state
         self.is_running = False
@@ -74,8 +106,8 @@ class ScanningService:
         self.frame_queue = queue.Queue(maxsize=10)
         self.result_queue = queue.Queue(maxsize=5)
         
-        # ZeroMQ communication
-        self.context = zmq.Context()
+        # ZeroMQ communication (optional)
+        self.context = zmq.Context() if (_HAS_ZMQ and self.service_port > 0) else None
         self.socket = None
         
         # Performance metrics
@@ -86,8 +118,13 @@ class ScanningService:
         """Start the scanning service"""
         try:
             # Initialize hardware
-            if not self.camera_manager.initialize():
-                print("ERROR: Failed to initialize camera")
+            init_ok = False
+            if hasattr(self.camera_manager, 'initialize'):
+                init_ok = self.camera_manager.initialize() if callable(self.camera_manager.initialize) else True
+            elif hasattr(self.camera_manager, 'is_initialized'):
+                init_ok = True
+            if not init_ok:
+                print("ERROR: Failed to initialize camera (or synthetic camera)")
                 return False
             
             # Initialize SLAM processor
@@ -100,17 +137,20 @@ class ScanningService:
                 print("ERROR: Failed to initialize TSDF fusion")
                 return False
             
-            # Setup communication
-            self.socket = self.context.socket(zmq.REP)
-            self.socket.bind(f"tcp://*:{self.service_port}")
+            # Setup communication only if port > 0
+            if self.service_port > 0:
+                self.socket = self.context.socket(zmq.REP)
+                self.socket.bind(f"tcp://*:{self.service_port}")
             
             # Start service threads
             self.is_running = True
             self.processing_thread = threading.Thread(target=self._processing_loop)
-            self.communication_thread = threading.Thread(target=self._communication_loop)
+            if self.service_port > 0:
+                self.communication_thread = threading.Thread(target=self._communication_loop)
             
             self.processing_thread.start()
-            self.communication_thread.start()
+            if self.communication_thread:
+                self.communication_thread.start()
             
             print(f"Scanning service started on port {self.service_port}")
             return True
@@ -131,14 +171,29 @@ class ScanningService:
             self.communication_thread.join()
         
         # Cleanup components
-        self.camera_manager.cleanup()
-        self.slam_processor.cleanup()
-        self.tsdf_fusion.cleanup()
+        try:
+            self.camera_manager.cleanup()
+        except Exception:
+            pass
+        try:
+            self.slam_processor.cleanup()
+        except Exception:
+            pass
+        try:
+            self.tsdf_fusion.cleanup()
+        except Exception:
+            pass
         
         # Cleanup communication
         if self.socket:
-            self.socket.close()
-        self.context.term()
+            try:
+                self.socket.close()
+            except Exception:
+                pass
+        try:
+            self.context.term()
+        except Exception:
+            pass
         
         print("Scanning service stopped")
     
@@ -153,26 +208,39 @@ class ScanningService:
                 start_time = time.time()
                 
                 # Stage 1: Acquisition (matching DentalScanAppLogic.exe)
-                frame_data = self.camera_manager.get_frame_data()
+                if hasattr(self.camera_manager, 'get_frame_data'):
+                    frame_data = self.camera_manager.get_frame_data()
+                else:
+                    captured = self.camera_manager.capture_frame()
+                    if captured is None:
+                        continue
+                    depth, color = captured
+                    frame_data = {
+                        'color_image': color,
+                        'depth_image': depth,
+                        'timestamp': time.time()
+                    }
                 if frame_data is None:
                     continue
                 
-                # Stage 2: SLAM Processing (matching Sn3DScanSlam.dll)
-                slam_result = self.slam_processor.process_frame(
-                    frame_data['color_image'],
-                    frame_data['depth_image'],
-                    frame_data['timestamp']
-                )
-                
-                if slam_result is None:
-                    continue
+                # Stage 2: SLAM Processing (or simulation shortcut)
+                if getattr(getattr(self.config, 'flags', object()), 'simulation_mode', False):
+                    slam_pose = np.eye(4)
+                else:
+                    slam_pose = self.slam_processor.process_frame(
+                        frame_data['depth_image'],
+                        frame_data['color_image'],
+                        None
+                    )
+                    if slam_pose is None:
+                        continue
                 
                 # Stage 2.5: Meshroom Integration (if session is active)
-                if self.meshroom_session_active:
+                if self.meshroom_session_active and self.meshroom_integration and not getattr(getattr(self.config, 'flags', object()), 'simulation_mode', False):
                     self.add_frame_to_meshroom(
                         frame_data['color_image'],
                         frame_data['depth_image'],
-                        slam_result['camera_pose'],
+                        slam_pose,
                         self.frame_count
                     )
                 
@@ -180,7 +248,7 @@ class ScanningService:
                 points, colors = self._generate_point_cloud(
                     frame_data['color_image'],
                     frame_data['depth_image'],
-                    slam_result['camera_pose']
+                    slam_pose
                 )
                 
                 if len(points) == 0:
@@ -188,7 +256,7 @@ class ScanningService:
                 
                 # Stage 4: Registration and Fusion (matching Sn3DSpeckleFusion.dll)
                 integration_result = self.tsdf_fusion.integrate_frame(
-                    points, colors, slam_result['camera_pose']
+                    points, colors, slam_pose
                 )
                 
                 # Stage 5: Mesh Extraction (periodic)
@@ -205,12 +273,12 @@ class ScanningService:
                 result_data = {
                     'frame_id': self.frame_count,
                     'timestamp': frame_data['timestamp'],
-                    'camera_pose': slam_result['camera_pose'].tolist(),
+                    'camera_pose': slam_pose.tolist(),
                     'points_count': len(points),
                     'integration_success': integration_result,
                     'mesh_vertices': len(mesh.vertices) if mesh else 0,
                     'processing_time': processing_time,
-                    'slam_confidence': slam_result.get('confidence', 0.0)
+                    'slam_confidence': 1.0 if getattr(getattr(self.config, 'flags', object()), 'simulation_mode', False) else 0.0
                 }
                 
                 # Update shared memory
@@ -237,7 +305,7 @@ class ScanningService:
         while self.is_running:
             try:
                 # Check for incoming messages (non-blocking)
-                if self.socket.poll(timeout=10):  # 10ms timeout
+                if self.socket and self.socket.poll(timeout=10):  # 10ms timeout
                     message = self.socket.recv_json()
                     response = self._handle_message(message)
                     self.socket.send_json(response)
@@ -252,12 +320,6 @@ class ScanningService:
         
         if command == 'start_scan':
             return self._start_scan(message.get('params', {}))
-        elif command == 'stop_scan':
-            return self._stop_scan()
-        elif command == 'get_status':
-            return self._get_status()
-        elif command == 'get_performance':
-            return self._get_performance_metrics()
         elif command == 'configure':
             return self._configure_service(message.get('params', {}))
         elif command == 'start_meshroom':
@@ -281,7 +343,8 @@ class ScanningService:
             # Reset components
             self.slam_processor.reset()
             self.tsdf_fusion.reset()
-            self.performance_monitor.reset()
+            if hasattr(self.performance_monitor, 'reset'):
+                self.performance_monitor.reset()
             
             # Configure scan parameters
             scan_type = params.get('scan_type', 'full_arch')
@@ -486,70 +549,57 @@ class ScanningService:
     
     def start_meshroom_session(self, session_name="dental_scan", quality_preset="dental_scan"):
         """Start a new Meshroom reconstruction session"""
-        if self.meshroom_session_active:
+        if self.meshroom_session_active and self.meshroom_integration:
             print("Meshroom session already active")
             return False
-        
+        if not self.meshroom_integration:
+            print("Meshroom integration not available")
+            return False
         try:
-            # Create Meshroom project for this scan session
             project_path = self.meshroom_integration.create_project(
-                session_name, 
+                session_name,
                 quality_preset=quality_preset
             )
-            
             if project_path:
                 self.meshroom_session_active = True
                 print(f"Meshroom session started: {project_path}")
                 return True
-            
         except Exception as e:
             print(f"Failed to start Meshroom session: {e}")
-        
         return False
     
     def add_frame_to_meshroom(self, color_frame, depth_frame, camera_pose, frame_id):
         """Add current frame to Meshroom reconstruction if session is active"""
-        if not self.meshroom_session_active:
+        if not self.meshroom_session_active or not self.meshroom_integration:
             return False
-        
         try:
-            # Check if this frame should be added (keyframe detection via SLAM)
             if self.slam_processor.is_keyframe():
-                # Use the SLAM-Meshroom bridge to add the frame
                 success = self.slam_meshroom_bridge.add_slam_frame(
                     color_frame, depth_frame, camera_pose, frame_id
                 )
-                
                 if success:
                     print(f"Frame {frame_id} added to Meshroom reconstruction")
                     return True
-            
         except Exception as e:
             print(f"Failed to add frame to Meshroom: {e}")
-        
         return False
     
     def finalize_meshroom_reconstruction(self):
         """Complete the Meshroom reconstruction process"""
-        if not self.meshroom_session_active:
+        if not self.meshroom_session_active or not self.meshroom_integration:
             print("No active Meshroom session to finalize")
             return None
-        
         try:
-            # Run the reconstruction pipeline
             print("Starting Meshroom reconstruction pipeline...")
             mesh_path = self.meshroom_integration.run_reconstruction()
-            
             if mesh_path:
                 print(f"Meshroom reconstruction completed: {mesh_path}")
                 self.meshroom_session_active = False
                 return mesh_path
             else:
                 print("Meshroom reconstruction failed")
-                
         except Exception as e:
             print(f"Failed to finalize Meshroom reconstruction: {e}")
-        
         self.meshroom_session_active = False
         return None
     

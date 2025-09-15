@@ -6,7 +6,7 @@ Enhanced with Meshroom integration for professional 3D reconstruction
 
 import json
 import os
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from typing import Dict, List, Optional, Any
 from pathlib import Path
 
@@ -275,109 +275,29 @@ class ExportConfig:
         if self.supported_formats is None:
             self.supported_formats = ["STL", "PLY", "OBJ", "3MF", "DICOM", "PDF"]
 
+@dataclass
+class SystemFlagsConfig:
+    simulation_mode: bool = True  # run without real camera
+    enable_meshroom: bool = False  # disabled for first tests
+    enable_ai: bool = False        # AI disabled initially
+    save_intermediate: bool = False
+    verbose_logging: bool = True
+
+@dataclass
 class SystemConfig:
     """Main system configuration manager"""
-    
-    def __init__(self, config_file: Optional[str] = None):
-        self.config_file = config_file or "config/system_config.json"
-        
-        # Initialize all configuration sections
-        self.camera = CameraConfig()
-        self.processing = ProcessingConfig()
-        self.ai = AIConfig()
-        self.hardware = HardwareConfig()
-        self.ui = UIConfig()
-        self.database = DatabaseConfig()
-        self.export = ExportConfig()
-        self.meshroom = MeshroomConfig()
-        
-        # Load configuration if file exists
-        self.load_config()
-    
-    def load_config(self) -> bool:
-        """Load configuration from JSON file"""
-        try:
-            if os.path.exists(self.config_file):
-                with open(self.config_file, 'r') as f:
-                    config_data = json.load(f)
-                
-                # Update configuration sections
-                if 'camera' in config_data:
-                    self.camera = CameraConfig(**config_data['camera'])
-                if 'processing' in config_data:
-                    self.processing = ProcessingConfig(**config_data['processing'])
-                if 'ai' in config_data:
-                    self.ai = AIConfig(**config_data['ai'])
-                if 'hardware' in config_data:
-                    self.hardware = HardwareConfig(**config_data['hardware'])
-                if 'ui' in config_data:
-                    self.ui = UIConfig(**config_data['ui'])
-                if 'database' in config_data:
-                    self.database = DatabaseConfig(**config_data['database'])
-                if 'export' in config_data:
-                    self.export = ExportConfig(**config_data['export'])
-                if 'meshroom' in config_data:
-                    self.meshroom = MeshroomConfig(**config_data['meshroom'])
-                
-                return True
-        except Exception as e:
-            print(f"Error loading configuration: {e}")
-        
-        return False
-    
-    def save_config(self) -> bool:
-        """Save configuration to JSON file"""
-        try:
-            # Create config directory if it doesn't exist
-            os.makedirs(os.path.dirname(self.config_file), exist_ok=True)
-            
-            config_data = {
-                'camera': asdict(self.camera),
-                'processing': asdict(self.processing),
-                'ai': asdict(self.ai),
-                'hardware': asdict(self.hardware),
-                'ui': asdict(self.ui),
-                'database': asdict(self.database),
-                'export': asdict(self.export),
-                'meshroom': asdict(self.meshroom)
-            }
-            
-            with open(self.config_file, 'w') as f:
-                json.dump(config_data, f, indent=2)
-            
-            return True
-        except Exception as e:
-            print(f"Error saving configuration: {e}")
-            return False
-    
-    def get_device_config(self, device_type: str) -> Dict[str, Any]:
-        """Get device-specific configuration"""
-        device_configs = {
-            "AOS3": {
-                "use_structured_light": True,
-                "has_projector": True,
-                "has_stereo_cameras": True,
-                "resolution": [1280, 720],
-                "depth_range": [0.05, 0.5]  # 5cm to 50cm
-            },
-            "RealSense": {
-                "use_structured_light": False,
-                "has_depth_sensor": True,
-                "resolution": [1280, 720],
-                "depth_range": [0.1, 3.0]  # 10cm to 3m
-            },
-            "Webcam": {
-                "use_structured_light": True,  # Simulated
-                "has_projector": False,
-                "resolution": [640, 480],
-                "depth_range": [0.1, 2.0]  # Estimated
-            }
-        }
-        
-        return device_configs.get(device_type, device_configs["Webcam"])
-    
-    def validate_config(self) -> List[str]:
-        """Validate configuration and return list of issues"""
+    # Use default_factory to avoid mutable default issues
+    camera: CameraConfig = field(default_factory=CameraConfig)
+    processing: ProcessingConfig = field(default_factory=ProcessingConfig)
+    ai: AIConfig = field(default_factory=AIConfig)
+    hardware: HardwareConfig = field(default_factory=HardwareConfig)
+    ui: UIConfig = field(default_factory=UIConfig)
+    database: DatabaseConfig = field(default_factory=DatabaseConfig)
+    export: ExportConfig = field(default_factory=ExportConfig)
+    meshroom: MeshroomConfig = field(default_factory=MeshroomConfig)
+    flags: SystemFlagsConfig = field(default_factory=SystemFlagsConfig)
+
+    def validate_config(self):
         issues = []
         
         # Validate camera configuration
@@ -404,12 +324,29 @@ class SystemConfig:
         
         return issues
 
-# Global configuration instance
-config = SystemConfig()
+    def save_config(self, path: str = "config/system_config.json"):
+        data = {
+            'camera': asdict(self.camera),
+            'processing': asdict(self.processing),
+            'ai': asdict(self.ai),
+            'hardware': asdict(self.hardware),
+            'ui': asdict(self.ui),
+            'database': asdict(self.database),
+            'export': asdict(self.export),
+            'meshroom': asdict(self.meshroom),
+            'flags': asdict(self.flags)
+        }
+        Path(path).parent.mkdir(parents=True, exist_ok=True)
+        with open(path, 'w') as f:
+            json.dump(data, f, indent=2)
+
+_config_instance: SystemConfig = None
 
 def get_config() -> SystemConfig:
-    """Get global configuration instance"""
-    return config
+    global _config_instance
+    if _config_instance is None:
+        _config_instance = SystemConfig()
+    return _config_instance
 
 def reload_config():
     """Reload configuration from file"""
