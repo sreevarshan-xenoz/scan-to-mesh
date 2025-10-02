@@ -9,10 +9,9 @@ import {
   CpuChipIcon,
   EyeIcon
 } from '@heroicons/react/24/outline'
-import { useState } from 'react'
+import Link from 'next/link'
 
 const Hero = () => {
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false)
   const shouldReduceMotion = useReducedMotion()
 
   const stats = [
@@ -110,15 +109,13 @@ const Hero = () => {
                 <ArrowRightIcon className="w-5 h-5" />
               </motion.button>
 
-              <motion.button
+              <Link
+                href="/demo"
                 className="flex items-center justify-center space-x-2 bg-white hover:bg-neutral-50 text-dental-600 px-8 py-4 rounded-xl font-semibold text-lg border-2 border-dental-200 hover:border-dental-300 transition-all duration-300"
-                whileHover={shouldReduceMotion ? {} : { scale: 1.02, y: -2 }}
-                whileTap={shouldReduceMotion ? {} : { scale: 0.98 }}
-                onClick={() => setIsVideoPlaying(true)}
               >
                 <PlayIcon className="w-5 h-5" />
-                <span>Watch Demo</span>
-              </motion.button>
+                <span>Try Interactive Demo</span>
+              </Link>
             </motion.div>
 
             {/* Stats */}

@@ -44,7 +44,10 @@ const Demo = () => {
     }
   ]
 
-  const containerVariants = shouldReduceMotion ? {} : {
+  const containerVariants = shouldReduceMotion ? {
+    hidden: { opacity: 1 },
+    visible: { opacity: 1 }
+  } : {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -55,7 +58,10 @@ const Demo = () => {
     }
   }
 
-  const itemVariants = shouldReduceMotion ? {} : {
+  const itemVariants = shouldReduceMotion ? {
+    hidden: { opacity: 1, y: 0 },
+    visible: { opacity: 1, y: 0 }
+  } : {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,

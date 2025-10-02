@@ -26,8 +26,8 @@ const Navigation = () => {
 
   const navItems = [
     { name: 'Features', href: '#features' },
-    { name: 'Demo', href: '#demo' },
-    { name: 'Tech Specs', href: '#specs' },
+    { name: 'Demo', href: '/demo' },
+    { name: 'Pricing', href: '/pricing' },
     { name: 'Documentation', href: '/docs', icon: DocumentTextIcon },
     { name: 'Research', href: '/research', icon: BeakerIcon },
   ]
@@ -88,25 +88,20 @@ const Navigation = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <motion.a
-              href="#download"
+            <Link
+              href="/download"
               className="flex items-center space-x-2 bg-dental-600 hover:bg-dental-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200 shadow-dental"
-              whileHover={shouldReduceMotion ? {} : { scale: 1.05 }}
-              whileTap={shouldReduceMotion ? {} : { scale: 0.98 }}
-              transition={{ duration: 0.2 }}
             >
               <ArrowDownTrayIcon className="w-4 h-4" />
               <span>Download</span>
-            </motion.a>
+            </Link>
             
-            <motion.a
-              href="#contact"
+            <Link
+              href="/contact"
               className="text-neutral-600 hover:text-dental-600 font-medium transition-colors duration-200"
-              whileHover={shouldReduceMotion ? {} : { scale: 1.05 }}
-              transition={{ duration: 0.2 }}
             >
               Contact
-            </motion.a>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -146,22 +141,22 @@ const Navigation = () => {
               ))}
               
               <div className="pt-4 border-t border-neutral-200 space-y-3">
-                <a
-                  href="#download"
+                <Link
+                  href="/download"
                   className="flex items-center justify-center space-x-2 bg-dental-600 text-white px-4 py-3 rounded-lg font-medium w-full"
                   onClick={() => setIsOpen(false)}
                 >
                   <ArrowDownTrayIcon className="w-4 h-4" />
                   <span>Download</span>
-                </a>
+                </Link>
                 
-                <a
-                  href="#contact"
+                <Link
+                  href="/contact"
                   className="block text-center text-neutral-600 font-medium py-2"
                   onClick={() => setIsOpen(false)}
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </motion.div>

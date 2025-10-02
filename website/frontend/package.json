@@ -16,6 +16,10 @@
     "react-dom": "^18.2.0",
     "framer-motion": "^10.16.0",
     "@heroicons/react": "^2.0.0",
+    "@react-three/fiber": "^8.13.0",
+    "@react-three/drei": "^9.78.0",
+    "three": "^0.153.0",
+    "@types/three": "^0.153.0",
     "clsx": "^2.0.0",
     "tailwind-merge": "^2.0.0"
   },

@@ -104,7 +104,8 @@ const CTA = () => {
 
             {/* Primary CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <motion.button
+              <motion.a
+                href="/download"
                 className="flex items-center justify-center space-x-3 bg-dental-600 hover:bg-dental-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-dental transition-all duration-300"
                 whileHover={shouldReduceMotion ? {} : { scale: 1.02, y: -2 }}
                 whileTap={shouldReduceMotion ? {} : { scale: 0.98 }}
@@ -112,16 +113,17 @@ const CTA = () => {
                 <ArrowDownTrayIcon className="w-6 h-6" />
                 <span>Download OpenDentalScan</span>
                 <ArrowRightIcon className="w-5 h-5" />
-              </motion.button>
+              </motion.a>
 
-              <motion.button
+              <motion.a
+                href="/demo"
                 className="flex items-center justify-center space-x-3 bg-white hover:bg-neutral-50 text-dental-600 px-8 py-4 rounded-xl font-bold text-lg border-2 border-dental-200 hover:border-dental-300 transition-all duration-300"
                 whileHover={shouldReduceMotion ? {} : { scale: 1.02, y: -2 }}
                 whileTap={shouldReduceMotion ? {} : { scale: 0.98 }}
               >
                 <PlayIcon className="w-6 h-6" />
                 <span>Try Live Demo</span>
-              </motion.button>
+              </motion.a>
             </div>
 
             {/* Trust Indicators */}
