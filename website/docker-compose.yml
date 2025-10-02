@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  # Frontend - Next.js Website
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_SITE_URL=http://localhost:3000
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    restart: unless-stopped
+    networks:
+      - opendentalscan
+
+  # Backend API (Future)
+  # backend:
+  #   build:
+  #     context: ../intraoral_scanner_prototype_v2
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "8000:8000"
+  #   environment:
+  #     - PYTHONPATH=/app
+  #     - DATABASE_URL=sqlite:///app/data/scanner.db
+  #   volumes:
+  #     - ../intraoral_scanner_prototype_v2:/app
+  #     - scanner_data:/app/data
+  #   restart: unless-stopped
+  #   networks:
+  #     - opendentalscan
+
+  # Database (Future)
+  # postgres:
+  #   image: postgres:15-alpine
+  #   environment:
+  #     - POSTGRES_DB=opendentalscan
+  #     - POSTGRES_USER=scanner
+  #     - POSTGRES_PASSWORD=scanner_password
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+  #   restart: unless-stopped
+  #   networks:
+  #     - opendentalscan
+
+  # Redis Cache (Future)
+  # redis:
+  #   image: redis:7-alpine
+  #   ports:
+  #     - "6379:6379"
+  #   restart: unless-stopped
+  #   networks:
+  #     - opendentalscan
+
+networks:
+  opendentalscan:
+    driver: bridge
+
+volumes:
+  scanner_data:
+  postgres_data:
